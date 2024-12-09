@@ -11,4 +11,4 @@ author: Alex Zook1, Fan-Yun Sun2, Josef Spjut1, Valts Blukis1, Stan Birchfield1,
 
 1. scene comprehension using SAM2 for object segmentation and VLMs for object description
 2. matching identified objects with simulation-ready assets, and
-3. generating contextually appropriate robotic task
+3. generating contextually appropriate robotic tasks
