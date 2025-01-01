@@ -1,12 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
-      "path": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
+      "basename": "抽象思维能力与工程实践能力",
+      "path": "想法/抽象思维能力与工程实践能力.md"
+    },
+    {
+      "basename": "2024秋15周周结",
+      "path": "周结/2024秋15周周结.md"
+    },
+    {
+      "basename": "需要探索的东西",
+      "path": "需要探索的东西.md"
+    },
+    {
+      "basename": "cs231n---wnc",
+      "path": "cs231n---wnc.md"
+    },
+    {
+      "basename": "年结素材",
+      "path": "年结/年结素材.md"
+    },
+    {
+      "basename": "WSL 2 上的 Docker 远程容器入门",
+      "path": "tools/WSL 2 上的 Docker 远程容器入门.md"
+    },
+    {
+      "basename": "Genesis",
+      "path": "Genesis.md"
+    },
+    {
+      "basename": "docker-getting-started学习记录",
+      "path": "tools/docker-getting-started学习记录.md"
+    },
+    {
+      "basename": "数电实验聊天记录",
+      "path": "数电实验聊天记录.md"
+    },
+    {
+      "basename": "Interesting library",
+      "path": "Notion/Interesting library/Interesting library.md"
+    },
+    {
+      "basename": "OS",
+      "path": "Notion/Interesting library/OS/OS.md"
+    },
+    {
+      "basename": "2024秋16周周结",
+      "path": "周结/2024秋16周周结.md"
+    },
+    {
+      "basename": "2024年总结：无序与需要",
+      "path": "年结/2024年总结：无序与需要.md"
+    },
+    {
+      "basename": "2025TODO",
+      "path": "2025TODO.md"
+    },
+    {
+      "basename": "论文阅读方法",
+      "path": "论文阅读方法.md"
+    },
+    {
+      "basename": "someFunThings",
+      "path": "杂/someFunThings.md"
+    },
+    {
+      "basename": "2024-11-21 19-25 LLM Course for Busy People",
+      "path": "2024-11-21 19-25 LLM Course for Busy People.md"
     },
     {
       "basename": "202412011509",
       "path": "202412011509.md"
+    },
+    {
+      "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
+      "path": "论文阅读/挑战杯/论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
+    },
+    {
+      "basename": "预备知识",
+      "path": "Notion/DL/预备知识.md"
     },
     {
       "basename": "CS131",
@@ -15,10 +87,6 @@
     {
       "basename": "DL",
       "path": "Notion/DL/DL.md"
-    },
-    {
-      "basename": "预备知识",
-      "path": "Notion/DL/预备知识.md"
     },
     {
       "basename": "2024-49-12-04-3",
@@ -131,74 +199,6 @@
     {
       "basename": "2024-10-10 14：49：38-OpenMP 与 MPI - HPC 入门指南",
       "path": "website_to_read/2024-10-10 14：49：38-OpenMP 与 MPI - HPC 入门指南.md"
-    },
-    {
-      "basename": "AI",
-      "path": "graph/AI.md"
-    },
-    {
-      "basename": "Computer Advance",
-      "path": "graph/Computer Advance.md"
-    },
-    {
-      "basename": "Computer Science",
-      "path": "graph/Computer Science.md"
-    },
-    {
-      "basename": "2024-42-10-20-0",
-      "path": "日记/2024-42-10-20-0.md"
-    },
-    {
-      "basename": "2024-41-10-10-4",
-      "path": "日记/2024-41-10-10-4.md"
-    },
-    {
-      "basename": "统计学习方法",
-      "path": "Computer/Advanced/AI/统计学习方法.md"
-    },
-    {
-      "basename": "xlb专刊",
-      "path": "plan/xlb专刊.md"
-    },
-    {
-      "basename": "route",
-      "path": "graph/route.md"
-    },
-    {
-      "basename": "forum, website",
-      "path": "graph/forum, website.md"
-    },
-    {
-      "basename": "bomblab",
-      "path": "graph/bomblab.md"
-    },
-    {
-      "basename": "并行计算",
-      "path": "graph/并行计算.md"
-    },
-    {
-      "basename": "自己的csapp笔记",
-      "path": "graph/自己的csapp笔记.md"
-    },
-    {
-      "basename": "编译优化",
-      "path": "graph/编译优化.md"
-    },
-    {
-      "basename": "编译",
-      "path": "graph/编译.md"
-    },
-    {
-      "basename": "Technology",
-      "path": "graph/Technology.md"
-    },
-    {
-      "basename": "Chapter 5 Optimizing Program Performance",
-      "path": "graph/Chapter 5 Optimizing Program Performance.md"
-    },
-    {
-      "basename": "csapp相关资源",
-      "path": "公开课/CSAPP/csapp相关资源.md"
     }
   ],
   "omittedPaths": []

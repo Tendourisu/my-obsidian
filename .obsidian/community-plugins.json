@@ -8,7 +8,6 @@
   "obsidian-outliner",
   "obsidian-completr",
   "obsidian-local-rest-api",
-  "obsidian-git",
   "obsidian-linter",
   "calendar",
   "periodic-notes",
@@ -18,5 +17,6 @@
   "obsidian-paste-image-rename",
   "dataview",
   "obsidian-export-image",
-  "quickadd"
+  "quickadd",
+  "obsidian-git"
 ]

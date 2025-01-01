@@ -11,5 +11,5 @@
   "newWorkBlackDomains": "",
   "deleteSource": false,
   "imageDesc": "origin",
-  "remoteServerMode": false
+  "remoteServerMode": true
 }
