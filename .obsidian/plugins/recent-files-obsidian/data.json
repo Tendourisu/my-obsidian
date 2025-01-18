@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-03-01-19-7",
-      "path": "dairy/daily/2025-03-01-19-7.md"
-    },
-    {
-      "basename": "20250101",
-      "path": "dairy/daily/20250101.md"
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
     },
     {
       "basename": "2025-Week03-01",
       "path": "dairy/weekly/2025-Week03-01.md"
     },
     {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
+      "basename": "2025-03-01-19-7",
+      "path": "dairy/daily/2025-03-01-19-7.md"
+    },
+    {
+      "basename": "20250108",
+      "path": "dairy/daily/20250108.md"
+    },
+    {
+      "basename": "20250111",
+      "path": "dairy/daily/20250111.md"
+    },
+    {
+      "basename": "20250116",
+      "path": "dairy/daily/20250116.md"
+    },
+    {
+      "basename": "20250115",
+      "path": "dairy/daily/20250115.md"
+    },
+    {
+      "basename": "20250113",
+      "path": "dairy/daily/20250113.md"
+    },
+    {
+      "basename": "20250110",
+      "path": "dairy/daily/20250110.md"
+    },
+    {
+      "basename": "20250105",
+      "path": "dairy/daily/20250105.md"
+    },
+    {
+      "basename": "20250104",
+      "path": "dairy/daily/20250104.md"
+    },
+    {
+      "basename": "20250103",
+      "path": "dairy/daily/20250103.md"
+    },
+    {
+      "basename": "20250102",
+      "path": "dairy/daily/20250102.md"
+    },
+    {
+      "basename": "20250101",
+      "path": "dairy/daily/20250101.md"
     },
     {
       "basename": "daily",
@@ -77,10 +117,6 @@
       "path": "mkdocs --wnc.md"
     },
     {
-      "basename": "20250113",
-      "path": "dairy/daily/20250113.md"
-    },
-    {
       "basename": "cs231n---wnc",
       "path": "cs231n---wnc.md"
     },
@@ -99,14 +135,6 @@
     {
       "basename": "X11转发的问题",
       "path": "X11转发的问题.md"
-    },
-    {
-      "basename": "20250116",
-      "path": "20250116.md"
-    },
-    {
-      "basename": "20250111",
-      "path": "dairy/daily/20250111.md"
     },
     {
       "basename": "CS61B fun thing",
@@ -129,10 +157,6 @@
       "path": "服务器图像转发.md"
     },
     {
-      "basename": "20250115",
-      "path": "dairy/daily/20250115.md"
-    },
-    {
       "basename": "WSL代理解决办法",
       "path": "WSL代理解决办法.md"
     },
@@ -145,36 +169,12 @@
       "path": "git use.md"
     },
     {
-      "basename": "20250110",
-      "path": "dairy/daily/20250110.md"
-    },
-    {
-      "basename": "20250108",
-      "path": "dairy/daily/20250108.md"
-    },
-    {
       "basename": "20250107",
       "path": "dairy/daily/20250107.md"
     },
     {
       "basename": "20250106",
       "path": "dairy/daily/20250106.md"
-    },
-    {
-      "basename": "20250105",
-      "path": "dairy/daily/20250105.md"
-    },
-    {
-      "basename": "20250104",
-      "path": "dairy/daily/20250104.md"
-    },
-    {
-      "basename": "20250103",
-      "path": "dairy/daily/20250103.md"
-    },
-    {
-      "basename": "20250102",
-      "path": "dairy/daily/20250102.md"
     },
     {
       "basename": "RL",
