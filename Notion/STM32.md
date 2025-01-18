@@ -10,7 +10,7 @@
 **主要组件**：
 
 1. *内部时钟源 (Internal Clock Sources)**：
-    - *HSI (High-Speed Internal)**：内部高速时钟，通常为 8 MHz。
+    - *His (High-Speed Internal)**：内部高速时钟，通常为 8 MHz。
     - *LSI (Low-Speed Internal)**：内部低速时钟，通常为 32 kHz。
 2. *外部时钟源 (External Clock Sources)**：
     - *HSE (High-Speed External)**：外部高速时钟，可以连接晶振或外部时钟信号。

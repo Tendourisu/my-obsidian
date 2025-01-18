@@ -1,52 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
-      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
-    },
-    {
-      "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
-      "path": "Monte Carlo Tree Search 蒙特卡洛树搜索.md"
+      "basename": "obsidian -wnc",
+      "path": "tools/obsidian -wnc.md"
     },
     {
       "basename": "20250109",
       "path": "日结/20250109.md"
     },
     {
-      "basename": "20250108",
-      "path": "日结/20250108.md"
-    },
-    {
-      "basename": "WSL代理解决办法",
-      "path": "WSL代理解决办法.md"
-    },
-    {
-      "basename": "2024秋15周周结",
-      "path": "周结/2024秋15周周结.md"
+      "basename": "csapp 安排",
+      "path": "csapp/csapp 安排.md"
     },
     {
       "basename": "obsidian沙盒学习",
       "path": "tools/obsidian沙盒学习.md"
     },
     {
-      "basename": "2024-11-21 19-25 LLM Course for Busy People",
-      "path": "2024-11-21 19-25 LLM Course for Busy People.md"
+      "basename": "docker-getting-started学习记录",
+      "path": "tools/docker-getting-started学习记录.md"
     },
     {
-      "basename": "20250101",
-      "path": "日结/20250101.md"
+      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
+      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
+    },
+    {
+      "basename": "idea的一次尝试理解",
+      "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
+    },
+    {
+      "basename": "汇报讲稿",
+      "path": "论文阅读/挑战杯/汇报讲稿.md"
     },
     {
       "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
       "path": "论文阅读/挑战杯/论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
     },
     {
-      "basename": "git use",
-      "path": "git use.md"
+      "basename": "latexs 配置",
+      "path": "tools/latexs 配置.md"
     },
     {
-      "basename": "需要探索的东西",
-      "path": "需要探索的东西.md"
+      "basename": "mkdocs --wnc",
+      "path": "mkdocs --wnc.md"
+    },
+    {
+      "basename": "20250113",
+      "path": "日结/20250113.md"
     },
     {
       "basename": "cs231n---wnc",
@@ -57,8 +57,72 @@
       "path": "Genesis.md"
     },
     {
-      "basename": "论文阅读方法",
-      "path": "论文阅读/阅读方法/论文阅读方法.md"
+      "basename": "synthesizer入坑",
+      "path": "synthesizer入坑.md"
+    },
+    {
+      "basename": "程序员的观点A Programmer's Perspective",
+      "path": "csapp/程序员的观点A Programmer's Perspective.md"
+    },
+    {
+      "basename": "Interesting library",
+      "path": "Notion/Interesting library/Interesting library.md"
+    },
+    {
+      "basename": "X11转发的问题",
+      "path": "X11转发的问题.md"
+    },
+    {
+      "basename": "20250116",
+      "path": "20250116.md"
+    },
+    {
+      "basename": "20250111",
+      "path": "日结/20250111.md"
+    },
+    {
+      "basename": "CS61B fun thing",
+      "path": "Notion/CS61B fun thing.md"
+    },
+    {
+      "basename": "STM32",
+      "path": "Notion/STM32.md"
+    },
+    {
+      "basename": "Ubuntu 终端美化（oh-my-zsh）",
+      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
+    },
+    {
+      "basename": "2024秋15周周结",
+      "path": "周结/2024秋15周周结.md"
+    },
+    {
+      "basename": "服务器图像转发",
+      "path": "服务器图像转发.md"
+    },
+    {
+      "basename": "20250115",
+      "path": "日结/20250115.md"
+    },
+    {
+      "basename": "WSL代理解决办法",
+      "path": "WSL代理解决办法.md"
+    },
+    {
+      "basename": "pybullet的相机",
+      "path": "pybullet的相机.md"
+    },
+    {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
+      "basename": "20250110",
+      "path": "日结/20250110.md"
+    },
+    {
+      "basename": "20250108",
+      "path": "日结/20250108.md"
     },
     {
       "basename": "20250107",
@@ -69,8 +133,8 @@
       "path": "日结/20250106.md"
     },
     {
-      "basename": "20250102",
-      "path": "日结/20250102.md"
+      "basename": "20250105",
+      "path": "日结/20250105.md"
     },
     {
       "basename": "20250104",
@@ -81,28 +145,28 @@
       "path": "日结/20250103.md"
     },
     {
+      "basename": "20250102",
+      "path": "日结/20250102.md"
+    },
+    {
+      "basename": "20250101",
+      "path": "日结/20250101.md"
+    },
+    {
+      "basename": "RL",
+      "path": "论文阅读/挑战杯/RL.md"
+    },
+    {
       "basename": "未命名",
       "path": "未命名.md"
     },
     {
-      "basename": "someFunThings",
-      "path": "杂/someFunThings.md"
+      "basename": "WSL 2 上的 Docker 远程容器入门",
+      "path": "tools/WSL 2 上的 Docker 远程容器入门.md"
     },
     {
-      "basename": "20250105",
-      "path": "日结/20250105.md"
-    },
-    {
-      "basename": "ResNet",
-      "path": "论文阅读/李沐论文精读系列/ResNet.md"
-    },
-    {
-      "basename": "AlexNet",
-      "path": "论文阅读/李沐论文精读系列/AlexNet.md"
-    },
-    {
-      "basename": "数电实验聊天记录",
-      "path": "杂/数电实验聊天记录.md"
+      "basename": "===",
+      "path": "===.md"
     },
     {
       "basename": "202412011509",
@@ -113,92 +177,28 @@
       "path": "2025TODO.md"
     },
     {
-      "basename": "docker-getting-started学习记录",
-      "path": "tools/docker-getting-started学习记录.md"
+      "basename": "需要探索的东西",
+      "path": "需要探索的东西.md"
     },
     {
-      "basename": "WSL 2 上的 Docker 远程容器入门",
-      "path": "tools/WSL 2 上的 Docker 远程容器入门.md"
+      "basename": "有趣的github库",
+      "path": "有趣的github库.md"
     },
     {
-      "basename": "2024秋16周周结",
-      "path": "周结/2024秋16周周结.md"
+      "basename": "URDF",
+      "path": "论文阅读/挑战杯/URDF.md"
     },
     {
-      "basename": "抽象思维能力与工程实践能力",
-      "path": "想法/抽象思维能力与工程实践能力.md"
+      "basename": "怪獣の唄",
+      "path": "怪獣の唄.md"
     },
     {
-      "basename": "Getting started with Projects & Tasks",
-      "path": "Notion/Projects/Getting started with Projects & Tasks.md"
+      "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
+      "path": "论文阅读/挑战杯/Monte Carlo Tree Search 蒙特卡洛树搜索.md"
     },
     {
-      "basename": "Projects",
-      "path": "Notion/Projects/Projects.md"
-    },
-    {
-      "basename": "New Project",
-      "path": "Notion/Projects/New Project.md"
-    },
-    {
-      "basename": "年结素材",
-      "path": "年结/年结素材.md"
-    },
-    {
-      "basename": "Interesting library",
-      "path": "Notion/Interesting library/Interesting library.md"
-    },
-    {
-      "basename": "OS",
-      "path": "Notion/Interesting library/OS/OS.md"
-    },
-    {
-      "basename": "2024年总结：无序与需要",
-      "path": "年结/2024年总结：无序与需要.md"
-    },
-    {
-      "basename": "预备知识",
-      "path": "Notion/DL/预备知识.md"
-    },
-    {
-      "basename": "CS131",
-      "path": "Notion/CS131.md"
-    },
-    {
-      "basename": "DL",
-      "path": "Notion/DL/DL.md"
-    },
-    {
-      "basename": "2024-49-12-04-3",
-      "path": "dairy/daily/2024-49-12-04-3.md"
-    },
-    {
-      "basename": "AI usage",
-      "path": "AI usage.md"
-    },
-    {
-      "basename": "aaaa",
-      "path": "aaaa.md"
-    },
-    {
-      "basename": "test",
-      "path": "test.md"
-    },
-    {
-      "basename": "daily2",
-      "path": "zob_config/template/daily2.md"
-    },
-    {
-      "basename": "2024-49-12-02-1",
-      "path": "dairy/daily/2024-49-12-02-1.md"
-    },
-    {
-      "basename": "2024-49-12-03-2",
-      "path": "dairy/daily/2024-49-12-03-2.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
+      "basename": "数电实验聊天记录",
+      "path": "杂/数电实验聊天记录.md"
     }
   ],
   "omittedPaths": []

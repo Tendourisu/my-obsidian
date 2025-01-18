@@ -60,8 +60,6 @@ public boolean equals(Object other) {
     print("输出结果:\n", output, output.shape)
 ```
 
-  
-
 ## **Simplification Summary**
 
 - Only consider the worst case.
@@ -362,8 +360,6 @@ public class QuickUnionPathCompressionUF {
 }
 ```
 
-  
-
 ## BinarySearchTree
 
 ```Java
@@ -564,8 +560,6 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {
 ```
 
 ## Serializable
-
-  
 
 ```Java
 """

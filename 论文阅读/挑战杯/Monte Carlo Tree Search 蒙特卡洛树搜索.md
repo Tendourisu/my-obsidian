@@ -1,5 +1,5 @@
 #algorithm  
-[[LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读|基于论文LGMCTS的思考]]
+[[LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读|基于论文LGMCTS的探索]]
 
 ### 概述
 
@@ -16,6 +16,22 @@ MCTS的具体实现步骤如下图所示，主要包含4部分。
     从C运行一个模拟的rollout，直到获得一个结果。（后续**节点模拟**会举例子展开讲解如何模拟）
 4. **反传 (Backpropagation)**  
     用模拟结果（终止节点的代价或游戏的终局分数）更新当前的移动序列，更新模拟路径中节点的奖励均值和被访问次数。注意，反传的过程中，每个节点必须包含两个重要的信息：基于模拟结果的估计值和它被访问的次数。
+
+#### 节点选择
+
+我们在树的递归选择最优子节点时，通常会选择预期收益最大的子节点。因此，我们可以利用上限置信区间算法（Upper Confidence Bounds, UCB）来选择子节点。  
+$UCB_j = \overline{X}_j + C \sqrt{\frac{2 \ln N_C}{N_j}}$  
+其中j表示第j个子节点， $\overline{X}_{}j$ 表示第j个子节点的预期收益，C为固定常数， $N_{C}$ 为截至目前其父节点被访问到的总次数， $N_j$ 为第j个子节点被访问的次数。  
+
+可以看到UCB公式在利用已知奖励进行开发的同时，鼓励对未被充分探索的节点进行探索。由于预期收益的估计值基于随机模拟，因此节点必须被多次访问后，这些估计值才变得可靠；MCTS估计值在搜索的初期通常不可靠，但在足够的时间和无限的时间下，会趋向于更可靠的估计值。
+
+在后续的研究中，Kocsis and Szepervari (2006)将UCB扩展到minimax 树搜索中，称之为Upper Confidence Bounds for Trees (UCT)。 UCT=MCTS + UCB。
+
+### 节点模拟
+
+从子节点C开始，运行一个模拟的输出，直到游戏结束。举个例子：例如说 五子棋，给你一个下到一半的残局（子节点C），让你和AI下十次（模拟十次），如果你赢了九次（获胜 9次），那么这个残局（子节点C）的奖励得分就会很高，反之则比较低。
+
+更详细的示例在[蒙特卡洛树搜索 MCTS 入门_python class-CSDN博客](https://link.zhihu.com/?target=https%3A//blog.csdn.net/qq_41033011/article/details/109034887)的Blog中有描述。
 
 ```python
 # 伪代码
@@ -75,3 +91,5 @@ def backpropagate(node, result):
         node.value += (result - node.value) / node.visits
         node = node.parent
 ```
+
+[Site Unreachable](https://zhuanlan.zhihu.com/p/9644482549)

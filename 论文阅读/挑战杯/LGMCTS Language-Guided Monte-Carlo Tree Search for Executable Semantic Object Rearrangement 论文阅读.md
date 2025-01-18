@@ -15,9 +15,11 @@
 	- 在深度学习方法流行后，最近的许多研究都试图直接从自然语言输入和 RGB-D 观察中解决这个问题 [^4][^5][^6]。一种方法使用多模态转换器，利用模拟生成的数据建立口头描述和对象位置之间的相关性。 StructDiffusion [^5] StructFormer[^6]等后续工作通过使用扩散模型来构建多模态解决方案。然而，这些方法的一个共同缺点是它们完全依赖于离线训练阶段，这使得它们仅适用于经过训练的对象类别和空间模式。而对于训练时没有的类似场景，它们不能做到很好的泛化。
 	- >依赖预先训练的场景，泛化能力差。生成的重拍方案是不可执行的。
 	- 随着大型语言模型（LLM）的出现，GPT [^7] 和 Llama [^8] 等模型在理解复杂场景和展示零样本规划能力方面表现出了极强的泛化能力。这促使研究人员探索利用 LLM来解决基于语言的 TAMP 问题 [^9][^10][^11]。然而，尽管对 LLM提出的计划的可行性进行了具体考虑，但据报道，与为该任务设计的正确实施的传统求解器制定的计划相比，这些计划在可执行性和完整性方面明显落后[^12]。这一观察结果自然促使研究人员寻求将 LLM 的用户友好性与 PDDL、STRIPS 或 MCTS 等传统 TAMP 算法的稳健性相结合的方法。
-	- LLM 直接生成可以
+	- >LLM 直接由传统的TAMP 算法可解释的中间表示
 	- LLM-GROP [^13] 在重排任务中遵循这种方法，利用 LLM 将用户任务从语言解析为成对的空间关系规范，然后调用基于采样的任务和运动规划器 [^14] 来生成计划。 LLM-GROP 的局限性在于它只能处理成对关系，因此无法执行复杂的重排任务。 AutoTAMP [^15] 使用 LLM 将自然语言翻译成形式表示，然后调用规划器来解决问题。 AutoTAMP 可以解决广泛的 TAMP 任务，但它不适用于动作空间不离散且可能很大的一般语义重排。
 	- 我们提出了语言引导蒙特卡罗树搜索（LGMCTS），这是一种用于可执行语义对象重新排列的新技术。与其前身 AutoTAMP 和 LLMGROP 一样，LGMCTS 利用 LLM 生成中间表示，并使用规划器来制定可行的计划。 LGMCTS 的一个关键新颖之处是集成了空间关系表示的参数几何先验。 LGMCTS 有助于更细致地处理多个对象之间的复杂几何关系，解决需要超越简单的成对交互（例如直线或矩形配置）的组织的场景。此外，LGMCTS 采用整体方法，同时考虑任务规划（目标规范）和运动规划（执行顺序和中间步骤）。在规划过程中，障碍物重定位策略用于处理可能阻碍执行的障碍物。这种协调确保计划不仅在语义上一致，而且实际上可执行，从而平衡考虑目标实现和运营效率。为了评估 LGMCTS 的功效，我们引入了可执行语言引导重排 (ELGR) 基准测试，其中包含 1,600 多种不同的语言查询和机器人执行检查。我们的评估表明，LGMCTS 在 ELGR 基准上表现有效，特别是与代码即策略和 Progprompt 相比，在生成目标的可行性和语义一致性方面。 LGMCTS 在 Structformer 数据集上的目标生成方面也优于 Structformer 和 StructDiffusion。
+
+![](https://raw.githubusercontent.com/Tendourisu/images/master/202501092012474.png)
 
 [^1]: R. E. Fikes and N. J. Nilsson, “Strips: A new approach to the application of theorem proving to problem solving,” Artificial intelligence, vol. 2, no. 3-4, pp. 189–208, 1971.
 [^2]: M. Fox and D. Long, “Pddl2. 1: An extension to pddl for expressing temporal planning domains,” Journal of artificial intelligence research, vol. 20, pp. 61–124, 2003.

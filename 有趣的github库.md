@@ -1,0 +1,1 @@
+1. [GitHub - IDEA-Research/Grounded-Segment-Anything: Grounded SAM: Marrying Grounding DINO with Segment Anything & Stable Diffusion & Recognize Anything - Automatically Detect , Segment and Generate Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main)
