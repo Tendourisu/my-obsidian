@@ -5,6 +5,10 @@
       "path": "zob_config/template/daily.md"
     },
     {
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
+    },
+    {
       "basename": "obsidian -wnc",
       "path": "tools/obsidian -wnc.md"
     },
