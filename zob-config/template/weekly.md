@@ -1,9 +1,8 @@
 ---
 
 title: " {{date}} "  
-tags:
-
-  - " #周记 "  
+tags: 
+- 
 categories: dairy  
 date: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "  
 modify: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "  
