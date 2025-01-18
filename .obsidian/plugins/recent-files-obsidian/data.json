@@ -5,12 +5,12 @@
       "path": "template/daily.md"
     },
     {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
       "basename": "obsidian -wnc",
       "path": "tools/obsidian -wnc.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
     },
     {
       "basename": "20250109",
