@@ -5,6 +5,10 @@
       "path": "tools/obsidian -wnc.md"
     },
     {
+      "basename": "2025-03-01-17-5",
+      "path": "dairy/daily/2025-03-01-17-5.md"
+    },
+    {
       "basename": "20250109",
       "path": "日结/20250109.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
       "path": "论文阅读/挑战杯/Monte Carlo Tree Search 蒙特卡洛树搜索.md"
-    },
-    {
-      "basename": "数电实验聊天记录",
-      "path": "杂/数电实验聊天记录.md"
     }
   ],
   "omittedPaths": []
