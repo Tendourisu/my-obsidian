@@ -25,12 +25,38 @@ mdate: " {{ date:YYYY-MM-DD }} "
 ## LINKS
 
 ```dataviewjs
+ ---
+title: " {{date}} "
+tags:
+  - " #周记 "
+categories: dairy
+date: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "
+modify: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "
+dir: dairy
+share: false
+cdate: " {{ date:YYYY-MM-DD }} "
+mdate: " {{ date:YYYY-MM-DD }} "
+---
+
+# {{date:YYYY}} -W {{date:WW}} - {{date:MM}}
+
+## Review
+
+## Next Week Plan
+
+## Time Line
+
+## THOUGHTS
+
+## LINKS
+
+```dataviewjs
 // Configuration for collecting LINKS sections from daily notes
 const tars = {
   'LINKS': 2,  // Collect second-level LINKS headings
 }
 
-await dv.view('zob_config/js/show.js', {
+await dv.view('zob_config/js/dv-检索', {
   // Get only daily notes from dairy folder
   files: dv.pages('"dairy"')
     .where(p => {
@@ -70,4 +96,5 @@ await dv.view('zob_config/js/show.js', {
     return dv.paragraph(`### ${formattedDate} [[${p.file.path}|${p.file.name}]]\n${li}`);
   },
 });
+``
 ```
