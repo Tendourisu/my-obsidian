@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "obsidian -wnc",
-      "path": "tools/obsidian -wnc.md"
+      "basename": "daily",
+      "path": "template/daily.md"
     },
     {
-      "basename": "2025-03-01-17-5",
-      "path": "dairy/daily/2025-03-01-17-5.md"
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
+      "basename": "obsidian -wnc",
+      "path": "tools/obsidian -wnc.md"
     },
     {
       "basename": "20250109",
@@ -159,10 +163,6 @@
     {
       "basename": "RL",
       "path": "论文阅读/挑战杯/RL.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
     },
     {
       "basename": "WSL 2 上的 Docker 远程容器入门",
