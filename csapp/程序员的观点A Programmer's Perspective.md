@@ -1,3 +1,16 @@
+---
+title: "Beyond Object Recognition: A New Benchmark towards Object Concept Learning"
+tags:
+  - 科研
+categories: 
+date: 2024-12-24T21:04:22+08:00
+modify: 2024-12-24T21:04:22+08:00
+dir: 
+share: false
+cdate: 2024-12-24
+mdate: 2024-12-24
+---
+
 # 程序员的观点
 
 大多数关于系统（计算机架构、编译器、操作系统和网络）的书籍都是以读者将要设计和实现这样一个系统为前提编写的。我们称之为“构建者视角”。我们认为学生应该首先从系统如何影响程序的行为和性能的角度来学习系统，即“程序员视角”。
