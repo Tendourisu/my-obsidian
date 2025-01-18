@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "抽象思维能力与工程实践能力",
-      "path": "想法/抽象思维能力与工程实践能力.md"
+      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
+      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
+    },
+    {
+      "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
+      "path": "Monte Carlo Tree Search 蒙特卡洛树搜索.md"
+    },
+    {
+      "basename": "20250109",
+      "path": "日结/20250109.md"
+    },
+    {
+      "basename": "20250108",
+      "path": "日结/20250108.md"
+    },
+    {
+      "basename": "WSL代理解决办法",
+      "path": "WSL代理解决办法.md"
     },
     {
       "basename": "2024秋15周周结",
       "path": "周结/2024秋15周周结.md"
+    },
+    {
+      "basename": "obsidian沙盒学习",
+      "path": "tools/obsidian沙盒学习.md"
+    },
+    {
+      "basename": "2024-11-21 19-25 LLM Course for Busy People",
+      "path": "2024-11-21 19-25 LLM Course for Busy People.md"
+    },
+    {
+      "basename": "20250101",
+      "path": "日结/20250101.md"
+    },
+    {
+      "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
+      "path": "论文阅读/挑战杯/论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
+    },
+    {
+      "basename": "git use",
+      "path": "git use.md"
     },
     {
       "basename": "需要探索的东西",
@@ -17,24 +53,96 @@
       "path": "cs231n---wnc.md"
     },
     {
-      "basename": "年结素材",
-      "path": "年结/年结素材.md"
-    },
-    {
-      "basename": "WSL 2 上的 Docker 远程容器入门",
-      "path": "tools/WSL 2 上的 Docker 远程容器入门.md"
-    },
-    {
       "basename": "Genesis",
       "path": "Genesis.md"
+    },
+    {
+      "basename": "论文阅读方法",
+      "path": "论文阅读/阅读方法/论文阅读方法.md"
+    },
+    {
+      "basename": "20250107",
+      "path": "日结/20250107.md"
+    },
+    {
+      "basename": "20250106",
+      "path": "日结/20250106.md"
+    },
+    {
+      "basename": "20250102",
+      "path": "日结/20250102.md"
+    },
+    {
+      "basename": "20250104",
+      "path": "日结/20250104.md"
+    },
+    {
+      "basename": "20250103",
+      "path": "日结/20250103.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
+      "basename": "someFunThings",
+      "path": "杂/someFunThings.md"
+    },
+    {
+      "basename": "20250105",
+      "path": "日结/20250105.md"
+    },
+    {
+      "basename": "ResNet",
+      "path": "论文阅读/李沐论文精读系列/ResNet.md"
+    },
+    {
+      "basename": "AlexNet",
+      "path": "论文阅读/李沐论文精读系列/AlexNet.md"
+    },
+    {
+      "basename": "数电实验聊天记录",
+      "path": "杂/数电实验聊天记录.md"
+    },
+    {
+      "basename": "202412011509",
+      "path": "202412011509.md"
+    },
+    {
+      "basename": "2025TODO",
+      "path": "2025TODO.md"
     },
     {
       "basename": "docker-getting-started学习记录",
       "path": "tools/docker-getting-started学习记录.md"
     },
     {
-      "basename": "数电实验聊天记录",
-      "path": "数电实验聊天记录.md"
+      "basename": "WSL 2 上的 Docker 远程容器入门",
+      "path": "tools/WSL 2 上的 Docker 远程容器入门.md"
+    },
+    {
+      "basename": "2024秋16周周结",
+      "path": "周结/2024秋16周周结.md"
+    },
+    {
+      "basename": "抽象思维能力与工程实践能力",
+      "path": "想法/抽象思维能力与工程实践能力.md"
+    },
+    {
+      "basename": "Getting started with Projects & Tasks",
+      "path": "Notion/Projects/Getting started with Projects & Tasks.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "Notion/Projects/Projects.md"
+    },
+    {
+      "basename": "New Project",
+      "path": "Notion/Projects/New Project.md"
+    },
+    {
+      "basename": "年结素材",
+      "path": "年结/年结素材.md"
     },
     {
       "basename": "Interesting library",
@@ -45,36 +153,8 @@
       "path": "Notion/Interesting library/OS/OS.md"
     },
     {
-      "basename": "2024秋16周周结",
-      "path": "周结/2024秋16周周结.md"
-    },
-    {
       "basename": "2024年总结：无序与需要",
       "path": "年结/2024年总结：无序与需要.md"
-    },
-    {
-      "basename": "2025TODO",
-      "path": "2025TODO.md"
-    },
-    {
-      "basename": "论文阅读方法",
-      "path": "论文阅读方法.md"
-    },
-    {
-      "basename": "someFunThings",
-      "path": "杂/someFunThings.md"
-    },
-    {
-      "basename": "2024-11-21 19-25 LLM Course for Busy People",
-      "path": "2024-11-21 19-25 LLM Course for Busy People.md"
-    },
-    {
-      "basename": "202412011509",
-      "path": "202412011509.md"
-    },
-    {
-      "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
-      "path": "论文阅读/挑战杯/论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
     },
     {
       "basename": "预备知识",
@@ -119,86 +199,6 @@
     {
       "basename": "daily",
       "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "2024-W49-12",
-      "path": "dairy/weekly/2024-W49-12.md"
-    },
-    {
-      "basename": "2024-38-09-18-3",
-      "path": "dairy/daily/2024-38-09-18-3.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "graph/未命名.md"
-    },
-    {
-      "basename": "开发环境配置",
-      "path": "environment/开发环境配置.md"
-    },
-    {
-      "basename": "Environment",
-      "path": "environment/Environment.md"
-    },
-    {
-      "basename": "Ubuntu配置",
-      "path": "environment/Ubuntu配置.md"
-    },
-    {
-      "basename": "Environment, software, tools",
-      "path": "graph/Environment, software, tools.md"
-    },
-    {
-      "basename": "2024-41-10-13-0",
-      "path": "日记/2024-41-10-13-0.md"
-    },
-    {
-      "basename": "2024-42-10-19-6",
-      "path": "日记/2024-42-10-19-6.md"
-    },
-    {
-      "basename": "2024-41-10-12-6",
-      "path": "日记/2024-41-10-12-6.md"
-    },
-    {
-      "basename": "2024-42-10-14-1",
-      "path": "日记/2024-42-10-14-1.md"
-    },
-    {
-      "basename": "obsidian 配置",
-      "path": "environment/obsidian 配置.md"
-    },
-    {
-      "basename": "2024-41-10-11-5",
-      "path": "日记/2024-41-10-11-5.md"
-    },
-    {
-      "basename": "2024-10-11 18：21：28-本科生如何自学机器学习？",
-      "path": "website_to_read/2024-10-11 18：21：28-本科生如何自学机器学习？.md"
-    },
-    {
-      "basename": "csapp-lab记录",
-      "path": "graph/csapp-lab记录.md"
-    },
-    {
-      "basename": "test1",
-      "path": "graph/test1.md"
-    },
-    {
-      "basename": "杂乱的东西",
-      "path": "graph/杂乱的东西.md"
-    },
-    {
-      "basename": "CS类大一进组",
-      "path": "graph/CS类大一进组.md"
-    },
-    {
-      "basename": "一些密院就业的经验",
-      "path": "graph/一些密院就业的经验.md"
-    },
-    {
-      "basename": "2024-10-10 14：49：38-OpenMP 与 MPI - HPC 入门指南",
-      "path": "website_to_read/2024-10-10 14：49：38-OpenMP 与 MPI - HPC 入门指南.md"
     }
   ],
   "omittedPaths": []

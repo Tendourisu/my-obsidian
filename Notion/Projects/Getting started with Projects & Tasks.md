@@ -10,6 +10,7 @@ Tasks:
   - "[[Invite team members]]"
   - "[[Add a new task]]"
 ---
+
 > [!important]  
 > Notion tip: This guide is also a fully functional project page. Try changing properties or adding tasks to see how your set-up changes.  
 

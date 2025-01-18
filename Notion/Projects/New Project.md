@@ -1,8 +1,7 @@
 ---
 Status: Backlog
 ---
-## About this project
 
-  
+## About this project
 
 ## Project tasks
