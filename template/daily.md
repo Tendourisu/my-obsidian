@@ -33,7 +33,7 @@ mdate: " {{ date:YYYY-MM-DD }} "
 LIST FROM "" 
 WHERE cdate = this.cdate
   Or mdate = this.mdate
-``
+```
 
 ## LINKS
 
@@ -45,6 +45,6 @@ WHERE !completed
   AND mdate >= (this.mdate - dur(7 days))
   AND mdate <= this.mdate
 SORT file.cday DESC
-``
+```
 
 ## THOUGHTS

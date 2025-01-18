@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "weekly",
+      "path": "template/weekly.md"
+    },
+    {
       "basename": "daily",
       "path": "template/daily.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "怪獣の唄",
       "path": "怪獣の唄.md"
-    },
-    {
-      "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
-      "path": "论文阅读/挑战杯/Monte Carlo Tree Search 蒙特卡洛树搜索.md"
     }
   ],
   "omittedPaths": []
