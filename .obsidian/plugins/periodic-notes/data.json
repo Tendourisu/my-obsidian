@@ -3,7 +3,7 @@
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": true,
   "daily": {
-    "format": "YYYY-w-MM-DD-E",
+    "format": "YYYY-ww-MM-DD-E",
     "template": "zob_config/template/daily.md",
     "folder": "dairy/daily",
     "enabled": true

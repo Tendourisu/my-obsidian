@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-03-01-19-7",
+      "path": "dairy/daily/2025-03-01-19-7.md"
+    },
+    {
+      "basename": "20250101",
+      "path": "dairy/daily/20250101.md"
+    },
+    {
+      "basename": "2025-Week03-01",
+      "path": "dairy/weekly/2025-Week03-01.md"
+    },
+    {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
     },
@@ -165,10 +177,6 @@
       "path": "dairy/daily/20250102.md"
     },
     {
-      "basename": "20250101",
-      "path": "dairy/daily/20250101.md"
-    },
-    {
       "basename": "RL",
       "path": "论文阅读/挑战杯/RL.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "需要探索的东西",
       "path": "需要探索的东西.md"
-    },
-    {
-      "basename": "有趣的github库",
-      "path": "有趣的github库.md"
     }
   ],
   "omittedPaths": []

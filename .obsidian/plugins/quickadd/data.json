@@ -26,7 +26,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "zob_config/js",
+  "templateFolderPath": "zob_config/template",
   "announceUpdates": true,
   "version": "1.11.5",
   "disableOnlineFeatures": true,
