@@ -30,7 +30,7 @@ const tars = {
   'LINKS': 2,  // Collect second-level LINKS headings
 }
 
-await dv.view('zob_config/js/dv-检索', {
+await dv.view('zob_config/js/show.js', {
   // Get only daily notes from dairy folder
   files: dv.pages('"dairy"')
     .where(p => {

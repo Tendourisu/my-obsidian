@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
+    },
+    {
       "basename": "daily",
       "path": "zob_config/template/daily.md"
     },
     {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
+      "basename": "template",
+      "path": "zob_config/template/template.md"
     },
     {
       "basename": "obsidian -wnc",
