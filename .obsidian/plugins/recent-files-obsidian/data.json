@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
-    },
-    {
       "basename": "2025-Week03-01",
       "path": "dairy/weekly/2025-Week03-01.md"
     },
     {
       "basename": "2025-03-01-19-7",
       "path": "dairy/daily/2025-03-01-19-7.md"
+    },
+    {
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
     },
     {
       "basename": "20250108",
@@ -55,10 +59,6 @@
     {
       "basename": "20250101",
       "path": "dairy/daily/20250101.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
     },
     {
       "basename": "template",
