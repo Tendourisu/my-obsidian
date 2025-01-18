@@ -4,8 +4,8 @@
   "hasMigratedWeeklyNoteSettings": true,
   "daily": {
     "format": "YYYYMMDD",
-    "template": "zob_config/template/daily2.md",
-    "folder": "日结",
+    "template": "zob_config/template/daily.md",
+    "folder": "dairy/daily",
     "enabled": true
   },
   "weekly": {

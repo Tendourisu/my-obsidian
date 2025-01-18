@@ -1,24 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "weekly",
-      "path": "zob-config/template/weekly.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob-config/template/daily.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob-config/template/template.md"
+      "basename": "obsidian -wnc",
+      "path": "tools/obsidian -wnc.md"
     },
     {
       "basename": "程序员的观点A Programmer's Perspective",
       "path": "csapp/程序员的观点A Programmer's Perspective.md"
-    },
-    {
-      "basename": "obsidian -wnc",
-      "path": "tools/obsidian -wnc.md"
     },
     {
       "basename": "未命名",
@@ -26,7 +14,7 @@
     },
     {
       "basename": "20250109",
-      "path": "日结/20250109.md"
+      "path": "dairy/daily/20250109.md"
     },
     {
       "basename": "csapp 安排",
@@ -66,7 +54,7 @@
     },
     {
       "basename": "20250113",
-      "path": "日结/20250113.md"
+      "path": "dairy/daily/20250113.md"
     },
     {
       "basename": "cs231n---wnc",
@@ -94,7 +82,7 @@
     },
     {
       "basename": "20250111",
-      "path": "日结/20250111.md"
+      "path": "dairy/daily/20250111.md"
     },
     {
       "basename": "CS61B fun thing",
@@ -110,7 +98,7 @@
     },
     {
       "basename": "2024秋15周周结",
-      "path": "周结/2024秋15周周结.md"
+      "path": "dairy/weekly/2024秋15周周结.md"
     },
     {
       "basename": "服务器图像转发",
@@ -118,7 +106,7 @@
     },
     {
       "basename": "20250115",
-      "path": "日结/20250115.md"
+      "path": "dairy/daily/20250115.md"
     },
     {
       "basename": "WSL代理解决办法",
@@ -134,39 +122,39 @@
     },
     {
       "basename": "20250110",
-      "path": "日结/20250110.md"
+      "path": "dairy/daily/20250110.md"
     },
     {
       "basename": "20250108",
-      "path": "日结/20250108.md"
+      "path": "dairy/daily/20250108.md"
     },
     {
       "basename": "20250107",
-      "path": "日结/20250107.md"
+      "path": "dairy/daily/20250107.md"
     },
     {
       "basename": "20250106",
-      "path": "日结/20250106.md"
+      "path": "dairy/daily/20250106.md"
     },
     {
       "basename": "20250105",
-      "path": "日结/20250105.md"
+      "path": "dairy/daily/20250105.md"
     },
     {
       "basename": "20250104",
-      "path": "日结/20250104.md"
+      "path": "dairy/daily/20250104.md"
     },
     {
       "basename": "20250103",
-      "path": "日结/20250103.md"
+      "path": "dairy/daily/20250103.md"
     },
     {
       "basename": "20250102",
-      "path": "日结/20250102.md"
+      "path": "dairy/daily/20250102.md"
     },
     {
       "basename": "20250101",
-      "path": "日结/20250101.md"
+      "path": "dairy/daily/20250101.md"
     },
     {
       "basename": "RL",
