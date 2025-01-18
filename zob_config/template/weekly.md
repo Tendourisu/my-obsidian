@@ -1,30 +1,3 @@
----
-
-title: " {{date}} "  
-tags: 
-- 
-categories: dairy  
-date: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "  
-modify: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "  
-dir: dairy  
-share: false  
-cdate: " {{ date:YYYY-MM-DD }} "  
-mdate: " {{ date:YYYY-MM-DD }} "
----
-
-# {{date:YYYY}} -W {{date:WW}} - {{date:MM}}
-
-## Review
-
-## Next Week Plan
-
-## Time Line
-
-## THOUGHTS
-
-## LINKS
-
-```dataviewjs
  ---
 title: " {{date}} "
 tags:
@@ -96,5 +69,5 @@ await dv.view('zob_config/js/dv-检索', {
     return dv.paragraph(`### ${formattedDate} [[${p.file.path}|${p.file.name}]]\n${li}`);
   },
 });
-``
 ```
+
