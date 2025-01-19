@@ -98812,6 +98812,8 @@ flatten
 formatDate
 fileDate
 fileLink
+fileYear
+fileWeek
 model
 mass
 mindspore
