@@ -3702,6 +3702,7 @@ contentInNextRange
 contentRange
 currentFile
 contentArray
+contentEnd
 Computer
 Concepts
 ChatGpt
@@ -32193,6 +32194,7 @@ Independent
 Ignore
 IntersectionObserver
 Integers
+ISOweekStart
 And
 Algorithm
 Analysis
@@ -42904,6 +42906,7 @@ postProcessResults
 periodic
 padStart
 positionEnd
+parseInt
 Understanding
 USTC
 Unix
@@ -60091,6 +60094,7 @@ natively
 navigator
 notees
 nextHeadingRegex
+nextHeading
 Network
 Nvidia
 NCNN
@@ -70684,6 +70688,8 @@ gtag
 generateShareUrl
 generateHighlights
 getAbstractFileByPath
+getDateOfISOWeek
+getFileCache
 MLsystem
 MLsys
 Mlsys
@@ -81112,6 +81118,9 @@ words
 weekMatch
 weekYear
 weekNum
+weeklyPattern
+weekStart
+weekEnd
 lab
 lightning
 latex
@@ -84668,6 +84677,8 @@ loadSearchHistory
 lunr
 lighter
 lists
+linksHeading
+linksContent
 GPU
 GPT
 Google
@@ -91702,6 +91713,7 @@ saveSearchHistory
 sortable
 subpath
 sectionLink
+sectionCache
 torch
 training
 tune
@@ -98797,6 +98809,9 @@ fields
 formatTime
 formattedDate
 flatten
+formatDate
+fileDate
+fileLink
 model
 mass
 mindspore
@@ -102376,6 +102391,7 @@ mergeHighlights
 merged
 mdate
 mtime
+metadataCache
 blog
 batchsize
 batch
@@ -126438,6 +126454,7 @@ highlight
 hierarchy
 headingRange
 horizontal
+headingStart
 up
 ucb
 universal
@@ -174294,6 +174311,8 @@ days
 dataviewjs
 dateMatch
 dateformat
+dow
+diary
 Youtube
 YOLO
 Your
