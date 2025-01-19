@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-03-01-19-7",
-      "path": "dairy/daily/2025-03-01-19-7.md"
-    },
-    {
-      "basename": "2025-Week03-01",
-      "path": "dairy/weekly/2025-Week03-01.md"
-    },
-    {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
     },
     {
       "basename": "daily",
       "path": "zob_config/template/daily.md"
+    },
+    {
+      "basename": "2025-Week03-01",
+      "path": "dairy/weekly/2025-Week03-01.md"
+    },
+    {
+      "basename": "2024秋16周周结",
+      "path": "dairy/weekly/2024秋16周周结.md"
+    },
+    {
+      "basename": "2024秋15周周结",
+      "path": "dairy/weekly/2024秋15周周结.md"
+    },
+    {
+      "basename": "2025-03-01-19-7",
+      "path": "dairy/daily/2025-03-01-19-7.md"
     },
     {
       "basename": "obsidian -wnc",
@@ -157,10 +165,6 @@
       "path": "Ubuntu 终端美化（oh-my-zsh）.md"
     },
     {
-      "basename": "2024秋15周周结",
-      "path": "dairy/weekly/2024秋15周周结.md"
-    },
-    {
       "basename": "服务器图像转发",
       "path": "服务器图像转发.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025TODO",
       "path": "2025TODO.md"
-    },
-    {
-      "basename": "需要探索的东西",
-      "path": "需要探索的东西.md"
     }
   ],
   "omittedPaths": []

@@ -40,10 +40,10 @@ WHERE cdate = this.cdate
 ## TODOs
 
 ```dataview
-TASK FROM "dairy"
-WHERE !completed
-  AND mdate >= (this.mdate - dur(7 days))
-  AND mdate <= this.mdate
+TASK FROM "dairy" 
+WHERE !completed 
+	AND date(replace(mdate, " ", "")) >= date(replace(this.mdate, " ", "")) - dur(7 days) 
+	AND date(replace(mdate, " ", "")) <= date(replace(this.mdate, " ", ""))
 SORT file.cday DESC
 ```
 
