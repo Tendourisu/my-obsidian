@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
+      "basename": "2025-W03-01",
+      "path": "dairy/weekly/2025-W03-01.md"
+    },
+    {
+      "basename": "20250115",
+      "path": "dairy/daily/20250115.md"
+    },
+    {
+      "basename": "20250116",
+      "path": "dairy/daily/20250116.md"
     },
     {
       "basename": "2025-03-01-19-7",
       "path": "dairy/daily/2025-03-01-19-7.md"
+    },
+    {
+      "basename": "Ubuntu 终端美化（oh-my-zsh）",
+      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
     },
     {
       "basename": "20250111",
@@ -15,14 +31,6 @@
     {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
-    },
-    {
-      "basename": "2025-W03-01",
-      "path": "dairy/weekly/2025-W03-01.md"
-    },
-    {
-      "basename": "2025-Week03-01",
-      "path": "dairy/weekly/2025-Week03-01.md"
     },
     {
       "basename": "2024秋16周周结",
@@ -35,14 +43,6 @@
     {
       "basename": "obsidian -wnc",
       "path": "tools/obsidian -wnc.md"
-    },
-    {
-      "basename": "20250116",
-      "path": "dairy/daily/20250116.md"
-    },
-    {
-      "basename": "20250115",
-      "path": "dairy/daily/20250115.md"
     },
     {
       "basename": "20250113",
@@ -163,10 +163,6 @@
     {
       "basename": "STM32",
       "path": "Notion/STM32.md"
-    },
-    {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
     },
     {
       "basename": "服务器图像转发",
