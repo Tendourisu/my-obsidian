@@ -60,3 +60,7 @@
 - Lecture-27 Future of Computing 01:09: 26  
 学习流程
 - [第01章：计算机系统漫游 | CSAPP重点解读](https://fengmuzi2003.gitbook.io/csapp3e)
+-  [小土刀](https://wdxtub.com/work/)
+- [Lab](http://csapp.cs.cmu.edu/3e/labs.html)
+- [北大Lab指导](https://github.com/zhuozhiyongde/Introduction-To-Computer-System-2023Fall-PKU)
+- CSAPP 中文翻译](https://fengmuzi2003.gitbook.io/csapp3e/)
