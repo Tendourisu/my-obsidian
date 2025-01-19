@@ -9,7 +9,7 @@
     "enabled": true
   },
   "weekly": {
-    "format": "gggg-[Week]ww-MM",
+    "format": "gggg-[W]ww-MM",
     "folder": "dairy/weekly",
     "template": "zob_config/template/weekly.md",
     "enabled": true

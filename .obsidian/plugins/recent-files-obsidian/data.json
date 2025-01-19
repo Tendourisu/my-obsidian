@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-W03-01",
+      "path": "dairy/weekly/2025-W03-01.md"
+    },
+    {
       "basename": "2025-Week03-01",
       "path": "dairy/weekly/2025-Week03-01.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "202412011509",
       "path": "202412011509.md"
-    },
-    {
-      "basename": "2025TODO",
-      "path": "2025TODO.md"
     }
   ],
   "omittedPaths": []

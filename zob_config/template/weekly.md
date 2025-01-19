@@ -29,12 +29,12 @@ const tars = {
   'LINKS': 2,  // Collect second-level LINKS headings
 }
 
-await dv.view('zob_config/js/show.js', {
+await dv.view('zob_config/js/show', {
   // Get only daily notes from dairy folder
   files: dv.pages('"dairy"')
     .where(p => {
       // Extract the week number from the current file name (weekly note)
-      const weekMatch = dv.current().file.name.match(/(\d{4})-Week(\d{1,2})/);
+      const weekMatch = dv.current().file.name.match(/(\d{4})-W(\d{1,2})/);
       if (!weekMatch) return false;
 
       const [_, weekYear, weekNum] = weekMatch;

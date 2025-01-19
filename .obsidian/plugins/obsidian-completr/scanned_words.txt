@@ -84659,6 +84659,7 @@ loadSearchIndex
 loadSearchHistory
 lunr
 lighter
+lists
 GPU
 GPT
 Google
@@ -91691,6 +91692,7 @@ showSearchHistory
 showSearchSuggestions
 saveSearchHistory
 sortable
+subpath
 torch
 training
 tune
@@ -98783,6 +98785,7 @@ failed
 fields
 formatTime
 formattedDate
+flatten
 model
 mass
 mindspore
@@ -174273,6 +174276,7 @@ dairy
 days
 dataviewjs
 dateMatch
+dateformat
 Youtube
 YOLO
 Your
