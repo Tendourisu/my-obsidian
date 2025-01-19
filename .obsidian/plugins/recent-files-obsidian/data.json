@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
+    },
+    {
       "basename": "2024秋16周周结",
       "path": "dairy/weekly/2024秋16周周结.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "Ubuntu 终端美化（oh-my-zsh）",
       "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
     },
     {
       "basename": "obsidian -wnc",
