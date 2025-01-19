@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-W03-01",
-      "path": "dairy/weekly/2025-W03-01.md"
-    },
-    {
-      "basename": "2025-Week03-01",
-      "path": "dairy/weekly/2025-Week03-01.md"
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
     },
     {
       "basename": "2025-03-01-19-7",
       "path": "dairy/daily/2025-03-01-19-7.md"
     },
     {
+      "basename": "20250111",
+      "path": "dairy/daily/20250111.md"
+    },
+    {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
     },
     {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
+      "basename": "2025-W03-01",
+      "path": "dairy/weekly/2025-W03-01.md"
+    },
+    {
+      "basename": "2025-Week03-01",
+      "path": "dairy/weekly/2025-Week03-01.md"
     },
     {
       "basename": "2024秋16周周结",
@@ -43,10 +47,6 @@
     {
       "basename": "20250113",
       "path": "dairy/daily/20250113.md"
-    },
-    {
-      "basename": "20250111",
-      "path": "dairy/daily/20250111.md"
     },
     {
       "basename": "20250110",
