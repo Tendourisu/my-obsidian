@@ -3698,6 +3698,10 @@ clone
 collecting
 components
 cont
+contentInNextRange
+contentRange
+currentFile
+contentArray
 Computer
 Concepts
 ChatGpt
@@ -42899,6 +42903,7 @@ performSearch
 postProcessResults
 periodic
 padStart
+positionEnd
 Understanding
 USTC
 Unix
@@ -60085,6 +60090,7 @@ nets
 natively
 navigator
 notees
+nextHeadingRegex
 Network
 Nvidia
 NCNN
@@ -70677,6 +70683,7 @@ gsc
 gtag
 generateShareUrl
 generateHighlights
+getAbstractFileByPath
 MLsystem
 MLsys
 Mlsys
@@ -91694,6 +91701,7 @@ showSearchSuggestions
 saveSearchHistory
 sortable
 subpath
+sectionLink
 torch
 training
 tune
@@ -95292,6 +95300,8 @@ tojson
 typeof
 tars
 towards
+targetHeading
+trim
 for
 fancy
 follow
@@ -126426,6 +126436,8 @@ highlightText
 highlights
 highlight
 hierarchy
+headingRange
+horizontal
 up
 ucb
 universal
@@ -140164,6 +140176,7 @@ rel
 render
 rest
 runId
+regex
 xv
 xpy
 xlb
@@ -150441,6 +150454,8 @@ Reset
 ReadTheDocs
 ReadTimeTracker
 Report
+RegExp
+Read
 WiscKey
 Web
 WIFI

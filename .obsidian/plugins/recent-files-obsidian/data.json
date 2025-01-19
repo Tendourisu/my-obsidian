@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-03-01-19-7",
+      "path": "dairy/daily/2025-03-01-19-7.md"
+    },
+    {
+      "basename": "2024秋16周周结",
+      "path": "dairy/weekly/2024秋16周周结.md"
+    },
+    {
       "basename": "2025-W03-01",
       "path": "dairy/weekly/2025-W03-01.md"
+    },
+    {
+      "basename": "2024秋15周周结",
+      "path": "dairy/weekly/2024秋15周周结.md"
     },
     {
       "basename": "20250115",
@@ -11,10 +23,6 @@
     {
       "basename": "20250116",
       "path": "dairy/daily/20250116.md"
-    },
-    {
-      "basename": "2025-03-01-19-7",
-      "path": "dairy/daily/2025-03-01-19-7.md"
     },
     {
       "basename": "Ubuntu 终端美化（oh-my-zsh）",
@@ -31,14 +39,6 @@
     {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
-    },
-    {
-      "basename": "2024秋16周周结",
-      "path": "dairy/weekly/2024秋16周周结.md"
-    },
-    {
-      "basename": "2024秋15周周结",
-      "path": "dairy/weekly/2024秋15周周结.md"
     },
     {
       "basename": "obsidian -wnc",
