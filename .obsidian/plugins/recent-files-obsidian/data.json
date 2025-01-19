@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-03-01-19-7",
-      "path": "dairy/daily/2025-03-01-19-7.md"
-    },
-    {
       "basename": "2024秋16周周结",
       "path": "dairy/weekly/2024秋16周周结.md"
     },
@@ -15,6 +11,34 @@
     {
       "basename": "2024秋15周周结",
       "path": "dairy/weekly/2024秋15周周结.md"
+    },
+    {
+      "basename": "2025-03-01-19-7",
+      "path": "dairy/daily/2025-03-01-19-7.md"
+    },
+    {
+      "basename": "20250107",
+      "path": "dairy/daily/20250107.md"
+    },
+    {
+      "basename": "20250109",
+      "path": "dairy/daily/20250109.md"
+    },
+    {
+      "basename": "20250111",
+      "path": "dairy/daily/20250111.md"
+    },
+    {
+      "basename": "20250103",
+      "path": "dairy/daily/20250103.md"
+    },
+    {
+      "basename": "20250104",
+      "path": "dairy/daily/20250104.md"
+    },
+    {
+      "basename": "20250113",
+      "path": "dairy/daily/20250113.md"
     },
     {
       "basename": "20250115",
@@ -33,10 +57,6 @@
       "path": "zob_config/template/daily.md"
     },
     {
-      "basename": "20250111",
-      "path": "dairy/daily/20250111.md"
-    },
-    {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
     },
@@ -45,24 +65,12 @@
       "path": "tools/obsidian -wnc.md"
     },
     {
-      "basename": "20250113",
-      "path": "dairy/daily/20250113.md"
-    },
-    {
       "basename": "20250110",
       "path": "dairy/daily/20250110.md"
     },
     {
-      "basename": "20250109",
-      "path": "dairy/daily/20250109.md"
-    },
-    {
       "basename": "20250108",
       "path": "dairy/daily/20250108.md"
-    },
-    {
-      "basename": "20250107",
-      "path": "dairy/daily/20250107.md"
     },
     {
       "basename": "20250106",
@@ -71,14 +79,6 @@
     {
       "basename": "20250105",
       "path": "dairy/daily/20250105.md"
-    },
-    {
-      "basename": "20250104",
-      "path": "dairy/daily/20250104.md"
-    },
-    {
-      "basename": "20250103",
-      "path": "dairy/daily/20250103.md"
     },
     {
       "basename": "20250102",
