@@ -5,6 +5,14 @@
       "path": "csapp&CMU5-213/第零章-计算机系统漫游.md"
     },
     {
+      "basename": "20250106",
+      "path": "dairy/daily/20250106.md"
+    },
+    {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
+    },
+    {
       "basename": "csapp 安排",
       "path": "csapp&CMU5-213/csapp 安排.md"
     },
@@ -89,10 +97,6 @@
       "path": "dairy/daily/20250108.md"
     },
     {
-      "basename": "20250106",
-      "path": "dairy/daily/20250106.md"
-    },
-    {
       "basename": "20250105",
       "path": "dairy/daily/20250105.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "20250101",
       "path": "dairy/daily/20250101.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
     },
     {
       "basename": "未命名",
