@@ -1,4 +1,5 @@
 {
   "folder": "zob_config/template",
-  "dateFormat": "YYYY-MM-DD"
+  "dateFormat": "YYYY-MM-DD",
+  "timeFormat": "HH:mm"
 }
