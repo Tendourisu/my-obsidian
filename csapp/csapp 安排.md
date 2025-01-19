@@ -57,4 +57,6 @@
 - Lecture-24 Synchronization Basics 56:22
 - Lecture-25 Synchronization Advanced 01:20:33
 - Lecture-26 Thread-Level Parallelism 01:05:25
-- Lecture-27 Future of Computing 01:09: 26
+- Lecture-27 Future of Computing 01:09: 26  
+学习流程
+- [第01章：计算机系统漫游 | CSAPP重点解读](https://fengmuzi2003.gitbook.io/csapp3e)

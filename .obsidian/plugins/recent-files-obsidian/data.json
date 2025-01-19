@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "程序员的观点A Programmer's Perspective",
+      "path": "csapp/程序员的观点A Programmer's Perspective.md"
+    },
+    {
+      "basename": "csapp 安排",
+      "path": "csapp/csapp 安排.md"
+    },
+    {
       "basename": "2025-W03-01",
       "path": "dairy/weekly/2025-W03-01.md"
     },
@@ -97,16 +105,8 @@
       "path": "zob_config/template/template.md"
     },
     {
-      "basename": "程序员的观点A Programmer's Perspective",
-      "path": "csapp/程序员的观点A Programmer's Perspective.md"
-    },
-    {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "csapp 安排",
-      "path": "csapp/csapp 安排.md"
     },
     {
       "basename": "obsidian沙盒学习",
