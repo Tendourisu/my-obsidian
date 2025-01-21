@@ -3703,6 +3703,7 @@ contentRange
 currentFile
 contentArray
 contentEnd
+cosx
 Computer
 Concepts
 ChatGpt
@@ -10698,6 +10699,7 @@ Outcome
 Olmo
 Openai
 Out
+OEQ
 and
 all
 amp
@@ -14271,6 +14273,8 @@ allowed
 append
 aTag
 aCount
+alpha
+approx
 Design
 Data
 Database
@@ -17681,6 +17685,7 @@ DOMContentLoaded
 DESC
 Debugging
 DDTHH
+Delta
 The
 Team
 TVM
@@ -49791,6 +49796,7 @@ LINK
 LeftLeanRedBlack
 Logo
 Lunr
+LOGe
 Kernel
 Kernal
 Keys
@@ -60096,6 +60102,10 @@ navigator
 notees
 nextHeadingRegex
 nextHeading
+nCnrarbn
+nxn
+nlog
+ndx
 Network
 Nvidia
 NCNN
@@ -70691,6 +70701,7 @@ generateHighlights
 getAbstractFileByPath
 getDateOfISOWeek
 getFileCache
+geq
 MLsystem
 MLsys
 Mlsys
@@ -84680,6 +84691,8 @@ lighter
 lists
 linksHeading
 linksContent
+logax
+logex
 GPU
 GPT
 Google
@@ -91715,6 +91728,7 @@ sortable
 subpath
 sectionLink
 sectionCache
+sinx
 torch
 training
 tune
@@ -95315,6 +95329,8 @@ tars
 towards
 targetHeading
 trim
+tlog
+tanx
 for
 fancy
 follow
@@ -140199,6 +140215,7 @@ rest
 runId
 regex
 relocatable
+rightarrow
 xv
 xpy
 xlb
@@ -143451,6 +143468,7 @@ xexX
 xavier
 xserver
 xclock
+xlog
 Effective
 Edx
 Elements
@@ -150480,6 +150498,7 @@ Report
 RegExp
 Read
 Richard
+Rightarrow
 WiscKey
 Web
 WIFI
