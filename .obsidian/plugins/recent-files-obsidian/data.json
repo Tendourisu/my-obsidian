@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名 1",
-      "path": "未命名 1.md"
+      "basename": "URDF",
+      "path": "论文阅读/挑战杯/URDF.md"
+    },
+    {
+      "basename": "论文阅读方法",
+      "path": "论文阅读/阅读方法/论文阅读方法.md"
+    },
+    {
+      "basename": "程序员的观点A Programmer's Perspective",
+      "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
     },
     {
       "basename": "csapp 安排",
@@ -15,10 +27,6 @@
     {
       "basename": "第零章-计算机系统漫游",
       "path": "csapp&CMU15-213/第零章-计算机系统漫游.md"
-    },
-    {
-      "basename": "程序员的观点A Programmer's Perspective",
-      "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
     },
     {
       "basename": "cs231n",
@@ -125,10 +133,6 @@
       "path": "dairy/daily/20250101.md"
     },
     {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
       "basename": "obsidian沙盒学习",
       "path": "tools/obsidian沙盒学习.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RL",
       "path": "论文阅读/挑战杯/RL.md"
-    },
-    {
-      "basename": "WSL 2 上的 Docker 远程容器入门",
-      "path": "tools/WSL 2 上的 Docker 远程容器入门.md"
     }
   ],
   "omittedPaths": []
