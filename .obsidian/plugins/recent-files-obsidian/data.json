@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名 1",
+      "path": "未命名 1.md"
+    },
+    {
       "basename": "csapp 安排",
       "path": "csapp&CMU15-213/csapp 安排.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "WSL 2 上的 Docker 远程容器入门",
       "path": "tools/WSL 2 上的 Docker 远程容器入门.md"
-    },
-    {
-      "basename": "===",
-      "path": "===.md"
     }
   ],
   "omittedPaths": []
