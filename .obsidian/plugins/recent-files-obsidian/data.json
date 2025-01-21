@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "hugging face",
+      "path": "hugging face.md"
+    },
+    {
       "basename": "idea的一次尝试理解",
       "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "git use",
       "path": "git use.md"
-    },
-    {
-      "basename": "RL",
-      "path": "论文阅读/挑战杯/RL.md"
     }
   ],
   "omittedPaths": []
