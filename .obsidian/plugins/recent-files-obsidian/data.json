@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-04-01-23-4",
+      "path": "dairy/daily/2025-04-01-23-4.md"
+    },
+    {
       "basename": "2025-04-01-22-3",
       "path": "dairy/daily/2025-04-01-22-3.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "服务器图像转发",
       "path": "服务器图像转发.md"
-    },
-    {
-      "basename": "WSL代理解决办法",
-      "path": "WSL代理解决办法.md"
     }
   ],
   "omittedPaths": []
