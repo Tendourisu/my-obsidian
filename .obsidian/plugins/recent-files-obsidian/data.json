@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-04-01-22-3",
+      "path": "dairy/daily/2025-04-01-22-3.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
+    },
+    {
+      "basename": "2025-03-01-19-7",
+      "path": "dairy/daily/2025-03-01-19-7.md"
+    },
+    {
       "basename": "hugging face",
       "path": "hugging face.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "有趣的github库",
       "path": "有趣的github库.md"
-    },
-    {
-      "basename": "2025-04-01-22-3",
-      "path": "dairy/daily/2025-04-01-22-3.md"
     },
     {
       "basename": "idea的一次尝试理解",
@@ -73,16 +81,8 @@
       "path": "dairy/weekly/2025-W03-01.md"
     },
     {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
-    },
-    {
       "basename": "template",
       "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "2025-03-01-19-7",
-      "path": "dairy/daily/2025-03-01-19-7.md"
     },
     {
       "basename": "20250106",

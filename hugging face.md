@@ -11,8 +11,8 @@ from huggingface_hub import HfApi
 
 ```
 
-
 - hugging face 的连接解决方案：
+
 ```shell 
 # 安装huggingface_hub包
 pip install huggingface_hub
@@ -24,7 +24,9 @@ HF_ENDPOINT=https://hf-mirror.com huggingface-cli login
 #然后推送你想推送的文件：
 HF_ENDPOINT=https://hf-mirror.com huggingface-cli upload Tendourisu/block-sorting-with-weight-train block-sorting-with-weight-train.zip
 ```
+
 - 一劳永逸：
+
 ```shell
 echo 'export HF_ENDPOINT=https://hf-mirror.com' >> ~/.zshrc
 ```
