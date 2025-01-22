@@ -10,3 +10,10 @@ from huggingface_hub import HfApi
 )
 
 ```
+
+
+- hugging face 的连接解决方案：
+```shell 
+# 通过jing'xiang'zhan
+  
+```
