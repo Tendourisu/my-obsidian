@@ -21,6 +21,10 @@ HF_ENDPOINT=https://hf-mirror.com huggingface-cli login
 # 输入你的令牌token（从hf的网站上获取）
 # 如果想避免重复认证，可以使用git config --global credential.helper store开启git辅助验证助手并在
 # Add token as git credential? (Y/n)时选择y
-
-然后推送你想推送的文件：HF_ENDPOINT=https://hf-mirror.com huggingface-cli upload Tendourisu/block-sorting-with-weight-train block-sorting-with-weight-train.zip
+#然后推送你想推送的文件：
+HF_ENDPOINT=https://hf-mirror.com huggingface-cli upload Tendourisu/block-sorting-with-weight-train block-sorting-with-weight-train.zip
+```
+- 一劳永逸：
+```shell
+echo 'export HF_ENDPOINT=https://hf-mirror.com' >> ~/.zshrc
 ```
