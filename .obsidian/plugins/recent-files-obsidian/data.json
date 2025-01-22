@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-04-01-22-3",
+      "path": "dairy/daily/2025-04-01-22-3.md"
+    },
+    {
       "basename": "hugging face",
       "path": "hugging face.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "pybullet的相机",
       "path": "pybullet的相机.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     }
   ],
   "omittedPaths": []
