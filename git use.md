@@ -17,4 +17,4 @@
 8. 推送更新后的some-changes分支： git push --force origin some-changes
 
 
-$\frac{1}{n}a_{{n+1} = a_{n}}$
+$\frac{1}{n}a_{n+1} = a_n^2+2n$
