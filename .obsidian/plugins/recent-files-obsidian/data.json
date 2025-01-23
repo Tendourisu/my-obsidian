@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
       "basename": "2025-04-01-23-4",
       "path": "dairy/daily/2025-04-01-23-4.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "STM32",
       "path": "Notion/STM32.md"
-    },
-    {
-      "basename": "服务器图像转发",
-      "path": "服务器图像转发.md"
     }
   ],
   "omittedPaths": []
