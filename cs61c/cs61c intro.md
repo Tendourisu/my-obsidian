@@ -39,3 +39,8 @@ Sumery:
 - IEC Prefixes  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241549093.png)
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241601077.png)
+
+```c
+int *fn(void *, void *); // 这是一个返回 int* 类型的函数，不是函数指针
+int (*fn)(void *, void *); // 这是一个指向返回 int 类型并接受两个 void* 参数的函数的指针
+```
