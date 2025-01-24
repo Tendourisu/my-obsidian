@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "cs61c intro",
+      "path": "cs61c/cs61c intro.md"
+    },
+    {
       "basename": "git use",
       "path": "git use.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "X11转发的问题",
       "path": "X11转发的问题.md"
-    },
-    {
-      "basename": "STM32",
-      "path": "Notion/STM32.md"
     }
   ],
   "omittedPaths": []

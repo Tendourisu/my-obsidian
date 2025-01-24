@@ -1,3 +1,15 @@
+---
+title: " 2025-01-19 "
+tags: 
+categories: dairy
+date: " 2025-01-24T10:56:47+08:00 "
+modify: " 2025-01-24T10:56:47+08:00 "
+dir: dairy
+share: false
+cdate: " 2025-01-24 "
+mdate: " 2025-01-24 "
+---
+
 #git 
 
 1. 切换到main分支： git checkout main
