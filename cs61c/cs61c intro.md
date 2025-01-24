@@ -36,3 +36,4 @@ Sumery:
 - Two’s Complement
 - Bias
 - IEC Prefixes
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241549093.png)
