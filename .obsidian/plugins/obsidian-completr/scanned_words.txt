@@ -17686,6 +17686,7 @@ DESC
 Debugging
 DDTHH
 Delta
+Dependability
 The
 Team
 TVM
@@ -32201,6 +32202,7 @@ Ignore
 IntersectionObserver
 Integers
 ISOweekStart
+Ideas
 And
 Algorithm
 Analysis
@@ -35737,6 +35739,7 @@ Analytics
 Array
 Actions
 Allocation
+Abstraction
 java
 jyy
 js
@@ -67171,6 +67174,7 @@ PyMdown
 PlantUML
 Planner
 Processes
+Principle
 games
 go
 google
@@ -74225,6 +74229,7 @@ MathJax
 Mermaid
 Mkdocs
 Memories
+Moore
 JYY
 Jim
 Jina
@@ -84694,6 +84699,7 @@ linksHeading
 linksContent
 logax
 logex
+limits
 GPU
 GPT
 Google
@@ -95333,6 +95339,7 @@ targetHeading
 trim
 tlog
 tanx
+trends
 for
 fancy
 follow
@@ -150503,6 +150510,7 @@ RegExp
 Read
 Richard
 Rightarrow
+Redundancy
 WiscKey
 Web
 WIFI
