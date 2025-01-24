@@ -16,3 +16,10 @@ mdate: " 2025-01-24 "
 - Parallel Thread
 - Parallel Instruction
 - Parallel Data
+
+## 5 Great Ideas in Computer Architecture
+1. Abstraction (Layers of Representation/Interpretation)
+2. Moore’s Law (Designing through trends) 
+3. Principle of Locality (Memory Hierarchy) 
+4. Parallelism & Amdahl's law (which limits it) 
+5. Dependability via Redundancy
