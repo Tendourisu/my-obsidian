@@ -12,3 +12,7 @@ cdate: " 2025-01-24 "
 mdate: " 2025-01-24 "
 ---
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241058813.png)
+- Concurrent Thread
+- Parallel Thread
+- Parallel Instruction
+- Parallel Data
