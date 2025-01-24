@@ -26,3 +26,6 @@ mdate: " 2025-01-24 "
 3. Principle of Locality (Memory Hierarchy) 
 4. Parallelism & Amdahl's law (which limits it) 
 5. Dependability via Redundancy
+
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241230832.png)
+
