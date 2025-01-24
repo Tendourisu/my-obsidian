@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-04-01-24-5",
+      "path": "dairy/daily/2025-04-01-24-5.md"
+    },
+    {
       "basename": "cs61c intro",
       "path": "cs61c/cs61c intro.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Interesting library",
       "path": "Notion/Interesting library/Interesting library.md"
-    },
-    {
-      "basename": "X11转发的问题",
-      "path": "X11转发的问题.md"
     }
   ],
   "omittedPaths": []
