@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "cs231n",
+      "path": "cs231n.md"
+    },
+    {
       "basename": "cs61c intro",
       "path": "cs61c/cs61c intro.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "第零章-计算机系统漫游",
       "path": "csapp&CMU15-213/第零章-计算机系统漫游.md"
-    },
-    {
-      "basename": "cs231n",
-      "path": "cs231n.md"
     },
     {
       "basename": "Genesis",

@@ -11,13 +11,16 @@ share: false
 cdate: " 2025-01-24 "
 mdate: " 2025-01-24 "
 ---
+
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241058813.png)
+
 - Concurrent Thread
 - Parallel Thread
 - Parallel Instruction
 - Parallel Data
 
 ## 5 Great Ideas in Computer Architecture
+
 1. Abstraction (Layers of Representation/Interpretation)
 2. Moore’s Law (Designing through trends) 
 3. Principle of Locality (Memory Hierarchy) 
