@@ -38,3 +38,4 @@ Sumery:
 - Bias
 - IEC Prefixes  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241549093.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241601077.png)
