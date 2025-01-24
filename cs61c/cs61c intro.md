@@ -30,10 +30,11 @@ mdate: " 2025-01-24 "
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241230832.png)
 
 Sumery:
+
 - Binary, Decimal, Hex 
 - Sign and Magnitude 
 - One’s Complement
 - Two’s Complement
 - Bias
-- IEC Prefixes
+- IEC Prefixes  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501241549093.png)

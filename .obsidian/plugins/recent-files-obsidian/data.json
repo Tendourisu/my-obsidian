@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "第零章-计算机系统漫游",
+      "path": "csapp&CMU15-213/第零章-计算机系统漫游.md"
+    },
+    {
+      "basename": "第贰章-信息的表示与处理",
+      "path": "csapp&CMU15-213/第贰章-信息的表示与处理.md"
+    },
+    {
+      "basename": "csapp 安排",
+      "path": "csapp&CMU15-213/csapp 安排.md"
+    },
+    {
       "basename": "cs61c intro",
       "path": "cs61c/cs61c intro.md"
     },
@@ -63,18 +75,6 @@
     {
       "basename": "程序员的观点A Programmer's Perspective",
       "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
-    },
-    {
-      "basename": "csapp 安排",
-      "path": "csapp&CMU15-213/csapp 安排.md"
-    },
-    {
-      "basename": "第贰章-信息的表示与处理",
-      "path": "csapp&CMU15-213/第贰章-信息的表示与处理.md"
-    },
-    {
-      "basename": "第零章-计算机系统漫游",
-      "path": "csapp&CMU15-213/第零章-计算机系统漫游.md"
     },
     {
       "basename": "Genesis",
