@@ -49,3 +49,12 @@ int (*fn)(void *, void *); // 这是一个指向返回 int 类型并接受两个
 Bar* b = (Bar*) malloc(sizeof(Bar));
 Bar* b = new Bar
 ```
+
+```c
+int strlen(char*s){
+	char*p= s;
+	while(*p++)
+		;/* Null body of while*/
+	return(p – s – 1);
+}
+```
