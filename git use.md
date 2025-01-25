@@ -87,3 +87,49 @@ mdate: " 2025-01-24 "
 ```bash
 git branch -d feature-branch
 ```
+
+```
+
+*   93d48b4 (HEAD -> main) Merge branch 'lab00-backup'
+|\  
+| * a996a22 (origin/lab00-backup, lab00-backup) initialize
+| * ff4f3b4 (starter/main) [lab09] add starter (#9)
+| * 1e8ad6f [lab08] add starter (#8)
+| * f221192 [lab07] add starter
+| * 53eff2a [lab06] add starter (#5)
+| * b1c46c8 [lab05] add starter
+| * 53c001e [Lab04] Add starter
+| * 175ece1 [Lab03] Adding starter
+| * 263e24b [Lab02] Adding starter
+| * 8adaa37 [Lab01] Adding starter
+* |   0e0b188 (origin/main) Merge branch 'main' of github.com:Tendourisu/cs61c
+|\ \  
+| * | c8fa506 (starter/lab00-oski) [lab00] fix fizzbuzz
+| |/  
+* / 1126d0d fix code.oy
+|/  
+* 727cde1 [lab00] add files
+* 3c8c421 [meta] init repo
+```
+```
+*   93d48b4 (HEAD -> main, origin/main) Merge branch 'lab00-backup'
+|\  
+| * a996a22 (origin/lab00-backup, lab00-backup) initialize
+| * ff4f3b4 (starter/main) [lab09] add starter (#9)
+| * 1e8ad6f [lab08] add starter (#8)
+| * f221192 [lab07] add starter
+| * 53eff2a [lab06] add starter (#5)
+| * b1c46c8 [lab05] add starter
+| * 53c001e [Lab04] Add starter
+| * 175ece1 [Lab03] Adding starter
+| * 263e24b [Lab02] Adding starter
+| * 8adaa37 [Lab01] Adding starter
+* |   0e0b188 Merge branch 'main' of github.com:Tendourisu/cs61c
+|\ \  
+| * | c8fa506 (starter/lab00-oski) [lab00] fix fizzbuzz
+| |/  
+* / 1126d0d fix code.oy
+|/  
+* 727cde1 [lab00] add files
+* 3c8c421 [meta] init repo
+```
