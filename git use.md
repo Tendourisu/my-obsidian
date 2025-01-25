@@ -87,6 +87,10 @@ mdate: " 2025-01-24 "
 ```bash
 git branch -d feature-branch
 ```
+如果你不再需要远程的 `feature-branch` 分支，可以将其删除：
+```shell
+git push origin --delete lab00-backup
+```
 
 ```
 
