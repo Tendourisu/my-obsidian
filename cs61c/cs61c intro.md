@@ -44,3 +44,4 @@ Sumery:
 int *fn(void *, void *); // 这是一个返回 int* 类型的函数，不是函数指针
 int (*fn)(void *, void *); // 这是一个指向返回 int 类型并接受两个 void* 参数的函数的指针
 ```
+
