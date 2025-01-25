@@ -1,6 +1,7 @@
 ---
 title: " 2025-01-19 "
-tags: 
+tags:
+  - git
 categories: dairy
 date: " 2025-01-24T10:56:47+08:00 "
 modify: " 2025-01-24T10:56:47+08:00 "
@@ -9,9 +10,7 @@ share: false
 cdate: " 2025-01-24 "
 mdate: " 2025-01-24 "
 ---
-
-#git 
-
+# 对fork 仓库进行修改后 pr 的流程（你没有权限，是提 pr 的）
 1. 切换到main分支： 
 ```shell
 git checkout main
@@ -50,7 +49,7 @@ git push --force origin some-changes
 
 
 本地可能只有 `main` 分支，而 `feature-branch` 是远程仓库中的分支。为了在本地合并 `feature-branch`，你需要先将远程分支拉取到本地。以下是详细步骤：
-
+# 对 remote 仓库中的分支进行合并的流程（你有权限，是解决 pr 的）
 ### 1. 拉取远程分支到本地
 
 1. **获取远程分支信息**：
