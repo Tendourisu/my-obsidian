@@ -58,3 +58,5 @@ int strlen(char*s){
 	return(p – s – 1);
 }
 ```
+⚠️upload failed, check dev console
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501252355443.png)
