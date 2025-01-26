@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "cs61c/未命名.md"
+    },
+    {
+      "basename": "cs61a-lec04",
+      "path": "cs61c/cs61a-lec04.md"
+    },
+    {
       "basename": "deepseek-r1试用2",
       "path": "deepseek-r1试用2.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "2025-04-01-26-7",
       "path": "dairy/daily/2025-04-01-26-7.md"
-    },
-    {
-      "basename": "cs61a-lec04",
-      "path": "cs61c/cs61a-lec04.md"
     },
     {
       "basename": "cs61c intro",
@@ -195,10 +199,6 @@
     {
       "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
       "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
-    },
-    {
-      "basename": "汇报讲稿",
-      "path": "论文阅读/挑战杯/汇报讲稿.md"
     }
   ],
   "omittedPaths": []
