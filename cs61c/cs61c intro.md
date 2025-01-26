@@ -65,7 +65,7 @@ int strlen(char*s){
 
 - If you forget to deallocate memory: “Memory Leak””
 	- Your program will eventually run out of memory
--  If you call free twice on the same memory: “Double Free”
+- If you call free twice on the same memory: “Double Free”
 	- Possible crash or exploitable vulnerabilityy
--  If you use data after calling free: “Use after free” 
+- If you use data after calling free: “Use after free” 
 	- Possible crash or exploitable vulnerability

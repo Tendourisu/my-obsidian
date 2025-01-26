@@ -118,24 +118,19 @@ int main() {
 ## 函数指针
 
 - You have a function definition"
-
-	• char*foo(char*a, int b){ …}
-
+	- char*foo(char*a, int b){ …}
 - Can create a pointer of that type…"
-
-	• char*(*f)(char*, int);
+	- char*(*f)(char*, int);
 
 		• Declares f as a function taking a char* and an int and returning a char*"
 
 - Can assign to it"
-
-	• f=&foo
+	- f=&foo
 
 		• Create a reference to function foo
 
 - And can then call it..."
-
-	• printf(“%s\n”,(*f)(“cat”, 3))
+	- printf(“%s\n”,(*f)(“cat”, 3))
 
 ## 常用软件
 

@@ -17690,6 +17690,7 @@ DDTHH
 Delta
 Dependability
 Double
+Declares
 The
 Team
 TVM
@@ -140241,6 +140242,7 @@ regex
 relocatable
 rightarrow
 reavens
+returning
 xv
 xpy
 xlb
