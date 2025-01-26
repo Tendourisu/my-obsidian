@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "deepseek-r1试用2",
+      "path": "deepseek-r1试用2.md"
+    },
+    {
       "basename": "deepseek-r1试用",
       "path": "deepseek-r1试用.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
       "path": "论文阅读/挑战杯/论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
-    },
-    {
-      "basename": "latexs 配置",
-      "path": "tools/latexs 配置.md"
     }
   ],
   "omittedPaths": []
