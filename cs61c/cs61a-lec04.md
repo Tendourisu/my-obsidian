@@ -18,7 +18,36 @@ mdate: " 2025-01-26 "
 
 ### 动态内存管理
 - `malloc`, `calloc`, `realloc`, `free`...
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
+int main() {
+    char source[] = "Hello, World!";
+    
+    // 计算源字符串的长度（不包括 '\0'）
+    size_t length = strlen(source);
+
+    // 动态分配内存，+1 是为了存储 '\0'
+    char *destination = malloc(sizeof(char) * (length + 1));
+    if (destination == NULL) {
+        fprintf(stderr, "Memory allocation failed!\n");
+        return 1;
+    }
+
+    // 使用 strcpy 复制字符串
+    strcpy(destination, source);
+
+    printf("Source: %s\n", source);
+    printf("Destination: %s\n", destination);
+
+    // 释放动态分配的内存
+    free(destination);
+
+    return 0;
+}
+```
 ### 游戏内存流量与错误使用
 
 ## 结构体与联合体
