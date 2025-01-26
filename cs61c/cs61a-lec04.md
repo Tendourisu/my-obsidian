@@ -10,14 +10,14 @@ cdate: " 2025-01-26 "
 mdate: " 2025-01-26 "
 ---
 
-
-
-
 ### 内存区域
+
 - 栈、旗、静态数据、代码区
 
 ### 动态内存管理
+
 - `malloc`, `calloc`, `realloc`, `free`...
+
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -48,7 +48,9 @@ int main() {
     return 0;
 }
 ```
+
 ### 输入输出的用法
+
 ```c
 #include <stdio.h>
 
@@ -112,34 +114,35 @@ int main() {
     return 0;
 }
 ```
+
 ## 函数指针
 
-• You have a function definition"
+- You have a function definition"
 
 	• char*foo(char*a, int b){ …}
 
-• Can create a pointer of that type…"
+- Can create a pointer of that type…"
 
 	• char*(*f)(char*, int);
 
 		• Declares f as a function taking a char* and an int and returning a char*"
 
-• Can assign to it"
+- Can assign to it"
 
 	• f=&foo
 
 		• Create a reference to function foo
 
-• And can then call it..."
+- And can then call it..."
 
 	• printf(“%s\n”,(*f)(“cat”, 3))
 
-
-
 ## 常用软件
+
 - 未知/随机变量、空指针访问
 
 ## 程序安全
+
 - 使用工具检测问题：`vlagfind`
 
 ## 内存碎片化与管理策略

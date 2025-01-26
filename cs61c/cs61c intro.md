@@ -64,12 +64,8 @@ int strlen(char*s){
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501252355443.png)
 
 - If you forget to deallocate memory: “Memory Leak””
-- Your program will eventually run out of memory·
-
-。 If you call free twice on the same memory: “Double Free”·
-
-  Possible crash or exploitable vulnerabilityy
-
-。 If you use data after calling free: “Use after free” 
-
-  Possible crash or exploitable vulnerability
+	- Your program will eventually run out of memory
+-  If you call free twice on the same memory: “Double Free”
+	- Possible crash or exploitable vulnerabilityy
+-  If you use data after calling free: “Use after free” 
+	- Possible crash or exploitable vulnerability
