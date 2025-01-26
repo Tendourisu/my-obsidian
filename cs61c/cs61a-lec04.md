@@ -37,7 +37,7 @@ int main() {
     }
 
     // 使用 strcpy 复制字符串
-    strcpy(destination, source); //
+    strcpy(destination, source); // 不会检查destination的长度，所以必须确保有足够的长度
     // strncpy(destination, source, length + 1) 
     printf("Source: %s\n", source);
     printf("Destination: %s\n", destination);
