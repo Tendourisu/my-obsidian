@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "deepseek-r1试用",
+      "path": "deepseek-r1试用.md"
+    },
+    {
       "basename": "cs61a-lec04",
       "path": "cs61c/cs61a-lec04.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "latexs 配置",
       "path": "tools/latexs 配置.md"
-    },
-    {
-      "basename": "synthesizer入坑",
-      "path": "synthesizer入坑.md"
     }
   ],
   "omittedPaths": []
