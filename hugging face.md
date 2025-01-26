@@ -1,3 +1,15 @@
+---
+title: " 2025-01-19 "
+tags:
+  - hugging-face
+categories: dairy
+date: " 2025-01-26T11:34:31+08:00 "
+modify: " 2025-01-26T11:34:31+08:00 "
+dir: dairy
+share: false
+cdate: " 2025-01-26 "
+mdate: " 2025-01-26 "
+---
 ```python
 
 from huggingface_hub import HfApi

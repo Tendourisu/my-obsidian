@@ -58,12 +58,13 @@ int strlen(char*s){
 	return(p – s – 1);
 }
 ```
+
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501260031148.png)
 
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501252355443.png)
--  If you forget to deallocate memory: “Memory Leak””
 
--  Your program will eventually run out of memory·
+- If you forget to deallocate memory: “Memory Leak””
+- Your program will eventually run out of memory·
 
 。 If you call free twice on the same memory: “Double Free”·
 

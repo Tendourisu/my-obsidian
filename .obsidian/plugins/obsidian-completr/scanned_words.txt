@@ -3704,6 +3704,7 @@ currentFile
 contentArray
 contentEnd
 cosx
+crash
 Computer
 Concepts
 ChatGpt
@@ -17688,6 +17689,7 @@ Debugging
 DDTHH
 Delta
 Dependability
+Double
 The
 Team
 TVM
@@ -49804,6 +49806,7 @@ LeftLeanRedBlack
 Logo
 Lunr
 LOGe
+Leak
 Kernel
 Kernal
 Keys
@@ -67179,6 +67182,7 @@ Planner
 Processes
 Principle
 Prefixes
+Possible
 games
 go
 google
@@ -95345,6 +95349,7 @@ trim
 tlog
 tanx
 trends
+twice
 for
 fancy
 follow
@@ -98845,6 +98850,8 @@ fileDate
 fileLink
 fileYear
 fileWeek
+forget
+face
 model
 mass
 mindspore
@@ -126490,6 +126497,7 @@ hierarchy
 headingRange
 horizontal
 headingStart
+hugging
 up
 ucb
 universal
@@ -167368,6 +167376,8 @@ excerpt
 enabled
 emit
 events
+eventually
+exploitable
 vue
 vision
 variance
@@ -170675,6 +170685,8 @@ visibilitychange
 visualization
 visitsChart
 visualizer
+vulnerabilityy
+vulnerability
 debug
 design
 dead
@@ -174357,6 +174369,7 @@ dateMatch
 dateformat
 dow
 diary
+deallocate
 Youtube
 YOLO
 Your
