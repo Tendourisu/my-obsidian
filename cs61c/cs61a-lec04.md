@@ -112,11 +112,29 @@ int main() {
     return 0;
 }
 ```
-## 结构体与联合体
+## 函数指针
 
-## 面向对象编程概念
+• You have a function definition"
 
-## 类型转换与函数指针
+	• char*foo(char*a, int b){ …}
+
+• Can create a pointer of that type…"
+
+	• char*(*f)(char*, int);
+
+		• Declares f as a function taking a char* and an int and returning a char*"
+
+• Can assign to it"
+
+	• f=&foo
+
+		• Create a reference to function foo
+
+• And can then call it..."
+
+	• printf(“%s\n”,(*f)(“cat”, 3))
+
+
 
 ## 常用软件
 - 未知/随机变量、空指针访问
