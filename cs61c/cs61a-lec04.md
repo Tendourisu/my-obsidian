@@ -48,8 +48,70 @@ int main() {
     return 0;
 }
 ```
-### 游戏内存流量与错误使用
+### 输入输出的用法
+```c
+#include <stdio.h>
 
+int main() {
+    int c;
+    printf("请输入一个字符: ");
+    c = getchar(); // 从标准输入读取一个字符
+    printf("你输入的字符是: %c\n", c);
+
+    FILE *file = fopen("example.txt", "r");
+    if (file) {
+        c = getc(file); // 从文件读取一个字符
+        printf("文件中的第一个字符是: %c\n", c);
+        fclose(file);
+    }
+	
+	char buffer[100];
+    printf("请输入一行文本: ");
+    fgets(buffer, sizeof(buffer), stdin); // 从标准输入读取一行文本
+    printf("你输入的文本是: %s", buffer)
+    
+    FILE *file = fopen("example.txt", "r");
+    if (file) {
+        fgets(buffer, sizeof(buffer), file); // 从文件读取一行文本
+        printf("文件中的第一行是: %s", buffer);
+        fclose(file);
+    }
+
+	int i = 42;
+    float f = 3.14;
+    printf("整数: %d, 浮点数: %.2f\n", i, f); // 输出到标准输出
+
+    FILE *file = fopen("output.txt", "w");
+    if (file) {
+        fprintf(file, "整数: %d, 浮点数: %.2f\n", i, f); // 输出到文件
+        fclose(file);
+    }
+
+    int i;
+    float f;
+    printf("请输入一个整数和一个浮点数: ");
+    scanf("%d %f", &i, &f); // 从标准输入读取整数和浮点数
+    printf("你输入的整数是: %d, 浮点数是: %.2f\n", i, f);
+
+    FILE *file = fopen("input.txt", "r");
+    if (file) {
+        fscanf(file, "%d %f", &i, &f); // 从文件读取整数和浮点数
+        printf("文件中的整数是: %d, 浮点数是: %.2f\n", i, f);
+        fclose(file);
+    }
+
+    char buffer[100];
+    int i = 42;
+    float f = 3.14;
+
+    sprintf(buffer, "整数: %d, 浮点数: %.2f", i, f); // 将格式化字符串写入buffer
+    printf("sprintf的结果: %s\n", buffer);
+
+    snprintf(buffer, sizeof(buffer), "整数: %d, 浮点数: %.2f", i, f); // 安全地写入buffer
+    printf("snprintf的结果: %s\n", buffer);
+    return 0;
+}
+```
 ## 结构体与联合体
 
 ## 面向对象编程概念
