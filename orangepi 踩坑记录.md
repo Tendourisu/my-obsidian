@@ -77,10 +77,8 @@
     gnome-session &
     ```
 
->[!important]+
->chmod 755 ./xstartup  记得给权限
->
-
+>[!important]+  
+>chmod 755 ./xstartup 记得给权限
 
 4. 终端输入：
 
