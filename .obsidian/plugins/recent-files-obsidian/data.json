@@ -5,12 +5,20 @@
       "path": "orangepi 踩坑记录.md"
     },
     {
-      "basename": "pybullet的相机",
-      "path": "pybullet的相机.md"
-    },
-    {
       "basename": "mkdocs --wnc",
       "path": "mkdocs --wnc.md"
+    },
+    {
+      "basename": "cs61a-lec04",
+      "path": "cs61c/cs61a-lec04.md"
+    },
+    {
+      "basename": "hugging face",
+      "path": "hugging face.md"
+    },
+    {
+      "basename": "pybullet的相机",
+      "path": "pybullet的相机.md"
     },
     {
       "basename": "deepseek-r1试用",
@@ -37,10 +45,6 @@
       "path": "cs61c/lab1.md"
     },
     {
-      "basename": "cs61a-lec04",
-      "path": "cs61c/cs61a-lec04.md"
-    },
-    {
       "basename": "deepseek-r1试用2",
       "path": "deepseek-r1试用2.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "cs61c intro",
       "path": "cs61c/cs61c intro.md"
-    },
-    {
-      "basename": "hugging face",
-      "path": "hugging face.md"
     },
     {
       "basename": "csapp 安排",
