@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Ubuntu 终端美化（oh-my-zsh）",
+      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
+    },
+    {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
+      "basename": "2025-05-01-27-1",
+      "path": "dairy/daily/2025-05-01-27-1.md"
+    },
+    {
       "basename": "lab1",
       "path": "cs61c/lab1.md"
     },
@@ -43,10 +55,6 @@
     {
       "basename": "第贰章-信息的表示与处理",
       "path": "csapp&CMU15-213/第贰章-信息的表示与处理.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     },
     {
       "basename": "2025-04-01-24-5",
@@ -161,10 +169,6 @@
       "path": "dairy/daily/20250116.md"
     },
     {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
       "basename": "obsidian -wnc",
       "path": "tools/obsidian -wnc.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "docker-getting-started学习记录",
       "path": "tools/docker-getting-started学习记录.md"
-    },
-    {
-      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
-      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
     }
   ],
   "omittedPaths": []

@@ -15,7 +15,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install git  # 安装 git 仓库管理器
 git --version  # 查看是否安装完成# 对 git 进行全局配置
-git config --global user.name al1s
+git config --global user.name Tendourisu
 git config --global user.email hd-zhu23@mails.tsinghua.edu.cn
 ```
 

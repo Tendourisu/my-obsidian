@@ -70,7 +70,6 @@ git push --force origin some-changes
 
     这会更新本地的远程分支信息，但不会自动创建本地分支。
 
-    
 2. **在本地创建并切换到 `feature-branch` 分支**：
 
     ```bash
