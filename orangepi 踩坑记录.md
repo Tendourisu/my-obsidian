@@ -30,7 +30,7 @@
 5. 默认用户 HwHiAiUser，密码 Mind@123
 6. Vscode 配置 ssh HwHiAiUser@<ip>
 
-## 4 . 连接网络
+## 4. 连接网络
 
 1. 使用 network manager 连接网络
 
