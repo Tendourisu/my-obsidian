@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "未命名.md"
+      "basename": "orangepi 踩坑记录",
+      "path": "orangepi 踩坑记录.md"
+    },
+    {
+      "basename": "pybullet的相机",
+      "path": "pybullet的相机.md"
+    },
+    {
+      "basename": "mkdocs --wnc",
+      "path": "mkdocs --wnc.md"
+    },
+    {
+      "basename": "deepseek-r1试用",
+      "path": "deepseek-r1试用.md"
+    },
+    {
+      "basename": "synthesizer入坑",
+      "path": "synthesizer入坑.md"
     },
     {
       "basename": "Ubuntu 终端美化（oh-my-zsh）",
@@ -27,10 +43,6 @@
     {
       "basename": "deepseek-r1试用2",
       "path": "deepseek-r1试用2.md"
-    },
-    {
-      "basename": "deepseek-r1试用",
-      "path": "deepseek-r1试用.md"
     },
     {
       "basename": "2025-04-01-26-7",
@@ -87,10 +99,6 @@
     {
       "basename": "2025-03-01-19-7",
       "path": "dairy/daily/2025-03-01-19-7.md"
-    },
-    {
-      "basename": "mkdocs --wnc",
-      "path": "mkdocs --wnc.md"
     },
     {
       "basename": "日语的自我介绍",
@@ -191,14 +199,6 @@
     {
       "basename": "20250102",
       "path": "dairy/daily/20250102.md"
-    },
-    {
-      "basename": "20250101",
-      "path": "dairy/daily/20250101.md"
-    },
-    {
-      "basename": "obsidian沙盒学习",
-      "path": "tools/obsidian沙盒学习.md"
     }
   ],
   "omittedPaths": []

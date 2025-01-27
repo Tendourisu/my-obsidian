@@ -10713,6 +10713,7 @@ OWaZoT
 OmCi
 OUQZ
 OgKXPiWStT
+OrangePi
 and
 all
 amp
@@ -17720,6 +17721,7 @@ DPTn
 DWXKyDDOmwrgznaPWsuR
 DgGo
 DvmAEUF
+DroidCam
 The
 Team
 TVM
@@ -24929,6 +24931,7 @@ HLTFYoeBUePl
 HnRClLtmhuiUl
 HUYI
 HBcAlzgA
+HwHiAiUser
 Software
 Structure
 System
@@ -35809,6 +35812,7 @@ AVseTlOJx
 ADmHoAicD
 AORRiXkKPwrKLGCMVdlJWIyKlnJpsXJNUeMtJXBsAN
 AydYJDh
+AIpro
 java
 jyy
 js
@@ -56884,6 +56888,7 @@ oYFczQ
 oktxPmkGRGvjpE
 oowmC
 oBagbldoDaAUpPEYVB
+orangepi
 net
 nn
 need
@@ -60235,6 +60240,7 @@ nOgIgJvvm
 nBQshnyi
 nDFiFMc
 ncdKLEVvm
+nmtui
 Network
 Nvidia
 NCNN
@@ -74399,6 +74405,7 @@ MTzyohPNF
 McoSGiSqZIpXW
 MtxPTPCLWeoT
 MmatlfBjsLLR
+MicroUSB
 JYY
 Jim
 Jina
@@ -81324,6 +81331,7 @@ wvRscBp
 wQBayLb
 wuDxk
 wDUT
+wlan
 lab
 lightning
 latex
@@ -91952,6 +91960,9 @@ sXmLbb
 stVixxo
 szhcOXFiv
 sUigjNfJYgTfmWfIcRV
+sudo
+setuptools
+scripts
 torch
 training
 tune
@@ -95566,6 +95577,8 @@ tyWt
 tTBBuSI
 tRgqet
 tAMm
+tightvnc
+tightvncserver
 for
 fancy
 follow
@@ -106252,6 +106265,7 @@ bMeVCp
 bqIueFqBeqfm
 bCPN
 bNWLnZ
+bashrc
 is
 inference
 in
@@ -143826,6 +143840,7 @@ xbApSU
 xPLMMcwQ
 xOjAhPSJ
 xdZsETIvdhteWrgkUlXoJWFH
+xstartup
 Effective
 Edx
 Elements
@@ -147294,6 +147309,7 @@ ESxBg
 EvAPnpDj
 EKKC
 EaLbLk
+Etcher
 Raft
 Rocksdb
 Reader
@@ -157841,6 +157857,8 @@ VqgufUq
 VJmkAz
 VZdV
 VLXvq
+Vscode
+VNC
 qq
 questions
 query
@@ -171093,6 +171111,7 @@ vDVdO
 vRW
 vhBuBJXXsKd
 vzVkjFb
+vnc
 debug
 design
 dead
@@ -178167,6 +178186,7 @@ Ybsvjz
 Yarno
 Yar
 YKhTwMjQuWoQw
+YOLOv
 Xg
 Xx
 XC
