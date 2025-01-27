@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
       "basename": "Ubuntu 终端美化（oh-my-zsh）",
       "path": "Ubuntu 终端美化（oh-my-zsh）.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "obsidian沙盒学习",
       "path": "tools/obsidian沙盒学习.md"
-    },
-    {
-      "basename": "docker-getting-started学习记录",
-      "path": "tools/docker-getting-started学习记录.md"
     }
   ],
   "omittedPaths": []
