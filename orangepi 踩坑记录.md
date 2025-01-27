@@ -28,7 +28,7 @@
 3. 打开串口调试工具，选择串口号，波特率设置为 115200
 4. 重启 OrangePi AIpro 开发板，查看串口输出信息
 5. 默认用户 HwHiAiUser，密码 Mind@123
-6. Vscode 配置 ssh HwHiAiUser@<ip>
+6. Vscode 配置 ssh HwHiAiUser@"ip"
 
 ## 4. 连接网络
 
