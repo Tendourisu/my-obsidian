@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
       "basename": "20250103",
       "path": "dairy/daily/20250103.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "Ubuntu 终端美化（oh-my-zsh）",
       "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     },
     {
       "basename": "mkdocs --wnc",
