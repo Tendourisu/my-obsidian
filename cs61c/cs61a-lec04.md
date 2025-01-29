@@ -132,11 +132,11 @@ int main() {
 - 使用工具检测问题：`vlagfind`
 
 ## Float
-| Type           | Exponent      | Mantissa  |
-| -------------- | ------------- | --------- |
-| Regular Number | 1-254         | Anything  |
-| Zero           | All zeros     | All zeros |
-| Infinity       | All ones(255) | All zeros |
+| Type               | Exponent      | Mantissa  |
+| ------------------ | ------------- | --------- |
+| **Regular Number** | 1-254         | Anything  |
+| **Zero**           | All zeros     | All zeros |
+| **Infinity**       | All ones(255) | All zeros |
 
 
 
