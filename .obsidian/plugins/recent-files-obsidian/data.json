@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-05-01-29-3",
+      "path": "dairy/daily/2025-05-01-29-3.md"
+    },
+    {
       "basename": "cs61a-lec04",
       "path": "cs61c/cs61a-lec04.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20250113",
       "path": "dairy/daily/20250113.md"
-    },
-    {
-      "basename": "20250115",
-      "path": "dairy/daily/20250115.md"
     }
   ],
   "omittedPaths": []

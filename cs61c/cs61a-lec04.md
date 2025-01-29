@@ -127,17 +127,17 @@ int main() {
 		- Create a reference to function foo
 - And can then call it..."
 	- printf(“%s\n”,(*f)(“cat”, 3))
+
 ## 程序安全
 
 - 使用工具检测问题：`vlagfind`
 
 ## Float
+
 | Type               | Exponent      | Mantissa  |
 | ------------------ | ------------- | --------- |
 | **Regular Number** | 1-254         | Anything  |
 | **Zero**           | All zeros     | All zeros |
-| **Infinity**       | All ones(255) | All zeros |
+| **Infinity**       | All ones(255) | All zeros |  
+
 ⚠️upload failed, check dev console
-
-
-
