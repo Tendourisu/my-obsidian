@@ -145,3 +145,5 @@ int main() {
 
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309457.png)
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309207.png)
+Instruction Set Architecture(ISA)
+• Examples: ARM, Intel x86, MIPS, RISC-V, IBM/Motorola PowerPC(old Mac)
