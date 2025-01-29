@@ -137,6 +137,7 @@ int main() {
 | **Regular Number** | 1-254         | Anything  |
 | **Zero**           | All zeros     | All zeros |
 | **Infinity**       | All ones(255) | All zeros |
+⚠️upload failed, check dev console
 
 
 
