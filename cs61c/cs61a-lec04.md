@@ -147,4 +147,39 @@ int main() {
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309207.png)
 Instruction Set Architecture(ISA)
 • Examples: ARM, Intel x86, MIPS, RISC-V, IBM/Motorola PowerPC(old Mac)
-![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501300035255.png)
+RISCV Instructions:
+#### 算术运算指令
+
+- `add x1, x2, x3` # x1 = x2 + x3
+- `sub x1, x2, x3` # x1 = x2 - x3
+- `addi x1, x2, 10` # x1 = x2 + 10，立即数加法，将寄存器x2的值加上10 后存到x1
+
+#### 逻辑运算指令
+
+- `and x1, x2, x3` # x1 = x2 & x3，按位与操作
+- `or x1, x2, x3` # x1 = x2 | x3，按位或操作
+- `xor x1, x2, x3` # x1 = x2 ^ x3，按位异或操作
+- `andi x1, x2, 0xFF` # x1 = x2 & 0xFF，将寄存器x2的值与立即数0xFF按位与后存到x1
+
+#### 移位运算指令
+
+- `sll x1, x2, 3` # x1 = x2 << 3，逻辑左移，将寄存器x2的值左移3位后存到x1
+- `srl x1, x2, 3` # x1 = x2 >> 3，逻辑右移，将寄存器x2的值右移3位后存到x1
+- `sra x1, x2, 3` # x1 = x2 >>> 3，算术右移，将寄存器x2的值算术右移3位后存到x1
+
+#### 数据传输指令
+
+- `lw x1, 16(x2)` # x1 = Memory[x2 + 16]，从内存地址（x2 + 16）处加载一个字（32位）数据到x1
+- `sw x1, 16(x2)` # Memory[x2 + 16] = x1，将寄存器x1的值存储到内存地址（x2 + 16）处
+- `mv x1, x2` # x1 = x2，数据移动，本质是将x2的值赋给x1
+
+#### 条件跳转指令
+
+- `beq x1, x2, label` # 如果x1等于x2，则跳转到label处执行
+- `bne x1, x2, label` # 如果x1不等于x2，则跳转到label处执行
+- `blt x1, x2, label` # 如果x1小于x2，则跳转到label处执行
+
+#### 无条件跳转与链接指令
+
+- `jal x1, label` # x1 = PC + 4; PC = label，将下一条指令的地址存到x1，然后跳转到label处执行
+- `jalr x1, x2, 0` # x1 = PC + 4; PC = x2，将下一条指令的地址存到x1 ，然后跳转到x2所指向的地址执行
