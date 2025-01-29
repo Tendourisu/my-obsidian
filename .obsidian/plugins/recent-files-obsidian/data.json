@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "cs61a-lec04",
+      "path": "cs61c/cs61a-lec04.md"
+    },
+    {
+      "basename": "cs61c intro",
+      "path": "cs61c/cs61c intro.md"
+    },
+    {
       "basename": "新年祝福",
       "path": "新年祝福.md"
     },
@@ -69,10 +77,6 @@
       "path": "mkdocs --wnc.md"
     },
     {
-      "basename": "cs61a-lec04",
-      "path": "cs61c/cs61a-lec04.md"
-    },
-    {
       "basename": "hugging face",
       "path": "hugging face.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "2025-04-01-26-7",
       "path": "dairy/daily/2025-04-01-26-7.md"
-    },
-    {
-      "basename": "cs61c intro",
-      "path": "cs61c/cs61c intro.md"
     },
     {
       "basename": "csapp 安排",

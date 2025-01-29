@@ -127,19 +127,16 @@ int main() {
 		- Create a reference to function foo
 - And can then call it..."
 	- printf(“%s\n”,(*f)(“cat”, 3))
-
-## 常用软件
-
-- 未知/随机变量、空指针访问
-
 ## 程序安全
 
 - 使用工具检测问题：`vlagfind`
 
-## 内存碎片化与管理策略
+## Float
+| Type           | Exponent      | Mantissa  |
+| -------------- | ------------- | --------- |
+| Regular Number | 1-254         | Anything  |
+| Zero           | All zeros     | All zeros |
+| Infinity       | All ones(255) | All zeros |
 
-## 附加主题
 
-### 硬件系统视角的寄存器
 
-### 消费者与生产者的例子
