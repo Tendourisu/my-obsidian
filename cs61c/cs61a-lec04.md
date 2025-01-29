@@ -134,10 +134,14 @@ int main() {
 
 ## Float
 
-| Type               | Exponent      | Mantissa  |
-| ------------------ | ------------- | --------- |
-| **Regular Number** | 1-254         | Anything  |
-| **Zero**           | All zeros     | All zeros |
-| **Infinity**       | All ones(255) | All zeros |  
+| Type|Exponent|Mantissa|
+| ---|---|---|
+| Regular Number|1-254|Anything|
+| Zero|All zeros|All zeros|
+| Infinity|All ones(255)|All zeros|
+| NaN|All ones(255)|Nonzero|
+| Denorm|All zeros|Nonzero|
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309113.png)
 
-⚠️upload failed, check dev console
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309457.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309207.png)
