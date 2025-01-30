@@ -185,3 +185,4 @@ RISCV Instructions:
 
 - `jal x1, label` # x1 = PC + 4; PC = label，将下一条指令的地址存到x1，然后跳转到label处执行
 - `jalr x1, x2, 0` # x1 = PC + 4; PC = x2，将下一条指令的地址存到x1 ，然后跳转到x2所指向的地址执行
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501301427052.png)
