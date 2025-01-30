@@ -140,14 +140,17 @@ int main() {
 | Zero|All zeros|All zeros|
 | Infinity|All ones(255)|All zeros|
 | NaN|All ones(255)|Nonzero|
-| Denorm|All zeros|Nonzero|
+| Denorm|All zeros|Nonzero|  
+
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309113.png)
 
-![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309457.png)
-![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309207.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309457.png)  
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501292309207.png)  
 Instruction Set Architecture(ISA)
-• Examples: ARM, Intel x86, MIPS, RISC-V, IBM/Motorola PowerPC(old Mac)
+
+- Examples: ARM, Intel x86, MIPS, RISC-V, IBM/Motorola PowerPC(old Mac)  
 RISCV Instructions:
+
 #### 算术运算指令
 
 - `add x1, x2, x3` # x1 = x2 + x3
@@ -169,6 +172,7 @@ RISCV Instructions:
 	- `srli x1, x2, c`
 - `sra x1, x2, x3` # x1 = x2 >>> x3，算术右移，将寄存器x2的值算术右移 x3位后存到x1
 	- `srai x1, x2, c`
+
 #### 数据传输指令
 
 - `lw x1, 16(x2)` # x1 = Memory[x2 + 16]，从内存地址（x2 + 16）处加载一个字（32位）数据到x1, offset 必须是常数，不能是寄存器中的数
@@ -187,6 +191,6 @@ RISCV Instructions:
 #### 无条件跳转与链接指令
 
 - `jal x1, label` # x1 = PC + 4; PC = label，将下一条指令的地址存到x1，然后跳转到label处执行
-- `jalr x1, x2, 0` # x1 = PC + 4; PC = x2，将下一条指令的地址存到x1 ，然后跳转到x2所指向的地址执行
-![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501301427052.png)
+- `jalr x1, x2, 0` # x1 = PC + 4; PC = x2，将下一条指令的地址存到x1 ，然后跳转到x2所指向的地址执行  
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501301427052.png)  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202501301500307.png)

@@ -43007,6 +43007,7 @@ prismatic
 pfUj
 psMjy
 pocky
+podcast
 Understanding
 USTC
 Unix
@@ -60245,6 +60246,7 @@ nBQshnyi
 nDFiFMc
 ncdKLEVvm
 nmtui
+notebooklm
 Network
 Nvidia
 NCNN
