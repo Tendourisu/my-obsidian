@@ -81,8 +81,8 @@ if __name__ == "__main__":
 $$
 \displaystyle
 \begin{align}
-V(s) &= \mathbb{E} \left[ r + \gamma V(s') \right]  \\
-&= \sum_{a}\pi(a|s)[R(s,a) + ]
+V^{\pi}(s) &= \mathbb{E} \left[ r + \gamma V^{\pi}(s') \right]  \\
+&= \sum_{a}\pi(a|s)\left[ R(s,a) + \gamma \sum_{s'} P(s'|s,a)V^{\pi}(s')\right]
 \end{align}
 $$
 
@@ -95,7 +95,13 @@ $$
 
 (2) 动作值函数的贝尔曼方程  
 动作值函数 ( Q(s, a) ) 表示在状态 ( s ) 下采取动作 ( a ) 后，智能体未来能获得的期望累积折扣回报。其贝尔曼方程为：  
-$Q(s, a) = \mathbb{E} \left[ r + \gamma \max_{a'} Q(s', a') \right]$  
+$$
+\begin{align}
+Q^{\pi}(s, a) &= \mathbb{E} \left[ r + \gamma \max_{a'} Q^{\pi}(s', a') \right]\\  
+&= R(s,a)+\gamma \sum_{s'}
+\end{align}
+
+$$  
 其中：
 
 ( r ) 是当前时间步的即时奖励。  
