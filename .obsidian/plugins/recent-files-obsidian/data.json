@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RL",
+      "path": "论文阅读/挑战杯/RL.md"
+    },
+    {
       "basename": "20250102",
       "path": "dairy/daily/20250102.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20250109",
       "path": "dairy/daily/20250109.md"
-    },
-    {
-      "basename": "20250111",
-      "path": "dairy/daily/20250111.md"
     }
   ],
   "omittedPaths": []
