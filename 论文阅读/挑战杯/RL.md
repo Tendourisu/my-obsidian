@@ -79,9 +79,10 @@ if __name__ == "__main__":
 (1) 状态值函数的贝尔曼方程  
 状态值函数 ( V(s) ) 表示在状态 ( s ) 下，智能体未来能获得的期望累积折扣回报。其贝尔曼方程为：  
 $$
+\displaystyle
 \begin{align}
 V(s) &= \mathbb{E} \left[ r + \gamma V(s') \right]  \\
-&= \Sigma
+&= \sum_{a}\pi(a|s)[R(s,a) + ]
 \end{align}
 $$
 
