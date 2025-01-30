@@ -98,7 +98,7 @@ $$
 $$
 \begin{align}
 Q^{\pi}(s, a) &= \mathbb{E} \left[ r + \gamma \max_{a'} Q^{\pi}(s', a') \right]\\  
-&= R(s,a)+\gamma \sum_{s'}
+&= R(s,a)+\gamma \sum_{s'}P(s'|s,a)\sum_{a'}\pi(a'|s')Q^{\pi}(s',a')
 \end{align}
 
 $$  
