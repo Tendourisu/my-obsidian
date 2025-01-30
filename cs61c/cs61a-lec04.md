@@ -182,6 +182,7 @@ RISCV Instructions:
 - `beq x1, x2, label` # 如果x1等于x2，则跳转到label处执行
 - `bne x1, x2, label` # 如果x1不等于x2，则跳转到label处执行
 - `blt x1, x2, label` # 如果x1小于x2，则跳转到label处执行
+- `bge x1, x2, label` # 如果 x1 大于等于 x2，则跳转到label处执行
 
 #### 无条件跳转与链接指令
 
