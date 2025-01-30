@@ -77,6 +77,7 @@ if __name__ == "__main__":
 1. 贝尔曼方程的定义,下面是两种常见的贝尔曼方程形式：  
 (1) 状态值函数的贝尔曼方程  
 状态值函数 ( V(s) ) 表示在状态 ( s ) 下，智能体未来能获得的期望累积折扣回报。其贝尔曼方程为：  
+
 $$
 \displaystyle
 \begin{align}
@@ -85,31 +86,35 @@ V^{\pi}(s) &= \mathbb{E} \left[ r + \gamma V^{\pi}(s') \right]  \\
 \end{align}
 $$
 
-
-
 其中：  
 ( r ) 是当前时间步的即时奖励。  
 ( $\gamma$ ) 是折扣因子。  
-( s' ) 是下一个状态。
-**状态最优方程：** $$V^*(s)=\max_{a}\left[ R(s,a)+\gamma \sum_{s'} P(s'|s,a)V^*(s')\right]$$
+( s' ) 是下一个状态。  
+**状态最优方程：**
+
+$$
+V^*(s)=\max_{a}\left[ R(s,a)+\gamma \sum_{s'} P(s'|s,a)V^*(s')\right]
+$$
 
 (2) 动作值函数的贝尔曼方程  
 动作值函数 ( Q(s, a) ) 表示在状态 ( s ) 下采取动作 ( a ) 后，智能体未来能获得的期望累积折扣回报。其贝尔曼方程为：  
+
 $$
 \begin{align}
 Q^{\pi}(s, a) &= \mathbb{E} \left[ r + \gamma \max_{a'} Q^{\pi}(s', a') \right]\\  
 &= R(s,a)+\gamma \sum_{s'}P(s'|s,a)\sum_{a'}\pi(a'|s')Q^{\pi}(s',a')
 \end{align}
-
 $$  
+
 其中：
 
 ( r ) 是当前时间步的即时奖励。  
 ( $\gamma$ ) 是折扣因子。  
 ( s' ) 是下一个状态。  
-( a' ) 是下一个状态下的动作。
-**动作价值最优方程**：$$
+( a' ) 是下一个状态下的动作。  
+**动作价值最优方程**：$$  
 Q^*(s,a)=R(s,a)+\gamma \sum_{s'}P(s'|s,a)max_{a'}Q^*(s',a')
+
 $$
 2. 贝尔曼方程的作用  
 贝尔曼方程的核心思想是递归分解，即将当前状态的值函数分解为即时奖励和下一个状态的值函数。这种分解使得值函数可以通过动态规划（Dynamic Programming）或蒙特卡洛方法（Monte Carlo Methods）进行计算和优化。
