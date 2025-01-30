@@ -7302,6 +7302,8 @@ Computing
 Concept
 Complement
 CBua
+Caller
+Callee
 Organazation
 OSTEP
 Operating
@@ -17724,6 +17726,7 @@ DWXKyDDOmwrgznaPWsuR
 DgGo
 DvmAEUF
 DroidCam
+Denorm
 The
 Team
 TVM
@@ -63602,6 +63605,7 @@ NdNn
 NXkeHGtdSfCDE
 NQeZc
 NSvl
+Nonzero
 Programming
 Parallel
 PLAM
@@ -67335,6 +67339,9 @@ PESR
 PHq
 PGjZxDYA
 PqJmolt
+PowerPC
+Pseudo
+PUSH
 games
 go
 google
@@ -74413,6 +74420,7 @@ MtxPTPCLWeoT
 MmatlfBjsLLR
 MicroUSB
 Mantissa
+Motorola
 JYY
 Jim
 Jina
@@ -150899,6 +150907,8 @@ RWN
 RJGsLSOd
 RcLNI
 RzcFUqpV
+RISCV
+Registers
 WiscKey
 Web
 WIFI
