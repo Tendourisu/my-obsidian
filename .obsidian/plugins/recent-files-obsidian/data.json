@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "lec04-基础3",
       "path": "cs61c/lec04-基础3.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "cs61c intro",
       "path": "cs61c/cs61c intro.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "lec02-C基础1",
