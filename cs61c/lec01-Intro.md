@@ -1,5 +1,5 @@
 ---
-title: lec01
+title: lec01-Intro
 tags:
   - cs61c
 categories: dairy
@@ -10,10 +10,6 @@ share: false
 cdate: " 2025-01-26 "
 mdate: " 2025-01-26"
 ---
-
-### Lab 1 重点整理
-
-好的，这是一份根据「lec01.pdf」讲座内容整理的专业级中文学习笔记，符合您提出的内容架构和格式规范：
 
 # CS61C 计算机体系结构导论 学习笔记
 
