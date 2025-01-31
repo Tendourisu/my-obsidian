@@ -7306,6 +7306,9 @@ Caller
 Callee
 Connor
 CISC
+Changing
+Constants
+Concise
 Organazation
 OSTEP
 Operating
@@ -10720,6 +10723,8 @@ OmCi
 OUQZ
 OgKXPiWStT
 OrangePi
+Objects
+Observations
 and
 all
 amp
@@ -14300,6 +14305,7 @@ aPjPpywbPznyjccmeyuCnz
 azrlNaWCaXgxofFzr
 ahjmsLZdfqJk
 aYwKEmCptHAHwx
+arrays
 Design
 Data
 Database
@@ -17730,6 +17736,9 @@ DvmAEUF
 DroidCam
 Denorm
 Definitely
+Dangers
+Different
+Defined
 The
 Team
 TVM
@@ -24941,6 +24950,8 @@ HUYI
 HBcAlzgA
 HwHiAiUser
 Hölzle
+Heartbleed
+Heap
 Software
 Structure
 System
@@ -28764,6 +28775,8 @@ SEjlJ
 SUil
 Seward
 SIGPLAN
+Strings
+Stuff
 Interface
 Isomorphic
 Inference
@@ -35828,6 +35841,10 @@ AIpro
 Anything
 Asanovic
 Analyzer
+Arrays
+Arguments
+Allocated
+Animation
 java
 jyy
 js
@@ -46492,6 +46509,7 @@ UcSL
 UhDMEPCgphV
 UsPBQy
 UUTQPkX
+Unions
 Linux
 Learning
 Large
@@ -63620,6 +63638,7 @@ Nonzero
 Nick
 Nethercote
 Notices
+Neumann
 Programming
 Parallel
 PLAM
@@ -67358,6 +67377,9 @@ Pseudo
 PUSH
 Plaxco
 Patterson
+Pointers
+Pointing
+Primitive
 games
 go
 google
@@ -74437,6 +74459,8 @@ MmatlfBjsLLR
 MicroUSB
 Mantissa
 Motorola
+Managing
+Move
 JYY
 Jim
 Jina
@@ -88223,6 +88247,7 @@ GsnfvLrGY
 GDiSMoifc
 GXzxqqahP
 GBQnKJqlMUdz
+Goes
 spring
 system
 size
@@ -119786,6 +119811,9 @@ FcYxP
 FKZWyJZbcmifLhAy
 Float
 Fault
+Failure
+Forgetting
+Freeing
 Quant
 Qa
 QR
@@ -147356,6 +147384,7 @@ EKKC
 EaLbLk
 Etcher
 Exponent
+Endianness
 Raft
 Rocksdb
 Reader
@@ -150939,6 +150968,9 @@ RzcFUqpV
 RISCV
 Registers
 RAID
+Revisited
+Returning
+Realloc
 WiscKey
 Web
 WIFI
@@ -154526,6 +154558,7 @@ WEQVcrN
 WVHjkeE
 WxWg
 Waterman
+Wrong
 Values
 VP
 Vz
@@ -157910,6 +157943,7 @@ VLXvq
 Vscode
 VNC
 Valgrind
+Von
 qq
 questions
 query

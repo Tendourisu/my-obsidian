@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "cs61c/未命名.md"
-    },
-    {
-      "basename": "lec02-C基本知识",
-      "path": "cs61c/lec02-C基本知识.md"
-    },
-    {
       "basename": "prompt",
       "path": "prompt.md"
     },
     {
+      "basename": "lec03-C基础2",
+      "path": "cs61c/lec03-C基础2.md"
+    },
+    {
+      "basename": "lec02-C基础1",
+      "path": "cs61c/lec02-C基础1.md"
+    },
+    {
       "basename": "lec01-Intro",
       "path": "cs61c/lec01-Intro.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "cs61c/未命名 1.md"
     },
     {
       "basename": "20250103",
@@ -195,10 +199,6 @@
     {
       "basename": "idea的一次尝试理解",
       "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
-    },
-    {
-      "basename": "URDF",
-      "path": "论文阅读/挑战杯/URDF.md"
     }
   ],
   "omittedPaths": []

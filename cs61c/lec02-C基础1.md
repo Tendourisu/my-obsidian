@@ -1,5 +1,5 @@
 ---
-title: " 2025-01-19 "
+title: lec02-C基础1
 tags:
   - cs61c
 categories: cs61c
