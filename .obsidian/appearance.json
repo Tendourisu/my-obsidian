@@ -6,5 +6,6 @@
   "theme": "moonstone",
   "enabledCssSnippets": [
     "custom"
-  ]
+  ],
+  "showRibbon": true
 }
