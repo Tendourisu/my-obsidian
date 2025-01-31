@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
       "basename": "lec03-C基础2",
       "path": "cs61c/lec03-C基础2.md"
+    },
+    {
+      "basename": "lec04-基础3",
+      "path": "cs61c/lec04-基础3.md"
+    },
+    {
+      "basename": "cs61a-lec04",
+      "path": "cs61c/cs61a-lec04.md"
+    },
+    {
+      "basename": "cs61c intro",
+      "path": "cs61c/cs61c intro.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "lec02-C基础1",
@@ -43,14 +55,6 @@
     {
       "basename": "第零章-计算机系统漫游",
       "path": "csapp&CMU15-213/第零章-计算机系统漫游.md"
-    },
-    {
-      "basename": "cs61c intro",
-      "path": "cs61c/cs61c intro.md"
-    },
-    {
-      "basename": "cs61a-lec04",
-      "path": "cs61c/cs61a-lec04.md"
     },
     {
       "basename": "RLfromDeepSeek",
@@ -195,10 +199,6 @@
     {
       "basename": "有趣的github库",
       "path": "有趣的github库.md"
-    },
-    {
-      "basename": "idea的一次尝试理解",
-      "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
     }
   ],
   "omittedPaths": []
