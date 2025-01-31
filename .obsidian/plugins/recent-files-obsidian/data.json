@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "lec06-RISCV指令基础1",
-      "path": "cs61c/lec06-RISCV指令基础1.md"
-    },
-    {
       "basename": "lec07-RISCV指令基础2",
       "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
+      "basename": "lab7",
+      "path": "cs61c/lab7.md"
+    },
+    {
+      "basename": "lec06-RISCV指令基础1",
+      "path": "cs61c/lec06-RISCV指令基础1.md"
     },
     {
       "basename": "lec01-Intro",
@@ -31,10 +35,6 @@
     {
       "basename": "cs61a-lec04",
       "path": "cs61c/cs61a-lec04.md"
-    },
-    {
-      "basename": "lab7",
-      "path": "cs61c/lab7.md"
     },
     {
       "basename": "prompt",
