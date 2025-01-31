@@ -1,6 +1,8 @@
 ---
 title: " 2025-01-19 "
-tags: 
+tags:
+  - promte
+  - embodied-ai
 categories: dairy
 date: " 2025-01-31T11:09:33+08:00 "
 modify: " 2025-01-31T11:09:33+08:00 "

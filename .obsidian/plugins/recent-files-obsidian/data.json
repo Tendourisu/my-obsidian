@@ -5,16 +5,28 @@
       "path": "cs61c/lab1.md"
     },
     {
+      "basename": "promte",
+      "path": "promte.md"
+    },
+    {
+      "basename": "csapp 安排",
+      "path": "csapp&CMU15-213/csapp 安排.md"
+    },
+    {
+      "basename": "程序员的观点A Programmer's Perspective",
+      "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
+    },
+    {
+      "basename": "第零章-计算机系统漫游",
+      "path": "csapp&CMU15-213/第零章-计算机系统漫游.md"
+    },
+    {
       "basename": "cs61c intro",
       "path": "cs61c/cs61c intro.md"
     },
     {
       "basename": "cs61a-lec04",
       "path": "cs61c/cs61a-lec04.md"
-    },
-    {
-      "basename": "promote",
-      "path": "promote.md"
     },
     {
       "basename": "lab2",
@@ -139,18 +151,6 @@
     {
       "basename": "2025-04-01-26-7",
       "path": "dairy/daily/2025-04-01-26-7.md"
-    },
-    {
-      "basename": "csapp 安排",
-      "path": "csapp&CMU15-213/csapp 安排.md"
-    },
-    {
-      "basename": "程序员的观点A Programmer's Perspective",
-      "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
-    },
-    {
-      "basename": "第零章-计算机系统漫游",
-      "path": "csapp&CMU15-213/第零章-计算机系统漫游.md"
     },
     {
       "basename": "第贰章-信息的表示与处理",
