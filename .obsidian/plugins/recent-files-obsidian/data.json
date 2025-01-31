@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "mkdocs超全配置",
       "path": "tools/mkdocs超全配置.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "cs61a-lec04",
       "path": "cs61c/cs61a-lec04.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "cs61c intro",

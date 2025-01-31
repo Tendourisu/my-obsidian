@@ -608,7 +608,6 @@ theme:
 
 YAML 语法要点：
 
- 
 ```
 
 ## 3 MkDocs 核心配置
