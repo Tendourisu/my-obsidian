@@ -608,31 +608,7 @@ theme:
 
 YAML 语法要点：
 
-```yaml
-# 字符串
-title: 我的文档
-
-# 列表
-plugins:
-  - search
-  - tags
-
-# 对象
-theme:
-  name: material
-  features:
-    - navigation.tabs
-
-# 多行字符串
-description: >
-  这是一个
-  多行描述
-  示例
-
-# 锚点引用
-copyright: &copyright 2024 My Docs
-footer:
-  copyright: *copyright
+ 
 ```
 
 ## 3 MkDocs 核心配置
