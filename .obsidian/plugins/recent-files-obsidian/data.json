@@ -5,6 +5,14 @@
       "path": "prompt.md"
     },
     {
+      "basename": "2025-05-02-01-6",
+      "path": "dairy/daily/2025-05-02-01-6.md"
+    },
+    {
+      "basename": "2025-W05-01",
+      "path": "dairy/weekly/2025-W05-01.md"
+    },
+    {
       "basename": "mkdocs超全配置",
       "path": "tools/mkdocs超全配置.md"
     },
@@ -113,10 +121,6 @@
       "path": "dairy/weekly/2025-W04-01.md"
     },
     {
-      "basename": "2025-W05-01",
-      "path": "dairy/weekly/2025-W05-01.md"
-    },
-    {
       "basename": "2025-W03-01",
       "path": "dairy/weekly/2025-W03-01.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "template",
       "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
     }
   ],
   "omittedPaths": []
