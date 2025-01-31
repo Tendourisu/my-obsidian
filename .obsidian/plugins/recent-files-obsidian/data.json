@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "lab2",
+      "path": "cs61c/lab2.md"
+    },
+    {
+      "basename": "lab1",
+      "path": "cs61c/lab1.md"
+    },
+    {
+      "basename": "RLfromDeepSeek",
+      "path": "RLfromDeepSeek.md"
+    },
+    {
       "basename": "lab7",
       "path": "cs61c/lab7.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "20250101",
       "path": "dairy/daily/20250101.md"
-    },
-    {
-      "basename": "lab1",
-      "path": "cs61c/lab1.md"
     },
     {
       "basename": "cs61a-lec04",
@@ -191,14 +199,6 @@
     {
       "basename": "20250106",
       "path": "dairy/daily/20250106.md"
-    },
-    {
-      "basename": "CS61B fun thing",
-      "path": "Notion/CS61B fun thing.md"
-    },
-    {
-      "basename": "20250107",
-      "path": "dairy/daily/20250107.md"
     }
   ],
   "omittedPaths": []
