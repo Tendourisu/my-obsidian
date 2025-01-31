@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "prompt",
-      "path": "prompt.md"
+      "basename": "未命名",
+      "path": "cs61c/未命名.md"
     },
     {
       "basename": "lec02-C基本知识",
       "path": "cs61c/lec02-C基本知识.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "lec01-Intro",
@@ -195,10 +199,6 @@
     {
       "basename": "URDF",
       "path": "论文阅读/挑战杯/URDF.md"
-    },
-    {
-      "basename": "论文阅读方法",
-      "path": "论文阅读/阅读方法/论文阅读方法.md"
     }
   ],
   "omittedPaths": []
