@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "lab1",
+      "path": "cs61c/lab1.md"
+    },
+    {
+      "basename": "cs61c intro",
+      "path": "cs61c/cs61c intro.md"
+    },
+    {
+      "basename": "cs61a-lec04",
+      "path": "cs61c/cs61a-lec04.md"
+    },
+    {
       "basename": "promote",
       "path": "promote.md"
     },
     {
       "basename": "lab2",
       "path": "cs61c/lab2.md"
-    },
-    {
-      "basename": "lab1",
-      "path": "cs61c/lab1.md"
     },
     {
       "basename": "RLfromDeepSeek",
@@ -41,16 +49,8 @@
       "path": "dairy/daily/20250101.md"
     },
     {
-      "basename": "cs61a-lec04",
-      "path": "cs61c/cs61a-lec04.md"
-    },
-    {
       "basename": "2025-05-01-29-3",
       "path": "dairy/daily/2025-05-01-29-3.md"
-    },
-    {
-      "basename": "cs61c intro",
-      "path": "cs61c/cs61c intro.md"
     },
     {
       "basename": "新年祝福",
