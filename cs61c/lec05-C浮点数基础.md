@@ -49,7 +49,9 @@ timeline
   $$
 
   (-1)^S \times 1.\text{Mantissa} \times 2^{\text{Exponent}-127}  
-$$  
+
+$$
+  
 
   - **符号位**（1bit）： $S=0$ 为正， $S=1$ 为负  
   - **指数偏置**： $E_{\text{biased}} = E + 127$ （避免符号位干扰比较）  
@@ -97,10 +99,12 @@ graph TD
 ### 4.2 去规范化数  
 
 **编码规则**：  
+$$
+
+(-1)^S \times 0.\text{Mantissa} \times 2^{-126}  
 
 $$
-(-1)^S \times 0.\text{Mantissa} \times 2^{-126}  
-$$  
+  
 
 - **最小正数**： $2^{-149}$ （尾数最低位为 1）  
 - **与规格化数对比**：  
@@ -120,8 +124,11 @@ $$
 - 输入： $X = -1.5 \times 10^{38},\ Y = 1.5 \times 10^{38},\ Z = 1.0$  
 - 结果：  
 
-  $$
+  
+$$
+
   (X + Y) + Z = 1.0 \quad \text{vs} \quad X + (Y + Z) = 0  
+
 $$  
 
 **争议矩阵**：  

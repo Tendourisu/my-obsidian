@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "lec07-RISCV指令基础",
+      "path": "cs61c/lec07-RISCV指令基础.md"
+    },
+    {
       "basename": "lec05-C浮点数基础",
       "path": "cs61c/lec05-C浮点数基础.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "日语的自我介绍",
       "path": "日语的自我介绍.md"
-    },
-    {
-      "basename": "有趣的github库",
-      "path": "有趣的github库.md"
     }
   ],
   "omittedPaths": []
