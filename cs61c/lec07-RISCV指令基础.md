@@ -32,17 +32,16 @@ timeline
 
 ### 数学表达
 - **JAL指令公式**：
-  ```latex
-  \text{PC} \leftarrow \text{PC} + \text{offset} \\
-  \text{rd} \leftarrow \text{PC} + 4
-  ```
+
+  $$\text{PC} \leftarrow \text{PC} + \text{offset} \\
+  \text{rd} \leftarrow \text{PC} + 4$$
+
   > 20位偏移量支持±1MB跳转范围（P11）
 
 - **栈操作公式**：
-  ```latex
-  \text{PUSH: } sp \leftarrow sp - n \times 4 \\
-  \text{POP: } sp \leftarrow sp + n \times 4 
-  ```
+
+$$  \text{PUSH: } sp \leftarrow sp - n \times 4 \\
+  \text{POP: } sp \leftarrow sp + n \times 4 $$
   > 4字节对齐原则（P32）
 
 ### 应用场景
@@ -65,8 +64,8 @@ graph TD
     
     classDef red fill:#ff9999;
     classDef blue fill:#99ccff;
-    class C1,C2 red;  // 条件分支实现争议
-    class D1,D2 blue;  // 跳转范围限制解决方案
+    class C1,C2 red;  
+    class D1,D2 blue;  
 ```
 
 ## 4. 章节精析
@@ -150,12 +149,18 @@ flowchart TD
 > 2. RISC-V官方规范手册Chapter 25 (Control Transfer)
 > 3. CS61C课程实验3：Function Calling Convention
 
-```rainbow-table
 标题：分支指令对比矩阵
 | 指令 | 类型 | 比较条件 | 典型应用 |
-|------|------|---------|----------|
+| ------ | ------ | --------- | ----------|
 | beq  | 条件分支 | 寄存器相等 | 循环终止判断 |
 | bge  | 条件分支 | 有符号≥ | 数组边界检查 |
 | jal  | 跳转链接 | 绝对地址 | 函数调用 |
 | jalr | 跳转链接 | 寄存器基址 | 虚函数调用 |
-```
+
+| 指令   | 类型   | 比较条件  | 典型应用   |
+| ---- | ---- | ----- | ------ |
+| beq  | 条件分支 | 寄存器相等 | 循环终止判断 |
+| bge  | 条件分支 | 有符号≥  | 数组边界检查 |
+| jal  | 跳转链接 | 绝对地址  | 函数调用   |
+| jalr | 跳转链接 | 寄存器基址 | 虚函数调用  |
+
