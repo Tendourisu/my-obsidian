@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "lab1",
-      "path": "cs61c/lab1.md"
+      "basename": "lec01-Intro",
+      "path": "cs61c/lec01-Intro.md"
     },
     {
-      "basename": "promte",
-      "path": "promte.md"
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
+      "basename": "20250103",
+      "path": "dairy/daily/20250103.md"
+    },
+    {
+      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
+      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
+    },
+    {
+      "basename": "20250110",
+      "path": "dairy/daily/20250110.md"
     },
     {
       "basename": "csapp 安排",
@@ -71,10 +83,6 @@
     {
       "basename": "git use",
       "path": "git use.md"
-    },
-    {
-      "basename": "20250103",
-      "path": "dairy/daily/20250103.md"
     },
     {
       "basename": "2025-W04-01",
@@ -191,14 +199,6 @@
     {
       "basename": "论文阅读方法",
       "path": "论文阅读/阅读方法/论文阅读方法.md"
-    },
-    {
-      "basename": "Genesis",
-      "path": "Genesis.md"
-    },
-    {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
     }
   ],
   "omittedPaths": []
