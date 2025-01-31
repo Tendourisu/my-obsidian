@@ -9,9 +9,11 @@ share: false
 cdate: " 2025-01-31 "
 mdate: " 2025-01-31 "
 ---
-# lec07-RISCV指令基础-学习笔记
+
+# lec07-RISCV指令基础 2-学习笔记
 
 ## 1. 课程脉络
+
 ```mermaid
 timeline
     title RISC-V函数实现专题演进
@@ -21,27 +23,37 @@ timeline
 ```
 
 >[!tip] 关键关联：
+
 - `条件分支[←P4]` → `函数跳转[←P10]`
 - `栈指针[←P28]` → `调用约定[←P35]`
 
 ## 2. 理论框架
+
 ### 基础假设
+
 1. 寄存器存储模型：32位通用寄存器可存指针/整型数据（P2）
 2. 程序计数器(PC)线性增长机制：`PC_next = PC_current + 4`（P9）
 3. 冯诺依曼架构下指令-数据统一编址
 
 ### 数学表达
+
 - **JAL指令公式**：
 
-  $$\text{PC} \leftarrow \text{PC} + \text{offset} \\
-  \text{rd} \leftarrow \text{PC} + 4$$
+  $$
 
+\text{PC} \leftarrow \text{PC} + \text{offset} \\  
+  \text{rd} \leftarrow \text{PC} + 4
+
+$$
   > 20位偏移量支持±1MB跳转范围（P11）
 
 - **栈操作公式**：
+$$
 
-$$  \text{PUSH: } sp \leftarrow sp - n \times 4 \\
-  \text{POP: } sp \leftarrow sp + n \times 4 $$
+  \text{PUSH: } sp \leftarrow sp - n \times 4 \\  
+  \text{POP: } sp \leftarrow sp + n \times 4 
+
+$$
   > 4字节对齐原则（P32）
 
 ### 应用场景
@@ -158,4 +170,3 @@ flowchart TD
 | bge  | 条件分支 | 有符号≥  | 数组边界检查 |
 | jal  | 跳转链接 | 绝对地址  | 函数调用   |
 | jalr | 跳转链接 | 寄存器基址 | 虚函数调用  |
-

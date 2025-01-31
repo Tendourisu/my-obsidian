@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "lec07-RISCV指令基础",
-      "path": "cs61c/lec07-RISCV指令基础.md"
+      "basename": "lec06-RISCV指令基础1",
+      "path": "cs61c/lec06-RISCV指令基础1.md"
     },
     {
-      "basename": "lec05-C浮点数基础",
-      "path": "cs61c/lec05-C浮点数基础.md"
+      "basename": "lec07-RISCV指令基础2",
+      "path": "cs61c/lec07-RISCV指令基础2.md"
     },
     {
       "basename": "lec01-Intro",
       "path": "cs61c/lec01-Intro.md"
+    },
+    {
+      "basename": "lec05-C浮点数基础",
+      "path": "cs61c/lec05-C浮点数基础.md"
     },
     {
       "basename": "lec02-C基础1",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-03-01-19-7",
       "path": "dairy/daily/2025-03-01-19-7.md"
-    },
-    {
-      "basename": "日语的自我介绍",
-      "path": "日语的自我介绍.md"
     }
   ],
   "omittedPaths": []
