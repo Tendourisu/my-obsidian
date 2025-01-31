@@ -21,7 +21,9 @@ mdate: " 2025-01-31 "
 ---
 
 ## 1. 数据类型与表示
+
 ### 1.1 整数类型
+
 | 类型          | 位宽       | 范围（32位）                  | 备注                      |
 |---------------|------------|-----------------------------|--------------------------|
 | `int`         | ≥16位      | -2,147,483,648 ~ 2,147,483,647 | 平台相关                  |
@@ -36,15 +38,18 @@ int32_t big_num = 0x7FFFFFFF;
 ```
 
 ### 1.2 浮点类型
+
 | 类型      | 位宽 | 精度         | 范围               |
 |-----------|------|-------------|--------------------|
 | `float`   | 32位 | 6-7位小数    | ±3.4e38           |
 | `double`  | 64位 | 15-16位小数  | ±1.7e308          |
+
 ```c
 const double PI = 4 * atan(1.0); // 精确计算π值
 ```
 
 ### 1.3 布尔与枚举
+
 ```c
 #include <stdbool.h>
 bool is_valid = true;
@@ -55,7 +60,9 @@ enum Week {MON=1, TUE, WED, THU, FRI}; // 显式初始化
 ---
 
 ## 2. 内存管理与指针
+
 ### 2.1 指针基础
+
 ```c
 int x = 42;
 int *ptr = &x;      // 声明并初始化
@@ -69,6 +76,7 @@ int **pptr = &ptr;  // 二级指针
 >3. **类型混淆**：`void*`强制转换需谨慎
 
 ### 2.2 动态内存管理
+
 | 函数      | 功能                     | 最佳实践                  |
 |-----------|--------------------------|--------------------------|
 | `malloc`  | 分配未初始化内存          | 总是检查返回值是否为NULL |
@@ -87,6 +95,7 @@ arr = NULL;  // 防御性编程
 ```
 
 ### 2.3 结构体与指针
+
 ```c
 typedef struct {
     int x;
@@ -101,7 +110,9 @@ printf("X: %d\n", p_ptr->x);  // 箭头运算符访问成员
 ---
 
 ## 3. 函数与程序结构
+
 ### 3.1 函数指针
+
 ```c
 int add(int a, int b) { return a + b; }
 int (*func_ptr)(int, int) = add;  // 声明函数指针
@@ -114,6 +125,7 @@ calculator(add, 3, 5);  // 输出8
 ```
 
 ### 3.2 参数传递
+
 | 传递方式  | 语法             | 效果                      |
 |-----------|------------------|--------------------------|
 | 值传递    | `void func(int x)` | 函数内修改不影响原值      |
@@ -130,7 +142,9 @@ void swap(int *a, int *b) {
 ---
 
 ## 4. 预处理与编译
+
 ### 4.1 编译流程
+
 ```mermaid
 graph LR
 A[foo.c] --> B[预处理器]
@@ -144,6 +158,7 @@ H --> I[a.out]
 ```
 
 ### 4.2 预处理器陷阱
+
 ```c
 #define SQUARE(x) x*x       // 错误：应加括号
 #define SAFE_SQ(x) ((x)*(x))// 正确写法
@@ -152,6 +167,7 @@ int x = SAFE_SQ(2+3);       // 展开为((2+3)*(2+3))=25
 ```
 
 >[!important]+ **头文件保护**
+>
 >```c
 >#ifndef MY_HEADER_H
 >#define MY_HEADER_H
@@ -162,10 +178,13 @@ int x = SAFE_SQ(2+3);       // 展开为((2+3)*(2+3))=25
 ---
 
 ## 5. 调试与工具
+
 ### 5.1 Valgrind使用
+
 ```bash
 valgrind --leak-check=full --track-origins=yes ./program
 ```
+
 | 错误类型           | 说明                      |
 |--------------------|--------------------------|
 | Invalid read/write | 非法内存访问              |
@@ -173,6 +192,7 @@ valgrind --leak-check=full --track-origins=yes ./program
 | Conditional jump   | 使用未初始化值            |
 
 ### 5.2 GDB调试要点
+
 ```bash
 (gdb) break main          # 设置断点
 (gdb) run                 # 启动程序
@@ -184,6 +204,7 @@ valgrind --leak-check=full --track-origins=yes ./program
 ---
 
 ## 6. C与Java关键差异
+
 | 特性            | C                          | Java                       |
 |-----------------|----------------------------|----------------------------|
 | **内存管理**    | 手动分配/释放              | 自动垃圾回收               |
@@ -195,7 +216,9 @@ valgrind --leak-check=full --track-origins=yes ./program
 ---
 
 ## 7. 未定义行为(UB)全解
+
 ### 7.1 常见UB场景
+
 ```c
 int x = INT_MAX + 1;         // 有符号溢出
 int arr[3]; printf("%d", arr[5]); // 数组越界
@@ -203,6 +226,7 @@ char *s = "hello"; s[0] = 'H';    // 修改字符串字面量
 ```
 
 ### 7.2 UB后果等级
+
 1. **无害结果**：程序输出错误但继续运行
 2. **崩溃**：段错误（Segmentation Fault）
 3. **安全漏洞**：缓冲区溢出被恶意利用
@@ -215,7 +239,9 @@ char *s = "hello"; s[0] = 'H';    // 修改字符串字面量
 ---
 
 ## 8. 现代C开发实践
+
 ### 8.1 代码规范
+
 ```c
 // Good：清晰的命名和注释
 typedef struct {
@@ -231,6 +257,7 @@ Vector2D normalize(Vector2D vec) {
 ```
 
 ### 8.2 构建系统
+
 ```makefile
 CC = gcc
 CFLAGS = -Wall -O2

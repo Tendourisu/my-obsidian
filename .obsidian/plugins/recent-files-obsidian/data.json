@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "promote",
+      "path": "promote.md"
+    },
+    {
       "basename": "lab2",
       "path": "cs61c/lab2.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
-    },
-    {
-      "basename": "20250106",
-      "path": "dairy/daily/20250106.md"
     }
   ],
   "omittedPaths": []
