@@ -27,5 +27,4 @@ mdate: " 2025-02-01 "
 >[!hint]+
 >JALR 是 I 型
 
-
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502012000160.png)
