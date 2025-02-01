@@ -147,8 +147,81 @@ lw s0,0(sp)      // 恢复寄存器
 >s0-11：caller 想要保存参数的地方，由 callee 借助 x2 维护
 
 
+例子：
+```c++
 
+int bar(int g, int h, int i, int j) { 
+	int f = (g + h) - (i + j); 
+	return f; 
+} 	
 
+int foo(int x) { 	
+	// do stuff 
+	int x = bar(g, h, i, j); 
+	return (x * 2); 
+} 
+
+int main() { 
+	// do stuff 
+	foo(x); 
+	// do stuff 
+}
+```
+```assembly
+.data
+g: .word 10        # 假设全局变量默认值
+h: .word 20
+i: .word 5
+j: .word 5
+
+.text
+.global main
+
+# int bar(int g, int h, int i, int j)
+bar:
+    add t0, a0, a1   # t0 = g + h (a0-a3存储参数)
+    add t1, a2, a3   # t1 = i + j
+    sub a0, t0, t1   # 返回值存a0
+    ret
+
+# int foo(int x)
+foo:
+    # 保存返回地址（非叶函数）
+    addi sp, sp, -8
+    sw ra, 4(sp)
+    sw a0, 0(sp)     # 保存参数x（若需要）
+    
+    # 准备bar的参数：g=x, h, i, j
+    mv a0, a0        # a0 = x（显式传递，可省略）
+    la t0, h         # 加载h到a1
+    lw a1, 0(t0)
+    la t0, i
+    lw a2, 0(t0)     # 加载i到a2
+    la t0, j
+    lw a3, 0(t0)     # 加载j到a3
+    
+    jal bar           # 调用bar
+    
+    slli a0, a0, 1   # 结果乘2（a0 << 1）
+    
+    lw ra, 4(sp)     # 恢复返回地址
+    addi sp, sp, 8
+    ret
+
+main:
+    addi sp, sp, -8
+    sw ra, 0(sp)
+    
+    # 设置foo参数x=7（示例值）
+    li a0, 7         # 假设调用foo(7)
+    jal foo
+    
+    # ...后续操作...
+    
+    lw ra, 0(sp)
+    addi sp, sp, 8
+    ret
+```
  
 ## 5. 思辨空间
 ### 关键辩题：Caller-saved vs Callee-saved寄存器划分合理性
