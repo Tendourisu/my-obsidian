@@ -22,3 +22,5 @@ mdate: " 2025-02-01 "
 >[!attention]+
 >为了与 16 位的 riscv 兼容，本来可以扩展 2 位（由于对齐的规则，后两位一定是零）结果只能扩展一位（也就是由于历史原因，为了兼容性所做的牺牲）。故可以表示  $\displaystyle \pm 2^{12-1}\times 2=2^{12}bytes=2^{12}Instructions$
 
+## J 型 1IMM + 1D
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502011953148.png)
