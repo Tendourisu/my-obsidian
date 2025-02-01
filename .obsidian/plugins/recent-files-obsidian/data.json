@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
       "basename": "lec07-RISCV指令基础2",
       "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
+      "basename": "lec06-RISCV指令基础1",
+      "path": "cs61c/lec06-RISCV指令基础1.md"
+    },
+    {
+      "basename": "cs61a-lec04",
+      "path": "cs61c/cs61a-lec04.md"
+    },
+    {
+      "basename": "lab7",
+      "path": "cs61c/lab7.md"
+    },
+    {
+      "basename": "lec01-Intro",
+      "path": "cs61c/lec01-Intro.md"
+    },
+    {
+      "basename": "lec05-C浮点数基础",
+      "path": "cs61c/lec05-C浮点数基础.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "2025-05-02-01-6",
@@ -21,22 +41,6 @@
       "path": "tools/mkdocs超全配置.md"
     },
     {
-      "basename": "lab7",
-      "path": "cs61c/lab7.md"
-    },
-    {
-      "basename": "lec06-RISCV指令基础1",
-      "path": "cs61c/lec06-RISCV指令基础1.md"
-    },
-    {
-      "basename": "lec01-Intro",
-      "path": "cs61c/lec01-Intro.md"
-    },
-    {
-      "basename": "lec05-C浮点数基础",
-      "path": "cs61c/lec05-C浮点数基础.md"
-    },
-    {
       "basename": "lec02-C基础1",
       "path": "cs61c/lec02-C基础1.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "lec04-C基础3",
       "path": "cs61c/lec04-C基础3.md"
-    },
-    {
-      "basename": "cs61a-lec04",
-      "path": "cs61c/cs61a-lec04.md"
     },
     {
       "basename": "cs61c intro",

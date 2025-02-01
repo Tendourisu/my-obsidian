@@ -50,6 +50,7 @@ timeline
 
   (-1)^S \times 1.\text{Mantissa} \times 2^{\text{Exponent}-127}  
 
+
 $$
   
 

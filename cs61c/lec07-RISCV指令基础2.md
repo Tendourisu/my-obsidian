@@ -121,6 +121,7 @@ sw s0,0(sp)      // 保存寄存器
 lw s0,0(sp)      // 恢复寄存器
 ```
 
+![](https://raw.githubusercontent.com/Tendourisu/images/master/202502011202659.png)
 ## 5. 思辨空间
 ### 关键辩题：Caller-saved vs Callee-saved寄存器划分合理性
 | 观点维度 | 支持方 | 反对方 |
