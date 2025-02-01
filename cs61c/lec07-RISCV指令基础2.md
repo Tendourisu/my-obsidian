@@ -139,10 +139,12 @@ lw s0,0(sp)      // 恢复寄存器
 >逐行解释：
 >x0: 恒 0
 >x1：返回的地址（Return Address）
-> 1.由 caller 保存交给 callee 使用，是 callee 结束生命周期后返回的地址。
-> - callee 在开始时需保存 caller 传过来的 ra，防止 callee 内部有函数调用（callee 此时成了下一级的 caller）将 ra 覆写找不回 ra
-x2：用于恢复想要保存但可能被覆写的值的地方
->a0-7: caller
+>   1. 由 caller 保存交给 callee 使用，是 callee 结束生命周期后返回的地址。
+>   2. callee 在开始时需保存 caller 传过来的 ra，防止 callee 内部有函数调用（callee 此时成了下一级的 caller）将 ra 覆写找不回 ra
+>  
+>x2：用于恢复想要保存但可能被覆写的值的地方
+>a0-7: caller 用来传递参数的地方。a0-1 一般放返回值
+>s0-11：caller 想要保存参数的地方，由 callee 借助 x2 维护
 
 
 
