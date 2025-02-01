@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "lec07-RISCV指令基础2",
+      "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
+      "basename": "lec08",
+      "path": "cs61c/lec08.md"
+    },
+    {
       "basename": "cs61c intro",
       "path": "cs61c/cs61c intro.md"
     },
@@ -21,10 +29,6 @@
       "path": "csapp&CMU15-213/csapp 安排.md"
     },
     {
-      "basename": "lec08",
-      "path": "cs61c/lec08.md"
-    },
-    {
       "basename": "2025-05-02-01-6",
       "path": "dairy/daily/2025-05-02-01-6.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "prompt",
       "path": "prompt.md"
-    },
-    {
-      "basename": "lec07-RISCV指令基础2",
-      "path": "cs61c/lec07-RISCV指令基础2.md"
     },
     {
       "basename": "lec06-RISCV指令基础1",
