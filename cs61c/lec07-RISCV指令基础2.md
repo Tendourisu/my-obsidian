@@ -122,6 +122,27 @@ lw s0,0(sp)      // 恢复寄存器
 ```
 
 ![](https://raw.githubusercontent.com/Tendourisu/images/master/202502011202659.png)
+### 4.4 Calling Convention
+>[!important]+
+>| Register|Name|Description|Saved by|
+| ---|---|---|---|
+| x0|zero|Always Zero|N/A|
+| x1|ra|Return Address|Caller|
+| x2|sp|Stack Pointer|Callee|
+| x3|gp|Global Pointer|N/A|
+| x4|tp|Thread Pointer|N/A|
+| x5-7|t0-2|Temporary|Caller|
+| x8-x9|s0-s1|Saved Registers|Callee|
+| x10-x17|a0-7|Function Arguments/Return Values|Caller|
+| x18-27|s2-11|Saved Registers|Callee|
+| x28-31|t3-6|Temporaries|Caller|
+>逐行解释：
+>x0: 恒 0
+>x1：返回的地址（）由 caller 保存交给 callee 使用，是 callee 结束生命周期后返回的地址。callee 在开始时
+
+
+
+ 
 ## 5. 思辨空间
 ### 关键辩题：Caller-saved vs Callee-saved寄存器划分合理性
 | 观点维度 | 支持方 | 反对方 |
