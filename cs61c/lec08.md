@@ -28,3 +28,9 @@ mdate: " 2025-02-01 "
 >JALR 是 I 型
 
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502012000160.png)
+## U 型 1IMM + 1D
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502012007305.png)
+将 jump 从 12bytes 扩展为 32bytes 的方法：
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502012008471.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502012009777.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502012009738.png)
