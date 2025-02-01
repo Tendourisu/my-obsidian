@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "lec07-RISCV指令基础2",
+      "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "mkdocs超全配置",
       "path": "tools/mkdocs超全配置.md"
-    },
-    {
-      "basename": "lec07-RISCV指令基础2",
-      "path": "cs61c/lec07-RISCV指令基础2.md"
     },
     {
       "basename": "lab7",
