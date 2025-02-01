@@ -17,3 +17,4 @@ mdate: " 2025-02-01 "
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502011843510.png)
 ## S 型 1IMM + 2S
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502011905537.png)
+## B 型 1IMM+ 2S
