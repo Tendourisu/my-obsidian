@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "lec08",
+      "path": "cs61c/lec08.md"
+    },
+    {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "2025-04-01-26-7",
       "path": "dairy/daily/2025-04-01-26-7.md"
-    },
-    {
-      "basename": "第贰章-信息的表示与处理",
-      "path": "csapp&CMU15-213/第贰章-信息的表示与处理.md"
-    },
-    {
-      "basename": "cs231n",
-      "path": "cs231n.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
     }
   ],
   "omittedPaths": []

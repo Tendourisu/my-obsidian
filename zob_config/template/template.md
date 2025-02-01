@@ -1,5 +1,5 @@
 ---
-title: " 2025-01-19 "
+title: 
 tags: 
 categories: dairy
 date: " {{date:YYYY-MM-DDTHH:mm:ss+08:00}} "
