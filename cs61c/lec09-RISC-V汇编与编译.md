@@ -104,6 +104,8 @@ tail map        # 直接跳转，跳过栈帧分配
    - 合并代码段与数据段，解析外部符号
 4. **加载**：可执行文件 → 内存
    - OS分配地址空间，初始化寄存器与栈
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502022301216.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502022301503.png)
 
 ### 符号表与重定位表
 
