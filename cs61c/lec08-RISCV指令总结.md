@@ -1,5 +1,5 @@
 ---
-title: lec08
+title: lec08-RISCV指令总结
 tags:
   - cs61c
 categories: dairy
