@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "RL search",
-      "path": "RL search.md"
+      "basename": "mkdocs相关文章",
+      "path": "tools/mkdocs相关文章.md"
+    },
+    {
+      "basename": "RL search汇总",
+      "path": "RL search汇总.md"
     },
     {
       "basename": "2025-05-02-02-7",
@@ -195,10 +199,6 @@
     {
       "basename": "pybullet的相机",
       "path": "pybullet的相机.md"
-    },
-    {
-      "basename": "deepseek-r1试用",
-      "path": "deepseek-r1试用.md"
     }
   ],
   "omittedPaths": []
