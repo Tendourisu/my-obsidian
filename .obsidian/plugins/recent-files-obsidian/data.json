@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "riscv代码习惯",
+      "path": "cs61c/riscv代码习惯.md"
+    },
+    {
+      "basename": "lec07-RISCV指令基础2",
+      "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
+      "basename": "lec08",
+      "path": "cs61c/lec08.md"
+    },
+    {
+      "basename": "cs61c intro",
+      "path": "cs61c/cs61c intro.md"
+    },
+    {
       "basename": "2025-05-02-02-7",
       "path": "dairy/daily/2025-05-02-02-7.md"
     },
@@ -21,28 +37,12 @@
       "path": "RL search汇总.md"
     },
     {
-      "basename": "lec07-RISCV指令基础2",
-      "path": "cs61c/lec07-RISCV指令基础2.md"
-    },
-    {
       "basename": "prompt",
       "path": "prompt.md"
     },
     {
       "basename": "lec06-RISCV指令基础1",
       "path": "cs61c/lec06-RISCV指令基础1.md"
-    },
-    {
-      "basename": "riscv代码习惯",
-      "path": "cs61c/riscv代码习惯.md"
-    },
-    {
-      "basename": "lec08",
-      "path": "cs61c/lec08.md"
-    },
-    {
-      "basename": "cs61c intro",
-      "path": "cs61c/cs61c intro.md"
     },
     {
       "basename": "程序员的观点A Programmer's Perspective",
