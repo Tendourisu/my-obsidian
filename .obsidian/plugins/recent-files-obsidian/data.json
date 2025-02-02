@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "riscv 想法",
+      "path": "cs61c/riscv 想法.md"
+    },
+    {
+      "basename": "lec08",
+      "path": "cs61c/lec08.md"
+    },
+    {
       "basename": "lec07-RISCV指令基础2",
       "path": "cs61c/lec07-RISCV指令基础2.md"
     },
     {
       "basename": "riscv代码习惯",
       "path": "riscv代码习惯.md"
-    },
-    {
-      "basename": "lec08",
-      "path": "cs61c/lec08.md"
     },
     {
       "basename": "cs61c intro",
@@ -195,10 +199,6 @@
     {
       "basename": "synthesizer入坑",
       "path": "synthesizer入坑.md"
-    },
-    {
-      "basename": "2025-05-01-27-1",
-      "path": "dairy/daily/2025-05-01-27-1.md"
     }
   ],
   "omittedPaths": []
