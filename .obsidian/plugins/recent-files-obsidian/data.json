@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
       "basename": "lec07-RISCV指令基础2",
       "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "lec06-RISCV指令基础1",
