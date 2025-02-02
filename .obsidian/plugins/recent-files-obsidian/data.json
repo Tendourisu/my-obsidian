@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RL search",
+      "path": "RL search.md"
+    },
+    {
       "basename": "2025-05-02-02-7",
       "path": "dairy/daily/2025-05-02-02-7.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "deepseek-r1试用",
       "path": "deepseek-r1试用.md"
-    },
-    {
-      "basename": "synthesizer入坑",
-      "path": "synthesizer入坑.md"
     }
   ],
   "omittedPaths": []
