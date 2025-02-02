@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "lec01-Intro",
+      "path": "cs61c/lec01-Intro.md"
+    },
+    {
+      "basename": "lec02-C基础1",
+      "path": "cs61c/lec02-C基础1.md"
+    },
+    {
+      "basename": "cs61c intro",
+      "path": "cs61c/cs61c intro.md"
+    },
+    {
+      "basename": "cs61a-lec04",
+      "path": "cs61c/cs61a-lec04.md"
+    },
+    {
+      "basename": "ResNet",
+      "path": "论文阅读/李沐论文精读系列/ResNet.md"
+    },
+    {
+      "basename": "AlexNet",
+      "path": "论文阅读/李沐论文精读系列/AlexNet.md"
+    },
+    {
+      "basename": "汇报讲稿",
+      "path": "论文阅读/挑战杯/汇报讲稿.md"
+    },
+    {
+      "basename": "pybullet的相机",
+      "path": "pybullet的相机.md"
+    },
+    {
+      "basename": "obsidian沙盒学习",
+      "path": "tools/obsidian沙盒学习.md"
+    },
+    {
+      "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
+      "path": "论文阅读/挑战杯/论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
+    },
+    {
+      "basename": "idea的一次尝试理解",
+      "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
+    },
+    {
+      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
+      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -15,10 +63,6 @@
     {
       "basename": "lec08",
       "path": "cs61c/lec08.md"
-    },
-    {
-      "basename": "cs61c intro",
-      "path": "cs61c/cs61c intro.md"
     },
     {
       "basename": "2025-05-02-02-7",
@@ -73,16 +117,8 @@
       "path": "zob_config/template/daily.md"
     },
     {
-      "basename": "cs61a-lec04",
-      "path": "cs61c/cs61a-lec04.md"
-    },
-    {
       "basename": "lab7",
       "path": "cs61c/lab7.md"
-    },
-    {
-      "basename": "lec01-Intro",
-      "path": "cs61c/lec01-Intro.md"
     },
     {
       "basename": "lec05-C浮点数基础",
@@ -97,10 +133,6 @@
       "path": "tools/mkdocs超全配置.md"
     },
     {
-      "basename": "lec02-C基础1",
-      "path": "cs61c/lec02-C基础1.md"
-    },
-    {
       "basename": "lec03-C基础2",
       "path": "cs61c/lec03-C基础2.md"
     },
@@ -111,10 +143,6 @@
     {
       "basename": "20250103",
       "path": "dairy/daily/20250103.md"
-    },
-    {
-      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
-      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
     },
     {
       "basename": "20250110",
@@ -171,34 +199,6 @@
     {
       "basename": "2024秋15周周结",
       "path": "dairy/weekly/2024秋15周周结.md"
-    },
-    {
-      "basename": "2025-04-01-24-5",
-      "path": "dairy/daily/2025-04-01-24-5.md"
-    },
-    {
-      "basename": "2025-04-01-23-4",
-      "path": "dairy/daily/2025-04-01-23-4.md"
-    },
-    {
-      "basename": "2025-04-01-22-3",
-      "path": "dairy/daily/2025-04-01-22-3.md"
-    },
-    {
-      "basename": "2025-05-01-28-2",
-      "path": "dairy/daily/2025-05-01-28-2.md"
-    },
-    {
-      "basename": "orangepi 踩坑记录",
-      "path": "orangepi 踩坑记录.md"
-    },
-    {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
-      "basename": "mkdocs --wnc",
-      "path": "mkdocs --wnc.md"
     }
   ],
   "omittedPaths": []
