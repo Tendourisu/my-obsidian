@@ -40,15 +40,19 @@ timeline
 - **JAL指令公式**：
 
   $$
+
 \text{PC} \leftarrow \text{PC} + \text{offset} \\  
   \text{rd} \leftarrow \text{PC} + 4
+
 $$
   > 20位偏移量支持±1MB跳转范围（P11）
 
 - **栈操作公式**：
 $$
+
   \text{PUSH: } sp \leftarrow sp - n \times 4 \\  
   \text{POP: } sp \leftarrow sp + n \times 4 
+
 $$
   > 4字节对齐原则（P32）
 
