@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "mkdocs相关文章",
-      "path": "tools/mkdocs相关文章.md"
+      "basename": "mkdocs相关资料",
+      "path": "tools/mkdocs相关资料.md"
     },
     {
-      "basename": "RL search汇总",
-      "path": "RL search汇总.md"
+      "basename": "需要探索的东西",
+      "path": "需要探索的东西.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
     },
     {
       "basename": "2025-05-02-02-7",
       "path": "dairy/daily/2025-05-02-02-7.md"
+    },
+    {
+      "basename": "RL search汇总",
+      "path": "RL search汇总.md"
     },
     {
       "basename": "lec07-RISCV指令基础2",
@@ -191,14 +199,6 @@
     {
       "basename": "mkdocs --wnc",
       "path": "mkdocs --wnc.md"
-    },
-    {
-      "basename": "hugging face",
-      "path": "hugging face.md"
-    },
-    {
-      "basename": "pybullet的相机",
-      "path": "pybullet的相机.md"
     }
   ],
   "omittedPaths": []
