@@ -10,6 +10,7 @@ share: false
 cdate: " 2025-02-02 "
 mdate: " 2025-02-02 "
 ---
+
 ```riscv
 .globl factorial
 
