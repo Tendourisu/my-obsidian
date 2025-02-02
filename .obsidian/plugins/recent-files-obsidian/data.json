@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "riscv代码习惯",
       "path": "cs61c/riscv代码习惯.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "RL search汇总",
       "path": "RL search汇总.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "lec06-RISCV指令基础1",
