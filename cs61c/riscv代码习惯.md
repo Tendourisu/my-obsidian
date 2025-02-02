@@ -47,3 +47,7 @@ exit:
     jr ra
 
 ```
+
+- 调用函数用 `jal jalr` 如果要在函数中再次调用函数，记得使用 `addi sp sp -4`
+- 函数返回用 `jr ra`
+- 在纯 loop 中才用 `j`

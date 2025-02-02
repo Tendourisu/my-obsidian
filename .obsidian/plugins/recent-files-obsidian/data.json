@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "riscv 想法",
-      "path": "cs61c/riscv 想法.md"
-    },
-    {
-      "basename": "lec08",
-      "path": "cs61c/lec08.md"
-    },
-    {
       "basename": "lec07-RISCV指令基础2",
       "path": "cs61c/lec07-RISCV指令基础2.md"
     },
     {
+      "basename": "lec06-RISCV指令基础1",
+      "path": "cs61c/lec06-RISCV指令基础1.md"
+    },
+    {
       "basename": "riscv代码习惯",
-      "path": "riscv代码习惯.md"
+      "path": "cs61c/riscv代码习惯.md"
+    },
+    {
+      "basename": "lec08",
+      "path": "cs61c/lec08.md"
     },
     {
       "basename": "cs61c intro",
@@ -51,10 +51,6 @@
     {
       "basename": "prompt",
       "path": "prompt.md"
-    },
-    {
-      "basename": "lec06-RISCV指令基础1",
-      "path": "cs61c/lec06-RISCV指令基础1.md"
     },
     {
       "basename": "cs61a-lec04",
