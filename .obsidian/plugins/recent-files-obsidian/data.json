@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "lec07-RISCV指令基础2",
       "path": "cs61c/lec07-RISCV指令基础2.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "daily",
       "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "cs61a-lec04",
