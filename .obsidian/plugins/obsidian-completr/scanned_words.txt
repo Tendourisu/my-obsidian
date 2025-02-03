@@ -24961,6 +24961,7 @@ Hölzle
 Heartbleed
 Heap
 Hennessy
+Half
 Software
 Structure
 System
@@ -35859,6 +35860,7 @@ Allocated
 Animation
 Attacks
 Asanovi
+Adder
 java
 jyy
 js
@@ -63659,6 +63661,7 @@ Nick
 Nethercote
 Notices
 Neumann
+NAND
 Programming
 Parallel
 PLAM
@@ -74485,6 +74488,7 @@ Managing
 Move
 Mark
 Manual
+MUX
 JYY
 Jim
 Jina
@@ -181612,6 +181616,7 @@ XGvEk
 XQZIE
 XgnLSGiruXxZz
 XWc
+XNOR
 ßc
 ß`
 ßS
