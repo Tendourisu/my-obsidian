@@ -121,14 +121,16 @@ tail map        # 直接跳转，跳过栈帧分配
    - 合并代码段与数据段，解析外部符号
 4. **加载**：可执行文件 → 内存
    - OS分配地址空间，初始化寄存器与栈  
-![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502022301216.png)  
+   ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502031047747.png)
+
+
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502022301503.png)
 
 ### 符号表与重定位表
 >[!question]+
 >如果程序需要跳转到其他文件的位置，这些文件的位置不是相对当前位置的偏移量所能确定的 
 
-我们需要创建两个表格来帮助处理这些问题
+我们需要创建两个表格来帮助处理这个问题
 
 | 表类型      | 内容                                       |
 | -------- | ---------------------------------------- |
