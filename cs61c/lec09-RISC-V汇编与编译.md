@@ -196,6 +196,7 @@ ret
 ### 乘法与除法指令
 
 ```riscv
+# 推荐的使用xi'guan
 mulh s1, s2, s3     # 高32位乘积
 mul s0, s2, s3      # 低32位乘积
 div s0, s2, s3      # 商
