@@ -1,6 +1,7 @@
 ---
-title: 
-tags: 
+title: lec10-数字电路基础
+tags:
+  - cs61c
 categories: dairy
 date: " 2025-02-03T14:11:12+08:00 "
 modify: " 2025-02-03T14:11:12+08:00 "
@@ -10,7 +11,7 @@ cdate: " 2025-02-03 "
 mdate: " 2025-02-03 "
 ---
 
-# 数字系统与逻辑设计总结
+# lec10-数字电路基础
 
 ## 1. 逻辑门
 
@@ -50,10 +51,11 @@ mdate: " 2025-02-03 "
 - **原始表达式**: `out = AB + B + C`  
   简化步骤：  
 
-  ```plaintext
+```plaintext
   out = B(A + 1) + C  // A + 1 = 1
   out = B + C
   ```
+
 ## 3. 加法器
 
 ### 半加器（Half Adder）
@@ -69,9 +71,11 @@ mdate: " 2025-02-03 "
   逻辑表达式：  
   - `S = A ^ B ^ Cᵢ`  
   - `C₀ = (A & B) | (Cᵢ & (A ^ B))`  
+
 ### 4位加法器
 
 - **结构**：通过级联4个全加器实现，前一个全加器的进位输出作为下一个的进位输入。  
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502031524125.png)
 
 ## 4. 算术逻辑单元（ALU）
 
@@ -82,14 +86,13 @@ mdate: " 2025-02-03 "
 ### 实现示例
 
 - **逻辑AND操作**：对两个32位数按位执行AND运算。  
-
-  ```plaintext
+```plaintext
   A[31:0] & B[31:0] → Result[31:0]
   ```
 
 - **多路复用器（MUX）**：选择输出逻辑或算术结果。  
 
-  ```plaintext
+ ```plaintext
   out = (Select == 0) ? AND_Result : ADD_Result
   ```
 
@@ -109,4 +112,4 @@ mdate: " 2025-02-03 "
 
 - **逻辑门符号**：使用标准符号表示AND、OR等门电路。  
 - **32位AND操作**：每个位独立进行AND运算，结果拼接为32位输出。  
-- **多路复用器实现**： `out = A·S + B·S'` （S为选择信号）。
+- **多路复用器实现**： `out = A·S + B·~S` （S为选择信号）。
