@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "riscv代码习惯",
+      "path": "cs61c/riscv代码习惯.md"
+    },
+    {
       "basename": "lec10-数字电路基础",
       "path": "cs61c/lec10-数字电路基础.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "deepseek-r1试用2",
       "path": "deepseek-r1试用2.md"
-    },
-    {
-      "basename": "riscv代码习惯",
-      "path": "cs61c/riscv代码习惯.md"
     },
     {
       "basename": "DataStructureFunThing",
