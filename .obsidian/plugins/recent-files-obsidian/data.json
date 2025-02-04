@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "大模型汇总",
+      "path": "大模型汇总.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "mkdocs相关资料",
+      "path": "tools/mkdocs相关资料.md"
+    },
+    {
       "basename": "riscv代码习惯",
       "path": "cs61c/riscv代码习惯.md"
     },
@@ -31,10 +43,6 @@
     {
       "basename": "DataStructureFunThing",
       "path": "Notion/DataStructureFunThing/DataStructureFunThing.md"
-    },
-    {
-      "basename": "mkdocs相关资料",
-      "path": "tools/mkdocs相关资料.md"
     },
     {
       "basename": "未命名",
@@ -103,10 +111,6 @@
     {
       "basename": "需要探索的东西",
       "path": "需要探索的东西.md"
-    },
-    {
-      "basename": "资源汇总帖",
-      "path": "资源汇总帖.md"
     },
     {
       "basename": "RL search汇总",
@@ -195,10 +199,6 @@
     {
       "basename": "20250102",
       "path": "dairy/daily/20250102.md"
-    },
-    {
-      "basename": "20250101",
-      "path": "dairy/daily/20250101.md"
     }
   ],
   "omittedPaths": []
