@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RL search汇总",
+      "path": "RL search汇总.md"
+    },
+    {
       "basename": "大模型汇总",
       "path": "大模型汇总.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "需要探索的东西",
       "path": "需要探索的东西.md"
-    },
-    {
-      "basename": "RL search汇总",
-      "path": "RL search汇总.md"
     },
     {
       "basename": "lec06-RISCV指令基础1",
