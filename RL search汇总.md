@@ -20,5 +20,5 @@ mdate: " 2025-02-02"
 [GitHub - yunlongdong/Awesome-Embodied-AI](https://github.com/yunlongdong/Awesome-Embodied-AI)  
 [# Robotics+LLM系列通过大语言模型控制机器人](https://zhuanlan.zhihu.com/p/668053911)  
 [GitHub - dennybritz/reinforcement-learning: Implementation of Reinforcement Learning Algorithms. Python, OpenAI Gym, Tensorflow. Exercises and Solutions to accompany Sutton's Book and David Silver's course.](https://github.com/dennybritz/reinforcement-learning)  
-[cs.cornell.edu/courses/cs4756/2023sp/assets/slides\_notes/lec26\_slides.pdf](https://www.cs.cornell.edu/courses/cs4756/2023sp/assets/slides_notes/lec26_slides.pdf)
+[cs.cornell.edu/courses/cs4756/2023sp/assets/slides\_notes/lec26\_slides.pdf](https://www.cs.cornell.edu/courses/cs4756/2023sp/assets/slides_notes/lec26_slides.pdf)  
 [蘑菇书EasyRL 第一章 强化学习基础](https://datawhalechina.github.io/easy-rl/#/chapter1/chapter1)

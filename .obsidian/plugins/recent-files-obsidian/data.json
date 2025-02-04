@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "RL search汇总",
-      "path": "RL search汇总.md"
-    },
-    {
       "basename": "大模型汇总",
       "path": "大模型汇总.md"
     },
     {
       "basename": "资源汇总帖",
       "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "有趣的github库",
+      "path": "有趣的github库.md"
+    },
+    {
+      "basename": "RL search汇总",
+      "path": "RL search汇总.md"
     },
     {
       "basename": "mkdocs相关资料",
@@ -195,10 +199,6 @@
     {
       "basename": "RL",
       "path": "论文阅读/挑战杯/RL.md"
-    },
-    {
-      "basename": "20250102",
-      "path": "dairy/daily/20250102.md"
     }
   ],
   "omittedPaths": []
