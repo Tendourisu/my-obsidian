@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
+      "basename": "Genesis",
+      "path": "Genesis.md"
+    },
+    {
       "basename": "大模型汇总",
       "path": "大模型汇总.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2025-05-01-31-5",
       "path": "dairy/daily/2025-05-01-31-5.md"
-    },
-    {
-      "basename": "2025-05-01-30-4",
-      "path": "dairy/daily/2025-05-01-30-4.md"
-    },
-    {
-      "basename": "RL",
-      "path": "论文阅读/挑战杯/RL.md"
     }
   ],
   "omittedPaths": []
