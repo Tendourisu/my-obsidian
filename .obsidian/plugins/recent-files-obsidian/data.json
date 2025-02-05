@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
+      "basename": "2025-06-02-05-3",
+      "path": "dairy/daily/2025-06-02-05-3.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "20250110",
       "path": "dairy/daily/20250110.md"
-    },
-    {
-      "basename": "RLfromDeepSeek",
-      "path": "RLfromDeepSeek.md"
     }
   ],
   "omittedPaths": []
