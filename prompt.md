@@ -200,3 +200,40 @@ function toggle_statistics() {
 
 - 清晰明确
 - 给系统足够的时间思考
+
+
+数据标注：
+```
+
+prompt = f"""
+
+从评论文本中识别以下项目：
+
+- 情绪（正面或负面）
+
+- 审稿人是否表达了愤怒？（是或否）
+
+- 评论者购买的物品
+
+- 制造该物品的公司
+
+  
+
+评论用三个反引号分隔。将您的响应格式化为 JSON 对象，以 “Sentiment”、“Anger”、“Item” 和 “Brand” 作为键。
+
+如果信息不存在，请使用 “未知” 作为值。
+
+让你的回应尽可能简短。
+
+将 Anger 值格式化为布尔值。
+
+  
+
+评论文本: ```{lamp_review_zh}```
+
+"""
+
+response = get_completion(prompt)
+
+print(response)
+```
