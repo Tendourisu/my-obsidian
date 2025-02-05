@@ -103,6 +103,8 @@ IF (取指) → ID (译码/读寄存器) → EX (执行) → MEM (访存) → WB
   ```
 - **比较逻辑**  
   - `BrEq=1`若`Reg[rs1] == Reg[rs2]`，`BrLT`用于有符号/无符号比较  
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502052040805.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502052043585.png)
 
 ### 4.5 跳转指令 (JAL/JALR)
 - **JAL实现**  
