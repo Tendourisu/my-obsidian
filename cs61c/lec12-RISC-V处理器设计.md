@@ -73,6 +73,7 @@ IF (取指) → ID (译码/读寄存器) → EX (执行) → MEM (访存) → WB
   ```
 - **数据路径**  
   - 寄存器值→ALU→写回目标寄存器，PC+4更新  
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502051942754.png)
 
 ### 4.2 立即数指令 (ADDI)
 - **I型指令格式**  
@@ -81,6 +82,8 @@ IF (取指) → ID (译码/读寄存器) → EX (执行) → MEM (访存) → WB
   ```
 - **实现逻辑**  
   - 立即数符号扩展后与`rs1`相加，结果写回`rd`  
+![](https://raw.githubusercontent.com/Tendourisu/images/master/202502051946121.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502051946789.png)
 
 ### 4.3 访存指令 (LW/SW)
 - **LW指令数据路径**  
