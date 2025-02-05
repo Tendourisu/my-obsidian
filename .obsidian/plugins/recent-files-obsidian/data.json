@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "大模型汇总",
       "path": "大模型汇总.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "RL search汇总",
       "path": "RL search汇总.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "git use",
