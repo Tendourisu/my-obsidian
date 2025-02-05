@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "RL search汇总",
-      "path": "RL search汇总.md"
+      "basename": "大模型入门汇总",
+      "path": "大模型入门汇总.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "RL 入门汇总",
+      "path": "RL 入门汇总.md"
     },
     {
       "basename": "未命名",
@@ -15,14 +23,6 @@
     {
       "basename": "prompt",
       "path": "prompt.md"
-    },
-    {
-      "basename": "大模型汇总",
-      "path": "大模型汇总.md"
-    },
-    {
-      "basename": "资源汇总帖",
-      "path": "资源汇总帖.md"
     },
     {
       "basename": "git use",
