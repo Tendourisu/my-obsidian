@@ -111,6 +111,8 @@ IF (取指) → ID (译码/读寄存器) → EX (执行) → MEM (访存) → WB
   - PC相对跳转，`Reg[rd] = PC+4`，更新`PC = PC + offset`  
 - **JALR实现**  
   - 绝对跳转，`PC = Reg[rs1] + imm`，`Reg[rd] = PC+4`  
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502052044604.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502052045721.png)
 
 ---
 
@@ -136,22 +138,8 @@ IF (取指) → ID (译码/读寄存器) → EX (执行) → MEM (访存) → WB
 ---
 
 ## 6. 单周期数据路径示意图
-```plaintext
-               +-----+       +------+
-               | IMEM|       | Reg  |
-               +--+--+       +--+---+
-                  |             |
-       +----------+             +----------+
-       v                                  v
-+------+------+                   +-------+-----+
-| Imm Gen    |                   | ALU         |
-+------+-----+                   +------+------+
-       |                                |
-       v                                v
-+------+------+                   +-----+-----+
-| Branch Comp |                   | DMEM      |
-+-------------+                   +-----------+
-```
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502052047894.png)
+
 - **核心逻辑**  
   - 指令流从IMEM流入，经译码后控制多路选择器和功能单元  
   - 分支比较器决定是否跳转，ALU处理计算和地址生成  
