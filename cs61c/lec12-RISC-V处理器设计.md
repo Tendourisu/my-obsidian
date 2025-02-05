@@ -92,6 +92,7 @@ IF (取指) → ID (译码/读寄存器) → EX (执行) → MEM (访存) → WB
   ```plaintext
   MemRW=Write, RegWEn=0, Bsel=1 (选择立即数)
   ```
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502052009727.png)
 
 ### 4.4 分支指令 (BEQ/BNE)
 - **B型指令格式**  
