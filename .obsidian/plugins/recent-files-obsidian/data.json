@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "lec12-RISC-V处理器设计",
+      "path": "cs61c/lec12-RISC-V处理器设计.md"
+    },
+    {
       "basename": "lec11-时序电路&模拟电路基础",
       "path": "cs61c/lec11-时序电路&模拟电路基础.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20250103",
       "path": "dairy/daily/20250103.md"
-    },
-    {
-      "basename": "20250110",
-      "path": "dairy/daily/20250110.md"
     }
   ],
   "omittedPaths": []
