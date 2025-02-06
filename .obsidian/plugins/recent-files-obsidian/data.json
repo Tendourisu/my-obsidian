@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "鸣潮截图",
+      "path": "鸣潮截图.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lec04-C基础3",
       "path": "cs61c/lec04-C基础3.md"
-    },
-    {
-      "basename": "20250103",
-      "path": "dairy/daily/20250103.md"
     }
   ],
   "omittedPaths": []
