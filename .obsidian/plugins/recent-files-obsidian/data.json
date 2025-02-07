@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "lec14-RISC-V 流水线与处理器",
-      "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
-    },
-    {
       "basename": "lec13-RISC-V的控制器实现与流水线入门",
       "path": "cs61c/lec13-RISC-V的控制器实现与流水线入门.md"
+    },
+    {
+      "basename": "lec14-RISC-V 流水线与处理器",
+      "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
     },
     {
       "basename": "lab7",
