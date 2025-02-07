@@ -1,6 +1,7 @@
 ---
 title: " 2025-01-19 "
-tags: 
+tags:
+  - cs61c
 categories: dairy
 date: " 2025-01-31T13:44:04+08:00 "
 modify: " 2025-01-31T13:44:04+08:00 "

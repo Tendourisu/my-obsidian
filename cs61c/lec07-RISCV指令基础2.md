@@ -1,6 +1,7 @@
 ---
 title: " 计算机科学61C讲座07学习笔记 "
-tags: 
+tags:
+  - cs61c
 categories: dairy
 date: " 2025-01-31T14:03:25+08:00 "
 modify: " 2025-01-31T14:03:25+08:00 "

@@ -1,6 +1,7 @@
 ---
 title: lec04-C基础3
-tags: 
+tags:
+  - cs61c
 categories: dairy
 date: " 2025-01-31T13:27:44+08:00 "
 modify: " 2025-01-31T13:27:44+08:00 "

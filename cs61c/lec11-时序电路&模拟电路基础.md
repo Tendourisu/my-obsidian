@@ -1,6 +1,7 @@
 ---
 title: lec11-时序电路&模拟电路基础
-tags: 
+tags:
+  - cs61c
 categories: dairy
 date: " 2025-02-05T11:36:38+08:00 "
 modify: " 2025-02-05T11:36:38+08:00 "

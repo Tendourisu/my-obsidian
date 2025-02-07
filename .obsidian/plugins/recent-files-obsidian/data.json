@@ -1,20 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "cs61c/未命名.md"
+      "basename": "lab7",
+      "path": "cs61c/lab7.md"
     },
     {
-      "basename": "prompt",
-      "path": "prompt.md"
+      "basename": "lec01-Intro",
+      "path": "cs61c/lec01-Intro.md"
+    },
+    {
+      "basename": "lec02-C基础1",
+      "path": "cs61c/lec02-C基础1.md"
+    },
+    {
+      "basename": "lec03-C基础2",
+      "path": "cs61c/lec03-C基础2.md"
+    },
+    {
+      "basename": "lec04-C基础3",
+      "path": "cs61c/lec04-C基础3.md"
+    },
+    {
+      "basename": "lec05-C浮点数基础",
+      "path": "cs61c/lec05-C浮点数基础.md"
+    },
+    {
+      "basename": "lec06-RISCV指令基础1",
+      "path": "cs61c/lec06-RISCV指令基础1.md"
+    },
+    {
+      "basename": "lec07-RISCV指令基础2",
+      "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
+      "basename": "lec08-RISCV指令总结",
+      "path": "cs61c/lec08-RISCV指令总结.md"
+    },
+    {
+      "basename": "lec09-RISC-V汇编、编译、链接流程总结",
+      "path": "cs61c/lec09-RISC-V汇编、编译、链接流程总结.md"
+    },
+    {
+      "basename": "lec10-数字电路基础",
+      "path": "cs61c/lec10-数字电路基础.md"
+    },
+    {
+      "basename": "lec11-时序电路&模拟电路基础",
+      "path": "cs61c/lec11-时序电路&模拟电路基础.md"
+    },
+    {
+      "basename": "lec12-RISC-V处理器设计",
+      "path": "cs61c/lec12-RISC-V处理器设计.md"
     },
     {
       "basename": "lec13-RISC-V的控制器实现与流水线入门",
       "path": "cs61c/lec13-RISC-V的控制器实现与流水线入门.md"
     },
     {
-      "basename": "lec12-RISC-V处理器设计",
-      "path": "cs61c/lec12-RISC-V处理器设计.md"
+      "basename": "lec14-RISC-V 流水线与处理器",
+      "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "鸣潮截图",
@@ -35,10 +83,6 @@
     {
       "basename": "deepseek-r1试用",
       "path": "deepseek-r1试用.md"
-    },
-    {
-      "basename": "lec11-时序电路&模拟电路基础",
-      "path": "cs61c/lec11-时序电路&模拟电路基础.md"
     },
     {
       "basename": "大模型入门汇总",
@@ -73,14 +117,6 @@
       "path": "cs61c/riscv代码习惯.md"
     },
     {
-      "basename": "lec10-数字电路基础",
-      "path": "cs61c/lec10-数字电路基础.md"
-    },
-    {
-      "basename": "lec09-RISC-V汇编、编译、链接流程总结",
-      "path": "cs61c/lec09-RISC-V汇编、编译、链接流程总结.md"
-    },
-    {
       "basename": "电路图描述：输入B和C直接通过OR门输出",
       "path": "电路图描述：输入B和C直接通过OR门输出.md"
     },
@@ -95,18 +131,6 @@
     {
       "basename": "未命名",
       "path": "未命名.canvas"
-    },
-    {
-      "basename": "lec08-RISCV指令总结",
-      "path": "cs61c/lec08-RISCV指令总结.md"
-    },
-    {
-      "basename": "lec01-Intro",
-      "path": "cs61c/lec01-Intro.md"
-    },
-    {
-      "basename": "lec02-C基础1",
-      "path": "cs61c/lec02-C基础1.md"
     },
     {
       "basename": "cs61c intro",
@@ -149,20 +173,12 @@
       "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
     },
     {
-      "basename": "lec07-RISCV指令基础2",
-      "path": "cs61c/lec07-RISCV指令基础2.md"
-    },
-    {
       "basename": "2025-05-02-02-7",
       "path": "dairy/daily/2025-05-02-02-7.md"
     },
     {
       "basename": "需要探索的东西",
       "path": "需要探索的东西.md"
-    },
-    {
-      "basename": "lec06-RISCV指令基础1",
-      "path": "cs61c/lec06-RISCV指令基础1.md"
     },
     {
       "basename": "程序员的观点A Programmer's Perspective",
@@ -183,22 +199,6 @@
     {
       "basename": "2025-05-02-01-6",
       "path": "dairy/daily/2025-05-02-01-6.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "lab7",
-      "path": "cs61c/lab7.md"
-    },
-    {
-      "basename": "lec05-C浮点数基础",
-      "path": "cs61c/lec05-C浮点数基础.md"
     }
   ],
   "omittedPaths": []

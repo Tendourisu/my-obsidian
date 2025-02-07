@@ -1,6 +1,7 @@
 ---
 title: lec13-RISC-V的控制器实现与流水线入门
-tags: 
+tags:
+  - cs61c
 categories: dairy
 date: " 2025-02-07T22:14:35+08:00 "
 modify: " 2025-02-07T22:14:35+08:00 "
