@@ -13,46 +13,7 @@ mdate: " 2025-02-08 "
 
 # RISC-V 流水线与处理器设计总结
 
----
-
-## 目录
-
-1. [流水线基础](#1-流水线基础)  
-2. [RISC-V 流水线设计](#2-risc-v-流水线设计)  
-3. [结构冒险（Structural Hazards）](#3-结构冒险structural-hazards)  
-4. [数据冒险（Data Hazards）](#4-数据冒险data-hazards)  
-5. [控制冒险（Control Hazards）](#5-控制冒险control-hazards)  
-6. [超标量处理器与优化](#6-超标量处理器与优化)  
-7. [RISC-V ISA 设计特点](#7-risc-v-isa-设计特点)  
-
----
-
-## 1. 流水线基础
-
-### 关键概念
-
-- **流水线目标**：提高吞吐量（Throughput），而非减少单个指令执行时间（Latency）。
-- **潜在加速比**：近似等于流水线级数（理想情况下）。
-- **性能公式**：  
-
-  ```plaintext
-  Time(program) = Instructions × CPI × Cycle Time
-  ```
-
-  - 流水化通过降低 `CPI`（理想为 1）或缩短 `Cycle Time` 提升性能。
-
-### 示例对比（单周期 vs 流水线）
-
-| 指标          | 单周期          | 流水线          |
-|---------------|----------------|----------------|
-| 时钟周期       | 800 ps         | 200 ps         |
-| 时钟频率       | 1.25 GHz       | 5 GHz          |
-| 指令时间       | 800 ps         | 200 ps × 5级   |
-| 相对速度       | 1×             | 4×             |
-
----
-
-## 2. RISC-V 流水线设计
+## RISC-V 流水线设计
 
 ### 流水线阶段
 
@@ -73,7 +34,7 @@ mdate: " 2025-02-08 "
 
 ---
 
-## 3. 结构冒险（Structural Hazards）
+## 结构冒险（Structural Hazards）
 
 ### 定义
 
@@ -97,7 +58,7 @@ or  t3, t0, t5   # 读寄存器 t0（ID阶段）
 
 ---
 
-## 4. 数据冒险（Data Hazards）
+## 数据冒险（Data Hazards）
 
 ### 定义
 
@@ -137,7 +98,7 @@ sw t3, 12(t0)
 
 ---
 
-## 5. 控制冒险（Control Hazards）
+## 控制冒险（Control Hazards）
 
 ### 定义
 
@@ -157,7 +118,7 @@ sw t3, 12(t0)
 
 ---
 
-## 6. 超标量处理器与优化
+## 超标量处理器与优化
 
 ### 超标量设计
 

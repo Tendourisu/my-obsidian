@@ -21484,6 +21484,7 @@ TRYoCk
 Temporary
 Temporaries
 Timing
+Throughput
 Hardware
 HPC
 Hulu
@@ -28799,6 +28800,8 @@ Spring
 Saved
 Setup
 Sentiment
+Structural
+Stall
 Interface
 Isomorphic
 Inference
@@ -32316,6 +32319,7 @@ IAyeclh
 Infinity
 Item
 ImmSel
+Issue
 And
 Algorithm
 Analysis
@@ -35875,6 +35879,7 @@ Adder
 Anger
 ADDI
 ALUSel
+Apple
 java
 jyy
 js
@@ -49977,6 +49982,8 @@ LeunWSewTrWI
 LJMiptBsUHkuNzS
 Logisim
 Leaks
+Load
+Little
 Kernel
 Kernal
 Keys
@@ -63678,6 +63685,7 @@ Nethercote
 Notices
 Neumann
 NAND
+NOP
 Programming
 Parallel
 PLAM
@@ -126936,6 +126944,7 @@ haDjTqYo
 hHpM
 hOtROlBeOJ
 heavyweight
+hazards
 up
 ucb
 universal
@@ -151046,6 +151055,7 @@ Rather
 Regfile
 RegWEn
 ROM
+RAW
 WiscKey
 Web
 WIFI
