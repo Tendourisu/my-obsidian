@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "202412011509",
-      "path": "202412011509.md"
-    },
-    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
+    },
+    {
+      "basename": "新年祝福",
+      "path": "新年祝福.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "202412011509",
+      "path": "202412011509.md"
     },
     {
       "basename": "prompt",
@@ -27,10 +35,6 @@
     {
       "basename": "大模型入门汇总",
       "path": "大模型入门汇总.md"
-    },
-    {
-      "basename": "资源汇总帖",
-      "path": "资源汇总帖.md"
     },
     {
       "basename": "RL 入门汇总",
@@ -195,10 +199,6 @@
     {
       "basename": "mkdocs超全配置",
       "path": "tools/mkdocs超全配置.md"
-    },
-    {
-      "basename": "lec03-C基础2",
-      "path": "cs61c/lec03-C基础2.md"
     }
   ],
   "omittedPaths": []
