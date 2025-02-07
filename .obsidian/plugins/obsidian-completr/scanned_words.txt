@@ -35868,6 +35868,7 @@ Attacks
 Asanovi
 Adder
 Anger
+ADDI
 java
 jyy
 js
@@ -151029,6 +151030,7 @@ Register
 Return
 Recursion
 Rather
+Regfile
 WiscKey
 Web
 WIFI
