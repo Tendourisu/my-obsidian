@@ -110,6 +110,7 @@ mdate: " 2025-02-08 "
 - **流水线深度**：14-20 级。
 - **重排序缓冲区（ROB）**：支持 128 条指令乱序执行。
 - **实际 CPI**：约 1.02（受冒险和缓存未命中影响）。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080155065.png)
 
 ### 能效优化
 
