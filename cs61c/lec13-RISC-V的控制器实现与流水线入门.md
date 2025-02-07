@@ -70,28 +70,30 @@ PC → IMEM → RegFile → ALU → DMEM → RegFile
 
 ## 流水线设计
 ### 流水线阶段
-```markdown
-8. **IF**：取指令
-9. **ID**：译码 + 读寄存器
-10. **EX**：ALU计算
-11. **MEM**：数据访存
-12. **WB**：写回寄存器
-```
+
+1. **IF**：取指令
+2. **ID**：译码 + 读寄存器
+3. **EX**：ALU计算
+4. **MEM**：数据访存
+5. **WB**：写回寄存器
+
 
 ### 流水线优势
 - **吞吐量提升**：各阶段并行，时钟频率提高（200ps/cycle → 5GHz）
+
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502072347356.png)
 - **时序对比**：
-  | 模式       | 单周期（800ps） | 流水线（200ps/cycle） |
-  |------------|-----------------|-----------------------|
-  | `add`      | 600ps           | 5 cycles (1000ps)     |
-  | 吞吐量     | 1.25 GHz        | 5 GHz                 |
+
+|                                | Single Cycle                  | Pipelining             |
+| ------------------------------ | ----------------------------- | ---------------------- |
+| Timing                         | tstep= 100 … 200 ps           | tcycle= 200 ps         |
+|                                | (Register access only 100 ps) | All cycles same length |
+| Instruction time, tinstruction | = tcycle= 800 ps              | 1000 ps                |
+| Clock rate, fs                 | 1/800 ps= 1.25 GHz            | 1/200 ps= 5 GHz        |
+| Relative speed                 | 1 x                           | 4 x                    |
 
 ### 流水线数据路径
-```verilog
-IF → ID → EX → MEM → WB
-     ↑     ↑     ↑     ↑
-   Pipeline Registers（阶段间寄存器）
-```
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502072348521.png)
 
 ### 关键挑战
 - **冒险处理**：结构冒险（资源冲突）、数据冒险（依赖）、控制冒险（分支预测）
