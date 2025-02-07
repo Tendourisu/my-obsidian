@@ -71,7 +71,7 @@ PC → IMEM → RegFile → ALU → DMEM → RegFile
 
 ### 性能公式
 
-- **程序执行时间** = `指令数 × CPI × 时钟周期`
+- **程序执行时间** = `指令数 × CPI(cycles per instruction) × 时钟周期`
 - **能耗公式** = `电容 × 电压² × 切换频率`
 - **性能权衡示例**：
   - 处理器A：1M指令，CPI=2.5，2.5GHz → 1ms

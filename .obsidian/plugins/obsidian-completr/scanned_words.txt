@@ -3712,6 +3712,8 @@ connection
 chmod
 clk
 completion
+cycle
+cycles
 Computer
 Concepts
 ChatGpt
@@ -7314,6 +7316,7 @@ Concise
 Conservative
 Collectors
 Cocke
+Cycle
 Organazation
 OSTEP
 Operating
@@ -21480,6 +21483,7 @@ TODOs
 TRYoCk
 Temporary
 Temporaries
+Timing
 Hardware
 HPC
 Hulu
@@ -32311,6 +32315,7 @@ ICsLAhknFunKN
 IAyeclh
 Infinity
 Item
+ImmSel
 And
 Algorithm
 Analysis
@@ -35869,6 +35874,7 @@ Asanovi
 Adder
 Anger
 ADDI
+ALUSel
 java
 jyy
 js
@@ -67414,6 +67420,8 @@ Pointers
 Pointing
 Primitive
 Padding
+PCSel
+Pipelining
 games
 go
 google
@@ -74500,6 +74508,7 @@ Mark
 Manual
 MUX
 Min
+MemRW
 JYY
 Jim
 Jina
@@ -92069,6 +92078,7 @@ stdint
 sqrt
 startDate
 symbol
+speed
 torch
 training
 tune
@@ -95686,6 +95696,9 @@ tAMm
 tightvnc
 tightvncserver
 tail
+tstep
+tcycle
+tinstruction
 for
 fancy
 follow
@@ -151031,6 +151044,8 @@ Return
 Recursion
 Rather
 Regfile
+RegWEn
+ROM
 WiscKey
 Web
 WIFI
@@ -154621,6 +154636,7 @@ Waterman
 Wrong
 Welcome
 Website
+WBSel
 Values
 VP
 Vz
