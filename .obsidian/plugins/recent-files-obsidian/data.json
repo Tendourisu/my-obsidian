@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "202412011509",
+      "path": "202412011509.md"
+    },
+    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lec03-C基础2",
       "path": "cs61c/lec03-C基础2.md"
-    },
-    {
-      "basename": "lec04-C基础3",
-      "path": "cs61c/lec04-C基础3.md"
     }
   ],
   "omittedPaths": []
