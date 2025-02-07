@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "lec14-RISC-V 流水线与处理器",
       "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "lec12-RISC-V处理器设计",
       "path": "cs61c/lec12-RISC-V处理器设计.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "鸣潮截图",
