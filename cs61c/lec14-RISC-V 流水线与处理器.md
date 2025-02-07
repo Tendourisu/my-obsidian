@@ -49,11 +49,8 @@ mdate: " 2025-02-08 "
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080056834.png)
 ---
 ## 数据冒险（Data Hazards）
-
 ### 定义
-
 后续指令依赖前序指令未完成的结果。
-
 ### 类型与解决
 
 | 类型           | 示例                                  | 解决方案             |
@@ -61,17 +58,17 @@ mdate: " 2025-02-08 "
 | **RAW**      | `add t0, t1, t2` → `sub t2, t0, t3` | 转发（Forwarding）   |
 | **Load-Use** | `lw t0, 8(t3)` → `add t1, t0, t2`   | 插入 1 周期暂停（Stall） |
 
-
-
 ### 插入气泡（Stall）
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080059084.png)
 ### 数据前递（Forwarding）
 
 - **原理**：将 ALU 结果直接传递给后续指令的输入。
 - **举例**：
-**识别数据冒险**：当 `sw` 指令在ID阶段读取 `t0` 时， `add` 指令尚未将结果写回寄存器（处于EX阶段），导致 `sw` 读取旧值。
-**前递机制**：将 `add` 指令在EX阶段计算出的 `t0` 结果直接旁路（Bypass）到 `sw` 指令的EX阶段操作数输入端，覆盖ID阶段读6. **硬件支持**：流水线需设计前递路径，将 前递路径， 的EX阶段输出连接到 段输出连 的EX阶段输入，确保 段输入， 在计算存储地址和写入数据时使用最新的 时使用最 值。`t0`值。
----
+**识别数据冒险**：当 `sw` 指令在ID阶段读取 `t0` 时， `add` 指令尚未将结果写回寄存器（处于EX阶段），导致 `sw` 读取旧值
+**前递机制**：将 `add` 指令在EX阶段计算出的 `t0` 结果直接旁路（Bypass）到 `sw` 指令的EX阶段操作数输入端，覆盖ID阶段读取的旧值
+**硬件支持**：流水线需设计前递路径，将前递路径，的EX阶段输出连接到段输出连的EX阶段输入，确保段输入，在计算存储地址和写入数据时使用最新的时使用最新的 `t0` 值
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080101185.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080103304.png)
 
 ## 控制冒险（Control Hazards）
 
