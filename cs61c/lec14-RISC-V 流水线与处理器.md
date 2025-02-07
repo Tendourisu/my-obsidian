@@ -69,19 +69,15 @@ mdate: " 2025-02-08 "
 **硬件支持**：流水线需设计前递路径，将前递路径，的EX阶段输出连接到段输出连的EX阶段输入，确保段输入，在计算存储地址和写入数据时使用最新的时使用最新的 `t0` 值
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080101185.png)
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080103304.png)
-
 ## 控制冒险（Control Hazards）
-
 ### 定义
-
 分支指令导致后续指令的取指不确定。
-
 ### 解决方法
-
 **分支预测**：
    - **静态预测**：前向分支默认不跳转，后向分支（循环）默认跳转。
    - **动态预测**：使用分支历史表（BHT）记录历史行为。
 **流水线冲刷**：若预测失败，将错误指令转为空操作（NOP）。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502080139388.png)
 
 ### 分支惩罚
 
