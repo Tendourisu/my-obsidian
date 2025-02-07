@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "lec13-RISC-V的控制器实现与流水线入门",
+      "path": "cs61c/lec13-RISC-V的控制器实现与流水线入门.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-W05-01",
       "path": "dairy/weekly/2025-W05-01.md"
-    },
-    {
-      "basename": "mkdocs超全配置",
-      "path": "tools/mkdocs超全配置.md"
     }
   ],
   "omittedPaths": []
