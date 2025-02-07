@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "cs61c/未命名.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lec05-C浮点数基础",
       "path": "cs61c/lec05-C浮点数基础.md"
-    },
-    {
-      "basename": "2025-W05-01",
-      "path": "dairy/weekly/2025-W05-01.md"
     }
   ],
   "omittedPaths": []
