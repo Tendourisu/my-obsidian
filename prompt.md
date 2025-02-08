@@ -4,7 +4,7 @@ tags:
   - embodied-ai
   - prompt
 categories: dairy
-date: " 2025-01-31T11:09:33+08:00 "
+date: " 2025-01-31T11:09:33+08:00"
 modify: " 2025-01-31T11:09:33+08:00 "
 dir: dairy
 share: false
