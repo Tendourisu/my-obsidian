@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "python单元测试标准",
+      "path": "python单元测试标准.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "csapp 安排",
       "path": "csapp&CMU15-213/csapp 安排.md"
-    },
-    {
-      "basename": "2025-05-02-01-6",
-      "path": "dairy/daily/2025-05-02-01-6.md"
     }
   ],
   "omittedPaths": []
