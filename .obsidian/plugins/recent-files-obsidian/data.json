@@ -5,6 +5,10 @@
       "path": "easy-rl/easy-rl-chapter1.md"
     },
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "RL 入门汇总",
       "path": "easy-rl/RL 入门汇总.md"
     },
@@ -13,8 +17,64 @@
       "path": "easy-rl/POMDP的一些参数说明.md"
     },
     {
-      "basename": "prompt",
-      "path": "prompt.md"
+      "basename": "202412011509",
+      "path": "202412011509.md"
+    },
+    {
+      "basename": "Genesis",
+      "path": "Genesis.md"
+    },
+    {
+      "basename": "需要探索的东西",
+      "path": "需要探索的东西.md"
+    },
+    {
+      "basename": "数电实验聊天记录",
+      "path": "杂/数电实验聊天记录.md"
+    },
+    {
+      "basename": "年结素材",
+      "path": "年结/年结素材.md"
+    },
+    {
+      "basename": "idea的一次尝试理解",
+      "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
+    },
+    {
+      "basename": "RL",
+      "path": "论文阅读/挑战杯/RL.md"
+    },
+    {
+      "basename": "WSL代理解决办法",
+      "path": "WSL代理解决办法.md"
+    },
+    {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
+      "basename": "lec07-RISCV指令基础2",
+      "path": "cs61c/lec07-RISCV指令基础2.md"
+    },
+    {
+      "basename": "2025-05-02-02-7",
+      "path": "dairy/daily/2025-05-02-02-7.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "2025-06-02-05-3",
+      "path": "dairy/daily/2025-06-02-05-3.md"
+    },
+    {
+      "basename": "python单元测试标准",
+      "path": "python单元测试标准.md"
+    },
+    {
+      "basename": "python命名规范",
+      "path": "python命名规范.md"
     },
     {
       "basename": "2025-07-02-11-2",
@@ -29,16 +89,8 @@
       "path": "cs61c/lec01-Intro.md"
     },
     {
-      "basename": "python命名规范",
-      "path": "python命名规范.md"
-    },
-    {
       "basename": "matmul的riscv实现",
       "path": "matmul的riscv实现.md"
-    },
-    {
-      "basename": "python单元测试标准",
-      "path": "python单元测试标准.md"
     },
     {
       "basename": "lec14-RISC-V 流水线与处理器",
@@ -77,10 +129,6 @@
       "path": "cs61c/lec06-RISCV指令基础1.md"
     },
     {
-      "basename": "lec07-RISCV指令基础2",
-      "path": "cs61c/lec07-RISCV指令基础2.md"
-    },
-    {
       "basename": "lec08-RISCV指令总结",
       "path": "cs61c/lec08-RISCV指令总结.md"
     },
@@ -109,32 +157,12 @@
       "path": "新年祝福.md"
     },
     {
-      "basename": "资源汇总帖",
-      "path": "资源汇总帖.md"
-    },
-    {
-      "basename": "202412011509",
-      "path": "202412011509.md"
-    },
-    {
       "basename": "deepseek-r1试用",
       "path": "deepseek-r1试用.md"
     },
     {
       "basename": "大模型入门汇总",
       "path": "大模型入门汇总.md"
-    },
-    {
-      "basename": "2025-06-02-05-3",
-      "path": "dairy/daily/2025-06-02-05-3.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
-    },
-    {
-      "basename": "Genesis",
-      "path": "Genesis.md"
     },
     {
       "basename": "有趣的github库",
@@ -171,34 +199,6 @@
     {
       "basename": "ResNet",
       "path": "论文阅读/李沐论文精读系列/ResNet.md"
-    },
-    {
-      "basename": "AlexNet",
-      "path": "论文阅读/李沐论文精读系列/AlexNet.md"
-    },
-    {
-      "basename": "汇报讲稿",
-      "path": "论文阅读/挑战杯/汇报讲稿.md"
-    },
-    {
-      "basename": "pybullet的相机",
-      "path": "pybullet的相机.md"
-    },
-    {
-      "basename": "obsidian沙盒学习",
-      "path": "tools/obsidian沙盒学习.md"
-    },
-    {
-      "basename": "论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images",
-      "path": "论文阅读/挑战杯/论文阅读：GRS： Generating Robotic Simulation Tasks from Real-World Images.md"
-    },
-    {
-      "basename": "idea的一次尝试理解",
-      "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
-    },
-    {
-      "basename": "LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读",
-      "path": "论文阅读/挑战杯/LGMCTS Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement 论文阅读.md"
     }
   ],
   "omittedPaths": []
