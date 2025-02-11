@@ -105,7 +105,7 @@ $$
    - 随机策略：$\pi(a|s)$ 输出动作概率分布。
    - 确定策略：直接选择最优动作 $a^* = \arg\max_a \pi(a|s)$。
 2. **价值函数（Value Function）**：
-   - 状态价值函数： $V_\pi(s) = \mathbb{E}_\pi[G_t | s_t = s]=\math$ 。
+   - 状态价值函数： $V_\pi(s) = \mathbb{E}_\pi[G_t | s_t = s]=\mathbb{E}\left[ \sum^{\infty}_{{k=0}}\gamma^kr_{t+k+1}|s_{t}=s \right]$ 。
    - 动作价值函数（Q函数）：$Q_\pi(s,a) = \mathbb{E}_\pi[G_t | s_t = s, a_t = a]$。
 3. **模型（Model）**：
    - 状态转移概率：$p(s'|s,a)$。
