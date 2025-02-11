@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "RL",
+      "path": "论文阅读/挑战杯/RL.md"
+    },
+    {
       "basename": "easy-rl-chapter1",
       "path": "easy-rl/easy-rl-chapter1.md"
+    },
+    {
+      "basename": "RLfromDeepSeek",
+      "path": "easy-rl/RLfromDeepSeek.md"
     },
     {
       "basename": "prompt",
@@ -39,10 +47,6 @@
     {
       "basename": "idea的一次尝试理解",
       "path": "论文阅读/挑战杯/idea的一次尝试理解.md"
-    },
-    {
-      "basename": "RL",
-      "path": "论文阅读/挑战杯/RL.md"
     },
     {
       "basename": "WSL代理解决办法",
@@ -195,10 +199,6 @@
     {
       "basename": "cs61a-lec04",
       "path": "cs61c/cs61a-lec04.md"
-    },
-    {
-      "basename": "ResNet",
-      "path": "论文阅读/李沐论文精读系列/ResNet.md"
     }
   ],
   "omittedPaths": []
