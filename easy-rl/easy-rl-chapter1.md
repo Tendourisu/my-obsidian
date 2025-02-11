@@ -110,7 +110,7 @@ $$
    - 状态价值函数： $V_\pi(s) = \mathbb{E}_\pi[G_t | s_t = s]=\mathbb{E}_{\pi}\left[ \sum^{\infty}_{{k=0}}\gamma^kr_{t+k+1}|s_{t}=s \right]$ 。
    - 动作价值函数（Q函数）： $Q_\pi(s,a) = \mathbb{E}_\pi[G_t | s_t = s, a_t = a]=\mathbb{E}_{\pi}\left[ \sum^{\infty}_{{k=0}}\gamma^kr_{t+k+1}|s_{t}=s,a_{t}=a \right]$ $ 。
 3. **模型（Model）**：
-   - 状态转移概率：$p(s'|s,a)$。
+   - 状态转移概率： $p^a_{ss'}=p(s_{t+1}=s'|s_{t}=s,a_{t}=a)$ 。
    - 奖励函数：$R(s,a) = \mathbb{E}[r_{t+1} | s_t = s, a_t = a]$。
 
 ### 智能体类型
