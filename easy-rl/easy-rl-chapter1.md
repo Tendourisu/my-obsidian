@@ -16,6 +16,7 @@ mdate: " 2025-02-11 "
 ### 核心定义
 - **强化学习（RL）**：智能体通过与环境交互最大化累积奖励的学习范式。
 - **基本组成**：智能体（Agent）与环境（Environment）持续交互，输出动作（Action）并接收状态（State）和奖励（Reward）。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502111525320.png)
 
 ### 强化学习 vs 监督学习
 | **对比维度**       | **监督学习**                   | **强化学习**                     |
