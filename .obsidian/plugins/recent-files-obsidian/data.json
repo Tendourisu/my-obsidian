@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-07-02-11-2",
+      "path": "dairy/daily/2025-07-02-11-2.md"
+    },
+    {
       "basename": "lec15-缓存系统",
       "path": "cs61c/lec15-缓存系统.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "需要探索的东西",
       "path": "需要探索的东西.md"
-    },
-    {
-      "basename": "程序员的观点A Programmer's Perspective",
-      "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
     }
   ],
   "omittedPaths": []
