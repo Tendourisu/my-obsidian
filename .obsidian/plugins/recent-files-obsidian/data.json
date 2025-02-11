@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "POMDP的一些参数说明",
-      "path": "easy-rl/POMDP的一些参数说明.md"
-    },
-    {
       "basename": "easy-rl-chapter1",
       "path": "easy-rl/easy-rl-chapter1.md"
+    },
+    {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "POMDP的一些参数说明",
+      "path": "easy-rl/POMDP的一些参数说明.md"
     },
     {
       "basename": "prompt",
@@ -35,10 +39,6 @@
     {
       "basename": "python单元测试标准",
       "path": "python单元测试标准.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
     },
     {
       "basename": "lec14-RISC-V 流水线与处理器",

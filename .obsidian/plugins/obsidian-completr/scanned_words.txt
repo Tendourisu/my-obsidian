@@ -7317,6 +7317,8 @@ Conservative
 Collectors
 Cocke
 Cycle
+Critic
+CartPole
 Organazation
 OSTEP
 Operating
@@ -10734,6 +10736,7 @@ OrangePi
 Objects
 Observations
 Overflow
+Observation
 and
 all
 amp
@@ -17751,6 +17754,8 @@ Different
 Defined
 Declaration
 DelMorgan
+Dyna
+DeepMind
 The
 Team
 TVM
@@ -28802,6 +28807,8 @@ Setup
 Sentiment
 Structural
 Stall
+Silver
+SARSA
 Interface
 Isomorphic
 Inference
@@ -35880,6 +35887,8 @@ Anger
 ADDI
 ALUSel
 Apple
+Agent
+Actor
 java
 jyy
 js
@@ -43076,6 +43085,7 @@ promte
 pthread
 preamble
 pFET
+partially
 Understanding
 USTC
 Unix
@@ -56970,6 +56980,8 @@ oowmC
 oBagbldoDaAUpPEYVB
 orangepi
 opacity
+observed
+observable
 net
 nn
 need
@@ -67430,6 +67442,9 @@ Primitive
 Padding
 PCSel
 Pipelining
+POMDP
+Pong
+Policy
 games
 go
 google
@@ -74517,6 +74532,7 @@ Manual
 MUX
 Min
 MemRW
+MountainCar
 JYY
 Jim
 Jina
@@ -88306,6 +88322,8 @@ GBQnKJqlMUdz
 Goes
 Garbage
 GND
+Gammon
+Gym
 spring
 system
 size
@@ -137206,6 +137224,7 @@ BfjSIu
 Barroso
 Brand
 Bypass
+Backgammon
 rust
 recording
 ref
@@ -151058,6 +151077,7 @@ Regfile
 RegWEn
 ROM
 RAW
+Reward
 WiscKey
 Web
 WIFI
@@ -167974,6 +167994,7 @@ edPQYcwXDYeBvZrDJS
 esewrk
 eLQDddPikyfz
 excess
+engineering
 vue
 vision
 variance
