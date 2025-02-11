@@ -40,7 +40,7 @@ mdate: " 2025-02-11 "
 
 ### 应用实例
 - AlphaGo：超越人类棋手的深度强化学习模型。
-- 机械臂控制：通过虚拟环境训练后迁移到真实机器人。
+- [机械臂控制Deep Learning for Robots: Learning from Large-Scale Interaction](https://ai.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html)：通过虚拟环境训练后迁移到真实机器人。
 - 游戏AI：如雅达利Pong游戏，智能体通过试错学习策略。
 
 ---
