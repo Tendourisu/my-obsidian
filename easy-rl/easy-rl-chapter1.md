@@ -121,7 +121,7 @@ $$
 | 演员-评论员（Actor-Critic） | 同时学习策略和价值函数    | A2C, SAC        |
 | 有模型（Model-based）     | 显式建模环境动态       | Dyna-Q          |
 | 免模型（Model-free）      | 不依赖环境模型，直接交互学习 | 大多数深度强化学习算法     |
-![Uploading file...pfom5]()
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502112344687.png)
 
 >[!question]+ 
 >基于策略和基于价值的强化学习方法有什么区别?
