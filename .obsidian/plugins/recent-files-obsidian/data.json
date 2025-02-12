@@ -5,6 +5,14 @@
       "path": "easy-rl/easy-rl-chapter2.md"
     },
     {
+      "basename": "新年祝福",
+      "path": "新年祝福.md"
+    },
+    {
+      "basename": "日语的自我介绍",
+      "path": "日语的自我介绍.md"
+    },
+    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
     },
@@ -163,10 +171,6 @@
     {
       "basename": "lec12-RISC-V处理器设计",
       "path": "cs61c/lec12-RISC-V处理器设计.md"
-    },
-    {
-      "basename": "新年祝福",
-      "path": "新年祝福.md"
     },
     {
       "basename": "deepseek-r1试用",
