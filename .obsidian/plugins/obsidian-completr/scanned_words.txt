@@ -28818,6 +28818,7 @@ Structural
 Stall
 Silver
 SARSA
+Sarsa
 Interface
 Isomorphic
 Inference
@@ -56993,6 +56994,7 @@ orangepi
 opacity
 observed
 observable
+observability
 net
 nn
 need
@@ -140768,6 +140770,7 @@ rLeeeliLNW
 red
 returns
 restoring
+reinforcement
 xv
 xpy
 xlb
@@ -168013,6 +168016,7 @@ esewrk
 eLQDddPikyfz
 excess
 engineering
+exploitation
 vue
 vision
 variance
@@ -171332,6 +171336,7 @@ vhBuBJXXsKd
 vzVkjFb
 vnc
 vtable
+valued
 debug
 design
 dead
@@ -175024,6 +175029,7 @@ dXRnj
 dapW
 datacenter
 division
+discrete
 Youtube
 YOLO
 Your
