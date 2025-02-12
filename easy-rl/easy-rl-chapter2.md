@@ -75,7 +75,10 @@ $$
 - **矩阵形式**：
 
 $$
-V = R + \gamma P V \quad \Rightarrow \quad V = (I - \gamma P)^{-1} R
+\begin{align}
+V &= R + \gamma P V \quad \Rightarrow \quad \\ V &= (I - \gamma P)^{-1} R
+\end{align}
+
 $$
 
 - **解法**：动态规划、蒙特卡洛采样、时序差分学习。
