@@ -5,6 +5,18 @@
       "path": "easy-rl/easy-rl-chapter2.md"
     },
     {
+      "basename": "POMDP的一些参数说明",
+      "path": "easy-rl/POMDP的一些参数说明.md"
+    },
+    {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "RL",
+      "path": "论文阅读/挑战杯/RL.md"
+    },
+    {
       "basename": "新年祝福",
       "path": "新年祝福.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
-    },
-    {
-      "basename": "RL",
-      "path": "论文阅读/挑战杯/RL.md"
     },
     {
       "basename": "easy-rl-chapter1",
@@ -33,16 +41,8 @@
       "path": "dairy/daily/2025-07-02-12-3.md"
     },
     {
-      "basename": "POMDP的一些参数说明",
-      "path": "easy-rl/POMDP的一些参数说明.md"
-    },
-    {
       "basename": "RLfromDeepSeek",
       "path": "easy-rl/RLfromDeepSeek.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
     },
     {
       "basename": "202412011509",
