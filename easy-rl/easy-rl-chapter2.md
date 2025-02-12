@@ -212,7 +212,7 @@ $$  V_{k+1}(s) = \sum_a \pi(a|s) \left( R(s,a) + \gamma \sum_{s'} p(s'|s,a) V_k(
   2. **策略改进**：贪心更新策略 $\pi'(s) = \arg\max_a Q_\pi(s,a)$。
   3. 重复直至策略稳定。
 - **特点**：保证收敛到最优策略，但计算量大。
-
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502130221127.png)
 ---
 
 ### 2.3.11 价值迭代（Value Iteration）
@@ -225,6 +225,8 @@ $$  V_{k+1}(s) = \max_a \left( R(s,a) + \gamma \sum_{s'} p(s'|s,a) V_k(s') \righ
   2. 迭代更新价值函数至收敛。
   3. 提取最优策略：$\pi^*(s) = \arg\max_a Q^*(s,a)$。
 - **特点**：快速收敛，但忽略中间策略。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502130222554.png)
+
 
 ---
 
