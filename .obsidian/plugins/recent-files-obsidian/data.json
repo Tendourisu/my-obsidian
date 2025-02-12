@@ -5,6 +5,10 @@
       "path": "easy-rl/easy-rl-chapter2.md"
     },
     {
+      "basename": "鸣潮截图",
+      "path": "鸣潮截图.md"
+    },
+    {
       "basename": "POMDP的一些参数说明",
       "path": "easy-rl/POMDP的一些参数说明.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "日语的自我介绍",
       "path": "日语的自我介绍.md"
-    },
-    {
-      "basename": "鸣潮截图",
-      "path": "鸣潮截图.md"
     },
     {
       "basename": "easy-rl-chapter1",
