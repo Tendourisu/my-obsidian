@@ -78,11 +78,13 @@ $$
 \begin{align}
 V &= R + \gamma P V \quad \Rightarrow \quad \\ V &= (I - \gamma P)^{-1} R
 \end{align}
-
 $$
 
-- **解法**：动态规划、
-	- 蒙特卡洛采样
+- **解法**：
+	- 蒙特卡洛采样：  
+		从某个状态开始，把小船放到状态转移矩阵里面，让它“随波逐流”，这样就会产生一个轨迹。产生一个轨迹之后，就会得到一个奖励，那么直接把折扣的奖励即回报 $g$ 算出来。算出来之后将它积累起来，得到回报 $G_{t}$ ​。当积累了一定数量的轨迹之后，我们直接用 $G_{t}$ ​ 除以轨迹数量，就会得到某个状态的价值。  
+	 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502130000902.png)
+
 	- 时序差分学习。
 
 ---
