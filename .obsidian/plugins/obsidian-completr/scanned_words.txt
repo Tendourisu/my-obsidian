@@ -3714,6 +3714,7 @@ clk
 completion
 cycle
 cycles
+chain
 Computer
 Concepts
 ChatGpt
@@ -17762,6 +17763,7 @@ DeepMind
 Discount
 DRL
 Dopamine
+Diagram
 The
 Team
 TVM
@@ -32337,6 +32339,7 @@ Infinity
 Item
 ImmSel
 Issue
+Iteration
 And
 Algorithm
 Analysis
@@ -106433,6 +106436,7 @@ bCPN
 bNWLnZ
 bashrc
 biased
+bootstrapping
 is
 inference
 in
@@ -126982,6 +126986,7 @@ hHpM
 hOtROlBeOJ
 heavyweight
 hazards
+horizon
 up
 ucb
 universal
@@ -137245,6 +137250,7 @@ Brand
 Bypass
 Backgammon
 Barto
+Backup
 rust
 recording
 ref
@@ -168017,6 +168023,7 @@ eLQDddPikyfz
 excess
 engineering
 exploitation
+episode
 vue
 vision
 variance
@@ -175030,6 +175037,7 @@ dapW
 datacenter
 division
 discrete
+discounted
 Youtube
 YOLO
 Your
