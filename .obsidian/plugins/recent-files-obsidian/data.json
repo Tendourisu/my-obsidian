@@ -5,6 +5,42 @@
       "path": "cs61c/lec16-缓存系统总结.md"
     },
     {
+      "basename": "lec14-RISC-V 流水线与处理器",
+      "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
+    },
+    {
+      "basename": "lec15-缓存系统",
+      "path": "cs61c/lec15-缓存系统.md"
+    },
+    {
+      "basename": "lec02-C基础1",
+      "path": "cs61c/lec02-C基础1.md"
+    },
+    {
+      "basename": "lec06-RISCV指令基础1",
+      "path": "cs61c/lec06-RISCV指令基础1.md"
+    },
+    {
+      "basename": "lec09-RISC-V汇编、编译、链接流程总结",
+      "path": "cs61c/lec09-RISC-V汇编、编译、链接流程总结.md"
+    },
+    {
+      "basename": "lec10-数字电路基础",
+      "path": "cs61c/lec10-数字电路基础.md"
+    },
+    {
+      "basename": "lec11-时序电路&模拟电路基础",
+      "path": "cs61c/lec11-时序电路&模拟电路基础.md"
+    },
+    {
+      "basename": "lec13-RISC-V的控制器实现与流水线入门",
+      "path": "cs61c/lec13-RISC-V的控制器实现与流水线入门.md"
+    },
+    {
+      "basename": "lec12-RISC-V处理器设计",
+      "path": "cs61c/lec12-RISC-V处理器设计.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -117,10 +153,6 @@
       "path": "dairy/daily/2025-07-02-11-2.md"
     },
     {
-      "basename": "lec15-缓存系统",
-      "path": "cs61c/lec15-缓存系统.md"
-    },
-    {
       "basename": "lec01-Intro",
       "path": "cs61c/lec01-Intro.md"
     },
@@ -129,24 +161,12 @@
       "path": "matmul的riscv实现.md"
     },
     {
-      "basename": "lec14-RISC-V 流水线与处理器",
-      "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
-    },
-    {
-      "basename": "lec13-RISC-V的控制器实现与流水线入门",
-      "path": "cs61c/lec13-RISC-V的控制器实现与流水线入门.md"
-    },
-    {
       "basename": "riscv代码习惯",
       "path": "cs61c/riscv代码习惯.md"
     },
     {
       "basename": "lab7",
       "path": "cs61c/lab7.md"
-    },
-    {
-      "basename": "lec02-C基础1",
-      "path": "cs61c/lec02-C基础1.md"
     },
     {
       "basename": "lec03-C基础2",
@@ -161,28 +181,8 @@
       "path": "cs61c/lec05-C浮点数基础.md"
     },
     {
-      "basename": "lec06-RISCV指令基础1",
-      "path": "cs61c/lec06-RISCV指令基础1.md"
-    },
-    {
       "basename": "lec08-RISCV指令总结",
       "path": "cs61c/lec08-RISCV指令总结.md"
-    },
-    {
-      "basename": "lec09-RISC-V汇编、编译、链接流程总结",
-      "path": "cs61c/lec09-RISC-V汇编、编译、链接流程总结.md"
-    },
-    {
-      "basename": "lec10-数字电路基础",
-      "path": "cs61c/lec10-数字电路基础.md"
-    },
-    {
-      "basename": "lec11-时序电路&模拟电路基础",
-      "path": "cs61c/lec11-时序电路&模拟电路基础.md"
-    },
-    {
-      "basename": "lec12-RISC-V处理器设计",
-      "path": "cs61c/lec12-RISC-V处理器设计.md"
     },
     {
       "basename": "deepseek-r1试用",
