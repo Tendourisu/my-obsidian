@@ -38,7 +38,7 @@ $$
 $$
 
 - **示例**：图2.2中的4状态马尔可夫链，转移概率如  
-![image.png]()https://raw.githubusercontent.com/Tendourisu/images/master/202502121927794.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502121927794.png)
 
 ---
 
