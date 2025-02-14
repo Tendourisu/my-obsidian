@@ -24986,6 +24986,7 @@ Heartbleed
 Heap
 Hennessy
 Half
+Hit
 Software
 Structure
 System
@@ -67461,6 +67462,7 @@ Pipelining
 POMDP
 Pong
 Policy
+Penalty
 games
 go
 google
@@ -74551,6 +74553,7 @@ MemRW
 MountainCar
 MARL
 MRU
+Miss
 JYY
 Jim
 Jina
