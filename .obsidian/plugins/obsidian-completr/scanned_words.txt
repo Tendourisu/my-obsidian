@@ -14323,6 +14323,7 @@ arrays
 academy
 addition
 assertEqual
+allocate
 Design
 Data
 Database
@@ -102852,6 +102853,7 @@ mAPny
 machines
 matmul
 mathbb
+misses
 blog
 batchsize
 batch
@@ -147515,6 +147517,7 @@ Exponent
 Endianness
 Evaluate
 Enable
+Evistion
 Raft
 Rocksdb
 Reader

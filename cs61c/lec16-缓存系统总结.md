@@ -53,7 +53,9 @@ mdate: " 2025-02-14 "
 | ----------------- | -------------------- |
 | Write-allocate    | 写未命中时加载块到缓存并更新。      |
 | No Write-allocate | 写未命中时直接更新主存，不加载块到缓存。 |
+
 ### 常见组合
+
 - Write through, no write-allocate
 	- write hits 时，缓存和内存同时更新
 	- write misses 时，不加载块到缓存，直接更新内存
