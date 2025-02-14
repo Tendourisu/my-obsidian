@@ -106,8 +106,8 @@ mdate: " 2025-02-14 "
 - **地址分解**：  
 
   ```
-  全地址 = Tag | Index | Byte Offset
-  #index_bits = log2(缓存行数)
+  全地址 = Valid | Dirty | Tag | Index | Byte Offset
+  #TIO
   ```
 
 ### 组相联缓存
