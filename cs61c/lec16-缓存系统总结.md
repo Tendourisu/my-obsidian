@@ -93,9 +93,11 @@ mdate: " 2025-02-14 "
 - **地址分解**：  
 
   ```
-  全地址 = Valid | Dirty | LRU | Tag | Byte Offset   前面
+  全地址 = Valid | Dirty | LRU | Tag | Byte Offset  
+  前面每个 占1bit  
   #offset_bits = log2(块大小)
   #tag_bits = 地址总位数 - #offset_bits
+   
   ```
 
 ### 直接映射缓存
