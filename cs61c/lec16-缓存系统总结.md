@@ -63,7 +63,7 @@ mdate: " 2025-02-14 "
 	- write hits 时，只更新缓存与脏位
 ---
 
-## 4. 替换算法
+## 4. 驱逐策略（Evistion Policies）
 
 ### 近似LRU（时钟算法）
 
