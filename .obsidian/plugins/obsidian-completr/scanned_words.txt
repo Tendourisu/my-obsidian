@@ -3716,6 +3716,13 @@ cycle
 cycles
 chain
 chMP
+conj
+cosh
+coth
+csch
+cancel
+conflict
+cases
 Computer
 Concepts
 ChatGpt
@@ -7322,6 +7329,8 @@ Cycle
 Critic
 CartPole
 Cor
+Convert
+Chemistry
 Organazation
 OSTEP
 Operating
@@ -14328,6 +14337,18 @@ academy
 addition
 assertEqual
 allocate
+arcsin
+arccos
+arctan
+arccot
+arccsc
+arcsec
+arcsinh
+arccosh
+arctanh
+arccoth
+arcsch
+arcsech
 Design
 Data
 Database
@@ -24997,6 +25018,7 @@ Half
 Hit
 Hpf
 HvoKnre
+Handle
 Software
 Structure
 System
@@ -28833,6 +28855,9 @@ Silver
 SARSA
 Sarsa
 STBrJSma
+SYMBOL
+Skips
+Symbols
 Interface
 Isomorphic
 Inference
@@ -32354,6 +32379,7 @@ Issue
 Iteration
 IdvQJq
 IqXznH
+Integrals
 And
 Algorithm
 Analysis
@@ -43117,6 +43143,9 @@ pthread
 preamble
 pFET
 partially
+prod
+psi
+pmatrix
 Understanding
 USTC
 Unix
@@ -57020,6 +57049,9 @@ observed
 observable
 observability
 ojNyef
+oinf
+oplus
+otimes
 net
 nn
 need
@@ -67487,6 +67519,7 @@ Pong
 Policy
 Penalty
 Pzg
+Physics
 games
 go
 google
@@ -71032,6 +71065,7 @@ gAKh
 getTime
 guP
 gylqeVCmZUpd
+greek
 MLsystem
 MLsys
 Mlsys
@@ -85086,6 +85120,10 @@ lost
 libc
 lWtytk
 lxTh
+letters
+letter
+langle
+lvert
 GPU
 GPT
 Google
@@ -88376,6 +88414,7 @@ Gammon
 Gym
 GnFJtisfjAgsZXPVwMzJ
 GsdsTzMQoz
+GREEK
 spring
 system
 size
@@ -92160,6 +92199,10 @@ speed
 studenttests
 subtraction
 sHCsAtAf
+symbols
+subscript
+sinh
+snippet
 torch
 training
 tune
@@ -95780,6 +95823,10 @@ tail
 tstep
 tcycle
 tinstruction
+trigger
+tilde
+tan
+trig
 for
 fancy
 follow
@@ -99291,6 +99338,7 @@ fEXLaYmhFIGx
 fnBdmFCacVmrAeQHkRF
 finally
 fbrGxx
+funcs
 model
 mass
 mindspore
@@ -102889,6 +102937,9 @@ misses
 mSqHKn
 moLjzctnElWgo
 microUSB
+mathrm
+mechanics
+mod
 blog
 batchsize
 batch
@@ -106478,6 +106529,11 @@ bNWLnZ
 bashrc
 biased
 bootstrapping
+backslash
+boldsymbol
+braket
+bmat
+bmatrix
 is
 inference
 in
@@ -110043,6 +110099,9 @@ iMlFcEmYRIm
 instrumentation
 iETKyQ
 inet
+inequality
+infty
+iso
 you
 yX
 yYX
@@ -123330,6 +123389,7 @@ QoxYUpPgB
 QuIxSVm
 QbeVGvL
 QYfKKoi
+Quantum
 hook
 huggingface
 homework
@@ -127033,6 +127093,8 @@ heavyweight
 hazards
 horizon
 hRRgxOgeVNsyJ
+hat
+hbar
 up
 ucb
 universal
@@ -130398,6 +130460,10 @@ uNezY
 unions
 updateTime
 unittest
+und
+underline
+underbrace
+underset
 kernel
 kickstart
 kdd
@@ -133792,6 +133858,7 @@ kMRDip
 kgNknUunaGe
 kVyx
 kaPQIOZaLxjiMHaX
+kbt
 BladeDISC
 Bagua
 Blog
@@ -137298,6 +137365,8 @@ Backgammon
 Barto
 Backup
 BAlc
+Bmatrix
+Brackets
 rust
 recording
 ref
@@ -140825,6 +140894,9 @@ returns
 restoring
 reinforcement
 rxFqWZfjDU
+replacement
+rmA
+rarr
 xv
 xpy
 xlb
@@ -158137,6 +158209,8 @@ Visitors
 Visits
 Violation
 VCIRp
+VISUAL
+Vmatrix
 qq
 questions
 query
@@ -171403,6 +171477,8 @@ vtable
 valued
 vucOssSXiRpCMhS
 venDx
+vmat
+vmatrix
 debug
 design
 dead
@@ -175097,6 +175173,10 @@ datacenter
 division
 discrete
 discounted
+ddot
+dint
+dag
+dagger
 Youtube
 YOLO
 Your

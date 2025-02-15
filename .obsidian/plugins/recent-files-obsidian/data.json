@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
+      "basename": "hugging face",
+      "path": "hugging face.md"
+    },
+    {
+      "basename": "obsidian沙盒学习",
+      "path": "tools/obsidian沙盒学习.md"
+    },
+    {
+      "basename": "mkdocs相关资料",
+      "path": "tools/mkdocs相关资料.md"
+    },
+    {
+      "basename": "latexs 配置",
+      "path": "tools/latexs 配置.md"
+    },
+    {
       "basename": "图",
       "path": "具身智能开发/图.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "orangepi 踩坑记录",
       "path": "具身智能开发/orangepi 踩坑记录.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     },
     {
       "basename": "POMDP的一些参数说明",
@@ -183,22 +199,6 @@
     {
       "basename": "lab7",
       "path": "cs61c/lab7.md"
-    },
-    {
-      "basename": "lec03-C基础2",
-      "path": "cs61c/lec03-C基础2.md"
-    },
-    {
-      "basename": "lec04-C基础3",
-      "path": "cs61c/lec04-C基础3.md"
-    },
-    {
-      "basename": "lec05-C浮点数基础",
-      "path": "cs61c/lec05-C浮点数基础.md"
-    },
-    {
-      "basename": "lec08-RISCV指令总结",
-      "path": "cs61c/lec08-RISCV指令总结.md"
     }
   ],
   "omittedPaths": []
