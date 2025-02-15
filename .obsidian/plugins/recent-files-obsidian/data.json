@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
+    },
+    {
+      "basename": "easy-rl-chapter2",
+      "path": "easy-rl/easy-rl-chapter2.md"
+    },
+    {
+      "basename": "easy-rl-chapter1",
+      "path": "easy-rl/easy-rl-chapter1.md"
+    },
+    {
+      "basename": "easy-rl-chapter3",
+      "path": "easy-rl/easy-rl-chapter3.md"
+    },
+    {
+      "basename": "第贰章-信息的表示与处理",
+      "path": "csapp&CMU15-213/第贰章-信息的表示与处理.md"
+    },
+    {
+      "basename": "程序员的观点A Programmer's Perspective",
+      "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
+    },
+    {
+      "basename": "2025-07-02-15-6",
+      "path": "dairy/daily/2025-07-02-15-6.md"
+    },
+    {
       "basename": "git use",
       "path": "git use.md"
     },
@@ -21,10 +49,6 @@
       "path": "tools/latexs 配置.md"
     },
     {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
-    },
-    {
       "basename": "开发记录",
       "path": "具身智能开发/开发记录.md"
     },
@@ -39,14 +63,6 @@
     {
       "basename": "mkdocs --wnc",
       "path": "mkdocs --wnc.md"
-    },
-    {
-      "basename": "easy-rl-chapter1",
-      "path": "easy-rl/easy-rl-chapter1.md"
-    },
-    {
-      "basename": "easy-rl-chapter2",
-      "path": "easy-rl/easy-rl-chapter2.md"
     },
     {
       "basename": "lec16-缓存系统总结",
@@ -91,10 +107,6 @@
     {
       "basename": "prompt",
       "path": "prompt.md"
-    },
-    {
-      "basename": "easy-rl-chapter3",
-      "path": "easy-rl/easy-rl-chapter3.md"
     },
     {
       "basename": "RL 入门汇总",
@@ -187,18 +199,6 @@
     {
       "basename": "lec01-Intro",
       "path": "cs61c/lec01-Intro.md"
-    },
-    {
-      "basename": "matmul的riscv实现",
-      "path": "matmul的riscv实现.md"
-    },
-    {
-      "basename": "riscv代码习惯",
-      "path": "cs61c/riscv代码习惯.md"
-    },
-    {
-      "basename": "lab7",
-      "path": "cs61c/lab7.md"
     }
   ],
   "omittedPaths": []
