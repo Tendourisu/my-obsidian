@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
+      "basename": "obsidian沙盒学习",
+      "path": "tools/obsidian沙盒学习.md"
+    },
+    {
+      "basename": "deepseek-r1试用",
+      "path": "deepseek-r1试用.md"
+    },
+    {
+      "basename": "deepseek-r1试用2",
+      "path": "deepseek-r1试用2.md"
+    },
+    {
+      "basename": "cs231n",
+      "path": "cs231n.md"
+    },
+    {
+      "basename": "有趣的github库",
+      "path": "有趣的github库.md"
+    },
+    {
+      "basename": "新年祝福",
+      "path": "新年祝福.md"
+    },
+    {
+      "basename": "日语的自我介绍",
+      "path": "日语的自我介绍.md"
+    },
+    {
       "basename": "easy-rl-chapter2",
       "path": "easy-rl/easy-rl-chapter2.md"
     },
@@ -77,16 +109,8 @@
       "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
     },
     {
-      "basename": "git use",
-      "path": "git use.md"
-    },
-    {
       "basename": "hugging face",
       "path": "hugging face.md"
-    },
-    {
-      "basename": "obsidian沙盒学习",
-      "path": "tools/obsidian沙盒学习.md"
     },
     {
       "basename": "mkdocs相关资料",
@@ -175,30 +199,6 @@
     {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
-    },
-    {
-      "basename": "新年祝福",
-      "path": "新年祝福.md"
-    },
-    {
-      "basename": "日语的自我介绍",
-      "path": "日语的自我介绍.md"
-    },
-    {
-      "basename": "202412011509",
-      "path": "202412011509.md"
-    },
-    {
-      "basename": "Genesis",
-      "path": "Genesis.md"
-    },
-    {
-      "basename": "需要探索的东西",
-      "path": "需要探索的东西.md"
-    },
-    {
-      "basename": "数电实验聊天记录",
-      "path": "杂/数电实验聊天记录.md"
     }
   ],
   "omittedPaths": []
