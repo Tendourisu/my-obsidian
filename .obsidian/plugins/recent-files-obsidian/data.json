@@ -5,6 +5,10 @@
       "path": "具身智能开发/开发记录.md"
     },
     {
+      "basename": "POMDP的一些参数说明",
+      "path": "easy-rl/POMDP的一些参数说明.md"
+    },
+    {
       "basename": "orangepi 踩坑记录",
       "path": "具身智能开发/orangepi 踩坑记录.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
-    },
-    {
-      "basename": "POMDP的一些参数说明",
-      "path": "easy-rl/POMDP的一些参数说明.md"
     },
     {
       "basename": "新年祝福",
