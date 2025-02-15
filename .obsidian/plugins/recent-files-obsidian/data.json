@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
       "basename": "开发记录",
       "path": "具身智能开发/开发记录.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "WSL代理解决办法",
       "path": "WSL代理解决办法.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     },
     {
       "basename": "lec07-RISCV指令基础2",
