@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "开发记录",
+      "path": "具身智能开发/开发记录.md"
+    },
+    {
       "basename": "orangepi 踩坑记录",
-      "path": "orangepi 踩坑记录.md"
+      "path": "具身智能开发/orangepi 踩坑记录.md"
+    },
+    {
+      "basename": "mkdocs --wnc",
+      "path": "mkdocs --wnc.md"
     },
     {
       "basename": "easy-rl-chapter1",
@@ -187,18 +195,6 @@
     {
       "basename": "lec08-RISCV指令总结",
       "path": "cs61c/lec08-RISCV指令总结.md"
-    },
-    {
-      "basename": "deepseek-r1试用",
-      "path": "deepseek-r1试用.md"
-    },
-    {
-      "basename": "大模型入门汇总",
-      "path": "大模型入门汇总.md"
-    },
-    {
-      "basename": "有趣的github库",
-      "path": "有趣的github库.md"
     }
   ],
   "omittedPaths": []

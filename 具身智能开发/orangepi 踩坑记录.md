@@ -46,14 +46,14 @@
 
     在 wlan0 下找到 ip 地址
 
-3. 在电脑端使用 ssh 连接
+3. 在电脑端使用 ssh 连接  
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPZI4ojNyef5Mok89VCIRp8eJuVMkcmlKN4J9ScG33o8ev7ywcOh/fbrGxx4vucOssSXiRpCMhS9yWNVSqJ+I7lWtytk815YtpDSB27mSqHKn5UEGZ2DSf+venDx9SS+a643rxFqWZfjDU5Yv9zDW9lxTh9sGE8p8Sk4NH3STBrJSma5sHCsAtAf2zCFgcbdnvpiBquaJFIH2UValPA9IdvQJq6GnFJtisfjAgsZXPVwMzJ02Hpf4sz0OyKBpoflFsI5/5/Cor9AbIMqi5iETKyQ8DCBf6py9LrHCG2EQ3guP9WC3/41GsdsTzMQoz3a+HvoKnre3IqXznH1c381gylqeVCmZUpd9IiG1oN0TffgYYRWXY+jFOqIA98BAlc6dlt9x787KaNGXKHNegUjRdtG1d0xv1p/chMP8Ih6hRRgxOgeVNsyJ+wngA2moLjzctnElWgo3eQywZIR4Q61RzoPwqzd6zRdESsTJYYRg5s5H8OkYp4DlKcYmB74Pzg2M= <Your email address>
 
 ## 5. 设置 VNC Server
 
-1. 自己电脑上下载 tightvnc viewer [下载地址](https://www.tightvnc.com/download.php)
-2. 在 OrangePi AIpro 上安装 tightvncserver（这个自带了）
-3. 修改~/. vnc/xstartup 为以下内容
+4. 自己电脑上下载 tightvnc viewer [下载地址](https://www.tightvnc.com/download.php)
+5. 在 OrangePi AIpro 上安装 tightvncserver（这个自带了）
+6. 修改~/. vnc/xstartup 为以下内容
 
     ```shell
     # Uncomment the following two lines for normal desktop:
@@ -81,36 +81,36 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPZI4ojNyef5Mok89VCIRp8eJuVMkcmlKN4J9ScG33
 >[!important]+  
 >chmod 755 ./xstartup 记得给权限
 
-4. 终端输入：
+7. 终端输入：
 
     ```shell
     vncserver
     ```
 
-5. 打开 log 查看端口号
-6. 电脑端连接
+8. 打开 log 查看端口号
+9. 电脑端连接
 
 ## 6. 手机网络摄像头
 
-1. 下载 DroidCam App （iOS 和 Android 都有）
+10. 下载 DroidCam App （iOS 和 Android 都有）
 
 ## 7. 运行 jupyter server
 
-1. 运行~/samples/start_notebook. sh
-2. 在输出中能够找到 jupyter server 的地址（127.0.0.1:8888/token 一串）
-3. 在自己电脑浏览器上打开这个地址
-4. 运行里面的模型
+11. 运行~/samples/start_notebook. sh
+12. 在输出中能够找到 jupyter server 的地址（127.0.0.1:8888/token 一串）
+13. 在自己电脑浏览器上打开这个地址
+14. 运行里面的模型
 
 ## 8. 环境问题
 
-1. 降级 setuptools: pip install setuptools==62.3.4
-2. 缺少一个包:av
+15. 降级 setuptools: pip install setuptools==62.3.4
+16. 缺少一个包:av
 
     ```shell
     pip install av==8.0.0
     ```
 
-3. 在~/. bashrc 中添加以下内容
+17. 在~/. bashrc 中添加以下内容
 
     ```shell
     . /usr/local/Ascend/ascend-toolkit/set_env. sh
@@ -119,7 +119,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPZI4ojNyef5Mok89VCIRp8eJuVMkcmlKN4J9ScG33
     export NPU_HOST_LIB=$DDK_PATH/runtime/lib64/stub
     ```
 
-4. 运行
+18. 运行
 
     ```shell
     source ~/. bashrc
@@ -127,5 +127,5 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPZI4ojNyef5Mok89VCIRp8eJuVMkcmlKN4J9ScG33
 
 ## 9. 运行 YOLOv5
 
-1. 按照 [YOLOv5官方教程](https://gitee.com/ascend/EdgeAndRobotics/tree/master/Samples/YOLOV5Video#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8Byolov5s)下载模型、转换模型、下载数据。
-2. 运行 scripts 文件夹下的 sample_run. sh
+19. 按照 [YOLOv5官方教程](https://gitee.com/ascend/EdgeAndRobotics/tree/master/Samples/YOLOV5Video#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8Byolov5s)下载模型、转换模型、下载数据。
+20. 运行 scripts 文件夹下的 sample_run. sh

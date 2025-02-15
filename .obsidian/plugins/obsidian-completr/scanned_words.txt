@@ -60374,6 +60374,7 @@ ncdKLEVvm
 nmtui
 notebooklm
 nFET
+nmcli
 Network
 Nvidia
 NCNN
@@ -102887,6 +102888,7 @@ mathbb
 misses
 mSqHKn
 moLjzctnElWgo
+microUSB
 blog
 batchsize
 batch
@@ -110040,6 +110042,7 @@ idRG
 iMlFcEmYRIm
 instrumentation
 iETKyQ
+inet
 you
 yX
 yYX
