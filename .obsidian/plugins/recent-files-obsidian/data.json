@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "mkdocs相关资料",
+      "path": "tools/mkdocs相关资料.md"
+    },
+    {
       "basename": "图",
       "path": "具身智能开发/图.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "hugging face",
       "path": "hugging face.md"
-    },
-    {
-      "basename": "mkdocs相关资料",
-      "path": "tools/mkdocs相关资料.md"
     },
     {
       "basename": "latexs 配置",
