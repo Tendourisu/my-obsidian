@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-W03-01",
+      "path": "dairy/weekly/2025-W03-01.md"
+    },
+    {
+      "basename": "2025-W04-01",
+      "path": "dairy/weekly/2025-W04-01.md"
+    },
+    {
+      "basename": "2025-W05-01",
+      "path": "dairy/weekly/2025-W05-01.md"
+    },
+    {
+      "basename": "2025-W07-02",
+      "path": "dairy/weekly/2025-W07-02.md"
+    },
+    {
+      "basename": "2025-07-02-16-7",
+      "path": "dairy/daily/2025-07-02-16-7.md"
+    },
+    {
       "basename": "mkdocs相关资料",
       "path": "tools/mkdocs相关资料.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "lec13-RISC-V的控制器实现与流水线入门",
       "path": "cs61c/lec13-RISC-V的控制器实现与流水线入门.md"
-    },
-    {
-      "basename": "lec12-RISC-V处理器设计",
-      "path": "cs61c/lec12-RISC-V处理器设计.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
-      "basename": "RLfromDeepSeek",
-      "path": "easy-rl/RLfromDeepSeek.md"
-    },
-    {
-      "basename": "RL",
-      "path": "论文阅读/挑战杯/RL.md"
     }
   ],
   "omittedPaths": []

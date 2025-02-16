@@ -38,5 +38,5 @@ links 是没有其他依赖的
 
 再看 .github 里面的 ci. yml 里面还有其他依赖要手动装
 
-哦还有评论 giscus 你记得自己重新弄一下
+哦还有评论 giscus 你记得自己重新弄一下  
 [Icons, Emojis - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
