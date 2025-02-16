@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "python命名规范",
+      "path": "python命名规范.md"
+    },
+    {
       "basename": "2025-W03-01",
       "path": "dairy/weekly/2025-W03-01.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "latexs 配置",
       "path": "tools/latexs 配置.md"
-    },
-    {
-      "basename": "开发记录",
-      "path": "具身智能开发/开发记录.md"
     }
   ],
   "omittedPaths": []
