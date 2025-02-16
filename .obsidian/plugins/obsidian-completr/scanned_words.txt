@@ -10752,6 +10752,8 @@ Observation
 Offline
 OyKBpoflFsI
 OkYp
+OPI
+OrangePiAiPro
 and
 all
 amp
@@ -28860,6 +28862,7 @@ STBrJSma
 SYMBOL
 Skips
 Symbols
+SDK
 Interface
 Isomorphic
 Inference
@@ -57054,6 +57057,8 @@ ojNyef
 oinf
 oplus
 otimes
+orangePiAiPro
+orangepiaipro
 net
 nn
 need
@@ -71068,6 +71073,7 @@ getTime
 guP
 gylqeVCmZUpd
 greek
+gpio
 MLsystem
 MLsys
 Mlsys
@@ -74616,6 +74622,7 @@ MountainCar
 MARL
 MRU
 Miss
+MasterPi
 JYY
 Jim
 Jina
@@ -81546,6 +81553,8 @@ wDUT
 wlan
 warehouse
 wngA
+wiringpi
+wiringOP
 lab
 lightning
 latex
@@ -88417,6 +88426,8 @@ Gym
 GnFJtisfjAgsZXPVwMzJ
 GsdsTzMQoz
 GREEK
+GPIO
+GiHub
 spring
 system
 size
@@ -151232,6 +151243,7 @@ ROM
 RAW
 Reward
 RzoPwqzd
+RPi
 WiscKey
 Web
 WIFI
@@ -154823,6 +154835,7 @@ Wrong
 Welcome
 Website
 WBSel
+WiringOP
 Values
 VP
 Vz
