@@ -18,8 +18,8 @@ mdate: " 2025-02-02 "
 [Tutorials - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/tutorials/)  
 [用 Material for MkDocs 来生成专业的技术文档 | Yunfeng's Simple Blog](https://vra.github.io/2023/05/17/mkdocs-material-tutorial/)
 
-[GitHub - mkdocs/catalog: :trophy: A list of awesome MkDocs projects and plugins.](https://github.com/mkdocs/catalog)
-[鹤翔万里的笔记本](https://note.tonycrane.cc/)
+[GitHub - mkdocs/catalog: :trophy: A list of awesome MkDocs projects and plugins.](https://github.com/mkdocs/catalog)  
+[鹤翔万里的笔记本](https://note.tonycrane.cc/)  
 docs 里面有几个子文件夹，用法不一样
 
 blogs 是用了一个插件 blogging，可以自动生成 archives 和 tags
