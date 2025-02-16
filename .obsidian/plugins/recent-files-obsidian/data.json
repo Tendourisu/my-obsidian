@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-W03-01",
+      "path": "dairy/weekly/2025-W03-01.md"
+    },
+    {
+      "basename": "2024秋16周周结",
+      "path": "dairy/weekly/2024秋16周周结.md"
+    },
+    {
+      "basename": "2024秋15周周结",
+      "path": "dairy/weekly/2024秋15周周结.md"
+    },
+    {
+      "basename": "2025-W07-02",
+      "path": "dairy/weekly/2025-W07-02.md"
+    },
+    {
+      "basename": "2025-W05-01",
+      "path": "dairy/weekly/2025-W05-01.md"
+    },
+    {
       "basename": "2025-W04-01",
       "path": "dairy/weekly/2025-W04-01.md"
     },
     {
-      "basename": "2025-04-01-22-3",
-      "path": "dairy/daily/2025-04-01-22-3.md"
+      "basename": "2025-07-02-16-7",
+      "path": "dairy/daily/2025-07-02-16-7.md"
     },
     {
-      "basename": "2025-04-01-23-4",
-      "path": "dairy/daily/2025-04-01-23-4.md"
+      "basename": "2025-07-02-11-2",
+      "path": "dairy/daily/2025-07-02-11-2.md"
+    },
+    {
+      "basename": "2025-07-02-12-3",
+      "path": "dairy/daily/2025-07-02-12-3.md"
+    },
+    {
+      "basename": "2025-07-02-15-6",
+      "path": "dairy/daily/2025-07-02-15-6.md"
+    },
+    {
+      "basename": "2025-06-02-05-3",
+      "path": "dairy/daily/2025-06-02-05-3.md"
+    },
+    {
+      "basename": "2025-05-02-02-7",
+      "path": "dairy/daily/2025-05-02-02-7.md"
+    },
+    {
+      "basename": "2025-05-01-30-4",
+      "path": "dairy/daily/2025-05-01-30-4.md"
+    },
+    {
+      "basename": "2025-05-01-28-2",
+      "path": "dairy/daily/2025-05-01-28-2.md"
+    },
+    {
+      "basename": "20250109",
+      "path": "dairy/daily/20250109.md"
+    },
+    {
+      "basename": "20250111",
+      "path": "dairy/daily/20250111.md"
+    },
+    {
+      "basename": "20250115",
+      "path": "dairy/daily/20250115.md"
     },
     {
       "basename": "2025-04-01-24-5",
@@ -19,6 +75,14 @@
     {
       "basename": "2025-04-01-26-7",
       "path": "dairy/daily/2025-04-01-26-7.md"
+    },
+    {
+      "basename": "2025-04-01-22-3",
+      "path": "dairy/daily/2025-04-01-22-3.md"
+    },
+    {
+      "basename": "2025-04-01-23-4",
+      "path": "dairy/daily/2025-04-01-23-4.md"
     },
     {
       "basename": "2025-05-01-27-1",
@@ -39,22 +103,6 @@
     {
       "basename": "template",
       "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "2025-W03-01",
-      "path": "dairy/weekly/2025-W03-01.md"
-    },
-    {
-      "basename": "2025-W05-01",
-      "path": "dairy/weekly/2025-W05-01.md"
-    },
-    {
-      "basename": "2025-W07-02",
-      "path": "dairy/weekly/2025-W07-02.md"
-    },
-    {
-      "basename": "2025-07-02-16-7",
-      "path": "dairy/daily/2025-07-02-16-7.md"
     },
     {
       "basename": "mkdocs相关资料",
@@ -113,36 +161,12 @@
       "path": "easy-rl/easy-rl-chapter2.md"
     },
     {
-      "basename": "2025-07-02-12-3",
-      "path": "dairy/daily/2025-07-02-12-3.md"
-    },
-    {
-      "basename": "2025-07-02-11-2",
-      "path": "dairy/daily/2025-07-02-11-2.md"
-    },
-    {
-      "basename": "2025-05-02-02-7",
-      "path": "dairy/daily/2025-05-02-02-7.md"
-    },
-    {
-      "basename": "2025-05-01-30-4",
-      "path": "dairy/daily/2025-05-01-30-4.md"
-    },
-    {
-      "basename": "2025-05-01-28-2",
-      "path": "dairy/daily/2025-05-01-28-2.md"
-    },
-    {
       "basename": "2025-03-01-19-7",
       "path": "dairy/daily/2025-03-01-19-7.md"
     },
     {
       "basename": "20250101",
       "path": "dairy/daily/20250101.md"
-    },
-    {
-      "basename": "2025-07-02-15-6",
-      "path": "dairy/daily/2025-07-02-15-6.md"
     },
     {
       "basename": "2025-05-01-31-5",
@@ -175,30 +199,6 @@
     {
       "basename": "开发记录",
       "path": "具身智能开发/开发记录.md"
-    },
-    {
-      "basename": "POMDP的一些参数说明",
-      "path": "easy-rl/POMDP的一些参数说明.md"
-    },
-    {
-      "basename": "mkdocs --wnc",
-      "path": "mkdocs --wnc.md"
-    },
-    {
-      "basename": "lec16-缓存系统总结",
-      "path": "cs61c/lec16-缓存系统总结.md"
-    },
-    {
-      "basename": "lec15-缓存系统",
-      "path": "cs61c/lec15-缓存系统.md"
-    },
-    {
-      "basename": "lec14-RISC-V 流水线与处理器",
-      "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
-    },
-    {
-      "basename": "lec02-C基础1",
-      "path": "cs61c/lec02-C基础1.md"
     }
   ],
   "omittedPaths": []
