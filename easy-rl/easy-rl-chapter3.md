@@ -67,14 +67,14 @@ $$
 V(s_t) \leftarrow V(s_t) + \alpha \left[ G_{t} - V(s_t) \right]
 $$
 - 其中， $\alpha$ 代表的是学习率，可以人为设置
-- $G_$
+- $G_t$ 是把一条轨迹跑完后才得出来的回报
 ### 时序差分（TD）更新公式
 
 $$
 V(s_t) \leftarrow V(s_t) + \alpha \left[ r_{t+1} + \gamma V(s_{t+1}) - V(s_t) \right]
 $$
 
-- **TD误差**：$\delta = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$
+- **TD误差**： $\delta = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$ ，其中 $\delta = r_{t+1} + \gamma V(s_{t+1})$ 被称为**时序差分目标（TD target）**，时序差分目标是带衰减的未来奖励的总和。
 - **物理意义**：类似巴甫洛夫条件反射，通过相邻状态的价值迭代更新。
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171835268.png)
 
