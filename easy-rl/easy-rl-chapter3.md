@@ -189,7 +189,7 @@ Sarsa 在更新 Q 表格的时候，它用到的是 $A'$ 。我们要获取下�
 
 Q学习默认的下一个动作不是通过行为策略来选取的，Q学习直接看Q表格，取它的最大化的值，它是默认 $A'$ 为最佳策略选取的动作，所以 Q学习 在学习的时候，不需要传入 $A'$，即 $a_{t+1}$  的值。
  ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172156653.png)
-<div align=center>图 3.33 Sarsa与Q学习的伪代码</div>
+
 
 
 Sarsa 和 Q学习 的更新公式是一样的，区别只在目标计算的部分，
@@ -200,7 +200,8 @@ Q学习 是 $r_{t+1}+\gamma  \underset{a}{\max} Q\left(s_{t+1}, a\right)$ 。
 但是 Q学习 并不需要知道我们实际上选择哪一个动作 ，它默认下一个动作就是 Q 值最大的那个动作。Q学习知道实际上行为策略可能会有 0.1 的概率选择别的动作，但 Q 学习并不担心受到探索的影响，它默认按照最佳的策略去优化目标策略，所以它可以更大胆地去寻找最优的路径，它表现得比 Sarsa 大胆得多。
 
 如图 3.34b 所示，我们对Q学习进行逐步拆解，Q学习与 Sarsa 唯一不一样的就是并不需要提前知道 $A_2$ ，就能更新 $Q(S_1,A_1)$ 。在一个回合的训练当中，Q学习 在学习之前也不需要获取下一个动作 $A'$，它只需要前面的 $(S,A,R,S')$ ，这与 Sarsa 很不一样。
- ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172157693.png)
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172226098.png)
+
 
 ### 同策略 vs 异策略
 
