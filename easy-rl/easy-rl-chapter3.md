@@ -175,7 +175,7 @@ $$
 $$
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172033144.png)
 
-### Sarsa（同策略）
+### Sarsa（同策略时序差分控制）
 
 - **更新规则**：
 
