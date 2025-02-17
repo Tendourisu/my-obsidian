@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "lec1",
+      "path": "概率论与数理统计/lec1.md"
+    },
+    {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统/信号与系统 lec-1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-03-01-19-7",
       "path": "dairy/daily/2025-03-01-19-7.md"
-    },
-    {
-      "basename": "20250101",
-      "path": "dairy/daily/20250101.md"
     }
   ],
   "omittedPaths": []
