@@ -99,7 +99,8 @@ $$
 $$
 V(s_{t})←V(s_{t})+α(G_{t}^n−V(s_{t}))
 $$
-- 更新的深度与广度的对比一览图：
+
+- 更新的深度与广度的对比一览图：  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171943746.png)
 
 ---
