@@ -180,11 +180,7 @@ $$
 ### Q学习（异策略）
 
 - **更新规则**：
-
-  ```math
-  Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]
-  ```
-
+$$  Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]$$
 - **特点**：使用目标策略（贪心）更新Q值，行为策略（如ε-贪心）探索环境，策略激进，更快收敛。
 
 ### 同策略 vs 异策略
