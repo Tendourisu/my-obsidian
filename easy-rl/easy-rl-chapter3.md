@@ -1,6 +1,7 @@
 ---
-title: 
-tags: 
+title: easy-rl-chapter3
+tags:
+  - RL
 categories: dairy
 date: " 2025-02-14T01:08:00+08:00 "
 modify: " 2025-02-14T01:08:00+08:00 "
@@ -24,9 +25,9 @@ mdate: " 2025-02-14 "
 
 ### 状态转移示例
 
-```math
-P(s_{t+1}, r_t | s_t, a_t)
-```
+
+$$P(s_{t+1}, r_t | s_t, a_t)$$
+
 
 表示在状态$s_t$执行动作$a_t$后转移到$s_{t+1}$并获得奖励$r_t$的概率。
 
@@ -46,9 +47,10 @@ P(s_{t+1}, r_t | s_t, a_t)
 - 奖励：每走一步$-1$，掉崖$-100$。
 - Q值更新逻辑：
 
-  ```math
-  G_t = r_{t+1} + \gamma G_{t+1} \quad (\text{从后往前递推})
-  ```
+
+$$  G_t = r_{t+1} + \gamma G_{t+1} \quad (\text{从后往前递推})
+$$
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171831301.png)
 
 ---
 
