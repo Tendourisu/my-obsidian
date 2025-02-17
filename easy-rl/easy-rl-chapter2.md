@@ -136,7 +136,7 @@ $$
 - **Q函数方程**：
 
 $$
-  Q_\pi(s,a) = R(s,a) + \gamma \sum_{s'} p(s'|s,a) V_\pi(s'
+  Q_\pi(s,a) = R(s,a) + \gamma \sum_{s'} p(s'|s,a) V_\pi(s')
 $$
 
 ### 2.3.4 备份图（Backup Diagram）
