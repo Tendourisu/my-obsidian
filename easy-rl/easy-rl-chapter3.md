@@ -62,7 +62,7 @@ $$
 |----------------|--------------------------------------|----------------------------------------|
 | **蒙特卡洛**   | 使用完整轨迹的回报均值更新Q值          | 高方差，需完整轨迹，无偏估计           |
 | **时序差分**   | 单步更新（TD目标 = 即时奖励 + γ·下一状态Q值） | 低方差，可在线学习，有偏估计           |
-### 蒙特卡洛更新公式
+### 蒙特卡洛(MC)更新公式
 $$
 V(s_t) \leftarrow V(s_t) + \alpha \left[ G_{t} - V(s_t) \right]
 $$
@@ -77,17 +77,19 @@ $$
 - **TD误差**： $\delta = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$ ，其中 $\delta = r_{t+1} + \gamma V(s_{t+1})$ 被称为**时序差分目标（TD target）**，时序差分目标是带衰减的未来奖励的总和。
 - **物理意义**：类似巴甫洛夫条件反射，通过相邻状态的价值迭代更新。
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171835268.png)
+### n步时序差分（n-step TD）
 $$
 \begin{align}
-n &= 1  (\text{TD}) \\
-G_t^{(1)} &= r_{t+1} + \gamma V(s_{t+1}) \\
-n = 2 G_t^{(2)} = r_{t+1} + \gamma r_{t+2} + \gamma^2 V(s_{t+2}) \\
+n &= 1  (\text{TD})  &G_t^{(1)} = r_{t+1} + \gamma V(s_{t+1}) \\
+n &= 2  &G_t^{(2)} = r_{t+1} + \gamma r_{t+2} + \gamma^2 V(s_{t+2}) \\
 \vdots \\
-n = \infty \ (\text{MC}) \\
-G_t^{\infty} = r_{t+1} + \gamma r_{t+2} + \cdots + \gamma^{T-t-1} r_T
+n &= \infty \ (\text{MC}) &G_t^{\infty} = r_{t+1} + \gamma r_{t+2} + \cdots + \gamma^{T-t-1} r_T
 \end{align}
 
 $$
+得到时序差分目标之后，我们用增量式学习（incremental learning）的方法来更新状态的价值：
+
+$$V(s_{t})←V(s_{t})+α(G_{t}^n−V(s_{t}))$$
 ---
 
 ## 3.4 免模型控制
