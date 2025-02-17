@@ -56,7 +56,7 @@ $$
 ---
 
 ## 3.3 免模型预测
-
+这些方法都是给定策略的！
 ### 方法对比
 
 | **方法**       | **更新方式**                          | **特点**                               |
@@ -175,13 +175,12 @@ $$
 $$
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172033144.png)
 
-### Sarsa（同策略时序差分控制）
+### Sarsa（State-Action-Reward-State-Action同策略时序差分控制）
 
 - **更新规则**：
 
-  ```math
-  Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) \right]
-  ```
+
+$$  Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) \right]$$
 
 - **特点**：使用实际执行的动作$a_{t+1}$更新Q值，策略保守，适合高风险环境（如悬崖行走）。
 
