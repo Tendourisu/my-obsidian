@@ -175,6 +175,7 @@ $$
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172101329.png)
 
 - **特点**：使用实际执行的动作$a_{t+1}$更新Q值，策略保守，适合高风险环境（如悬崖行走）。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172110873.png)
 
 ### Q学习（异策略）
 
