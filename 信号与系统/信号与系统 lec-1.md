@@ -38,3 +38,18 @@ mdate: " 2025-02-17 "
 例进行思考与分析。
 
 # 第一章信号与系统基本概念
+- 总览
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171112104.png)
+## 信号的表征
+1. 函数
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171114134.png)
+
+
+2. 图形，波形
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171114451.png)
+
+3. 变换域表示
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171115716.png)
+
+4. 分配函数，广义函数
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171115769.png)
