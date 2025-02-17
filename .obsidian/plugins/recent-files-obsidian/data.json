@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "笔记的记录方法",
+      "path": "笔记的记录方法.md"
+    },
+    {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统 lec-1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20250101",
       "path": "dairy/daily/20250101.md"
-    },
-    {
-      "basename": "2025-05-01-31-5",
-      "path": "dairy/daily/2025-05-01-31-5.md"
     }
   ],
   "omittedPaths": []
