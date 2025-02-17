@@ -172,6 +172,7 @@ $$
 $$
   Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) \right]
 $$
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502172101329.png)
 
 - **特点**：使用实际执行的动作$a_{t+1}$更新Q值，策略保守，适合高风险环境（如悬崖行走）。
 
