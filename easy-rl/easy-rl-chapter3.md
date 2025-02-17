@@ -77,7 +77,17 @@ $$
 - **TD误差**： $\delta = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$ ，其中 $\delta = r_{t+1} + \gamma V(s_{t+1})$ 被称为**时序差分目标（TD target）**，时序差分目标是带衰减的未来奖励的总和。
 - **物理意义**：类似巴甫洛夫条件反射，通过相邻状态的价值迭代更新。
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502171835268.png)
+$$
+\begin{align}
+n &= 1  (\text{TD}) \\
+G_t^{(1)} &= r_{t+1} + \gamma V(s_{t+1}) \\
+n = 2 G_t^{(2)} = r_{t+1} + \gamma r_{t+2} + \gamma^2 V(s_{t+2}) \\
+\vdots \\
+n = \infty \ (\text{MC}) \\
+G_t^{\infty} = r_{t+1} + \gamma r_{t+2} + \cdots + \gamma^{T-t-1} r_T
+\end{align}
 
+$$
 ---
 
 ## 3.4 免模型控制
