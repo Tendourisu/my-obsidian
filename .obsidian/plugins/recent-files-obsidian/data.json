@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "日语速通",
+      "path": "日语速通.md"
+    },
+    {
       "basename": "easy-rl-chapter3",
       "path": "easy-rl/easy-rl-chapter3.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "有趣的github库",
       "path": "有趣的github库.md"
-    },
-    {
-      "basename": "新年祝福",
-      "path": "新年祝福.md"
     }
   ],
   "omittedPaths": []
