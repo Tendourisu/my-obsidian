@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-02-17-1",
+      "path": "dairy/daily/2025-08-02-17-1.md"
+    },
+    {
+      "basename": "ResNet",
+      "path": "论文阅读/李沐论文精读系列/ResNet.md"
+    },
+    {
+      "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
+      "path": "论文阅读/挑战杯/Monte Carlo Tree Search 蒙特卡洛树搜索.md"
+    },
+    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "easy-rl-chapter3",
       "path": "easy-rl/easy-rl-chapter3.md"
-    },
-    {
-      "basename": "第贰章-信息的表示与处理",
-      "path": "csapp&CMU15-213/第贰章-信息的表示与处理.md"
-    },
-    {
-      "basename": "程序员的观点A Programmer's Perspective",
-      "path": "csapp&CMU15-213/程序员的观点A Programmer's Perspective.md"
-    },
-    {
-      "basename": "hugging face",
-      "path": "hugging face.md"
     }
   ],
   "omittedPaths": []
