@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "鸣潮截图",
+      "path": "鸣潮截图.md"
+    },
+    {
       "basename": "easy-rl-chapter3",
       "path": "easy-rl/easy-rl-chapter3.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
       "path": "论文阅读/挑战杯/Monte Carlo Tree Search 蒙特卡洛树搜索.md"
-    },
-    {
-      "basename": "鸣潮截图",
-      "path": "鸣潮截图.md"
     },
     {
       "basename": "开发记录",
