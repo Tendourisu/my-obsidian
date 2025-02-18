@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "easy-rl-chapter3",
+      "path": "easy-rl/easy-rl-chapter3.md"
+    },
+    {
       "basename": "easy-rl-chapter2",
       "path": "easy-rl/easy-rl-chapter2.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "资源汇总帖",
       "path": "资源汇总帖.md"
-    },
-    {
-      "basename": "easy-rl-chapter3",
-      "path": "easy-rl/easy-rl-chapter3.md"
     },
     {
       "basename": "图",
