@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-02-18-2",
+      "path": "dairy/daily/2025-08-02-18-2.md"
+    },
+    {
       "basename": "RL 入门汇总",
       "path": "easy-rl/RL 入门汇总.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "deepseek-r1试用",
       "path": "deepseek-r1试用.md"
-    },
-    {
-      "basename": "deepseek-r1试用2",
-      "path": "deepseek-r1试用2.md"
     }
   ],
   "omittedPaths": []
