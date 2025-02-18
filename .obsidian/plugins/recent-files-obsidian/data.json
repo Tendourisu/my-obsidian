@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
       "basename": "easy-rl-chapter3",
       "path": "easy-rl/easy-rl-chapter3.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "deepseek-r1试用2",
       "path": "deepseek-r1试用2.md"
-    },
-    {
-      "basename": "cs231n",
-      "path": "cs231n.md"
-    },
-    {
-      "basename": "有趣的github库",
-      "path": "有趣的github库.md"
     }
   ],
   "omittedPaths": []
