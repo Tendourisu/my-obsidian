@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "朝鲜",
+      "path": "朝鲜.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "template",
       "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "mkdocs相关资料",
-      "path": "tools/mkdocs相关资料.md"
     }
   ],
   "omittedPaths": []
