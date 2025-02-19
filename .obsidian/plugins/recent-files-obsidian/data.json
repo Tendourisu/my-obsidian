@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "202412011509",
+      "path": "202412011509.md"
+    },
+    {
+      "basename": "笔记的记录方法",
+      "path": "笔记的记录方法.md"
+    },
+    {
+      "basename": "怪獣の唄",
+      "path": "怪獣の唄.md"
+    },
+    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
+    },
+    {
+      "basename": "数电实验聊天记录",
+      "path": "杂/数电实验聊天记录.md"
     },
     {
       "basename": "easy-rl-chapter3",
@@ -55,10 +71,6 @@
     {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统/信号与系统 lec-1.md"
-    },
-    {
-      "basename": "笔记的记录方法",
-      "path": "笔记的记录方法.md"
     },
     {
       "basename": "ResNet",
@@ -187,18 +199,6 @@
     {
       "basename": "mkdocs相关资料",
       "path": "tools/mkdocs相关资料.md"
-    },
-    {
-      "basename": "===",
-      "path": "===.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
-    },
-    {
-      "basename": "obsidian沙盒学习",
-      "path": "tools/obsidian沙盒学习.md"
     }
   ],
   "omittedPaths": []
