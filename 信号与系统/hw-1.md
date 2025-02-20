@@ -22,4 +22,7 @@ mdate: " 2025-02-20 "
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202206947.png)
 	6.  奇怪的周期序列
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202209214.png)
-
+2. 选做题
+	2. sinc 函数乘积信号
+		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202220263.png)
+	 
