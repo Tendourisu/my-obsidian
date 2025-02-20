@@ -13,4 +13,6 @@ mdate: " 2025-02-20 "
 	1.  **单边指数信号**
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202117354.png)
 	2. 左边正弦信号
-	3. 
+		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202128463.png)
+	3. 右边指数衰减震荡信号
+		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202131331.png)
