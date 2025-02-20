@@ -16,3 +16,6 @@ mdate: " 2025-02-20 "
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202128463.png)
 	3. 右边指数衰减震荡信号
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202131331.png)
+	4. 复合信号
+		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202154492.png)
+	5. 单边衰减震荡序列
