@@ -20,4 +20,6 @@ mdate: " 2025-02-20 "
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202154492.png)
 	5. 单边衰减震荡序列  
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202206947.png)
+	6.  奇怪的周期序列
+		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202209214.png)
 
