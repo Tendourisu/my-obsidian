@@ -28,5 +28,6 @@ mdate: " 2025-02-20 "
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202220263.png)
 ## 二、写出信号函数表达式
 1. 必做题
-	1. $f(t) = (u(t+1)-u(t))*2*(t+1)+(u(t)-u(t-2))*(t-2)$
-	2. $f(t)=[1-u(t)]+0.7[u(t)-u(t-1.2)]+1.5[u(t-1.2)-u(t-2)]+2u(t-2)$
+	1. 三角信号： $f(t) = (u(t+1)-u(t))*2*(t+1)+(u(t)-u(t-2))*(t-2)$
+	2. 分段阶跃信号 $f(t)=[1-u(t)]+0.7[u(t)-u(t-1.2)]+1.5[u(t-1.2)-u(t-2)]+2u(t-2)$
+	3. 升余弦信号 $\sin{t} \cdot (u(t+\pi)-u(t-\pi))$
