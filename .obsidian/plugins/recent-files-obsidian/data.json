@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "hw-1",
+      "path": "信号与系统/hw-1.md"
+    },
+    {
+      "basename": "信号与系统 lec-1",
+      "path": "信号与系统/信号与系统 lec-1.md"
+    },
+    {
       "basename": "未命名",
       "path": "未命名.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "lec1",
       "path": "概率论与数理统计/lec1.md"
-    },
-    {
-      "basename": "信号与系统 lec-1",
-      "path": "信号与系统/信号与系统 lec-1.md"
     },
     {
       "basename": "ResNet",
@@ -195,10 +199,6 @@
     {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
     }
   ],
   "omittedPaths": []
