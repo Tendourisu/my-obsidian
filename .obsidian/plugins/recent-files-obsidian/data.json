@@ -5,6 +5,10 @@
       "path": "信号与系统/hw-1.md"
     },
     {
+      "basename": "easy-rl-chapter3",
+      "path": "easy-rl/easy-rl-chapter3.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "easy-rl-chapter3",
-      "path": "easy-rl/easy-rl-chapter3.md"
     },
     {
       "basename": "鸣潮截图",

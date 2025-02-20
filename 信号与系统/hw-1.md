@@ -19,4 +19,5 @@ mdate: " 2025-02-20 "
 	4. 复合信号  
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202154492.png)
 	5. 单边衰减震荡序列  
-		![](https://raw.githubusercontent.com/Tendourisu/images/master/202502202159722.png)
+		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202206947.png)
+
