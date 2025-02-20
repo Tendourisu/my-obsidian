@@ -5,16 +5,16 @@
       "path": "信号与系统/hw-1.md"
     },
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统/信号与系统 lec-1.md"
     },
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "easy-rl-chapter3",
@@ -195,10 +195,6 @@
     {
       "basename": "20250104",
       "path": "dairy/daily/20250104.md"
-    },
-    {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
     }
   ],
   "omittedPaths": []
