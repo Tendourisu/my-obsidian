@@ -9,6 +9,7 @@ share: false
 cdate: " 2025-02-20 "
 mdate: " 2025-02-20 "
 ---
+## 一、绘制信号波形
 1. 必做题
 	1. **单边指数信号**  
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202117354.png)
@@ -25,4 +26,6 @@ mdate: " 2025-02-20 "
 2. 选做题
 	2. sinc 函数乘积信号
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202220263.png)
-	 
+## 二、写出信号函数表达式
+1. 必做题
+	1. $f(t) = (u(t+1)-u(t))*2*(t+1)+u(t)$
