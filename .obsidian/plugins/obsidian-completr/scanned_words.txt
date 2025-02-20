@@ -92228,6 +92228,7 @@ subscript
 sinh
 snippet
 synthesis
+sinc
 torch
 training
 tune
