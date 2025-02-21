@@ -9,7 +9,9 @@ share: false
 cdate: " 2025-02-20 "
 mdate: " 2025-02-20 "
 ---
+
 ## 一、绘制信号波形
+
 1. 必做题
 	1. **单边指数信号**  
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202117354.png)
@@ -21,12 +23,14 @@ mdate: " 2025-02-20 "
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202154492.png)
 	5. 单边衰减震荡序列  
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202206947.png)
-	6.  奇怪的周期序列
+	6. 奇怪的周期序列  
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202209214.png)
-2. 选做题
-	2. sinc 函数乘积信号
+2. 选做题  
+	2. sinc 函数乘积信号  
 		![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502202220263.png)
+
 ## 二、写出信号函数表达式
+
 1. 必做题
 	1. 三角信号： $f(t) = (u(t+1)-u(t))*2*(t+1)+(u(t)-u(t-2))*(t-2)$
 	2. 分段阶跃信号 ： $f(t)=[1-u(t)]+0.7[u(t)-u(t-1.2)]+1.5[u(t-1.2)-u(t-2)]+2u(t-2)$
@@ -35,7 +39,9 @@ mdate: " 2025-02-20 "
 2. 选做题
 	1. 周期方波信号： $f(t)=u(\cos(t))$
 	2. 阶跃衰减信号： $f(t)=\sum^{+\infty}_{n=0}[u(t-1+2^{-n})-u(t-1+2^{-n-1})]$
+
 ## 三、判断信号的周期性
+
 1. 必做题
 	1. 是
 	2. 不是
@@ -45,13 +51,13 @@ mdate: " 2025-02-20 "
 	6. 是
 2. 选做题
 	1. 不是 3/8 乘上一个整数不可能是 $2\pi$ 的整数倍
-	2. 
 		- 对
 		- 对
-	3. 
 		- 不一定
 		- 是
+
 ## 四、冲激信号特性
+
 1. 必做题
 	1. $\sqrt{ 2 }$
 	2. $e^{-3}$
