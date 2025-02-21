@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "策略梯度算法",
+      "path": "easy-rl/策略梯度算法.md"
+    },
+    {
       "basename": "easy-rl-chapter4",
       "path": "easy-rl/easy-rl-chapter4.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20250105",
       "path": "dairy/daily/20250105.md"
-    },
-    {
-      "basename": "20250104",
-      "path": "dairy/daily/20250104.md"
     }
   ],
   "omittedPaths": []
