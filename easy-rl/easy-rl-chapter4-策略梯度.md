@@ -173,7 +173,7 @@ while not done:
 # 计算未来奖励 G_t
 G = 0
 returns = []
-for r in reversed(rewards):
+for r in reversed(range(len(rewards))):
     G = r + gamma * G
     returns.insert(0, G)
 
