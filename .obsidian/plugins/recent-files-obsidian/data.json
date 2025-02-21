@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "easy-rl-chapter4",
+      "path": "easy-rl/easy-rl-chapter4.md"
+    },
+    {
       "basename": "使用Bernoulli采样而不是手写概率采样的优点",
       "path": "使用Bernoulli采样而不是手写概率采样的优点.md"
     },
     {
       "basename": "template",
       "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "easy-rl-chapter4",
-      "path": "easy-rl/easy-rl-chapter4.md"
     },
     {
       "basename": "prompt",
