@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "策略梯度算法",
-      "path": "easy-rl/策略梯度算法.md"
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "easy-rl-chapter4",
       "path": "easy-rl/easy-rl-chapter4.md"
+    },
+    {
+      "basename": "策略梯度算法",
+      "path": "easy-rl/策略梯度算法.md"
     },
     {
       "basename": "easy-rl-chapter3",
@@ -15,10 +19,6 @@
     {
       "basename": "hw-1",
       "path": "信号与系统/hw-1.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "信号与系统 lec-1",
