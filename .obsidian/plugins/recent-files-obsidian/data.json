@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "D",
-      "path": "D.md"
+      "basename": "使用Bernoulli采样而不是手写概率采样的优点",
+      "path": "使用Bernoulli采样而不是手写概率采样的优点.md"
+    },
+    {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
     },
     {
       "basename": "easy-rl-chapter4",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-04-01-23-4",
       "path": "dairy/daily/2025-04-01-23-4.md"
-    },
-    {
-      "basename": "2025-05-01-27-1",
-      "path": "dairy/daily/2025-05-01-27-1.md"
     }
   ],
   "omittedPaths": []

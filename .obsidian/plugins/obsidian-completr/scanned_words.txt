@@ -43161,6 +43161,8 @@ psi
 pmatrix
 potential
 processe
+prob
+probs
 Understanding
 USTC
 Unix
@@ -137401,6 +137403,7 @@ Backup
 BAlc
 Bmatrix
 Brackets
+Bernoulli
 rust
 recording
 ref
@@ -140932,6 +140935,7 @@ replacement
 rmA
 rarr
 rewarding
+rand
 xv
 xpy
 xlb
