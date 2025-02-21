@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
       "basename": "easy-rl-chapter4",
       "path": "easy-rl/easy-rl-chapter4.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "策略梯度算法",
