@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "D",
+      "path": "D.md"
+    },
+    {
       "basename": "easy-rl-chapter4",
       "path": "easy-rl/easy-rl-chapter4.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-05-01-27-1",
       "path": "dairy/daily/2025-05-01-27-1.md"
-    },
-    {
-      "basename": "20250105",
-      "path": "dairy/daily/20250105.md"
     }
   ],
   "omittedPaths": []
