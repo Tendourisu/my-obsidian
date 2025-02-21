@@ -197,16 +197,12 @@ optimizer.step()
 | $\nabla \bar{R}_\theta = \mathbb{E}[R(\tau) \sum \nabla \log p_\theta(a_t\|s_t)]$ | 原始策略梯度 |
 | $\nabla \bar{R}_\theta \approx \frac{1}{N} \sum \sum (G_t - b) \nabla \log p_\theta(a_t\|s_t)$ | 带基线和折扣的未来奖励梯度 |
 | $G_t = r_{t+1} + \gamma G_{t+1}$ | 未来奖励的递归计算 |
+
 ## 关键词
 
 - **策略（policy）**：在每一个演员中会有对应的策略，这个策略决定了演员的后续动作。具体来说，策略就是对于外界的输入，输出演员现在应该要执行的动作。一般地，我们将策略写成 $\pi$ 。
-
 - **回报（return）**：一个回合（episode）或者试验（trial）得到的所有奖励的总和，也被人们称为总奖励（total reward）。一般地，我们用 $R$ 来表示它。
-
 - **轨迹（trajectory）**：一个试验中我们将环境输出的状态 $s$ 与演员输出的动作 $a$ 全部组合起来形成的集合称为轨迹，即 $\tau=\left\{s_{1}, a_{1}, s_{2}, a_{2}, \cdots, s_{t}, a_{t}\right\}$ 。
-
 - **奖励函数（reward function）**：用于反映在某一个状态采取某一个动作可以得到的奖励分数，这是一个函数。即给定一个状态-动作对 ($s_1$,$a_1$) ，奖励函数可以输出 $r_1$ 。给定 ($s_2$,$a_2$)，它可以输出 $r_2$。 把所有的 $r$ 都加起来，我们就得到了 $R(\tau)$ ，它代表某一个轨迹 $\tau$ 的奖励。
-
 - **期望奖励（expected reward）**：$\bar{R}_{\theta}=\sum_{\tau} R(\tau) p_{\theta}(\tau)=E_{\tau \sim p_{\theta}(\tau)}[R(\tau)]$。
-
 - **REINFORCE**：基于策略梯度的强化学习的经典算法，其采用回合更新的模式。
