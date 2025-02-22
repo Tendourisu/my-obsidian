@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "鸣潮截图",
+      "path": "鸣潮截图.md"
+    },
+    {
+      "basename": "2025-08-02-22-6",
+      "path": "dairy/daily/2025-08-02-22-6.md"
+    },
+    {
       "basename": "王树森Reinforcement_Learning学习笔记",
       "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "synthesizer入坑",
       "path": "synthesizer入坑.md"
-    },
-    {
-      "basename": "鸣潮截图",
-      "path": "鸣潮截图.md"
     },
     {
       "basename": "怪獣の唄",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-05-02-02-7",
       "path": "dairy/daily/2025-05-02-02-7.md"
-    },
-    {
-      "basename": "2025-05-01-28-2",
-      "path": "dairy/daily/2025-05-01-28-2.md"
     }
   ],
   "omittedPaths": []
