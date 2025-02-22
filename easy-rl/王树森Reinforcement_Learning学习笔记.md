@@ -196,7 +196,8 @@ $$s_t\rightarrow{}Q(s,a;w)\rightarrow{}Q^*$$
 
 我们可以将 DQN 应用到玩游戏当中，在游戏的每一个回合中，我们总是根据DQN选出Q值最大的动作$a^\star = argmax_{a}Q^\star(s, a)$，转移到下一个状态，并重复这一过程，直到游戏结束。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-1e49fd1e4e266d76236278416412aff8_1440w.jpg)  
+![v2-1e49fd1e4e266d76236278416412aff8_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-1e49fd1e4e266d76236278416412aff8_1440w.jpg)
+  
 
 > 注意：  
 > 这种方法被称为贪婪策略（greedy policy），即在每个时间步都选择当前最优的动作。在实际应用中，为了探索更多的动作并避免过早地陷入局部最优，可能会使用ε-贪婪策略（ε-greedy policy），即以一定的概率ε随机选择一个动作以探索环境，而不是总是选择当前最优的动作。
@@ -211,9 +212,10 @@ TD算法的损失函数：$L(w) = \frac{1}{2}\left [Q(s,d;w) - y \right ]^2 \\$
 
 然后使用链式法则对 $L(w)$关于参数 $w$求梯度：
 
-$\frac{\partial{L}}{\partial{w}} = \frac{\partial{q}}{\partial{w}} \cdot \frac{\partial{L}}{\partial{q}} = (q-y) \cdot \frac{\partial{Q(w)}}{\partial{w}}\\$ 最后做梯度下降更新模型参数$w$ :
+$$$\frac{\partial{L}}{\partial{w}} = \frac{\partial{q}}{\partial{w}} \cdot \frac{\partial{L}}{\partial{q}} = (q-y) \cdot \frac{\partial{Q(w)}}{\partial{w}}$ $$
+最后做梯度下降更新模型参数$w$ :
 
-$w_{t+1} = w_t - \alpha \cdot \frac{\partial{L}}{\partial w} \mid _{w=w_t}\\$
+$$w_{t+1} = w_t - \alpha \cdot \frac{\partial{L}}{\partial w} \mid _{w=w_t}$$
 
 > 此处的 $\alpha$是学习率，是个超参数，需要手动调。
 
