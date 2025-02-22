@@ -161,8 +161,8 @@ $V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_{
 > （3）上述是离散的写法（连加），如果是连续的需要换成定积分。  
 > （3） **${\pi}$ 与 $Q_{\pi}$ 实际上我们并不知道，**只能用近似的方式获得。例如P4介绍的Actor-Critic方法中，就使用了两个神经网络去近似，然后用Actor-Critic方法同时学习者两个神经网络。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-f54d9ed2330d82ca8314fffa057379a2_1440w.jpg)  
-**参考资料**
+![v2-f54d9ed2330d82ca8314fffa057379a2_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-f54d9ed2330d82ca8314fffa057379a2_1440w.jpg)
+
 
 [codingpath：王树森老师 DRL 课程笔记 P1-强化学习 (Reinforcement Learning) 基本概念](https://zhuanlan.zhihu.com/p/588047970)
 
