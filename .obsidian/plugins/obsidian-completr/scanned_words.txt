@@ -3733,6 +3733,7 @@ cloning
 cccf
 cloningkey
 cddc
+cdot
 Computer
 Concepts
 ChatGpt
@@ -14372,6 +14373,7 @@ actor
 affa
 abcdf
 aeed
+argmax
 Design
 Data
 Database
@@ -60447,6 +60449,7 @@ nmtui
 notebooklm
 nFET
 nmcli
+nabla
 Network
 Nvidia
 NCNN
@@ -85175,6 +85178,8 @@ letters
 letter
 langle
 lvert
+ldots
+leftarrow
 GPU
 GPT
 Google
@@ -103005,6 +103010,7 @@ mathrm
 mechanics
 mod
 mujoco
+mathcal
 blog
 batchsize
 batch
@@ -106602,6 +106608,7 @@ bmatrix
 blogging
 building
 bbfe
+beta
 is
 inference
 in
@@ -140971,6 +140978,7 @@ rmA
 rarr
 rewarding
 rand
+recorded
 xv
 xpy
 xlb
@@ -175265,6 +175273,7 @@ dag
 dagger
 difference
 dacdfa
+delta
 Youtube
 YOLO
 Your
