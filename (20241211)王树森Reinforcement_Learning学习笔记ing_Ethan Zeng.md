@@ -94,11 +94,12 @@ $p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
 
 **13.强化学习分类：**
 
-**（1）根据agent学习方式分：**基于价值的强化学习Value based RL（P2）、基于策略的强化学习Policy based RL（P3） 、以及Actor-Critic方法（P4）。
+**（1）根据agent学习方式分：** 基于价值的强化学习Value based RL（P2）、基于策略的强化学习Policy based RL（P3） 、以及Actor-Critic方法（P4）。
 
-**（2）按agent有无学习环境的模型分：**model-based（通过学习状态转移概率 $ P ( s , s ′ )$ 采取行动）与model-free（通过学习价值函数 $ V π ( s )$ 与策略函数进行决策）
+**（2）按agent有无学习环境的模型分：** model-based（通过学习状态转移概率 $P ( s , s ′ )$ 采取行动）与model-free（通过学习价值函数 $V π ( s )$ 与策略函数进行决策）
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-ba993ffb12b83fd73b2a5f8ee757afae_1440w.jpg)  
+![v2-ba993ffb12b83fd73b2a5f8ee757afae_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-ba993ffb12b83fd73b2a5f8ee757afae_1440w.jpg)
+
 **（3）根据如何使用已有的数据进行学习和决策分：**在线策略（on-policy）和离线策略（off-policy）。
 
 - 在线策略（on-policy）算法表示**行为策略和目标策略是同一个策略**，agent根据当前的策略来选择动作，并且学习的目标是优化当前正在执行的策略
@@ -111,7 +112,7 @@ $p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
 - 回合更新：游戏有开始和结束，回合更新只有等待一局游戏从开始到结束，然后才能更新行为准则
 - 单步更新：在游戏过程中，每一步都可以更新，不用等待游戏的结束，边玩边学习，学习效率更好
 
-**14.Rollout：**在强化学习中，rollout指的是在训练过程中，智能体根据当前的策略在环境中进行一系列的**模拟交互步骤，模拟并收集样本数据的过程。**
+**14.Rollout** 在强化学习中，rollout指的是在训练过程中，智能体根据当前的策略在环境中进行一系列的**模拟交互步骤，模拟并收集样本数据的过程。**
 
 > 理解：仿真器（webots、mujoco）是提供虚拟环境和交互的**工具**，而 rollout 是在该环境中进行交互并收集样本数据的**过程**。
 
@@ -123,12 +124,13 @@ $p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
 
 参考资料：
 
-[【强化学习】强化学习基础教程：基本概念、强化学习的定义，要素，方法分类 以及 Rollout、episode回合、transition转移、trajectory轨迹的概念](https://blog.csdn.net/Ever\_\_\_\_\_/article/details/133362585?ops\_request\_misc=%7B%22request%5Fid%22%3A%22abfc536d828c6cb4ad3004cf9dcc7559%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&request\_id=abfc536d828c6cb4ad3004cf9dcc7559&biz\_id=0&utm\_medium=distribute.pc\_search\_result.none-task-blog-2~all~first\_rank\_ecpm\_v1~rank\_v31\_ecpm-26-133362585-null-null.142^v100^pc\_search\_result\_base1&utm\_term=Rollout&spm=1018.2226.3001.4187)### 二、Return and Value  
-**1.回报(Return，也叫累计奖励)：**顾名思义，从当前时刻开始到本回合结束的所有奖励的总和。计$t$ 时刻的回报为**随机变量** $U_{t}$ ： $U_{t} = R_{t} + R_{t+1} + R_{t+2} + R_{t+3} + \ldots + R_{n}\\$
+[【强化学习】强化学习基础教程：基本概念、强化学习的定义，要素，方法分类 以及 Rollout、episode回合、transition转移、trajectory轨迹的概念](https://blog.csdn.net/Ever\_\_\_\_\_/article/details/133362585?ops\_request\_misc=%7B%22request%5Fid%22%3A%22abfc536d828c6cb4ad3004cf9dcc7559%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&request\_id=abfc536d828c6cb4ad3004cf9dcc7559&biz\_id=0&utm\_medium=distribute.pc\_search\_result.none-task-blog-2~all~first\_rank\_ecpm\_v1~rank\_v31\_ecpm-26-133362585-null-null.142^v100^pc\_search\_result\_base1&utm\_term=Rollout&spm=1018.2226.3001.4187)
+### 二、Return and Value  
+**1.回报(Return，也叫累计奖励)** 顾名思义，从当前时刻开始到本回合结束的所有奖励的总和。计 $t$ 时刻的回报为**随机变量** $U_{t}$ ： $U_{t} = R_{t} + R_{t+1} + R_{t+2} + R_{t+3} + \ldots + R_{n}$
 
 > 注意：强化学习的目标就是寻找一个策略，使得回报的期望最大化，这个策略称为最优策略 (optimum policy)。
 
-**2.折扣回报(Discounted Return)：**在 MDP 中，通常使用折扣回报，即给未来的奖励做折扣。折扣回报的定义如下:
+**2.折扣回报(Discounted Return)** 在 MDP 中，通常使用折扣回报，即给未来的奖励做折扣。折扣回报的定义如下:
 
 $U_t = R_t + \gamma R_{t+1} + \gamma ^2R_{t+2} + \gamma ^3R_{t+3} + ... \\$
 
