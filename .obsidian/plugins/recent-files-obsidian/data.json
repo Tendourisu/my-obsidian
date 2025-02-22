@@ -5,6 +5,14 @@
       "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
     },
     {
+      "basename": "docker-getting-started学习记录",
+      "path": "tools/docker-getting-started学习记录.md"
+    },
+    {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
       "basename": "RL 入门汇总",
       "path": "easy-rl/RL 入门汇总.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "服务器图像转发",
       "path": "服务器图像转发.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     },
     {
       "basename": "hugging face",

@@ -1,4 +1,15 @@
-#docker #tools #tutorial
+---
+title: docker-getting-started学习记录
+tags:
+  - docker
+  - tools
+  - tutorial
+date: " 2025-02-22T21:49:36+08:00 "
+modify: " 2025-02-22T21:49:36+08:00 "
+share: false
+cdate: " 2025-02-22 "
+mdate: " 2025-02-22 "
+---
 
 - 仓库地址[GitHub - docker/getting-started: Getting started with Docker](https://github.com/docker/getting-started.git)
 - 如果你的 dockers 里面还没有docker/getting-started 这个镜像（image），记得 `docker pull docker/getting-started`
