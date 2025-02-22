@@ -187,7 +187,8 @@ $$s_t\rightarrow{}Q(s,a;w)\rightarrow{}Q^*$$
 
 > 注意：$w$为神经网络中的参数。在训练DQN时，我首先需要随机初始化它，然后使用时间差分算法等算法逐步去更新它。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-9059fc19d74d4dc361bd8f8290291183_1440w.jpg)  
+![v2-9059fc19d74d4dc361bd8f8290291183_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-9059fc19d74d4dc361bd8f8290291183_1440w.jpg)
+
 
 > 注意：  
 > （1）DQN输入：输入是状态 s。这个例子中是一个游戏的截图。  
