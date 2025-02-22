@@ -52,8 +52,8 @@
 > （1）强化学习的目标就是得到一个**策略函数 (policy function)**，也叫**$\pi$函数 ( $\pi$ function)** ，在每个时刻根据观测到的状态做出决策。  
 > （2）$\pi$函数输入的是状态，输出的是动作的概率，例如下面up的概率为0.7。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-51699d11055e5f0d34b6a6ee33890ba6_1440w.jpg)  
-**9.状态转移(State transition)：**智能体从当前 $t$时刻的状态 $s$转移到下一个时刻状态为 $s^\prime$的过程。
+![v2-51699d11055e5f0d34b6a6ee33890ba6_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-51699d11055e5f0d34b6a6ee33890ba6_1440w.jpg)
+
 
 **10.状态转移概率函数：**描述状态转移的函数，有如下2两种表达式： 
 
@@ -79,7 +79,8 @@ $p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
 > 解释：黄色字体表示学生采取的动作，框图表示MRP的状态名（避免混淆隐去），R表示奖励函数，其与学生所采取的动作有关。  
 > 注意：当学生选择“去查阅文献pub”这个动作时，则将进入一个临时状态（图中用黑色小实点表示），随后被环境按照其动力学分配到另外三个MRP状态（class1、class2、class3），也就是说此时Agent**没有选择权**决定去哪一个状态。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-d5f797be692be95e48476449b2fde93f_1440w.jpg)  
+![v2-d5f797be692be95e48476449b2fde93f_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-d5f797be692be95e48476449b2fde93f_1440w.jpg)
+
 
 参考资料
 
