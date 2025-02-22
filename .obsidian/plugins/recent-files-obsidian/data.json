@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "(20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng",
-      "path": "(20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng.md"
+      "basename": "王树森Reinforcement_Learning学习笔记",
+      "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
     },
     {
-      "basename": "RL笔记-王树森",
-      "path": "RL笔记-王树森.md"
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "argparse和absl-Python包开发工具包",
+      "path": "argparse和absl-Python包开发工具包.md"
+    },
+    {
+      "basename": "服务器图像转发",
+      "path": "服务器图像转发.md"
     },
     {
       "basename": "git use",
       "path": "git use.md"
+    },
+    {
+      "basename": "hugging face",
+      "path": "hugging face.md"
+    },
+    {
+      "basename": "mkdocs --wnc",
+      "path": "mkdocs --wnc.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
+      "basename": "synthesizer入坑",
+      "path": "synthesizer入坑.md"
     },
     {
       "basename": "鸣潮截图",
@@ -37,10 +65,6 @@
       "path": "zob_config/template/template.md"
     },
     {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
       "basename": "策略梯度算法",
       "path": "easy-rl/策略梯度算法.md"
     },
@@ -55,10 +79,6 @@
     {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统/信号与系统 lec-1.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
     },
     {
       "basename": "202412011509",
@@ -87,14 +107,6 @@
     {
       "basename": "2025-08-02-18-2",
       "path": "dairy/daily/2025-08-02-18-2.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
-      "basename": "资源汇总帖",
-      "path": "资源汇总帖.md"
     },
     {
       "basename": "图",
@@ -187,14 +199,6 @@
     {
       "basename": "20250109",
       "path": "dairy/daily/20250109.md"
-    },
-    {
-      "basename": "20250111",
-      "path": "dairy/daily/20250111.md"
-    },
-    {
-      "basename": "20250115",
-      "path": "dairy/daily/20250115.md"
     }
   ],
   "omittedPaths": []

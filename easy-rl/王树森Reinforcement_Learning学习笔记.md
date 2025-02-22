@@ -1,3 +1,13 @@
+---
+title: 王树森Reinforcement_Learning学习笔记
+tags:
+  - RL
+date: " 2025-02-22T18:54:32+08:00 "
+modify: " 2025-02-22T18:54:32+08:00 "
+share: false
+cdate: " 2025-02-22 "
+mdate: " 2025-02-22 "
+---
 ## 【课程目录】  
 
 **P1 强化学习基础（Reinforcement Learning）：** 学习强化学习相关的基本概念
@@ -49,11 +59,10 @@
 **8.策略 (policy) ：** 根据观测到的状态，如何做出决策，即如何从动作空间中选取一个动作。
 
 > 注意：  
-> （1）强化学习的目标就是得到一个**策略函数 (policy function)**，也叫$\pi$ 函数 ( $\pi$ function)   ，在每个时刻根据观测到的状态做出决策。  
+> （1）强化学习的目标就是得到一个**策略函数 (policy function)**，也叫$\pi$ 函数 ( $\pi$ function) ，在每个时刻根据观测到的状态做出决策。  
 > （2）$\pi$函数输入的是状态，输出的是动作的概率，例如下面up的概率为0.7。
 
 ![v2-51699d11055e5f0d34b6a6ee33890ba6_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-51699d11055e5f0d34b6a6ee33890ba6_1440w.jpg)
-
 
 **10.状态转移概率函数：** 描述状态转移的函数，有如下2两种表达式： 
 
@@ -80,7 +89,6 @@ $p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
 > 注意：当学生选择“去查阅文献pub”这个动作时，则将进入一个临时状态（图中用黑色小实点表示），随后被环境按照其动力学分配到另外三个MRP状态（class1、class2、class3），也就是说此时Agent**没有选择权**决定去哪一个状态。
 
 ![v2-d5f797be692be95e48476449b2fde93f_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-d5f797be692be95e48476449b2fde93f_1440w.jpg)
-
 
 参考资料
 
@@ -125,7 +133,9 @@ $p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
 参考资料：
 
 [【强化学习】强化学习基础教程：基本概念、强化学习的定义，要素，方法分类 以及 Rollout、episode回合、transition转移、trajectory轨迹的概念](https://blog.csdn.net/Ever\_\_\_\_\_/article/details/133362585?ops\_request\_misc=%7B%22request%5Fid%22%3A%22abfc536d828c6cb4ad3004cf9dcc7559%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&request\_id=abfc536d828c6cb4ad3004cf9dcc7559&biz\_id=0&utm\_medium=distribute.pc\_search\_result.none-task-blog-2~all~first\_rank\_ecpm\_v1~rank\_v31\_ecpm-26-133362585-null-null.142^v100^pc\_search\_result\_base1&utm\_term=Rollout&spm=1018.2226.3001.4187)
+
 ### 二、Return and Value  
+
 **1.回报(Return，也叫累计奖励)** 顾名思义，从当前时刻开始到本回合结束的所有奖励的总和。计 $t$ 时刻的回报为**随机变量** $U_{t}$ ： $U_{t} = R_{t} + R_{t+1} + R_{t+2} + R_{t+3} + \ldots + R_{n}$
 
 > 注意：强化学习的目标就是寻找一个策略，使得回报的期望最大化，这个策略称为最优策略 (optimum policy)。
@@ -162,7 +172,6 @@ $V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_{
 > （3） **${\pi}$ 与 $Q_{\pi}$ 实际上我们并不知道，**只能用近似的方式获得。例如P4介绍的Actor-Critic方法中，就使用了两个神经网络去近似，然后用Actor-Critic方法同时学习者两个神经网络。
 
 ![v2-f54d9ed2330d82ca8314fffa057379a2_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-f54d9ed2330d82ca8314fffa057379a2_1440w.jpg)
-
 
 [codingpath：王树森老师 DRL 课程笔记 P1-强化学习 (Reinforcement Learning) 基本概念](https://zhuanlan.zhihu.com/p/588047970)
 

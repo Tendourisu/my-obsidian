@@ -1,3 +1,14 @@
+---
+title: argparse 和 absl Python包开发工具
+tags:
+  - python
+date: " 2025-02-22T18:52:20+08:00 "
+modify: " 2025-02-22T18:52:20+08:00 "
+share: false
+cdate: " 2025-02-22 "
+mdate: " 2025-02-22 "
+---
+
 `argparse` 和 `absl` 都是用于在Python中处理命令行参数的工具，但它们在很多方面存在区别，以下是详细介绍：
 
 ### 1. 来源和背景
