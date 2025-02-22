@@ -8,6 +8,7 @@ share: false
 cdate: " 2025-02-22 "
 mdate: " 2025-02-22 "
 ---
+
 ## 【课程目录】  
 
 **P1 强化学习基础（Reinforcement Learning）：** 学习强化学习相关的基本概念
@@ -66,8 +67,13 @@ mdate: " 2025-02-22 "
 
 **10.状态转移概率函数：** 描述状态转移的函数，有如下2两种表达式： 
 
-$$P_{ss'}^{a} \color{default}=P[S_{t+1} = s'|S_{t}=s,A_{t} =a]$$
-$$p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$$
+$$
+P_{ss'}^{a} \color{default}=P[S_{t+1} = s'|S_{t}=s,A_{t} =a]
+$$
+
+$$
+p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)
+$$
 
 > 解释：当前状态 $s$ ，当前智能体执行动作 $a$，在 $t+1 $ 时刻环境状态变成 $s'$ 的概率是多少。（P表示概率）
 
@@ -142,7 +148,9 @@ $$p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$$
 
 **2.折扣回报(Discounted Return)** 在 MDP 中，通常使用折扣回报，即给未来的奖励做折扣。折扣回报的定义如下:
 
-$$U_t = R_t + \gamma R_{t+1} + \gamma ^2R_{t+2} + \gamma ^3R_{t+3} + ...$$
+$$
+U_t = R_t + \gamma R_{t+1} + \gamma ^2R_{t+2} + \gamma ^3R_{t+3} + ...
+$$
 
 > 注意：对待越久远的未来，折扣因子的幂越大，给奖励打的折扣越大。
 
@@ -150,20 +158,26 @@ $$U_t = R_t + \gamma R_{t+1} + \gamma ^2R_{t+2} + \gamma ^3R_{t+3} + ...$$
 
 > 含义解释：动作价值函数像是评估你目前走的这步棋的得分，它考虑了你走这步棋后，按照你的策略继续下棋所能获得的期望得分。通过评估和比较当前不同动作的Q值，来决定走哪步棋。
 
-$$Q_{\pi}(S_t, A_t) = E_{S_{t+1}, A_{t+1}, \ldots, S_n, A_n} \left[ U_t \mid S_t = s_t, A_t = a_t \right]$$
+$$
+Q_{\pi}(S_t, A_t) = E_{S_{t+1}, A_{t+1}, \ldots, S_n, A_n} \left[ U_t \mid S_t = s_t, A_t = a_t \right]
+$$
 
 > 注意：  
 > （1）动作价值函数只依赖于当前状态 $s_t,$动作 $a_t $ ​，而不依赖于之后的状态和动作。  
 > （2）在强化学习中，动作价值函数用于评估不同动作的优劣，并指导智能体做出决策。智能体通常会选择那些能够最大化Q的动作。  
 > （3）不论未来采取什么样的策略$\pi$ ，回报$U_t$ 的期望不可能超过某个动作价值函数 $Q^\star$，这个动作价值函数则称为**最优动作价值函数(Optimal action-value function)**。
 
-$$Q^\star(s_t,a_t) = max_\pi{Q_\pi(s_t,a_t)}$$
+$$
+Q^\star(s_t,a_t) = max_\pi{Q_\pi(s_t,a_t)}
+$$
 
 **4.状态价值函数(State-value function)：** 状态价值函数通常表示为 $V_π​(s_t​)$ ，它用于评估在给定状态状态 $s_t$ 下，按照策略 $π$ 所能获得的期望回报。
 
 > 含义解释：与动作价值函数不同状态价值函数不关心在特定状态下采取的具体动作，而是关心在该状态下遵循策略所能获得的平均回报。
 
-$$V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_{t}) \right] = \sum_{a \in \mathcal{A}} \pi(a \mid s_{t}) Q_{\pi}(s_{t}, a)$$
+$$
+V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_{t}) \right] = \sum_{a \in \mathcal{A}} \pi(a \mid s_{t}) Q_{\pi}(s_{t}, a)
+$$
 
 > 注意：  
 > （1）状态价值函数依赖于策略，这意味着它反映了在特定策略下，从某个状态开始所能获得的期望回报。  
@@ -183,12 +197,13 @@ $$V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_
 
 在前面的学习我们知道，不论未来采取什么样的策略$\pi$ ，回报$U_t$ 的期望不可能超过最优动作价值函数$Q^\star$。那么我就可以根据根据 $Q^\star$的值选择最优动作，然后最大化未来的累计奖励。但事实上我们并不知道$Q^\star$ 的函数表达式，只能近似学习 $Q^\star$。一种常见的办法就是使用**Deep Q Network(DQN，神经网络)。**
 
-$$s_t\rightarrow{}Q(s,a;w)\rightarrow{}Q^*$$
+$$
+s_t\rightarrow{}Q(s,a;w)\rightarrow{}Q^*
+$$
 
 > 注意：$w$为神经网络中的参数。在训练DQN时，我首先需要随机初始化它，然后使用时间差分算法等算法逐步去更新它。
 
 ![v2-9059fc19d74d4dc361bd8f8290291183_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-9059fc19d74d4dc361bd8f8290291183_1440w.jpg)
-
 
 > 注意：  
 > （1）DQN输入：输入是状态 s。这个例子中是一个游戏的截图。  
@@ -197,7 +212,6 @@ $$s_t\rightarrow{}Q(s,a;w)\rightarrow{}Q^*$$
 我们可以将 DQN 应用到玩游戏当中，在游戏的每一个回合中，我们总是根据DQN选出Q值最大的动作$a^\star = argmax_{a}Q^\star(s, a)$，转移到下一个状态，并重复这一过程，直到游戏结束。
 
 ![v2-1e49fd1e4e266d76236278416412aff8_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-1e49fd1e4e266d76236278416412aff8_1440w.jpg)
-  
 
 > 注意：  
 > 这种方法被称为贪婪策略（greedy policy），即在每个时间步都选择当前最优的动作。在实际应用中，为了探索更多的动作并避免过早地陷入局部最优，可能会使用ε-贪婪策略（ε-greedy policy），即以一定的概率ε随机选择一个动作以探索环境，而不是总是选择当前最优的动作。
@@ -212,10 +226,15 @@ TD算法的损失函数：$L(w) = \frac{1}{2}\left [Q(s,d;w) - y \right ]^2 \\$
 
 然后使用链式法则对 $L(w)$关于参数 $w$求梯度：
 
-$$$\frac{\partial{L}}{\partial{w}} = \frac{\partial{q}}{\partial{w}} \cdot \frac{\partial{L}}{\partial{q}} = (q-y) \cdot \frac{\partial{Q(w)}}{\partial{w}}$ $$
+$$
+\frac{\partial{L}}{\partial{w}} = \frac{\partial{q}}{\partial{w}} \cdot \frac{\partial{L}}{\partial{q}} = (q-y) \cdot \frac{\partial{Q(w)}}{\partial{w}}
+$$
+
 最后做梯度下降更新模型参数$w$ :
 
-$$w_{t+1} = w_t - \alpha \cdot \frac{\partial{L}}{\partial w} \mid _{w=w_t}$$
+$$
+w_{t+1} = w_t - \alpha \cdot \frac{\partial{L}}{\partial w} \mid _{w=w_t}
+$$
 
 > 此处的 $\alpha$是学习率，是个超参数，需要手动调。
 
@@ -237,7 +256,7 @@ $$w_{t+1} = w_t - \alpha \cdot \frac{\partial{L}}{\partial w} \mid _{w=w_t}$$
 
 > 注意：用梯度下降更新 $w$ 后，损失函数会逐步变小，训练结果越接近目标。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-9a3aff4e6d7ff80dcf81ab966410ff0c_1440w.jpg)  
+![v2-9a3aff4e6d7ff80dcf81ab966410ff0c_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-9a3aff4e6d7ff80dcf81ab966410ff0c_1440w.jpg)
 
  参考深度强化学习(4\_5)：Actor-Critic Methods 10：00
 
@@ -255,44 +274,56 @@ $$w_{t+1} = w_t - \alpha \cdot \frac{\partial{L}}{\partial w} \mid _{w=w_t}$$
 
 然而策略函数与最优动作价值函数$Q^\star$一样，我们并不知道他们的具体的函数值，因此我们可以使用**神经网络**近似策略函数。我们把这个神经网络称为**策略网络(policy network)，**记作$\pi(a \mid s;\theta)$；将近似得到的函数称为**策略函数**，记作$\pi(a \mid s)$**。**
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-74d26413756af98ffbb7891a61725dda_1440w.jpg)  
+![v2-74d26413756af98ffbb7891a61725dda_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-74d26413756af98ffbb7891a61725dda_1440w.jpg)
 
 > 注意：$\theta$表示神经网络的参数。一开始我们随机初始化 $\theta$，随后我们利用收集的状态、动作、奖励不断更新 $\theta$，直到策略函数近似程度满足我们的需求。
 
-策略网络的结果如下图所示，策略网络的输入是状态 $s$，经过卷积神经网络（Conv）处理得到画面的特征向量，然后经过全连接神经网络映射到维度为 $n $ 的向量 $f$ ，然后用$softmax$激活函数，输出概率分布。
+策略网络的结果如下图所示，策略网络的输入是状态 $s$，经过卷积神经网络（Conv）处理得到画面的特征向量，然后经过全连接神经网络映射到维度为 $n$ 的向量 $f$ ，然后用$softmax$激活函数，输出概率分布。
 
 > 注意：  
-> （1）动作空间 $\mathcal{A}$ 的大小是多少，向量 $f$的维度 $n $ 就是多少。  
+> （1）动作空间 $\mathcal{A}$ 的大小是多少，向量 $f$的维度 $n$ 就是多少。  
 > （2）所以输出的向量所有元素都是正数（实际上是概率），且相加等于 1，即 $\sum_{a \in \mathcal{A}}\pi(a \mid s; \theta) = 1$
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-04af3fc257b55e855fa3bf444a49e604_1440w.jpg)  
-
-策略网络结构
+![v2-04af3fc257b55e855fa3bf444a49e604_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-04af3fc257b55e855fa3bf444a49e604_1440w.jpg)
 
 ### 二、策略学习的目标函数  
 
-如果用策略网络 $\pi(a \mid s_t;\theta)$ 去近似策略函数$\pi(a \mid s_t)$ ，此时对应的近似状态价值函数如下： $V(s_t;\theta) = \sum_a\pi(a \mid s_t; \theta)\cdot Q_\pi(s_t,a) \\$
+如果用策略网络 $\pi(a \mid s_t;\theta)$ 去近似策略函数$\pi(a \mid s_t)$ ，此时对应的近似状态价值函数如下：
 
-若一个策略足够好好，那么状态价值函数的近似$V(s;\theta)$ 的均值也越大。因此我们定义**策略学习的目标函数**： $J(\theta) = E_S\left [V(S;\theta) \right] \\$
+$$
+V(s_t;\theta) = \sum_a\pi(a \mid s_t; \theta)\cdot Q_\pi(s_t,a)
+$$
+
+若一个策略足够好好，那么状态价值函数的近似$V(s;\theta)$ 的均值也越大。因此我们定义**策略学习的目标函数**： $J(\theta) = E_S\left [V(S;\theta) \right]$
 
 > 注意：目标函数$J(\theta)$ 排除了状态$S$ 的因素，只依赖于策略网络$\pi$ 的参数$\theta$ 。通过学习参数$\theta$ ，使得目标函数 $J(\theta)$ 越来越大，也就意味着策略网络越来越好。
 
-这里使用**策略梯度上升**来更新 $\theta$，使得$J(\theta)$ 增大。设当前策略网络的参数为$\theta_{now}$ ，做梯度上升更新参数，得到新的参数 $\theta_{new}$：$\theta_{new} \leftarrow \theta_{now} + \beta\cdot\nabla_\theta{J(\theta_{now})} \\$此处的$\beta$ 是学习率，需要手动调。其中的梯度： $\nabla_\theta{J(\theta_{now})} = \frac{\partial J(\theta)}{\partial \theta} \mid _{\theta=\theta_{now}} \\$称为**策略梯度(policy gradient)**。
+这里使用**策略梯度上升**来更新 $\theta$ ，使得 $J(\theta)$ 增大。设当前策略网络的参数为 $\theta_{now}$ ,做梯度上升更新参数，得到新的参数
+
+$$
+\theta_{new} : \theta_{new} \leftarrow \theta_{now} + \beta\cdot\nabla_\theta{J(\theta_{now})}
+$$
+
+此处的 $\beta$ 是学习率，需要手动调。其中的梯度：
+
+$$
+\nabla_\theta{J(\theta_{now})} = \frac{\partial J(\theta)}{\partial \theta} \mid _{\theta=\theta_{now}}
+$$ 称为**策略梯度(policy gradient)**。
 
 ### 三、策略梯度(Policy Gradient)  
 
 策略梯度计算公式如下所示，两者形式上等价。前者适用于动作离散的情形，后者适用于连续的动作。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-26c84e3f4f3cdd5d6804b035d5b2ecb7_1440w.jpg)  
+![v2-26c84e3f4f3cdd5d6804b035d5b2ecb7_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-26c84e3f4f3cdd5d6804b035d5b2ecb7_1440w.jpg)
+
 
 策略梯度两种计算方式
 
-例如当动作空间为 $\mathcal{A} = \{"left", "right", "up"\}$ ，我们使用form1进行计算，只需要计算处所有动作的 $f(a,\theta)$ ，将所有结果相加即可得到策略梯度。
+例如当动作空间为 $\mathcal{A} = \{left, right, up\}$ ，我们使用form1进行计算，只需要计算处所有动作的 $f(a,\theta)$ ，将所有结果相加即可得到策略梯度。
+![v2-202ebedd5999b422a2d002a7cee4242b_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-202ebedd5999b422a2d002a7cee4242b_1440w.jpg)
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-202ebedd5999b422a2d002a7cee4242b_1440w.jpg)  
 对于连续的动作空间，如 $\mathcal{A} = [0，1]$ ，我们则使用forms2计算策略梯度。然而采用上述公式中计算策略梯度十分困难（期望、概率密度函数过于复杂），连加或定积分的计算量非常大。 因此我们可以通过蒙特卡洛法去近似该期望，计算的过程如下：
-
-![]((20241211王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-7d506449c067ab03e432874674c85e0b_1440w.jpg)  
+![v2-7d506449c067ab03e432874674c85e0b_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-7d506449c067ab03e432874674c85e0b_1440w.jpg)
 
 > 注意： $\hat{a}$ 是根据概率密度函数抽取出来的，所以$g(\hat{a};\theta)$ 是策略梯度的无偏估计，进一步的我们可以使用$g(\hat{a};\theta)$近似策略梯度。
 
