@@ -183,7 +183,7 @@ $V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_{
 
 在前面的学习我们知道，不论未来采取什么样的策略$\pi$ ，回报$U_t$ 的期望不可能超过最优动作价值函数$Q^\star$。那么我就可以根据根据 $Q^\star$的值选择最优动作，然后最大化未来的累计奖励。但事实上我们并不知道$Q^\star$ 的函数表达式，只能近似学习 $Q^\star$。一种常见的办法就是使用**Deep Q Network(DQN，神经网络)。**
 
-$s_t\rightarrow{}Q(s,a;w)\rightarrow{}Q^*\\$
+$$s_t\rightarrow{}Q(s,a;w)\rightarrow{}Q^*$$
 
 > 注意：$w$为神经网络中的参数。在训练DQN时，我首先需要随机初始化它，然后使用时间差分算法等算法逐步去更新它。
 
