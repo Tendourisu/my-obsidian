@@ -66,8 +66,8 @@ mdate: " 2025-02-22 "
 
 **10.状态转移概率函数：** 描述状态转移的函数，有如下2两种表达式： 
 
-$P_{ss'}^{a} \color{default}=P[S_{t+1} = s'|S_{t}=s,A_{t} =a]$  
-$p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
+$$P_{ss'}^{a} \color{default}=P[S_{t+1} = s'|S_{t}=s,A_{t} =a]$$
+$$p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$$
 
 > 解释：当前状态 $s$ ，当前智能体执行动作 $a$，在 $t+1 $ 时刻环境状态变成 $s'$ 的概率是多少。（P表示概率）
 
@@ -142,7 +142,7 @@ $p_t(s' \mid s, a) = P(S_{t+1} = s' \mid S_t = s, A_t = a)$
 
 **2.折扣回报(Discounted Return)** 在 MDP 中，通常使用折扣回报，即给未来的奖励做折扣。折扣回报的定义如下:
 
-$U_t = R_t + \gamma R_{t+1} + \gamma ^2R_{t+2} + \gamma ^3R_{t+3} + ...$
+$$U_t = R_t + \gamma R_{t+1} + \gamma ^2R_{t+2} + \gamma ^3R_{t+3} + ...$$
 
 > 注意：对待越久远的未来，折扣因子的幂越大，给奖励打的折扣越大。
 
@@ -150,20 +150,20 @@ $U_t = R_t + \gamma R_{t+1} + \gamma ^2R_{t+2} + \gamma ^3R_{t+3} + ...$
 
 > 含义解释：动作价值函数像是评估你目前走的这步棋的得分，它考虑了你走这步棋后，按照你的策略继续下棋所能获得的期望得分。通过评估和比较当前不同动作的Q值，来决定走哪步棋。
 
-$Q_{\pi}(S_t, A_t) = E_{S_{t+1}, A_{t+1}, \ldots, S_n, A_n} \left[ U_t \mid S_t = s_t, A_t = a_t \right]$
+$$Q_{\pi}(S_t, A_t) = E_{S_{t+1}, A_{t+1}, \ldots, S_n, A_n} \left[ U_t \mid S_t = s_t, A_t = a_t \right]$$
 
 > 注意：  
 > （1）动作价值函数只依赖于当前状态 $s_t,$动作 $a_t $ ​，而不依赖于之后的状态和动作。  
 > （2）在强化学习中，动作价值函数用于评估不同动作的优劣，并指导智能体做出决策。智能体通常会选择那些能够最大化Q的动作。  
 > （3）不论未来采取什么样的策略$\pi$ ，回报$U_t$ 的期望不可能超过某个动作价值函数 $Q^\star$，这个动作价值函数则称为**最优动作价值函数(Optimal action-value function)**。
 
-$Q^\star(s_t,a_t) = max_\pi{Q_\pi(s_t,a_t)}$
+$$Q^\star(s_t,a_t) = max_\pi{Q_\pi(s_t,a_t)}$$
 
 **4.状态价值函数(State-value function)：** 状态价值函数通常表示为 $V_π​(s_t​)$ ，它用于评估在给定状态状态 $s_t$ 下，按照策略 $π$ 所能获得的期望回报。
 
 > 含义解释：与动作价值函数不同状态价值函数不关心在特定状态下采取的具体动作，而是关心在该状态下遵循策略所能获得的平均回报。
 
-$V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_{t}) \right] = \sum_{a \in \mathcal{A}} \pi(a \mid s_{t}) Q_{\pi}(s_{t}, a)$
+$$V_{\pi}(s_{t}) = \mathbb{E}_{A_{t} \sim \pi(.|s_{t})} \left[ Q_{\pi}(s_{t}, A_{t}) \right] = \sum_{a \in \mathcal{A}} \pi(a \mid s_{t}) Q_{\pi}(s_{t}, a)$$
 
 > 注意：  
 > （1）状态价值函数依赖于策略，这意味着它反映了在特定策略下，从某个状态开始所能获得的期望回报。  
