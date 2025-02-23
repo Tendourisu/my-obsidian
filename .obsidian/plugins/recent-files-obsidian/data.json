@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
+    },
+    {
+      "basename": "模电电子系统调查",
+      "path": "模电电子系统调查.md"
+    },
+    {
+      "basename": "开发记录",
+      "path": "具身智能开发/开发记录.md"
+    },
+    {
       "basename": "王树森Reinforcement_Learning学习笔记",
       "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
     },
@@ -117,10 +129,6 @@
       "path": "dairy/daily/2025-08-02-18-2.md"
     },
     {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
-    },
-    {
       "basename": "日语速通",
       "path": "日语速通.md"
     },
@@ -139,10 +147,6 @@
     {
       "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
       "path": "论文阅读/挑战杯/Monte Carlo Tree Search 蒙特卡洛树搜索.md"
-    },
-    {
-      "basename": "开发记录",
-      "path": "具身智能开发/开发记录.md"
     },
     {
       "basename": "orangepi 踩坑记录",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-06-02-05-3",
       "path": "dairy/daily/2025-06-02-05-3.md"
-    },
-    {
-      "basename": "2025-05-02-02-7",
-      "path": "dairy/daily/2025-05-02-02-7.md"
     }
   ],
   "omittedPaths": []

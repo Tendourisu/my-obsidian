@@ -483,7 +483,11 @@ $$
 
 **（4）回溯（backup）：**
 
-将假想的动作 $a_t$ 下所有的分数作为$a_t$新的价值 $Q(a_t)$ ，AlphaGo的决策就是选中最大$Q(a_t)$值。$$Q(a_t) = \text{mean}(\text{the recorded } V's)$$
+将假想的动作 $a_t$ 下所有的分数作为$a_t$新的价值 $Q(a_t)$ ，AlphaGo的决策就是选中最大$Q(a_t)$值。
+
+$$
+Q(a_t) = \text{mean}(\text{the recorded } V's)
+$$
 
 ![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-634301fd0fb395659a1dc8cccf927f87_1440w.jpg)  
 
