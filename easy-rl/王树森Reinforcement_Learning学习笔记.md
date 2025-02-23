@@ -426,21 +426,24 @@ AlphaGo的设计思路如图所示，先用分**三个步骤训练**，再进行
 > （1）behavior cloning不是强化学习，是一种监督学习。  
 > （2）AlphaGo的策略网络和价值网络不是同时训练，不属于Actor-Critic算法。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-13fa638ff26fe8652b77beb45f0692e2_1440w.jpg)  
+![v2-13fa638ff26fe8652b77beb45f0692e2_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-13fa638ff26fe8652b77beb45f0692e2_1440w.jpg)
+
 当完成上述训练后，AlphaGo完全可以使用策略网络进行下棋，但更好的方式是采用**蒙特卡洛树搜索（Monte Carlo Tree Search）**。MCTS 不需要训练，可以根据前面所训练的训练策略网络和价值网络直接做决策。
 
 ### 二、蒙特卡洛树搜索主要思想  
 
 人类玩家在下棋的时候通常都会向前看几步，越是高手，看的越远。MCTS 的基本原理就是向前看，通过每一轮的成千上万次的模拟，从而找出当前最优的动作。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-0525d315f36a89b2cc70d259199489f8_1440w.jpg)  
+![v2-0525d315f36a89b2cc70d259199489f8_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-0525d315f36a89b2cc70d259199489f8_1440w.jpg)
+
 
 ### 三、蒙特卡洛树搜索四步骤  
 
 MCTS每一轮模拟都分为选择（selection）、扩展（expansion）、求值（evaluation）、回溯（backup）四部分。AlphaGo每走一步棋都要重复上面这些步骤，通过成**千上万次模拟**，AlphaGo便有了每个动作的 $Q(a)$ 分数与 $N(a)$ 分数，然后AlphaGo会**选择最大的$Q(a)$ 分数对应的动作**来执行。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-2c02b30567f2480d26f609c76c3f3db6_1440w.jpg)  
-**（1）选择（Selection）：**选择的目的是找出胜算较高的动作，忽略掉其它不好的动作。首先它将所有动作都打上分，好的动作分数高，坏的动作分数低： $score(a) = Q(a) + \frac{\eta}{1+N(a)} \cdot \pi(a \mid s;\theta)  \\$
+![v2-2c02b30567f2480d26f609c76c3f3db6_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-2c02b30567f2480d26f609c76c3f3db6_1440w.jpg)
+
+**（1）选择（Selection）：**选择的目的是找出胜算较高的动作，忽略掉其它不好的动作。首先它将所有动作都打上分，好的动作分数高，坏的动作分数低： $$score(a) = Q(a) + \frac{\eta}{1+N(a)} \cdot \pi(a \mid s;\theta)$$
 
 > 注意：  
 > （1）$Q(a)$ 是搜索计算出来的分数，称为动作价值，主要由胜率和价值函数决定。$Q(a)$实际上是个表，记录了361个动作的分数。它的的初始值是 0，动作 a 每被选中一次，就会更新一次$Q(a)$ 。  
@@ -449,10 +452,12 @@ MCTS每一轮模拟都分为选择（selection）、扩展（expansion）、求�
 
 例如在这个例子中，选中了分数最高的0.8
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-5920dc8efc62232d6840f936fcf4ebd3_1440w.jpg)  
+![v2-5920dc8efc62232d6840f936fcf4ebd3_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-5920dc8efc62232d6840f936fcf4ebd3_1440w.jpg)
+
 **（2）扩展（Expansion）：** 把第一步选中的动作记作$a_t$ ，它只是个**假想的动作**，而不是 AlphaGo 真正执行的动作。然后通过策略函数来模拟对手，通过策略网络和**对手视角下**的状态 $s'_t$ 随机抽样一个动作 $a'_t$ ，并产生新的状态 $s'_{t+1}$ 。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-e5a27c144e5171affa2554b3ee39ed92_1440w.jpg)  
+![v2-e5a27c144e5171affa2554b3ee39ed92_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-e5a27c144e5171affa2554b3ee39ed92_1440w.jpg)
+ 
 
 > 注意：此阶段会模拟对手所有下子的情况，因此是随机抽样。
 
@@ -466,7 +471,7 @@ MCTS每一轮模拟都分为选择（selection）、扩展（expansion）、求�
 
 然后将两个分数求平均，作为状态$s'_{t+1}$的分数：
 
-$V(s_{t+1}) = \frac{1}{2} v(s_{t+1}; \mathbf{w}) + \frac{1}{2} r_T\\$
+$$V(s_{t+1}) = \frac{1}{2} v(s_{t+1}; \mathbf{w}) + \frac{1}{2} r_T$$
 
 ![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-df64d08f1b38f9a85162306b5a82f32e_1440w.jpg)  
 ![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-35ae24b79a826d385c4c1b3ee44a0065_1440w.jpg)  
