@@ -473,8 +473,10 @@ MCTS每一轮模拟都分为选择（selection）、扩展（expansion）、求�
 
 $$V(s_{t+1}) = \frac{1}{2} v(s_{t+1}; \mathbf{w}) + \frac{1}{2} r_T$$
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-df64d08f1b38f9a85162306b5a82f32e_1440w.jpg)  
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-35ae24b79a826d385c4c1b3ee44a0065_1440w.jpg)  
+![v2-df64d08f1b38f9a85162306b5a82f32e_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-df64d08f1b38f9a85162306b5a82f32e_1440w.jpg)
+
+![v2-35ae24b79a826d385c4c1b3ee44a0065_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-35ae24b79a826d385c4c1b3ee44a0065_1440w.jpg)
+
 **（4）回溯（backup）：**
 
 将假想的动作 $a_t$ 下所有的分数作为$a_t$新的价值 $Q(a_t)$ ，AlphaGo的决策就是选中最大$Q(a_t)$值。$Q(a_t) = \text{mean}(\text{the recorded } V's)\\$
