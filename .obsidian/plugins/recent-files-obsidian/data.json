@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "模电电子系统调查",
-      "path": "模电电子系统调查.md"
+      "basename": "2025-W08-02",
+      "path": "dairy/weekly/2025-W08-02.md"
     },
     {
       "basename": "2025-08-02-23-7",
       "path": "dairy/daily/2025-08-02-23-7.md"
+    },
+    {
+      "basename": "argparse和absl-Python包开发工具包",
+      "path": "argparse和absl-Python包开发工具包.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
+    },
+    {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
+    },
+    {
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
+    },
+    {
+      "basename": "模电电子系统调查",
+      "path": "模电电子系统调查.md"
     },
     {
       "basename": "开发记录",
@@ -61,10 +81,6 @@
       "path": "资源汇总帖.md"
     },
     {
-      "basename": "argparse和absl-Python包开发工具包",
-      "path": "argparse和absl-Python包开发工具包.md"
-    },
-    {
       "basename": "hugging face",
       "path": "hugging face.md"
     },
@@ -91,10 +107,6 @@
     {
       "basename": "使用Bernoulli采样而不是手写概率采样的优点",
       "path": "使用Bernoulli采样而不是手写概率采样的优点.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
     },
     {
       "basename": "策略梯度算法",
@@ -187,18 +199,6 @@
     {
       "basename": "2025-07-02-16-7",
       "path": "dairy/daily/2025-07-02-16-7.md"
-    },
-    {
-      "basename": "2025-07-02-11-2",
-      "path": "dairy/daily/2025-07-02-11-2.md"
-    },
-    {
-      "basename": "2025-07-02-12-3",
-      "path": "dairy/daily/2025-07-02-12-3.md"
-    },
-    {
-      "basename": "2025-07-02-15-6",
-      "path": "dairy/daily/2025-07-02-15-6.md"
     }
   ],
   "omittedPaths": []
