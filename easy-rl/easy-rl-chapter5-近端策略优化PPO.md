@@ -144,7 +144,10 @@ $$
   - 裁剪后的目标函数为：
 
 $$
-    J_{\mathrm{PPO2}}^{\theta^{k}}(\theta) \approx \sum_{\left(s_{t}, a_{t}\right)} \min \left( \frac{p_{\theta}\left(a_{t} | s_{t}\right)}{p_{\theta^{k}}\left(a_{t} | s_{t}\right)} A^{\theta^{k}}\left(s_{t}, a_{t}\right), \operatorname{clip}(\cdot) \right)
+    \begin{aligned}
+        J_{\mathrm{PPO2}}^{\theta^{k}}(\theta) \approx \sum_{\left(s_{t}, a_{t}\right)} \min &\left(\frac{p_{\theta}\left(a_{t} | s_{t}\right)}{p_{\theta^{k}}\left(a_{t} | s_{t}\right)} A^{\theta^{k}}\left(s_{t}, a_{t}\right),\right.\\
+        &\left.\operatorname{clip}\left(\frac{p_{\theta}\left(a_{t} | s_{t}\right)}{p_{\theta^{k}}\left(a_{t} | s_{t}\right)}, 1-\varepsilon, 1+\varepsilon\right) A^{\theta^{k}}\left(s_{t}, a_{t}\right)\right)
+        \end{aligned} 
 $$
 
 ## 数学推导
@@ -232,6 +235,16 @@ $$
 | **计算开销**  | 需计算 KL 散度     | 无需额外分布计算      |
 | **适用场景**  | 高精度策略更新       | 快速训练与简化实现     |
 
-## 结论
+## 关键词
 
-PPO通过重要性采样和KL散度约束，成功将同策略算法转化为异策略算法，并有效地限制了策略更新的幅度，从而在实现上比TRPO更为高效。PPO的变种（如PPO-penalty与PPO-clip）进一步优化了训练过程，解决了KL散度约束和策略裁剪的问题。
+- **同策略（on-policy）**：要学习的智能体和与环境交互的智能体是同一个时对应的策略。
+- **异策略（off-policy）**：要学习的智能体和与环境交互的智能体不是同一个时对应的策略。
+- **重要性采样（important sampling）**：使用另外一种分布，来逼近所求分布的一种方法，在强化学习中通常和蒙特卡洛方法结合使用，公式如下：
+$$
+
+    \int f(x) p(x) \mathrm{d} x=\int f(x) \frac{p(x)}{q(x)} q(x) \mathrm{d} x=E_{x \sim q}[f(x){\frac{p(x)}{q(x)}}]=E_{x \sim p}[f(x)]
+
+$$
+我们在已知 $q$ 的分布后，可以使用上式计算出从 $p$ 这个分布采样 $x$ 代入 $f$ 以后得到的期望值。
+
+- **近端策略优化（proximal policy optimization，PPO）**：避免在使用重要性采样时由于在 $\theta$ 下的 $p_{\theta}\left(a_{t} | s_{t}\right)$ 与在  $\theta '$ 下的 $p_{\theta'}\left(a_{t} | s_{t}\right)$ 相差太多，导致重要性采样结果偏差较大而采取的算法。具体来说就是在训练的过程中增加一个限制，这个限制对应 $\theta$ 和 $\theta'$ 输出的动作的KL散度，来衡量 $\theta$ 与 $\theta'$ 的相似程度。
