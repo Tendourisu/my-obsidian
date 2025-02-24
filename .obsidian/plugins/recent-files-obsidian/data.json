@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "策略梯度算法",
+      "path": "easy-rl/策略梯度算法.md"
+    },
+    {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
+    },
+    {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
+    },
+    {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
+    },
+    {
       "basename": "2025-09-02-24-1",
       "path": "dairy/daily/2025-09-02-24-1.md"
     },
@@ -37,28 +61,12 @@
       "path": "argparse和absl-Python包开发工具包.md"
     },
     {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
-    },
-    {
       "basename": "模电电子系统调查",
       "path": "模电电子系统调查.md"
     },
     {
       "basename": "开发记录",
       "path": "具身智能开发/开发记录.md"
-    },
-    {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
     },
     {
       "basename": "easy-rl-chapter1",
@@ -93,10 +101,6 @@
       "path": "git use.md"
     },
     {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
       "basename": "资源汇总帖",
       "path": "资源汇总帖.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "使用Bernoulli采样而不是手写概率采样的优点",
       "path": "使用Bernoulli采样而不是手写概率采样的优点.md"
-    },
-    {
-      "basename": "策略梯度算法",
-      "path": "easy-rl/策略梯度算法.md"
     },
     {
       "basename": "easy-rl-chapter3",
