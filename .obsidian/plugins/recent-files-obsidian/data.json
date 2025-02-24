@@ -5,6 +5,14 @@
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
     {
+      "basename": "lec16-缓存系统总结",
+      "path": "cs61c/lec16-缓存系统总结.md"
+    },
+    {
+      "basename": "lec15-缓存系统",
+      "path": "cs61c/lec15-缓存系统.md"
+    },
+    {
       "basename": "easy-rl-chapter4-策略梯度",
       "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2024秋16周周结",
       "path": "dairy/weekly/2024秋16周周结.md"
-    },
-    {
-      "basename": "2024秋15周周结",
-      "path": "dairy/weekly/2024秋15周周结.md"
-    },
-    {
-      "basename": "2025-W07-02",
-      "path": "dairy/weekly/2025-W07-02.md"
     }
   ],
   "omittedPaths": []
