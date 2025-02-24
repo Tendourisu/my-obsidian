@@ -489,7 +489,7 @@ $$
 Q(a_t) = \text{mean}(\text{the recorded } V's)
 $$
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-634301fd0fb395659a1dc8cccf927f87_1440w.jpg)  
+![v2-634301fd0fb395659a1dc8cccf927f87_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-634301fd0fb395659a1dc8cccf927f87_1440w.jpg)
 
 ### 四、AlphaGo Zero 与 AlphaGo  
 
@@ -499,7 +499,7 @@ $$
 
 最新版的AlphaGo Zero训练步骤如下：
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-2ee6f40cddc9b4159f4c4cc2cba423ec_1440w.jpg)  
+![v2-2ee6f40cddc9b4159f4c4cc2cba423ec_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-2ee6f40cddc9b4159f4c4cc2cba423ec_1440w.jpg)
 
 ---
 
@@ -511,7 +511,7 @@ $$
 
 > 蒙特卡罗是一种数值算法，靠重复随机样本（repeated random sampling）来对目标做近似。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-bbb416f7e7510e498796b9c824740fd3_1440w.jpg)  
+![v2-bbb416f7e7510e498796b9c824740fd3_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-bbb416f7e7510e498796b9c824740fd3_1440w.jpg)
 
 > 注意：蒙特卡罗的算法往往是错的，只是目标的近似
 
@@ -519,7 +519,7 @@ $$
 
 > 注意：根据大数定理可以保证，当 $n$ 区域无穷时，$Q_n$的值趋于 $I$
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-c98f34b717e44c6034a3e37d342b463a_1440w.jpg)  
+![v2-c98f34b717e44c6034a3e37d342b463a_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-c98f34b717e44c6034a3e37d342b463a_1440w.jpg)
 
 ### 二、时间差分学习与蒙特卡罗方法对比  
 
@@ -553,7 +553,7 @@ $$
 
 （3）排列以后，一个位置上出现任何元素，且他们的概率相等。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-d82519346e87289d7152dc109efc884b_1440w.jpg)  
+![v2-d82519346e87289d7152dc109efc884b_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-d82519346e87289d7152dc109efc884b_1440w.jpg)
 
 ### 二、Fisher-Yates算法  
 
@@ -567,7 +567,7 @@ $$
 
 特点：时间复杂度： $O(n)$ ，且直接操作数组。两者区别如下：
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-4a9fb0f1e7e526a94b4d6f36e4f78e6a_1440w.jpg)  
+![v2-4a9fb0f1e7e526a94b4d6f36e4f78e6a_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-4a9fb0f1e7e526a94b4d6f36e4f78e6a_1440w.jpg)
 
 ---
 
@@ -575,7 +575,7 @@ $$
 
 Sarsa（state action reward state action），算法的目的是**学习动作价值函数 $Q(\pi)$** ，其可以用在表格形式的强化学习，直接去学$Q(\pi)$函数，但前提是状态和动作的数量数有限的，sarsa算法每次更新表格中的一个元素，T让TD error减小；也可以用来学习价值网络，Sarsa算法每次用一个五元组来更新参数w（实际上在前面的actor-critic算法课中，我们就用了sarsa算法更新价值网络参数w）
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-fff47efb93655272a4fdf9680b5d8cff_1440w.jpg)  
+![v2-fff47efb93655272a4fdf9680b5d8cff_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-fff47efb93655272a4fdf9680b5d8cff_1440w.jpg)
 
 ### 一、Sarsa(Tabular Version)  
 
@@ -591,7 +591,7 @@ Sarsa（state action reward state action），算法的目的是**学习动作�
 
 与Sarsa算法不同，Q-Learning的目标是学**习最优动作价值函数** $Q^*$ ，其可以用在表格上直接去学习$Q^*$，但前提是状态和动作的数量数有限的，Q-Learning算法每次更新表格中的一个元素，让TD error减小；也可以用来训练DQN，Q-Learning算法每次用一个观测到的transition来更新一次参数w。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-34619346708ba7a4dd18d994e7f500ef_1440w.jpg)  
+![v2-34619346708ba7a4dd18d994e7f500ef_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-34619346708ba7a4dd18d994e7f500ef_1440w.jpg)
 
 ### 一、Q-Learning(Tabular Version)  
 
@@ -601,7 +601,7 @@ Sarsa（state action reward state action），算法的目的是**学习动作�
 
 > 注意：两种算法的TD target都只包含一个奖励，这是标准的TD target，如果是多个奖励，那就变成我们下面介绍的Multi-Step TD Target。
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-b7abcdf4794a7d7624f82a1230ee9949_1440w.jpg)  
+![v2-b7abcdf4794a7d7624f82a1230ee9949_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-b7abcdf4794a7d7624f82a1230ee9949_1440w.jpg)
 
 ---
 
@@ -619,7 +619,7 @@ Sarsa（state action reward state action），算法的目的是**学习动作�
 
 ### 二、Prioritized Experience Replay  
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-5b02cc3643d6280aeed64f54844f553d_1440w.jpg)  
+![v2-5b02cc3643d6280aeed64f54844f553d_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-5b02cc3643d6280aeed64f54844f553d_1440w.jpg)
 
 ---
 
@@ -633,14 +633,14 @@ TD算法导致DQN高估真实动作价值的两个原因：
 
 （2）**bootstrapping（自举）**，用自己的估计更新自己
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-2d06e5c754dacdfa24a989975bee7506_1440w.jpg)  
+![v2-2d06e5c754dacdfa24a989975bee7506_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-2d06e5c754dacdfa24a989975bee7506_1440w.jpg)
 
 ### 二、Target Network  
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-b9c37d8b031242fcfa1538d6f7f5a59c_1440w.jpg)  
+![v2-ba993ffb12b83fd73b2a5f8ee757afae_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-ba993ffb12b83fd73b2a5f8ee757afae_1440w.jpg)
 
 ### 三、Double D  
 
 ### 四、三种TD target计算方式对比  
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-a8214ec538580c7174ebc4c9db2705b1_1440w.jpg)  
+![v2-a8214ec538580c7174ebc4c9db2705b1_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-a8214ec538580c7174ebc4c9db2705b1_1440w.jpg)
