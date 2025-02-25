@@ -247,4 +247,9 @@ $$
 
 我们在已知 $q$ 的分布后，可以使用上式计算出从 $p$ 这个分布采样 $x$ 代入 $f$ 以后得到的期望值。
 
-- **近端策略优化（proximal policy optimization，PPO）**：避免在使用重要性采样时由于在 $\theta$ 下的 $p_{\theta}\left(a_{t} | s_{t}\right)$ 与在  $\theta '$ 下的 $p_{\theta'}\left(a_{t} | s_{t}\right)$ 相差太多，导致重要性采样结果偏差较大而采取的算法。具体来说就是在训练的过程中增加一个限制，这个限制对应 $\theta$ 和 $\theta'$ 输出的动作的KL散度，来衡量 $\theta$ 与 $\theta'$ 的相似程度。
+- **近端策略优化（proximal policy optimization，PPO）**：避免在使用重要性采样时由于在 $\theta$ 下的 $p_{\theta}\left(a_{t} | s_{t}\right)$ 与在  $\theta '$ 下的 $p_{\theta'}\left(a_{t} | s_{t}\right)$ 相差太多，导致重要性采样结果偏差较大而采取的算法。具体来说就是在训练的过程中增加一个限制，这个限制对应 $\theta$ 和 $\theta'$ 输出的动作的KL散度，来衡量 $\theta$ 与 $\theta'$ 的相似程度。  
+
+## PPO 训练细节
+
+- 注意 `.detach()` ，不需要的梯度记得 `.detach()` ，并且 `.detach()` 后对该对象之后的计算图的计算没有影响
+- 注意损失函数 `self.entropy_coef * dist.entropy().mean()` ,符号为正，最后的策略
