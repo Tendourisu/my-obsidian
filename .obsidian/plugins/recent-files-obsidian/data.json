@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-09-02-25-2",
+      "path": "dairy/daily/2025-09-02-25-2.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统/信号与系统 lec-1.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "weekly",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-W03-01",
       "path": "dairy/weekly/2025-W03-01.md"
-    },
-    {
-      "basename": "2024秋16周周结",
-      "path": "dairy/weekly/2024秋16周周结.md"
     }
   ],
   "omittedPaths": []
