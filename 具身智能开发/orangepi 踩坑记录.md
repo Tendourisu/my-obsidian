@@ -1,4 +1,4 @@
-# OrangePi AIpro 开发板上手
+cdcd# OrangePi AIpro 开发板上手
 
 ## 1. 硬件准备
 
