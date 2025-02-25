@@ -240,11 +240,11 @@ $$
 - **同策略（on-policy）**：要学习的智能体和与环境交互的智能体是同一个时对应的策略。
 - **异策略（off-policy）**：要学习的智能体和与环境交互的智能体不是同一个时对应的策略。
 - **重要性采样（important sampling）**：使用另外一种分布，来逼近所求分布的一种方法，在强化学习中通常和蒙特卡洛方法结合使用，公式如下：
-$$
 
+$$
     \int f(x) p(x) \mathrm{d} x=\int f(x) \frac{p(x)}{q(x)} q(x) \mathrm{d} x=E_{x \sim q}[f(x){\frac{p(x)}{q(x)}}]=E_{x \sim p}[f(x)]
-
 $$
+
 我们在已知 $q$ 的分布后，可以使用上式计算出从 $p$ 这个分布采样 $x$ 代入 $f$ 以后得到的期望值。
 
 - **近端策略优化（proximal policy optimization，PPO）**：避免在使用重要性采样时由于在 $\theta$ 下的 $p_{\theta}\left(a_{t} | s_{t}\right)$ 与在  $\theta '$ 下的 $p_{\theta'}\left(a_{t} | s_{t}\right)$ 相差太多，导致重要性采样结果偏差较大而采取的算法。具体来说就是在训练的过程中增加一个限制，这个限制对应 $\theta$ 和 $\theta'$ 输出的动作的KL散度，来衡量 $\theta$ 与 $\theta'$ 的相似程度。
