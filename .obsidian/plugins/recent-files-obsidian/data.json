@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "easy-rl-chapter5-近端策略优化PPO",
-      "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
+      "basename": "lec16-缓存系统总结",
+      "path": "cs61c/lec16-缓存系统总结.md"
+    },
+    {
+      "basename": "lec17-缓存与内存层",
+      "path": "cs61c/lec17-缓存与内存层.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "2025-09-02-25-2",
       "path": "dairy/daily/2025-09-02-25-2.md"
+    },
+    {
+      "basename": "easy-rl-chapter5-近端策略优化PPO",
+      "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
     {
       "basename": "easy-rl-chapter4-策略梯度",
@@ -29,16 +41,8 @@
       "path": "具身智能开发/图.md"
     },
     {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
-    },
-    {
-      "basename": "lec16-缓存系统总结",
-      "path": "cs61c/lec16-缓存系统总结.md"
     },
     {
       "basename": "lec15-缓存系统",
@@ -195,10 +199,6 @@
     {
       "basename": "python命名规范",
       "path": "python命名规范.md"
-    },
-    {
-      "basename": "2025-W03-01",
-      "path": "dairy/weekly/2025-W03-01.md"
     }
   ],
   "omittedPaths": []

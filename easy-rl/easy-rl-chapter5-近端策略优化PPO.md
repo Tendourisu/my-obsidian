@@ -252,4 +252,4 @@ $$
 ## PPO 训练细节
 
 - 注意 `.detach()` ，不需要的梯度记得 `.detach()` ，并且 `.detach()` 后对该对象之后的计算图的计算没有影响
-- 注意损失函数 `self.entropy_coef * dist.entropy().mean()` ,符号为正，最后的策略
+- 注意损失函数 `self.entropy_coef * dist.entropy().mean()` ,符号为正，最后的策略更确定，符号为负，最后的策略更随机
