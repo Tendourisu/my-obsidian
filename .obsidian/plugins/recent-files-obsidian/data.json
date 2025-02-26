@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "prompt",
-      "path": "prompt.md"
+      "basename": "easy-rl-chapter6-DQN",
+      "path": "easy-rl/easy-rl-chapter6-DQN.md"
     },
     {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
     {
+      "basename": "2025-09-02-25-2",
+      "path": "dairy/daily/2025-09-02-25-2.md"
+    },
+    {
       "basename": "2025-09-02-26-3",
       "path": "dairy/daily/2025-09-02-26-3.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "lec17-缓存总结",
@@ -47,10 +55,6 @@
     {
       "basename": "lec16-缓存系统总结",
       "path": "cs61c/lec16-缓存系统总结.md"
-    },
-    {
-      "basename": "2025-09-02-25-2",
-      "path": "dairy/daily/2025-09-02-25-2.md"
     },
     {
       "basename": "easy-rl-chapter4-策略梯度",
@@ -195,10 +199,6 @@
     {
       "basename": "数电实验聊天记录",
       "path": "杂/数电实验聊天记录.md"
-    },
-    {
-      "basename": "2025-08-02-18-2",
-      "path": "dairy/daily/2025-08-02-18-2.md"
     }
   ],
   "omittedPaths": []
