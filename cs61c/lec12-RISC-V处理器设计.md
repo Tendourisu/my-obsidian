@@ -47,12 +47,12 @@ mdate: " 2025-02-05 "
 
 ### 控制信号
 
-| 信号       | 作用                     |
-|------------|--------------------------|
-| `RegWEn`   | 寄存器写使能             |
-| `BSel`     | 选择ALU第二个操作数来源  |
-| `ImmSel`   | 选择立即数格式           |
-| `PCSel`    | 选择下一条PC来源         |  
+| 信号       | 作用            |
+| -------- | ------------- |
+| `RegWEn` | 寄存器写使能        |
+| `BSel`   | 选择ALU第二个操作数来源 |
+| `ImmSel` | 选择立即数格式       |
+| `PCSel`  | 选择下一条PC来源     |
 
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502051848020.png)
 

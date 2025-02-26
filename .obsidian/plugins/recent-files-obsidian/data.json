@@ -5,6 +5,22 @@
       "path": "cs61c/lec17-缓存与内存层.md"
     },
     {
+      "basename": "lec12-RISC-V处理器设计",
+      "path": "cs61c/lec12-RISC-V处理器设计.md"
+    },
+    {
+      "basename": "lec11-时序电路&模拟电路基础",
+      "path": "cs61c/lec11-时序电路&模拟电路基础.md"
+    },
+    {
+      "basename": "lec14-RISC-V 流水线与处理器",
+      "path": "cs61c/lec14-RISC-V 流水线与处理器.md"
+    },
+    {
+      "basename": "lec13-RISC-V的控制器实现与流水线入门",
+      "path": "cs61c/lec13-RISC-V的控制器实现与流水线入门.md"
+    },
+    {
       "basename": "笔记的记录方法",
       "path": "笔记的记录方法.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "日语速通",
       "path": "日语速通.md"
-    },
-    {
-      "basename": "lec1",
-      "path": "概率论与数理统计/lec1.md"
-    },
-    {
-      "basename": "ResNet",
-      "path": "论文阅读/李沐论文精读系列/ResNet.md"
-    },
-    {
-      "basename": "Monte Carlo Tree Search 蒙特卡洛树搜索",
-      "path": "论文阅读/挑战杯/Monte Carlo Tree Search 蒙特卡洛树搜索.md"
-    },
-    {
-      "basename": "python命名规范",
-      "path": "python命名规范.md"
     }
   ],
   "omittedPaths": []

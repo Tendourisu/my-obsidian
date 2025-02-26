@@ -27,7 +27,7 @@ math: "true"
 ### 地址解析
 
 - **地址组成**（8位地址示例）：
-  - **字节偏移量**：`log2(32) = 5 bits`（32字节行大小）。
+  - **字节偏移量**： `log2(32) = 5 bits` （32字节行大小）。 
   - **索引位**：`log2(行数)`，如4行 → 2 bits。
   - **标签位**：剩余高位地址（如8位地址 → 3 bits标签）。
 
@@ -64,10 +64,10 @@ math: "true"
 
 ## 缓存性能分析
 
-### 平均内存访问时间（AMAT）
+### 平均内存访问时间（AMAT Average Memory Access Time）
 
 - **公式**：  
-  `AMAT = Hit Time + Miss Rate × Miss Penalty`
+  $AMAT = Hit Time + Miss Rate × Miss Penalty$
 - **多级缓存公式**：  
   `AMAT = L1 Hit Time + L1 Miss Rate × (L2 Hit Time + L2 Miss Rate × L2 Miss Penalty)`
 
@@ -113,7 +113,9 @@ AMAT = 5 + 0.4×(8 + 0.05×40) = 9 cycles
 
 - **缓存行为**（行大小16字节，int=4字节）：
   - `stride=1`：每行加载4个int，全命中。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502261428104.png)
   - `stride=4`：每次访问不同行 → 高未命中率。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502261429225.png)
 
 ### 矩阵转置（Cache Blocking）
 
@@ -122,6 +124,7 @@ AMAT = 5 + 0.4×(8 + 0.05×40) = 9 cycles
 - **示例**：
   - 原矩阵按行存储，转置后按列访问 → 缓存未命中率高。
   - 分块转置后，块内数据连续 → 缓存利用率提高。
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502261429669.png)
 
 ---
 
