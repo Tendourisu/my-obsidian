@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "lec17-缓存与内存层",
-      "path": "cs61c/lec17-缓存与内存层.md"
+      "basename": "lec17-缓存总结",
+      "path": "cs61c/lec17-缓存总结.md"
+    },
+    {
+      "basename": "easy-rl-chapter3-表格型方法",
+      "path": "easy-rl/easy-rl-chapter3-表格型方法.md"
     },
     {
       "basename": "lec12-RISC-V处理器设计",
@@ -47,10 +51,6 @@
     {
       "basename": "easy-rl-chapter4-策略梯度",
       "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
-      "basename": "easy-rl-chapter3-表格型方法",
-      "path": "easy-rl/easy-rl-chapter3-表格型方法.md"
     },
     {
       "basename": "orangepi 踩坑记录",

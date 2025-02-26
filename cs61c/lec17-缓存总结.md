@@ -112,9 +112,9 @@ AMAT = 5 + 0.4×(8 + 0.05×40) = 9 cycles
   ```
 
 - **缓存行为**（行大小16字节，int=4字节）：
-  - `stride=1`：每行加载4个int，全命中。
+  - `stride=1`：每行加载4个int，全命中。  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502261428104.png)
-  - `stride=4`：每次访问不同行 → 高未命中率。
+  - `stride=4`：每次访问不同行 → 高未命中率。  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502261429225.png)
 
 ### 矩阵转置（Cache Blocking）
@@ -123,7 +123,7 @@ AMAT = 5 + 0.4×(8 + 0.05×40) = 9 cycles
 - **行为**：按块转置矩阵，使连续访问同一缓存行。
 - **示例**：
   - 原矩阵按行存储，转置后按列访问 → 缓存未命中率高。
-  - 分块转置后，块内数据连续 → 缓存利用率提高。
+  - 分块转置后，块内数据连续 → 缓存利用率提高。  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502261429669.png)
 
 ---
@@ -131,6 +131,13 @@ AMAT = 5 + 0.4×(8 + 0.05×40) = 9 cycles
 ## 内存层次结构
 
 ### 多级缓存
+
+以 L2 缓存为例
+
+- L2 比 L1 大
+	- 导致 L2 的更高的 hit rate
+- 所有 L1 中的 data 在 L2 中都能够找到
+- 如果 L1 中的 cache block 是 dirty 的，当其被冲突掉时，你需要更新其在 L2 中的备份
 
 | 层级 | 特点                                   |
 |------|----------------------------------------|
@@ -147,7 +154,8 @@ AMAT = 5 + 0.4×(8 + 0.05×40) = 9 cycles
 
 - **L1缓存**：32KB，8-way，4周期延迟。
 - **L2缓存**：256KB，4-way，12周期延迟。
-- **L3缓存**：4MB，16-way，34周期延迟。
+- **L3缓存**：4MB，16-way，34周期延迟。  
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/202502261434318.png)
 
 ```plaintext
 查看缓存信息命令：
