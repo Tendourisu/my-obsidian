@@ -253,3 +253,32 @@ $$
 
 - 注意 `.detach()` ，不需要的梯度记得 `.detach()` ，并且 `.detach()` 后对该对象之后的计算图的计算没有影响
 - 注意损失函数 `self.entropy_coef * dist.entropy().mean()` ,符号为正，最后的策略更确定，符号为负，最后的策略更随机
+
+核心代码：
+```python
+for _ in range(self.k_epochs):
+            # compute advantage
+            values = self.critic(old_states) # detach to avoid backprop through the critic
+            advantage = returns - values.detach()
+            # get action probabilities
+            probs = self.actor(old_states)
+            dist = Categorical(probs)
+            # get new action probabilities
+            new_probs = dist.log_prob(old_actions)
+            # compute ratio (pi_theta / pi_theta__old):
+            ratio = torch.exp(new_probs - old_log_probs) # old_log_probs must be detached
+            # compute surrogate loss
+            surr1 = ratio * advantage
+            surr2 = torch.clamp(ratio, 1 - self.eps_clip, 1 + self.eps_clip) * advantage
+            # compute actor loss
+            actor_loss = -torch.min(surr1, surr2).mean() + self.entropy_coef * dist.entropy().mean()
+            # compute critic loss
+            critic_loss = (returns - values).pow(2).mean()
+            # take gradient step
+            self.actor_optimizer.zero_grad()
+            self.critic_optimizer.zero_grad()
+            actor_loss.backward()
+            critic_loss.backward()
+            self.actor_optimizer.step()
+            self.critic_optimizer.step()
+```
