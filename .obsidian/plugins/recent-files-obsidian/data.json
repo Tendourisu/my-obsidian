@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-09-02-27-4",
+      "path": "dairy/daily/2025-09-02-27-4.md"
+    },
+    {
+      "basename": "鸣潮截图",
+      "path": "鸣潮截图.md"
+    },
+    {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "笔记的记录方法",
       "path": "笔记的记录方法.md"
-    },
-    {
-      "basename": "鸣潮截图",
-      "path": "鸣潮截图.md"
     },
     {
       "basename": "lec16-缓存系统总结",
@@ -195,10 +199,6 @@
     {
       "basename": "202412011509",
       "path": "202412011509.md"
-    },
-    {
-      "basename": "数电实验聊天记录",
-      "path": "杂/数电实验聊天记录.md"
     }
   ],
   "omittedPaths": []

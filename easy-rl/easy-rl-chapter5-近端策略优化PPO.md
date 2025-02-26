@@ -255,6 +255,7 @@ $$
 - 注意损失函数 `self.entropy_coef * dist.entropy().mean()` ,符号为正，最后的策略更确定，符号为负，最后的策略更随机
 
 核心代码：
+
 ```python
 for _ in range(self.k_epochs):
             # compute advantage
