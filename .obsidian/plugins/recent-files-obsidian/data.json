@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
+      "basename": "easy-rl-chapter4-策略梯度",
+      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
     },
     {
       "basename": "开发记录",
       "path": "具身智能开发/开发记录.md"
+    },
+    {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
     },
     {
       "basename": "2025-09-02-27-4",
@@ -67,10 +71,6 @@
     {
       "basename": "lec16-缓存系统总结",
       "path": "cs61c/lec16-缓存系统总结.md"
-    },
-    {
-      "basename": "easy-rl-chapter4-策略梯度",
-      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
     },
     {
       "basename": "orangepi 踩坑记录",
