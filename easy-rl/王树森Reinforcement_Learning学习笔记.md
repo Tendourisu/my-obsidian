@@ -332,7 +332,7 @@ $$
 
 算法步骤如下
 
-![]((20241211)王树森Reinforcement_Learning学习笔记ing_Ethan Zeng/v2-1fc51b6f57be9f4268ffd402aee98a13_1440w.jpg)  
+![v2-1fc51b6f57be9f4268ffd402aee98a13_1440w.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/v2-1fc51b6f57be9f4268ffd402aee98a13_1440w.jpg)
 
 > 注意：在第 3 步中，我们是无法精确计算出 $q_t$ ，后续会介绍使用REINFORCE 算法、actor-critic 算法来近似$Q_\pi(s,a)$。
 

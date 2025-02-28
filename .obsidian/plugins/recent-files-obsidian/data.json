@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "王树森Reinforcement_Learning学习笔记",
+      "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
+    },
+    {
+      "basename": "easy-rl-chapter1-强化学习基础",
+      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
+    },
+    {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
+    },
+    {
       "basename": "2025-W08-02",
       "path": "dairy/weekly/2025-W08-02.md"
     },
@@ -25,10 +37,6 @@
       "path": "easy-rl/easy-rl-chapter2-马尔科夫决策过程MDP.md"
     },
     {
-      "basename": "easy-rl-chapter1-强化学习基础",
-      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
-    },
-    {
       "basename": "cs231n",
       "path": "cs231n.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "开发记录",
       "path": "具身智能开发/开发记录.md"
-    },
-    {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
     },
     {
       "basename": "2025-09-02-27-4",
@@ -111,10 +115,6 @@
     {
       "basename": "RL 入门汇总",
       "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
-      "basename": "王树森Reinforcement_Learning学习笔记",
-      "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
     },
     {
       "basename": "信号与系统 lec-1",
