@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "模电电子系统调查",
+      "path": "模电电子系统调查.md"
+    },
+    {
+      "basename": "202412011509",
+      "path": "202412011509.md"
+    },
+    {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
+      "basename": "matmul的riscv实现",
+      "path": "matmul的riscv实现.md"
+    },
+    {
+      "basename": "mkdocs --wnc",
+      "path": "mkdocs --wnc.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
+      "basename": "python单元测试标准",
+      "path": "python单元测试标准.md"
+    },
+    {
+      "basename": "synthesizer入坑",
+      "path": "synthesizer入坑.md"
+    },
+    {
+      "basename": "Ubuntu 终端美化（oh-my-zsh）",
+      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
+    },
+    {
+      "basename": "WSL代理解决办法",
+      "path": "WSL代理解决办法.md"
+    },
+    {
+      "basename": "X11转发的问题",
+      "path": "X11转发的问题.md"
+    },
+    {
+      "basename": "2024-11-21 19-25 LLM Course for Busy People",
+      "path": "2024-11-21 19-25 LLM Course for Busy People.md"
+    },
+    {
+      "basename": "2025TODO",
+      "path": "2025TODO.md"
+    },
+    {
       "basename": "癫言癫语",
       "path": "癫言癫语.md"
     },
@@ -67,10 +119,6 @@
     {
       "basename": "2025-09-02-26-3",
       "path": "dairy/daily/2025-09-02-26-3.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "lec17-缓存总结",
@@ -151,54 +199,6 @@
     {
       "basename": "2025-08-02-17-1",
       "path": "dairy/daily/2025-08-02-17-1.md"
-    },
-    {
-      "basename": "2025-08-02-23-7",
-      "path": "dairy/daily/2025-08-02-23-7.md"
-    },
-    {
-      "basename": "argparse和absl-Python包开发工具包",
-      "path": "argparse和absl-Python包开发工具包.md"
-    },
-    {
-      "basename": "模电电子系统调查",
-      "path": "模电电子系统调查.md"
-    },
-    {
-      "basename": "服务器图像转发",
-      "path": "服务器图像转发.md"
-    },
-    {
-      "basename": "2025-08-02-22-6",
-      "path": "dairy/daily/2025-08-02-22-6.md"
-    },
-    {
-      "basename": "docker-getting-started学习记录",
-      "path": "tools/docker-getting-started学习记录.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
-    },
-    {
-      "basename": "资源汇总帖",
-      "path": "资源汇总帖.md"
-    },
-    {
-      "basename": "hugging face",
-      "path": "hugging face.md"
-    },
-    {
-      "basename": "mkdocs --wnc",
-      "path": "mkdocs --wnc.md"
-    },
-    {
-      "basename": "synthesizer入坑",
-      "path": "synthesizer入坑.md"
-    },
-    {
-      "basename": "怪獣の唄",
-      "path": "怪獣の唄.md"
     }
   ],
   "omittedPaths": []
