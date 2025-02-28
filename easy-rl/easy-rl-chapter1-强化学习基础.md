@@ -1,5 +1,5 @@
 ---
-title: easy-rl-chapter1-清华学习基础
+title: easy-rl-chapter1-强化学习基础
 tags:
   - RL
 categories: dairy

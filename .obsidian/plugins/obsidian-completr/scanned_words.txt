@@ -7345,6 +7345,7 @@ Chemistry
 Credit
 Clip
 CUDA
+COT
 Organazation
 OSTEP
 Operating
@@ -21568,6 +21569,7 @@ Terminologies
 TDtarget
 Tabular
 TRPO
+THUEI
 Hardware
 HPC
 Hulu
@@ -53610,6 +53612,7 @@ Krlok
 Krste
 Kinnari
 KaNGXKHNegUjRdtG
+Karpaphy
 os
 of
 on
@@ -85193,6 +85196,7 @@ lvert
 ldots
 leftarrow
 lscpu`
+llama
 GPU
 GPT
 Google

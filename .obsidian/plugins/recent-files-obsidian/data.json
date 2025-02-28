@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-W08-02",
+      "path": "dairy/weekly/2025-W08-02.md"
+    },
+    {
+      "basename": "easy-rl-chapter6-DQN",
+      "path": "easy-rl/easy-rl-chapter6-DQN.md"
+    },
+    {
+      "basename": "easy-rl-chapter5-近端策略优化PPO",
+      "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
+    },
+    {
+      "basename": "easy-rl-chapter4-策略梯度",
+      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
+    },
+    {
+      "basename": "easy-rl-chapter3-表格型方法",
+      "path": "easy-rl/easy-rl-chapter3-表格型方法.md"
+    },
+    {
+      "basename": "easy-rl-chapter2-马尔科夫决策过程MDP",
+      "path": "easy-rl/easy-rl-chapter2-马尔科夫决策过程MDP.md"
+    },
+    {
+      "basename": "easy-rl-chapter1-强化学习基础",
+      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
+    },
+    {
       "basename": "cs231n",
       "path": "cs231n.md"
     },
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "easy-rl-chapter4-策略梯度",
-      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
     },
     {
       "basename": "开发记录",
@@ -29,14 +53,6 @@
       "path": "鸣潮截图.md"
     },
     {
-      "basename": "easy-rl-chapter5-近端策略优化PPO",
-      "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
-    },
-    {
-      "basename": "easy-rl-chapter6-DQN",
-      "path": "easy-rl/easy-rl-chapter6-DQN.md"
-    },
-    {
       "basename": "2025-09-02-25-2",
       "path": "dairy/daily/2025-09-02-25-2.md"
     },
@@ -51,10 +67,6 @@
     {
       "basename": "lec17-缓存总结",
       "path": "cs61c/lec17-缓存总结.md"
-    },
-    {
-      "basename": "easy-rl-chapter3-表格型方法",
-      "path": "easy-rl/easy-rl-chapter3-表格型方法.md"
     },
     {
       "basename": "lec12-RISC-V处理器设计",
@@ -105,14 +117,6 @@
       "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
     },
     {
-      "basename": "easy-rl-chapter2-马尔科夫决策过程MDP",
-      "path": "easy-rl/easy-rl-chapter2-马尔科夫决策过程MDP.md"
-    },
-    {
-      "basename": "easy-rl-chapter1-清华学习基础",
-      "path": "easy-rl/easy-rl-chapter1-清华学习基础.md"
-    },
-    {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统/信号与系统 lec-1.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "hw-1",
       "path": "信号与系统/hw-1.md"
-    },
-    {
-      "basename": "2025-W08-02",
-      "path": "dairy/weekly/2025-W08-02.md"
     },
     {
       "basename": "2025-08-02-17-1",

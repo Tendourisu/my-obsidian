@@ -27,8 +27,11 @@ math: "true"
 
 $$
   - **时序差分（TD）方法**：利用相邻状态的奖励进行递推更新。
-    $$
+    
+$$
+
  V_{\pi}(s_t) = V_{\pi}(s_{t+1}) + r_t 
+
 $$
 
 ### 方法对比
@@ -44,13 +47,17 @@ $$
 时序差分目标：
 
 $$
+
 V_{\pi}(s_t) \leftrightarrow r_t + V_{\pi}(s_{t+1})
+
 $$
 
 训练时最小化均方误差：
 
 $$
+
 \text{Loss} = \left(V_{\pi}(s_t) - (r_t + V_{\pi}(s_{t+1}))\right)^2
+
 $$
 
 ---
@@ -63,7 +70,9 @@ $$
 - **策略改进**：通过最大化 Q 值选择动作，生成更优策略 $\pi'$：
 
 $$
+
   \pi'(s) = \arg\max_a Q_{\pi}(s,a)
+
 $$
 
 ---
@@ -105,12 +114,14 @@ $$
 
  a = \begin{cases} \arg\max Q(s,a) & 1-ε \\ \text{随机} & ε \end{cases} 
 
-$$ |
+$$
+ |
 $$
 
  \pi(as) \propto e^{Q(s,a)/T} 
 
-$$ |
+$$
+ |
 
 
 ### 探索必要性
@@ -154,13 +165,15 @@ for episode in episodes:
 
 ### 核心公式
 - **目标值计算**：
-  $$
+  
+$$
 
  y = r_i + \max_a \hat{Q}(s_{i+1}, a) 
 
 $$
 - **损失函数**：
-  $$
+  
+$$
 
  \mathcal{L} = \frac{1}{N} \sum_{i} \left(Q(s_i,a_i) - y_i\right)^2 
 
