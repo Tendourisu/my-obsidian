@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
+    },
+    {
+      "basename": "开发记录",
+      "path": "具身智能开发/开发记录.md"
+    },
+    {
+      "basename": "thu-website",
+      "path": "thu-website.md"
+    },
+    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
     },
@@ -69,10 +81,6 @@
       "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
     },
     {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
-    },
-    {
       "basename": "2025-W08-02",
       "path": "dairy/weekly/2025-W08-02.md"
     },
@@ -103,10 +111,6 @@
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "开发记录",
-      "path": "具身智能开发/开发记录.md"
     },
     {
       "basename": "2025-09-02-27-4",
@@ -195,10 +199,6 @@
     {
       "basename": "hw-1",
       "path": "信号与系统/hw-1.md"
-    },
-    {
-      "basename": "2025-08-02-17-1",
-      "path": "dairy/daily/2025-08-02-17-1.md"
     }
   ],
   "omittedPaths": []
