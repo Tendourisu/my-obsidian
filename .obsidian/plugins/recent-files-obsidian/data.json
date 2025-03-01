@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "easy-rl-chapter3-表格型方法",
+      "path": "easy-rl/easy-rl-chapter3-表格型方法.md"
+    },
+    {
       "basename": "easy-rl-chapter6-DQN",
       "path": "easy-rl/easy-rl-chapter6-DQN.md"
+    },
+    {
+      "basename": "easy-rl-chapter2-马尔科夫决策过程MDP",
+      "path": "easy-rl/easy-rl-chapter2-马尔科夫决策过程MDP.md"
+    },
+    {
+      "basename": "easy-rl-chapter1-强化学习基础",
+      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
+    },
+    {
+      "basename": "没有见过的函数",
+      "path": "没有见过的函数.md"
     },
     {
       "basename": "图",
@@ -81,10 +97,6 @@
       "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
     },
     {
-      "basename": "easy-rl-chapter1-强化学习基础",
-      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
-    },
-    {
       "basename": "2025-W08-02",
       "path": "dairy/weekly/2025-W08-02.md"
     },
@@ -95,14 +107,6 @@
     {
       "basename": "easy-rl-chapter4-策略梯度",
       "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
-      "basename": "easy-rl-chapter3-表格型方法",
-      "path": "easy-rl/easy-rl-chapter3-表格型方法.md"
-    },
-    {
-      "basename": "easy-rl-chapter2-马尔科夫决策过程MDP",
-      "path": "easy-rl/easy-rl-chapter2-马尔科夫决策过程MDP.md"
     },
     {
       "basename": "cs231n",
@@ -195,10 +199,6 @@
     {
       "basename": "ddr语录",
       "path": "ddr语录.md"
-    },
-    {
-      "basename": "hw-1",
-      "path": "信号与系统/hw-1.md"
     }
   ],
   "omittedPaths": []
