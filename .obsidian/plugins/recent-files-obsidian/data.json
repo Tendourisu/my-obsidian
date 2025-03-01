@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "easy-rl-chapter6-DQN",
+      "path": "easy-rl/easy-rl-chapter6-DQN.md"
+    },
+    {
       "basename": "图",
       "path": "具身智能开发/图.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "2025-W08-02",
       "path": "dairy/weekly/2025-W08-02.md"
-    },
-    {
-      "basename": "easy-rl-chapter6-DQN",
-      "path": "easy-rl/easy-rl-chapter6-DQN.md"
     },
     {
       "basename": "easy-rl-chapter5-近端策略优化PPO",

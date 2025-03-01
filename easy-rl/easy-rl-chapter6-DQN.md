@@ -21,36 +21,33 @@ math: "true"
 - **估计方法**：
   - **蒙特卡洛方法**：通过完整回合的奖励 $G$ 进行回归训练。
 
-    $$
-
+$$
  V_{\pi}(s) \approx G 
-
 $$
   - **时序差分（TD）方法**：利用相邻状态的奖励进行递推更新。
     
 $$
-
  V_{\pi}(s_t) = V_{\pi}(s_{t+1}) + r_t 
-
 $$
 
 ### 方法对比
 
-| **蒙特卡洛** | **时序差分** |
-|--------------|--------------|
-| 需完整回合数据 | 仅需单步数据 |
+| **蒙特卡洛**    | **时序差分**  |
+| ----------- | --------- |
+| 需完整回合数据     | 仅需单步数据    |
 | 方差大（多步奖励叠加） | 方差小（单步奖励） |
-| 训练慢（需回合结束） | 训练快（实时更新） |
+| 训练慢（需回合结束）  | 训练快（实时更新） |
 
 ### 数学推导
 
 时序差分目标：
 
-$$
 
+$$
 V_{\pi}(s_t) \leftrightarrow r_t + V_{\pi}(s_{t+1})
-
 $$
+
+
 
 训练时最小化均方误差：
 
@@ -95,10 +92,8 @@ $$
 1. 主网络 $Q$ 计算当前 Q 值。
 2. 目标网络 $\hat{Q}$ 计算目标值：
 
-   $$
-
+$$
  y = r_t + \max_a \hat{Q}(s_{t+1}, a) 
-
 $$
 3. 最小化均方误差：$\text{Loss} = (Q(s_t,a_t) - y)^2$
 
@@ -110,16 +105,14 @@ $$
 | -------------------------------------------------------------------------- | ---------------------------------- |
 | 以概率 $ε$ 随机动作                                                               | 按 Q 值概率分布选择动作                      |
 |
+
 $$
-
  a = \begin{cases} \arg\max Q(s,a) & 1-ε \\ \text{随机} & ε \end{cases} 
-
 $$
  |
+
 $$
-
  \pi(as) \propto e^{Q(s,a)/T} 
-
 $$
  |
 
@@ -181,7 +174,7 @@ $$
 
 核心公式
 ```python
-state_batch = torch.tensor(np.array(state_batch), device=self.device, dtype=torch.float)
+	state_batch = torch.tensor(np.array(state_batch), device=self.device, dtype=torch.float)
         action_batch = torch.tensor(action_batch, device=self.device).unsqueeze(1)  
         reward_batch = torch.tensor(reward_batch, device=self.device, dtype=torch.float)  
         next_state_batch = torch.tensor(np.array(next_state_batch), device=self.device, dtype=torch.float)
