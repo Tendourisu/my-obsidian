@@ -13,6 +13,22 @@
       "path": "dairy/daily/2025-09-03-02-7.md"
     },
     {
+      "basename": "王树森Reinforcement_Learning学习笔记",
+      "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
+    },
+    {
+      "basename": "ddr语录",
+      "path": "ddr语录.md"
+    },
+    {
+      "basename": "easy-rl-chapter4-策略梯度",
+      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
+    },
+    {
+      "basename": "大模型入门汇总",
+      "path": "大模型入门汇总.md"
+    },
+    {
       "basename": "鸣潮截图",
       "path": "鸣潮截图.md"
     },
@@ -113,24 +129,12 @@
       "path": "2025TODO.md"
     },
     {
-      "basename": "王树森Reinforcement_Learning学习笔记",
-      "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
-    },
-    {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
     {
-      "basename": "easy-rl-chapter4-策略梯度",
-      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
       "basename": "cs231n",
       "path": "cs231n.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
     },
     {
       "basename": "2025-09-02-27-4",
@@ -195,10 +199,6 @@
     {
       "basename": "信号与系统 lec-1",
       "path": "信号与系统/信号与系统 lec-1.md"
-    },
-    {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
     }
   ],
   "omittedPaths": []

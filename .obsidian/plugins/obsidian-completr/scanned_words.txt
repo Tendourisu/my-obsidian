@@ -3735,6 +3735,7 @@ cloningkey
 cddc
 cdot
 clamp`
+cookbook
 Computer
 Concepts
 ChatGpt
@@ -17830,6 +17831,9 @@ Difference
 DDQN
 Dueling
 Distributional
+DoubleDQN
+DuelingDQN
+Datawhale
 The
 Team
 TVM
@@ -63837,6 +63841,7 @@ Nicholas
 NOTE
 National
 Noisy
+NoisyDQN
 Programming
 Parallel
 PLAM
