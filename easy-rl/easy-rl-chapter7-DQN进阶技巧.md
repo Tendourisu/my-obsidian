@@ -18,7 +18,7 @@ math: "true"
 ### 关键概念
 
 - **问题**：Q值高估。传统DQN在计算目标值时直接使用目标网络的最大Q值，导致高估。
-- 分析：  例如，假设我们现在有 4 个动作，本来它们得到的Q值都是差不多的，它们得到的奖励也是差不多的。但是在估计的时候，网络是有误差的。所示，假设是第一个动作被高估了，绿色代表是被高估的量，智能体就会选这个动作，就会选这个高估的 Q 值来加上 $r_t$ 来当作目标。如果第四个动作被高估了，智能体就会选第四个动作来加上 $r_t$ 当作目标。所以智能体总是会选那个 Q 值被高估的动作，总是会选奖励被高估的动作的Q值当作最大的结果去加上 $r_t$ 当作目标，所以目标值总是太大。
+- 分析： 例如，假设我们现在有 4 个动作，本来它们得到的Q值都是差不多的，它们得到的奖励也是差不多的。但是在估计的时候，网络是有误差的。所示，假设是第一个动作被高估了，绿色代表是被高估的量，智能体就会选这个动作，就会选这个高估的 Q 值来加上 $r_t$ 来当作目标。如果第四个动作被高估了，智能体就会选第四个动作来加上 $r_t$ 当作目标。所以智能体总是会选那个 Q 值被高估的动作，总是会选奖励被高估的动作的Q值当作最大的结果去加上 $r_t$ 当作目标，所以目标值总是太大。  
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250302164856770.png)
 
 - **解决方案**：分离动作选择和值计算：
@@ -43,7 +43,9 @@ $$
 
 - 使用两个网络：当前网络（频繁更新）和目标网络（定期同步）。
 - 改动少，计算量与DQN相当。
+
 ### 关键代码
+
 ```python
         state_batch, action_batch, reward_batch, next_state_batch, done_batch = self.memory.sample(
             self.batch_size)
@@ -69,6 +71,7 @@ $$
         # 计算损失
         loss = nn.MSELoss()(q_value_batch, expected_q_value_batch)
 ```
+
 ---
 
 ## 7.2 竞争深度Q网络（Dueling DQN）
@@ -84,8 +87,10 @@ $$
 $$
  Q(s, a) = V(s) + A(s, a) 
 $$
->[!hint]+ think
+
+>[!hint]+ think  
 >由于一个动作而更新 V 的同时，会将其余的Q（s, a）一起更新
+
 ### 约束条件
 
 - **零均值化**：强制优势函数的每列和为0，避免$V(s)$与$A(s, a)$冗余。
@@ -100,7 +105,35 @@ $$
 
 - 数据效率高：更新$V(s)$可间接影响所有动作的Q值。
 - 示例：若需提升某动作Q值，可能仅需调整$V(s)$。
-
+### 关键代码
+```python
+#### 主要是模型上的差别
+class DuelingNet(nn.Module):
+    def __init__(self, n_states, n_actions,hidden_dim=128):
+        super(DuelingNet, self).__init__()
+        # hidden layer
+        self.hidden_layer = nn.Sequential(
+            nn.Linear(n_states, hidden_dim),
+            nn.ReLU()
+        )
+        #  advantage
+        self.advantage_layer = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, n_actions)
+        )
+        # value
+        self.value_layer = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, 1)
+        )
+    def forward(self, state):
+        x = self.hidden_layer(state)
+        advantage = self.advantage_layer(x)
+        value     = self.value_layer(x)
+        return value + advantage - advantage.mean()
+```
 ---
 
 ## 7.3 优先级经验回放（Prioritized Experience Replay, PER）

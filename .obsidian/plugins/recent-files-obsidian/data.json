@@ -5,6 +5,10 @@
       "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
     },
     {
+      "basename": "2025-09-03-02-7",
+      "path": "dairy/daily/2025-09-03-02-7.md"
+    },
+    {
       "basename": "没有见过的函数",
       "path": "没有见过的函数.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "template",
       "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
     }
   ],
   "omittedPaths": []
