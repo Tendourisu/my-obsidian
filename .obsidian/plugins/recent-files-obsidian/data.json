@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "easy-rl-chapter7-DQN进阶技巧",
+      "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "仿真作业1 实验报告",
       "path": "模电实验/仿真作业1 实验报告.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "mkdocs --wnc",
       "path": "mkdocs --wnc.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "python单元测试标准",
@@ -195,10 +199,6 @@
     {
       "basename": "daily",
       "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "2025-09-02-24-1",
-      "path": "dairy/daily/2025-09-02-24-1.md"
     }
   ],
   "omittedPaths": []
