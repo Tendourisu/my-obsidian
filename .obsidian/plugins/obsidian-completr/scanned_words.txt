@@ -28900,6 +28900,7 @@ Skips
 Symbols
 SDK
 Stride
+Semiconductor
 Interface
 Isomorphic
 Inference
@@ -46672,6 +46673,7 @@ UUTQPkX
 Unions
 UEGZ
 UValPA
+Uce
 Linux
 Learning
 Large
@@ -63829,6 +63831,7 @@ NOP
 NzaC
 Nicholas
 NOTE
+National
 Programming
 Parallel
 PLAM
@@ -74680,6 +74683,8 @@ MRU
 Miss
 MasterPi
 Metropolis
+Multisim
+Multisiim
 JYY
 Jim
 Jina
@@ -103032,6 +103037,7 @@ mod
 mujoco
 mathcal
 micro
+multisim
 blog
 batchsize
 batch
@@ -175300,6 +175306,7 @@ difference
 dacdfa
 delta
 dilemma
+dbbc
 Youtube
 YOLO
 Your
