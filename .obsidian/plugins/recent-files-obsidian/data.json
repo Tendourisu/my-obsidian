@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "prompt",
-      "path": "prompt.md"
+      "basename": "2025-W09-02",
+      "path": "dairy/weekly/2025-W09-02.md"
+    },
+    {
+      "basename": "2025-W08-02",
+      "path": "dairy/weekly/2025-W08-02.md"
+    },
+    {
+      "basename": "2025-09-03-02-7",
+      "path": "dairy/daily/2025-09-03-02-7.md"
+    },
+    {
+      "basename": "鸣潮截图",
+      "path": "鸣潮截图.md"
+    },
+    {
+      "basename": "癫言癫语",
+      "path": "癫言癫语.md"
     },
     {
       "basename": "easy-rl-chapter7-DQN进阶技巧",
       "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
     },
     {
-      "basename": "2025-09-03-02-7",
-      "path": "dairy/daily/2025-09-03-02-7.md"
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "没有见过的函数",
@@ -47,10 +63,6 @@
     {
       "basename": "thu-website",
       "path": "thu-website.md"
-    },
-    {
-      "basename": "鸣潮截图",
-      "path": "鸣潮截图.md"
     },
     {
       "basename": "模电电子系统调查",
@@ -101,16 +113,8 @@
       "path": "2025TODO.md"
     },
     {
-      "basename": "癫言癫语",
-      "path": "癫言癫语.md"
-    },
-    {
       "basename": "王树森Reinforcement_Learning学习笔记",
       "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
-    },
-    {
-      "basename": "2025-W08-02",
-      "path": "dairy/weekly/2025-W08-02.md"
     },
     {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
@@ -195,10 +199,6 @@
     {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
     }
   ],
   "omittedPaths": []
