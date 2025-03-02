@@ -5,6 +5,10 @@
       "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
     },
     {
+      "basename": "没有见过的函数",
+      "path": "没有见过的函数.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "easy-rl-chapter1-强化学习基础",
       "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
-    },
-    {
-      "basename": "没有见过的函数",
-      "path": "没有见过的函数.md"
     },
     {
       "basename": "图",
