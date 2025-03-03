@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "大模型入门汇总",
+      "path": "大模型入门汇总.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
       "basename": "2025-W09-02",
       "path": "dairy/weekly/2025-W09-02.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "easy-rl-chapter4-策略梯度",
       "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
-      "basename": "大模型入门汇总",
-      "path": "大模型入门汇总.md"
     },
     {
       "basename": "鸣潮截图",
@@ -195,10 +199,6 @@
     {
       "basename": "策略梯度算法",
       "path": "easy-rl/策略梯度算法.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
     }
   ],
   "omittedPaths": []
