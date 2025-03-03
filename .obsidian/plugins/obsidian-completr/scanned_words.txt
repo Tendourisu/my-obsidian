@@ -7348,6 +7348,8 @@ Credit
 Clip
 CUDA
 COT
+CTRL
+Claude
 Organazation
 OSTEP
 Operating
@@ -175326,6 +175328,7 @@ dilemma
 dbbc
 dueling
 distributional
+deepseek
 Youtube
 YOLO
 Your

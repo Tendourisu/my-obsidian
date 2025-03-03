@@ -9,6 +9,10 @@
       "path": "大模型入门汇总.md"
     },
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "easy-rl-chapter7-DQN进阶技巧",
       "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "easy-rl-chapter4-策略梯度",
       "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "没有见过的函数",
