@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "没有见过的函数",
-      "path": "没有见过的函数.md"
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
+      "basename": "2025-W09-02",
+      "path": "dairy/weekly/2025-W09-02.md"
     },
     {
       "basename": "2025-10-03-03-1",
       "path": "dairy/daily/2025-10-03-03-1.md"
     },
     {
+      "basename": "2025-W10-03",
+      "path": "dairy/weekly/2025-W10-03.md"
+    },
+    {
+      "basename": "cs231n",
+      "path": "cs231n.md"
+    },
+    {
       "basename": "自34-25sp-notes",
       "path": "自34-25sp-notes.md"
     },
     {
-      "basename": "大模型入门汇总",
-      "path": "大模型入门汇总.md"
+      "basename": "没有见过的函数",
+      "path": "没有见过的函数.md"
     },
     {
-      "basename": "prompt",
-      "path": "prompt.md"
+      "basename": "大模型入门汇总",
+      "path": "大模型入门汇总.md"
     },
     {
       "basename": "easy-rl-chapter7-DQN进阶技巧",
@@ -31,10 +43,6 @@
     {
       "basename": "RL 入门汇总",
       "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
-      "basename": "2025-W09-02",
-      "path": "dairy/weekly/2025-W09-02.md"
     },
     {
       "basename": "2025-W08-02",
@@ -167,10 +175,6 @@
     {
       "basename": "2025TODO",
       "path": "2025TODO.md"
-    },
-    {
-      "basename": "cs231n",
-      "path": "cs231n.md"
     },
     {
       "basename": "2025-09-02-27-4",
