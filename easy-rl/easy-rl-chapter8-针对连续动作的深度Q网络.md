@@ -10,6 +10,7 @@ cdate: " 2025-03-04 "
 mdate: " 2025-03-04 "
 math: "true"
 ---
+
 # 第8章 针对连续动作的深度Q网络总结
 
 ## 深度Q网络与策略梯度的比较
@@ -30,11 +31,11 @@ math: "true"
 ### 连续动作的挑战
 
 - 深度Q网络需要解决的核心优化问题：
-    
+
     ```
     a = argmax_a Q(s,a)
     ```
-    
+
 - 离散动作易于穷举所有可能性
 - 连续动作无法枚举所有可能值
 
@@ -56,7 +57,9 @@ math: "true"
     - 计算成本高（每次决策都需要迭代训练）
 
 ### 方案3：特殊设计网络架构
+
 >[\[1603.00748\] Continuous Deep Q-Learning with Model-based Acceleration](https://arxiv.org/abs/1603.00748)
+
 - 设计特殊的Q函数形式，使argmax操作变得简单
     
 - 网络架构：
@@ -64,7 +67,12 @@ math: "true"
     - 输入状态s
     - 输出：向量μ(s)、矩阵Σ(s)和标量V(s)
     - Q函数设计为： 
-    $$Q(s,a)=-(a-\mu(s))^T \Sigma(s)(a-\mu(s))+V(s)$$
+
+    $$
+
+Q(s,a)=-(a-\mu(s))^T \Sigma(s)(a-\mu(s))+V(s)
+
+$$
     - 其中Σ(s)是正定矩阵，通过Σ(s)=LL^T构造，L为下三角矩阵
 - 求解argmax:
     

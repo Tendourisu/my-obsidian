@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-W08-02",
+      "path": "dairy/weekly/2025-W08-02.md"
+    },
+    {
       "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
       "path": "easy-rl/easy-rl-chapter8-针对连续动作的深度Q网络.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "RL 入门汇总",
       "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
-      "basename": "2025-W08-02",
-      "path": "dairy/weekly/2025-W08-02.md"
     },
     {
       "basename": "2025-W07-02",
