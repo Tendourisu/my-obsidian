@@ -5,6 +5,22 @@
       "path": "easy-rl/easy-rl-chapter9-演员-评论员算法总结.md"
     },
     {
+      "basename": "hw2",
+      "path": "信号与系统/hw2.md"
+    },
+    {
+      "basename": "2025-10-03-04-2",
+      "path": "dairy/daily/2025-10-03-04-2.md"
+    },
+    {
+      "basename": "hw-1",
+      "path": "信号与系统/hw-1.md"
+    },
+    {
+      "basename": "信号与系统 lec-1",
+      "path": "信号与系统/信号与系统 lec-1.md"
+    },
+    {
       "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
       "path": "easy-rl/easy-rl-chapter8-针对连续动作的深度Q网络.md"
     },
@@ -19,10 +35,6 @@
     {
       "basename": "easy-rl-chapter4-策略梯度",
       "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
-      "basename": "2025-10-03-04-2",
-      "path": "dairy/daily/2025-10-03-04-2.md"
     },
     {
       "basename": "2025-W08-02",
@@ -187,18 +199,6 @@
     {
       "basename": "2025TODO",
       "path": "2025TODO.md"
-    },
-    {
-      "basename": "2025-09-02-27-4",
-      "path": "dairy/daily/2025-09-02-27-4.md"
-    },
-    {
-      "basename": "2025-09-02-25-2",
-      "path": "dairy/daily/2025-09-02-25-2.md"
-    },
-    {
-      "basename": "2025-09-02-26-3",
-      "path": "dairy/daily/2025-09-02-26-3.md"
     }
   ],
   "omittedPaths": []
