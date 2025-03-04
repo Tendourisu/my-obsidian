@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "easy-rl-chapter9-演员-评论员算法总结",
+      "path": "easy-rl/easy-rl-chapter9-演员-评论员算法总结.md"
+    },
+    {
+      "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
+      "path": "easy-rl/easy-rl-chapter8-针对连续动作的深度Q网络.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
@@ -9,20 +21,12 @@
       "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
     },
     {
-      "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
-      "path": "easy-rl/easy-rl-chapter8-针对连续动作的深度Q网络.md"
-    },
-    {
       "basename": "2025-10-03-04-2",
       "path": "dairy/daily/2025-10-03-04-2.md"
     },
     {
       "basename": "2025-W08-02",
       "path": "dairy/weekly/2025-W08-02.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "2025-W09-02",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-09-02-26-3",
       "path": "dairy/daily/2025-09-02-26-3.md"
-    },
-    {
-      "basename": "lec12-RISC-V处理器设计",
-      "path": "cs61c/lec12-RISC-V处理器设计.md"
     }
   ],
   "omittedPaths": []
