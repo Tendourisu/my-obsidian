@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "easy-rl-chapter4-策略梯度",
-      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
+    },
+    {
+      "basename": "easy-rl-chapter4-策略梯度",
+      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
     },
     {
       "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
