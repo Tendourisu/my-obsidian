@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "week3-2",
+      "path": "概率论与数理统计/week3-2.md"
+    },
+    {
+      "basename": "easy-rl-chapter4-策略梯度",
+      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
+    },
+    {
       "basename": "仿真作业1 实验报告",
       "path": "模电实验/仿真作业1 实验报告.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
-    },
-    {
-      "basename": "easy-rl-chapter4-策略梯度",
-      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
     },
     {
       "basename": "2025-W08-02",
@@ -195,10 +199,6 @@
     {
       "basename": "X11转发的问题",
       "path": "X11转发的问题.md"
-    },
-    {
-      "basename": "2024-11-21 19-25 LLM Course for Busy People",
-      "path": "2024-11-21 19-25 LLM Course for Busy People.md"
     }
   ],
   "omittedPaths": []
