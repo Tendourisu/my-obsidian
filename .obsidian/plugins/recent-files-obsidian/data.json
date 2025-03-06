@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "week3-2",
+      "path": "概率论与数理统计/week3-2.md"
+    },
+    {
       "basename": "2025-10-03-06-4",
       "path": "dairy/daily/2025-10-03-06-4.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "仿真作业1 实验报告",
       "path": "模电实验/仿真作业1 实验报告.md"
-    },
-    {
-      "basename": "week3-2",
-      "path": "概率论与数理统计/week3-2.md"
     },
     {
       "basename": "easy-rl-chapter4-策略梯度",
