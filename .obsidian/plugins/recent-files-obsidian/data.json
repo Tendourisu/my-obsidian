@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-10-03-06-4",
+      "path": "dairy/daily/2025-10-03-06-4.md"
+    },
+    {
       "basename": "week3-2",
       "path": "概率论与数理统计/week3-2.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "WSL代理解决办法",
       "path": "WSL代理解决办法.md"
-    },
-    {
-      "basename": "X11转发的问题",
-      "path": "X11转发的问题.md"
     }
   ],
   "omittedPaths": []
