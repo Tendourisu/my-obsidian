@@ -92,17 +92,20 @@ $$
 **常见分布**：  
 1. **二项分布 $B(n,p)$**：  
 
-$$P(X=k) = C_n^k p^k q^{n-k} \quad (k=0,1,\dots,n)
+$$
+P(X=k) = C_n^k p^k q^{n-k} \quad (k=0,1,\dots,n)
 $$
 
 2. **超几何分布**：  
 
-$$P(X=k) = \frac{C_M^k C_{N}^{n-k}}{C_{M+N}^n} \quad (k=0,1,\dots,\min(M,n))
+$$
+P(X=k) = \frac{C_M^k C_{N}^{n-k}}{C_{M+N}^n} \quad (k=0,1,\dots,\min(M,n))
 $$
 
 3. **几何分布 $Ge(p)$**：  
 
-$$P(X=k) = q^{k-1}p \quad (k=1,2,\dots)
+$$
+P(X=k) = q^{k-1}p \quad (k=1,2,\dots)
 $$
 
 4. **负二项分布 $NB(r,p)$**：  
@@ -139,5 +142,6 @@ $$
 
 （2）在第 7 局结束的条件下，甲获胜的概率：  
 
-$$P(A|B) = \frac{0.17}{0.24} = 0.71
+$$
+P(A|B) = \frac{0.17}{0.24} = 0.71
 $$

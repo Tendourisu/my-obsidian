@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "week3-2",
       "path": "概率论与数理统计/week3-2.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
       "path": "easy-rl/easy-rl-chapter8-针对连续动作的深度Q网络.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
