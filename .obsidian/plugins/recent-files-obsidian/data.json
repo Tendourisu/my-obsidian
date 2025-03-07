@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "花瓣、与之相关的声音",
+      "path": "花瓣、与之相关的声音.md"
+    },
+    {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Ubuntu 终端美化（oh-my-zsh）",
       "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
-      "basename": "WSL代理解决办法",
-      "path": "WSL代理解决办法.md"
     }
   ],
   "omittedPaths": []
