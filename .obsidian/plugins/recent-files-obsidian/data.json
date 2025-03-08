@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "week-2",
-      "path": "大二上/信号与系统/week-2.md"
+      "basename": "未命名",
+      "path": "大二上/模电/未命名.md"
     },
     {
-      "basename": "easy-rl-chapter5-近端策略优化PPO",
-      "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
+      "basename": "week-3-微分方程与差分方程求解",
+      "path": "大二上/信号与系统/week-3-微分方程与差分方程求解.md"
+    },
+    {
+      "basename": "week-2-典型信号与运算",
+      "path": "大二上/信号与系统/week-2-典型信号与运算.md"
     },
     {
       "basename": "week-1-intro",
       "path": "大二上/信号与系统/week-1-intro.md"
     },
     {
-      "basename": "hw-1",
-      "path": "大二上/信号与系统/hw-1.md"
+      "basename": "easy-rl-chapter5-近端策略优化PPO",
+      "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
     {
-      "basename": "prompt",
-      "path": "prompt.md"
+      "basename": "hw-1",
+      "path": "大二上/信号与系统/hw-1.md"
     },
     {
       "basename": "仿真作业1 实验报告",
@@ -191,14 +199,6 @@
     {
       "basename": "模电电子系统调查",
       "path": "模电电子系统调查.md"
-    },
-    {
-      "basename": "202412011509",
-      "path": "202412011509.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     }
   ],
   "omittedPaths": []
