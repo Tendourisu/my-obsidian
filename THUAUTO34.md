@@ -1,5 +1,5 @@
 ---
-title: 自34-25sp-notes
+title: THUAUTO34
 tags:
   - notes
 date: " 2025-03-03T19:20:07+08:00 "
@@ -30,3 +30,4 @@ math: "true"
 >   详细语法见[Callout语法 - Obsidian中文教程 - Obsidian Publish](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/Callout%E8%AF%AD%E6%B3%95)
 
 网站具体效果可以参考 [Tendourisu's Site](https://tendourisu.github.io/)( ~~点点 star 谢谢喵~~)
+现网站初步搭设效果：[THUAUTO34](https://tendourisu.github.io/THUAUTO34/)( ~~点点 star 谢谢喵~~)
