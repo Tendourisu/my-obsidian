@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "花瓣、与之相关的声音",
-      "path": "花瓣、与之相关的声音.md"
+      "basename": "week-2",
+      "path": "大二上/信号与系统/week-2.md"
     },
     {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
       "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
     },
     {
+      "basename": "week-1-intro",
+      "path": "大二上/信号与系统/week-1-intro.md"
+    },
+    {
+      "basename": "hw-1",
+      "path": "大二上/信号与系统/hw-1.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
     {
+      "basename": "仿真作业1 实验报告",
+      "path": "大二上/模电实验/仿真作业1 实验报告.md"
+    },
+    {
+      "basename": "信号与系统 lec-1",
+      "path": "大二上/信号与系统/信号与系统 lec-1.md"
+    },
+    {
       "basename": "week3-2",
-      "path": "概率论与数理统计/week3-2.md"
+      "path": "大二上/概率论与数理统计/week3-2.md"
+    },
+    {
+      "basename": "lec1",
+      "path": "大二上/概率论与数理统计/lec1.md"
+    },
+    {
+      "basename": "服务器图像转发",
+      "path": "服务器图像转发.md"
+    },
+    {
+      "basename": "怪獣の唄",
+      "path": "怪獣の唄.md"
+    },
+    {
+      "basename": "花瓣、与之相关的声音",
+      "path": "花瓣、与之相关的声音.md"
+    },
+    {
+      "basename": "easy-rl-chapter1-强化学习基础",
+      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
     },
     {
       "basename": "2025-10-03-06-4",
@@ -23,10 +59,6 @@
     {
       "basename": "2025-10-03-05-3",
       "path": "dairy/daily/2025-10-03-05-3.md"
-    },
-    {
-      "basename": "仿真作业1 实验报告",
-      "path": "模电实验/仿真作业1 实验报告.md"
     },
     {
       "basename": "easy-rl-chapter4-策略梯度",
@@ -46,15 +78,7 @@
     },
     {
       "basename": "hw2",
-      "path": "信号与系统/hw2.md"
-    },
-    {
-      "basename": "hw-1",
-      "path": "信号与系统/hw-1.md"
-    },
-    {
-      "basename": "信号与系统 lec-1",
-      "path": "信号与系统/信号与系统 lec-1.md"
+      "path": "大二上/信号与系统/hw2.md"
     },
     {
       "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
@@ -153,10 +177,6 @@
       "path": "easy-rl/easy-rl-chapter2-马尔科夫决策过程MDP.md"
     },
     {
-      "basename": "easy-rl-chapter1-强化学习基础",
-      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
-    },
-    {
       "basename": "图",
       "path": "具身智能开发/图.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "git use",
       "path": "git use.md"
-    },
-    {
-      "basename": "matmul的riscv实现",
-      "path": "matmul的riscv实现.md"
-    },
-    {
-      "basename": "mkdocs --wnc",
-      "path": "mkdocs --wnc.md"
-    },
-    {
-      "basename": "python单元测试标准",
-      "path": "python单元测试标准.md"
-    },
-    {
-      "basename": "synthesizer入坑",
-      "path": "synthesizer入坑.md"
-    },
-    {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
     }
   ],
   "omittedPaths": []

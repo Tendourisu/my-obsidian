@@ -33,7 +33,8 @@
       "endProof": "\\end{proof}",
       "insertSpace": true
     },
-    "cs61c": {}
+    "cs61c": {},
+    "大二上/信号与系统/week-2.md": {}
   },
   "extraSettings": {
     "foldDefault": "",
@@ -207,6 +208,15 @@
     "dairy/daily/20250115.md",
     "dairy/weekly/2024秋15周周结.md",
     "dairy/weekly/2024秋16周周结.md",
-    "dairy/daily/20250116.md"
+    "dairy/daily/20250116.md",
+    "花瓣、与之相关的声音.md",
+    "大二上/概率论与数理统计/lec1.md",
+    "大二上/概率论与数理统计/week3-2.md",
+    "大二上/信号与系统/hw-1.md",
+    "大二上/信号与系统/信号与系统 lec-1.md",
+    "大二上/信号与系统/hw2.md",
+    "大二上/模电实验/仿真作业1 实验报告.md",
+    "大二上/信号与系统/week-2.md",
+    "大二上/信号与系统/week-1-intro.md"
   ]
 }
