@@ -8,36 +8,84 @@ cdate: " 2025-03-08 "
 mdate: " 2025-03-08 "
 math: "true"
 ---
+
 # 信号与系统核心概念总结
 
 ---
 
 ## 一、对称典型信号
+
 ### 1. 高斯信号 (Gaussian Function)
+
 #### 定义与特性
+
 - **时域表达式**:  
-  $$ f(t) = e^{-t^2} $$
+
+  $$
+
+ f(t) = e^{-t^2} 
+
+$$
 - **核心性质**:
-  - 偶对称性: $$ f(t) = f(-t) $$
+  - 偶对称性:
+$$
+
+ f(t) = f(-t) 
+
+$$
   - 积分面积:  
-    $$ \int_{-\infty}^{\infty} e^{-t^2} dt = \sqrt{\pi} $$
+    $$
+ \int_{-\infty}^{\infty} e^{-t^2} dt = \sqrt{\pi} 
+$$
+
   - 误差函数定义:  
-    $$ \text{erf}(t) = \frac{2}{\sqrt{\pi}} \int_{0}^{t} e^{-\tau^2} d\tau $$
+
+    $$
+
+ \text{erf}(t) = \frac{2}{\sqrt{\pi}} \int_{0}^{t} e^{-\tau^2} d\tau 
+
+$$
   - **傅里叶变换推导**:  
-    $$ \mathcal{F}\{e^{-t^2}\} = \int_{-\infty}^{\infty} e^{-t^2} e^{-j\omega t} dt = \sqrt{\pi} e^{-\omega^2/4} $$
+    $$
+ \mathcal{F}\{e^{-t^2}\} = \int_{-\infty}^{\infty} e^{-t^2} e^{-j\omega t} dt = \sqrt{\pi} e^{-\omega^2/4} 
+$$
 
 ### 2. 抽样信号 (Sinc Function)
+
 #### 定义与特性
+
 - **标准形式**:  
-  $$ \text{Sa}(t) = \frac{\sin(t)}{t} $$
+
+  $$
+
+ \text{Sa}(t) = \frac{\sin(t)}{t} 
+
+$$
 - **MATLAB定义**:  
-  $$ \text{sinc}(t) = \frac{\sin(\pi t)}{\pi t} $$
+  $$
+
+ \text{sinc}(t) = \frac{\sin(\pi t)}{\pi t} 
+
+$$
 - **关键性质**:
-  - 过零点: $$ t = \pm k\pi \ (k=1,2,\dots) $$
+  - 过零点:
+$$
+
+ t = \pm k\pi \ (k=1,2,\dots) 
+
+$$
   - 积分面积:  
-    $$ \int_{-\infty}^{\infty} \text{Sa}(t) dt = \pi $$
+    $$
+ \int_{-\infty}^{\infty} \text{Sa}(t) dt = \pi 
+$$
+
   - 非初等积分函数:  
-    $$ \text{Si}(t) = \int_{0}^{t} \text{Sa}(\tau) d\tau $$
+
+    $$
+
+ \text{Si}(t) = \int_{0}^{t} \text{Sa}(\tau) d\tau 
+
+$$
 
 ---
 
@@ -45,17 +93,50 @@ math: "true"
 ### 10种基本操作与物理意义
 | 操作类型      | 数学表达式                     | 物理意义                     | 示例场景                 |
 |---------------|--------------------------------|------------------------------|--------------------------|
-| **倍率**      | $$ k \cdot f(t) $$            | 信号放大/衰减                | 音频增益调节            |
-| **移位**      | $$ f(t - t_0) $$              | 时域延迟/超前                | 雷达信号时延补偿        |
-| **反褶**      | $$ f(-t) $$                   | 时间反转                     | 语音倒放分析            |
-| **尺度变换**  | $$ f(at) $$                   | 时间压缩/扩展                | 视频倍速播放            |
-| **微分**      | $$ \frac{d}{dt}f(t) $$        | 边缘检测                     | ECG信号突变点提取       |
+| **倍率**      |
+$$
+
+ k \cdot f(t) 
+
+$$            | 信号放大/衰减                | 音频增益调节            |
+| **移位**      |
+$$
+
+ f(t - t_0) 
+
+$$              | 时域延迟/超前                | 雷达信号时延补偿        |
+| **反褶**      |
+$$
+
+ f(-t) 
+
+$$                   | 时间反转                     | 语音倒放分析            |
+| **尺度变换**  |
+$$
+
+ f(at) 
+
+$$                   | 时间压缩/扩展                | 视频倍速播放            |
+| **微分**      |
+$$
+
+ \frac{d}{dt}f(t) 
+
+$$        | 边缘检测                     | ECG信号突变点提取       |
 
 ### 关键运算公式
 - **卷积运算**:  
-  $$ (f * g)(t) = \int_{-\infty}^{\infty} f(\tau)g(t-\tau) d\tau $$
+  $$
+
+ (f * g)(t) = \int_{-\infty}^{\infty} f(\tau)g(t-\tau) d\tau 
+
+$$
 - **相关运算**:  
-  $$ R_{fg}(\tau) = \int_{-\infty}^{\infty} f(t)g(t-\tau) dt $$
+  $$
+
+ R_{fg}(\tau) = \int_{-\infty}^{\infty} f(t)g(t-\tau) dt 
+
+$$
 
 ---
 
@@ -63,36 +144,44 @@ math: "true"
 ### 1. 直角坐标与极坐标
 #### 表达式转换
 - **直角坐标 → 极坐标**:  
-  $$ 
-  |f(t)| = \sqrt{f_R^2(t) + f_I^2(t)}, \quad 
-  \theta(t) = \tan^{-1}\left(\frac{f_I(t)}{f_R(t)}\right)
-  $$
-- **极坐标 → 直角坐标**:  
-  $$ 
-  f_R(t) = |f(t)|\cos\theta(t), \quad 
-  f_I(t) = |f(t)|\sin\theta(t)
   $$
 
+  |f(t)| = \sqrt{f_R^2(t) + f_I^2(t)}, \quad  
+  \theta(t) = \tan^{-1}\left(\frac{f_I(t)}{f_R(t)}\right)
+
+$$
+- **极坐标 → 直角坐标**:  
+  $$
+
+  f_R(t) = |f(t)|\cos\theta(t), \quad  
+  f_I(t) = |f(t)|\sin\theta(t)
+
+$$
+
 #### 共轭复数性质
-| 运算   | 公式                                     | 说明     |                     |      |
-| ---- | -------------------------------------- | ------ | ------------------- | ---- |
-| 模平方  | $$                                     | z      | ^2 = z \cdot z^* $$ | 能量守恒 |
-| 实部提取 | $$ \text{Re}(z) = \frac{z + z^*}{2} $$ | 信号解调基础 |                     |      |
+| 运算                | 公式                          | 说明                |
+|---------------------|-------------------------------|---------------------|
+| 模平方              | $$ |z|^2 = z \cdot z^* $$     | 能量守恒          |
+| 实部提取            | $$ \text{Re}(z) = \frac{z + z^*}{2} $$ | 信号解调基础      |
 
 ---
 
 ## 四、系统建模与分类
 ### 1. 系统模型
 #### 连续时间系统 (微分方程)
-$$ 
+$$
+
 \sum_{k=0}^{n} a_k \frac{d^k y(t)}{dt^k} = \sum_{k=0}^{m} b_k \frac{d^k x(t)}{dt^k} 
+
 $$
 - **示例**: RLC电路方程  
   $$ L\frac{d^2i}{dt^2} + R\frac{di}{dt} + \frac{1}{C}i = v(t) $$
 
 #### 离散时间系统 (差分方程)
-$$ 
+$$
+
 \sum_{k=0}^{N} a_k y[n-k] = \sum_{k=0}^{M} b_k x[n-k] 
+
 $$
 - **示例**: 数字滤波器  
   $$ y[n] = 0.5x[n] + 0.3x[n-1] + 0.2x[n-2] $$
@@ -112,15 +201,19 @@ $$
 ## 五、关键公式推导
 ### 1. 高斯函数的傅里叶变换
 $$
-\begin{aligned}
-\mathcal{F}\{e^{-t^2}\} &= \int_{-\infty}^{\infty} e^{-t^2} e^{-j\omega t} dt \\
-&= \sqrt{\pi} e^{-\omega^2/4} \quad \text{(通过配方法推导)}
+
+\begin{aligned}  
+\mathcal{F}\{e^{-t^2}\} &= \int_{-\infty}^{\infty} e^{-t^2} e^{-j\omega t} dt \\  
+&= \sqrt{\pi} e^{-\omega^2/4} \quad \text{(通过配方法推导)}  
 \end{aligned}
+
 $$
 
 ### 2. 信号能量守恒
-$$ 
+$$
+
 \int_{-\infty}^{\infty} |f(t)|^2 dt = \int_{-\infty}^{\infty} (f_R^2(t) + f_I^2(t)) dt 
+
 $$
 
 ---
@@ -136,6 +229,7 @@ y_diff = diff(y_int);   % 微分操作 (需补零对齐)
 ```
 
 ### 2. 离散系统处理流程
+
 ```mermaid
 graph LR
 A[连续信号] -->|ADC采样| B[离散序列]
@@ -144,3 +238,7 @@ C -->|DAC重建| D[连续输出]
 ```
 
 ---
+
+> **说明**: 本文档严格遵循Markdown语法，数学公式使用`$$`包裹，代码块指定语言类型，表格对齐采用冒号分隔。保留所有核心公式推导与系统分类对比，删除冗余描述以增强可读性。
+
+```
