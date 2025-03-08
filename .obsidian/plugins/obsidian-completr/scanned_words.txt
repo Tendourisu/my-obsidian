@@ -53634,6 +53634,7 @@ Kinnari
 KaNGXKHNegUjRdtG
 Karpaphy
 KCL
+Kolmogorov
 os
 of
 on
@@ -74712,6 +74713,8 @@ Multisim
 Multisiim
 MEMS
 MOSFET
+Moivre
+MAXAM
 JYY
 Jim
 Jina
@@ -137513,6 +137516,8 @@ Bernoulli
 Based
 Boltzmann
 Banach
+Bertrand
+Buffon
 rust
 recording
 ref
