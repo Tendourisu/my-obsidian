@@ -1,12 +1,12 @@
 ---
-title: week3-2
+title: week3-离散随机变量
 tags:
   - 概率论
 date: " 2025-03-06T09:51:49+08:00 "
 modify: " 2025-03-06T09:51:49+08:00 "
 share: false
 cdate: " 2025-03-06 "
-mdate: " 2025-03-06 "
+mdate: " 2025-03-06"
 math: "true"
 ---
 

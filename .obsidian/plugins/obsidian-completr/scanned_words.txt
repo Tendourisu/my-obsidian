@@ -7350,6 +7350,7 @@ CUDA
 COT
 CTRL
 Claude
+CMRR
 Organazation
 OSTEP
 Operating
@@ -46690,6 +46691,7 @@ Unions
 UEGZ
 UValPA
 Uce
+Uom
 Linux
 Learning
 Large
@@ -53631,6 +53633,7 @@ Krste
 Kinnari
 KaNGXKHNegUjRdtG
 Karpaphy
+KCL
 os
 of
 on
@@ -63851,6 +63854,7 @@ NOTE
 National
 Noisy
 NoisyDQN
+NPN
 Programming
 Parallel
 PLAM
@@ -74706,6 +74710,8 @@ MasterPi
 Metropolis
 Multisim
 Multisiim
+MEMS
+MOSFET
 JYY
 Jim
 Jina
@@ -78161,6 +78167,7 @@ JPAAAAAElFTkSuQmCC
 Justin
 Jerry
 Japanese
+JFET
 workload
 wfn
 work
@@ -88517,6 +88524,7 @@ GsdsTzMQoz
 GREEK
 GPIO
 GiHub
+GSQ
 spring
 system
 size
@@ -120156,6 +120164,7 @@ Forgetting
 Freeing
 Factor
 Fisher
+Fibonacci
 Quant
 Qa
 QR
