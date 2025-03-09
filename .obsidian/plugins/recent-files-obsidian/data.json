@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-10-03-09-7",
+      "path": "dairy/daily/2025-10-03-09-7.md"
+    },
+    {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "重参数技巧",
+      "path": "重参数技巧.md"
+    },
+    {
       "basename": "花瓣、与之相关的声音",
       "path": "花瓣、与之相关的声音.md"
     },
@@ -169,10 +185,6 @@
       "path": "easy-rl/easy-rl-chapter6-DQN.md"
     },
     {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
       "basename": "2025-W07-02",
       "path": "dairy/weekly/2025-W07-02.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "2025-W03-01",
       "path": "dairy/weekly/2025-W03-01.md"
-    },
-    {
-      "basename": "2024秋16周周结",
-      "path": "dairy/weekly/2024秋16周周结.md"
-    },
-    {
-      "basename": "2024秋15周周结",
-      "path": "dairy/weekly/2024秋15周周结.md"
     }
   ],
   "omittedPaths": []

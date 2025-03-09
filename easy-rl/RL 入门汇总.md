@@ -24,3 +24,5 @@ mdate: " 2025-02-02"
 [cs.cornell.edu/courses/cs4756/2023sp/assets/slides\_notes/lec26\_slides.pdf](https://www.cs.cornell.edu/courses/cs4756/2023sp/assets/slides_notes/lec26_slides.pdf)  
 [蘑菇书EasyRL 第一章 强化学习基础](https://datawhalechina.github.io/easy-rl/#/chapter1/chapter1)  
 [王树森Reinforcement Learning学习笔记](https://zhuanlan.zhihu.com/p/10389734563)
+
+[GitHub - rail-berkeley/softlearning: Softlearning is a reinforcement learning framework for training maximum entropy policies in continuous domains. Includes the official implementation of the Soft Actor-Critic algorithm.](https://github.com/rail-berkeley/softlearning)

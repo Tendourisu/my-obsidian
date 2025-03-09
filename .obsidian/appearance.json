@@ -3,7 +3,7 @@
   "accentColor": "#b3d4f5",
   "showViewHeader": true,
   "nativeMenus": false,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "custom"
   ],
