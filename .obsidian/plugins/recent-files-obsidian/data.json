@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "没有见过的函数",
+      "path": "没有见过的函数.md"
+    },
+    {
+      "basename": "花瓣、与之相关的声音",
+      "path": "花瓣、与之相关的声音.md"
+    },
+    {
+      "basename": "大模型入门汇总",
+      "path": "大模型入门汇总.md"
+    },
+    {
       "basename": "argparse和absl-Python包开发工具包",
       "path": "argparse和absl-Python包开发工具包.md"
     },
@@ -35,10 +47,6 @@
     {
       "basename": "重参数技巧",
       "path": "重参数技巧.md"
-    },
-    {
-      "basename": "花瓣、与之相关的声音",
-      "path": "花瓣、与之相关的声音.md"
     },
     {
       "basename": "week-3-微分方程与差分方程求解",
@@ -103,10 +111,6 @@
     {
       "basename": "POMDP的一些参数说明",
       "path": "easy-rl/POMDP的一些参数说明.md"
-    },
-    {
-      "basename": "没有见过的函数",
-      "path": "没有见过的函数.md"
     },
     {
       "basename": "easy-rl-chapter5-近端策略优化PPO",
@@ -183,10 +187,6 @@
     {
       "basename": "cs231n",
       "path": "cs231n.md"
-    },
-    {
-      "basename": "大模型入门汇总",
-      "path": "大模型入门汇总.md"
     },
     {
       "basename": "easy-rl-chapter7-DQN进阶技巧",
