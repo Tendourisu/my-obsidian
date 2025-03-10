@@ -5,12 +5,48 @@
       "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
     },
     {
-      "basename": "2025-11-03-10-1",
-      "path": "dairy/daily/2025-11-03-10-1.md"
-    },
-    {
       "basename": "week3-离散随机变量",
       "path": "大二上/概率论与数理统计/week3-离散随机变量.md"
+    },
+    {
+      "basename": "week2-条件概率",
+      "path": "大二上/概率论与数理统计/week2-条件概率.md"
+    },
+    {
+      "basename": "week2-3-基本放大电路1",
+      "path": "大二上/模电/week2-3-基本放大电路1.md"
+    },
+    {
+      "basename": "week4-1-基本放大电路4",
+      "path": "大二上/模电/week4-1-基本放大电路4.md"
+    },
+    {
+      "basename": "week3-1-基本放大电路2",
+      "path": "大二上/模电/week3-1-基本放大电路2.md"
+    },
+    {
+      "basename": "week3-3-基本放大电路3",
+      "path": "大二上/模电/week3-3-基本放大电路3.md"
+    },
+    {
+      "basename": "week4-3-基本放大电路5",
+      "path": "大二上/模电/week4-3-基本放大电路5.md"
+    },
+    {
+      "basename": "week-1-intro",
+      "path": "大二上/信号与系统/week-1-intro.md"
+    },
+    {
+      "basename": "week-2-典型信号与运算",
+      "path": "大二上/信号与系统/week-2-典型信号与运算.md"
+    },
+    {
+      "basename": "week-3-微分方程与差分方程求解",
+      "path": "大二上/信号与系统/week-3-微分方程与差分方程求解.md"
+    },
+    {
+      "basename": "2025-11-03-10-1",
+      "path": "dairy/daily/2025-11-03-10-1.md"
     },
     {
       "basename": "RL 入门汇总",
@@ -61,14 +97,6 @@
       "path": "重参数技巧.md"
     },
     {
-      "basename": "week-3-微分方程与差分方程求解",
-      "path": "大二上/信号与系统/week-3-微分方程与差分方程求解.md"
-    },
-    {
-      "basename": "week2-条件概率",
-      "path": "大二上/概率论与数理统计/week2-条件概率.md"
-    },
-    {
       "basename": "week1-概率与概率空间",
       "path": "大二上/概率论与数理统计/week1-概率与概率空间.md"
     },
@@ -77,40 +105,12 @@
       "path": "THUAUTO34.md"
     },
     {
-      "basename": "week-2-典型信号与运算",
-      "path": "大二上/信号与系统/week-2-典型信号与运算.md"
-    },
-    {
-      "basename": "week-1-intro",
-      "path": "大二上/信号与系统/week-1-intro.md"
-    },
-    {
-      "basename": "week3-1-基本放大电路2",
-      "path": "大二上/模电/week3-1-基本放大电路2.md"
-    },
-    {
-      "basename": "week2-3-基本放大电路1",
-      "path": "大二上/模电/week2-3-基本放大电路1.md"
-    },
-    {
       "basename": "week2-1-半导体器件基础2",
       "path": "大二上/模电/week2-1-半导体器件基础2.md"
     },
     {
       "basename": "week1-3-半导体器件基础1",
       "path": "大二上/模电/week1-3-半导体器件基础1.md"
-    },
-    {
-      "basename": "week4-1-基本放大电路4",
-      "path": "大二上/模电/week4-1-基本放大电路4.md"
-    },
-    {
-      "basename": "week4-3-基本放大电路5",
-      "path": "大二上/模电/week4-3-基本放大电路5.md"
-    },
-    {
-      "basename": "week3-3-基本放大电路3",
-      "path": "大二上/模电/week3-3-基本放大电路3.md"
     },
     {
       "basename": "prompt",

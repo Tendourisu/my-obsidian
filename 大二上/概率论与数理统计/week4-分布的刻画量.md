@@ -11,7 +11,7 @@ math: "true"
 ---
 ## 期望（均值）
 ### 均值定义
-
+- Lotus定理
 $$
 Def  \ X\sim{p_i}\ \  E(X)=\sum_{i}x_{i}p_{i}(必须绝对收敛)
 $$
@@ -37,3 +37,30 @@ $$
 ### 众数定义
 - 概率密度最大的$x_{p}$
 
+### 引理
+$$
+X \sim {p_{i}} \ \overline{y}=h(\overline{x} )\in {h(x_{1}, \dots,x_{n})}\rightarrow P(\overline{y}=y_{i})=\sum_{i:h(x_{i}=y_{i})}p_{i}
+$$
+
+### 中心距
+- $E(X^k)$: k阶（原点）距
+- $E(X-EX)^k$:k阶中心距
+- $E^*=\frac{X-EX}{\sqrt{DX }}$ 标准化
+- $E(X^*)$:偏度
+- $E(X^*)$ :峰度
+- 矩母函数NGF:
+$$
+M_{X}(u)=E[e^uX]=\begin{cases}
+\sum_{i} e^{ux_{i}}p_{i}\\
+ \int_{-\infty}^{\infty}e^{ux}f_{X}(x) dx 
+\end{cases}
+$$
+若$M_{X}(u)$在u=0的某个开邻域内存在，则
+$$
+E(X^k)=M_{X}^{(k)}(0)
+$$
+矩母函数（若存在）与分布函数相互唯一确定
+
+### 常见分布
+1. $X\sim B(n,p)$  则$M_{X}(u)=pe^u+q$    $M_{X^n}(u)=(pe^n+q)^n$
+2. $X\sim Ge(P)$, 则$M_{X}=\sum_{k=1}^{\infty}e^{uk}q^{k-1}p=\frac{p}{q}\sum^{\infty}_{k=1}[qe^u]^k=\frac{p}{q} \frac{qe^u}{1-qe^u}=\frac{pe^u}{1-qe^u}$    
