@@ -26,3 +26,5 @@ mdate: " 2025-02-02"
 [王树森Reinforcement Learning学习笔记](https://zhuanlan.zhihu.com/p/10389734563)
 
 [GitHub - rail-berkeley/softlearning: Softlearning is a reinforcement learning framework for training maximum entropy policies in continuous domains. Includes the official implementation of the Soft Actor-Critic algorithm.](https://github.com/rail-berkeley/softlearning)
+
+[GitHub - dennybritz/reinforcement-learning: Implementation of Reinforcement Learning Algorithms. Python, OpenAI Gym, Tensorflow. Exercises and Solutions to accompany Sutton's Book and David Silver's course.](https://github.com/dennybritz/reinforcement-learning)

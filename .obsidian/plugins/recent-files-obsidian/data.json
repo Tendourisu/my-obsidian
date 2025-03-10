@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "2025-11-03-10-1",
+      "path": "dairy/daily/2025-11-03-10-1.md"
+    },
+    {
       "basename": "没有见过的函数",
       "path": "没有见过的函数.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "week1-1-intro",
       "path": "大二上/模电/week1-1-intro.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
     },
     {
       "basename": "资源汇总帖",
@@ -195,10 +199,6 @@
     {
       "basename": "easy-rl-chapter6-DQN",
       "path": "easy-rl/easy-rl-chapter6-DQN.md"
-    },
-    {
-      "basename": "2025-W07-02",
-      "path": "dairy/weekly/2025-W07-02.md"
     }
   ],
   "omittedPaths": []
