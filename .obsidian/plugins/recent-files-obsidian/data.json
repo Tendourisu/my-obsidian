@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
+      "basename": "week4-分布的刻画量",
+      "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
     },
     {
       "basename": "2025-11-03-10-1",
       "path": "dairy/daily/2025-11-03-10-1.md"
+    },
+    {
+      "basename": "week3-离散随机变量",
+      "path": "大二上/概率论与数理统计/week3-离散随机变量.md"
+    },
+    {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
     },
     {
       "basename": "没有见过的函数",
@@ -91,10 +99,6 @@
     {
       "basename": "week1-3-半导体器件基础1",
       "path": "大二上/模电/week1-3-半导体器件基础1.md"
-    },
-    {
-      "basename": "week3-离散随机变量",
-      "path": "大二上/概率论与数理统计/week3-离散随机变量.md"
     },
     {
       "basename": "week4-1-基本放大电路4",
@@ -195,10 +199,6 @@
     {
       "basename": "easy-rl-chapter7-DQN进阶技巧",
       "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
-    },
-    {
-      "basename": "easy-rl-chapter6-DQN",
-      "path": "easy-rl/easy-rl-chapter6-DQN.md"
     }
   ],
   "omittedPaths": []
