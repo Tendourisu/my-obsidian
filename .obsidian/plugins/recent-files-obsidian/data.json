@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "HybridFlow- A Flexible and Efficient RLHF Framework",
+      "path": "论文阅读/HybridFlow- A Flexible and Efficient RLHF Framework.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "git use",
       "path": "git use.md"
     },
@@ -121,10 +129,6 @@
       "path": "大二上/模电/week1-3-半导体器件基础1.md"
     },
     {
-      "basename": "prompt",
-      "path": "prompt.md"
-    },
-    {
       "basename": "POMDP的一些参数说明",
       "path": "easy-rl/POMDP的一些参数说明.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-W09-02",
       "path": "dairy/weekly/2025-W09-02.md"
-    },
-    {
-      "basename": "2025-W10-03",
-      "path": "dairy/weekly/2025-W10-03.md"
     }
   ],
   "omittedPaths": []
