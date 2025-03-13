@@ -48,19 +48,21 @@ $$
 - $E^*=\frac{X-EX}{\sqrt{DX }}$ 标准化
 - $E(X^*)$:偏度
 - $E(X^*)$ :峰度
-- 矩母函数NGF:
+- 矩母函数MGF:
 $$
 M_{X}(u)=E[e^uX]=\begin{cases}
 \sum_{i} e^{ux_{i}}p_{i}\\
  \int_{-\infty}^{\infty}e^{ux}f_{X}(x) dx 
 \end{cases}
 $$
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250313092136649.png)
+
 若$M_{X}(u)$在u=0的某个开邻域内存在，则
 $$
 E(X^k)=M_{X}^{(k)}(0)
 $$
 矩母函数（若存在）与分布函数相互唯一确定
-
+有关矩母函数的详细讲解与证明可参考：[如何通俗的理解矩母函数](https://zhuanlan.zhihu.com/p/148408669)
 ### 常见分布
 1. $X\sim B(n,p)$  则$M_{X}(u)=pe^u+q$    $M_{X^n}(u)=(pe^n+q)^n$
 2. $X\sim Ge(P)$, 则$M_{X}=\sum_{k=1}^{\infty}e^{uk}q^{k-1}p=\frac{p}{q}\sum^{\infty}_{k=1}[qe^u]^k=\frac{p}{q} \frac{qe^u}{1-qe^u}=\frac{pe^u}{1-qe^u}$    
