@@ -181,23 +181,27 @@ $$
 
 $$
 
-  
-
-**结论：**
-
-超几何分布在$a$和$b$极大且$\frac{a}{a+b} \to p$时，收敛于参数为$n$和$p$的二项分布，即：
-
-$$
-
-\frac{\binom{a}{k} \binom{b}{n-k}}{\binom{a+b}{n}} \xrightarrow{a+b \to \infty} \binom{n}{k} p^k q^{n-k}
-
-$$
-
-  
-
-得证。
 1. Riemann Zeta函数:$X\sim Zipf(\alpha)\leftrightarrow P(X=k)=\frac{1}{\zeta(\alpha)k^{\alpha}},where \ \xi(\alpha)=\sum^\infty_{n=1} \frac{1}{n^{\alpha}}$
 - 证明：$\pi_{p\in P}\left(  \frac{1}{1-p^{-\alpha}} \right)=\sum^{\infty}_{n=1} \frac{1}{n^\alpha}$
 
 ## 随机向量（$X， Y$）
-### （联合joint）分布函数
+### （联合joint）分布函数F（x,y）具有如下性质
+- F(x, y)是 x 或y 的不减函数。
+- 0 ≤ F(x, y) ≤1，且F(x,−∞) = F(−∞, y) = F(−∞,−∞) = 0,F(+∞,+∞) =1。
+- F(x, y)关于 x 或 y 是右连续的。
+- 对于任意的$x_{1}\le x_{2},y_{1}\le y_{2}, F(x_{2}, y_{2})-F(x_{2}, y_{1})-F(x_{1}, y_{2})+F(x_{1}, y_{1})\ge 0$
+注：二元实函数F(x, y)为某一随机向量的分布函数当且仅当上述四个性质成立。
+- X的边缘分布函数为：$F _{X}(x) = F(x,+∞)$；
+- Y的边缘分布函数为：$F _{Y}(y) = F(+∞,y)$；
+
+$$
+\begin{align}
+X \text{ 与 } Y \text{ 相互独立} &\Leftrightarrow P(X \in A, Y \in B) = P(X \in \\ A)P(Y \in B), \forall A, B \subset \mathbb{R}
+&\Leftrightarrow F(x, y) = F_X(x)F_Y(y) \quad \forall x, y \\
+&\Leftrightarrow p_{ij} = p_{i\cdot} \cdot p_{\cdot j} \quad \forall i, j \text{ （离散型）} \\
+\end{align}
+$$
+>[!Def]+
+>称$X_1,...,X_n\ i.d.$
+>若$F(x_{1},\dots,x_{n})=F_{X_{1}}(x_{1})\dots F_{X_{n}}(x_{n})\ \forall x_{1}, \dots,x_{n}\in \mathbb{R}$
+
