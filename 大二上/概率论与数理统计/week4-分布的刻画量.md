@@ -107,3 +107,97 @@ $$k^* =
 		1. $X\sim Ge(p)$
 		2. X是具有“无记忆性的”，i.e.$P(X>m+n|X>m)=P(X>n)$
 		3. $P(X=m+n|X>m)=P(X>n)=P(X=n)$
+3. $X\sim NB(r,p)\leftrightarrow P(X=k)=C^{r-1}_{k-1}p^rq^{n-r}, k=r,r+1,\dots,$
+	1. $M_{X}(u)=\left[ \frac{pe^u}{1-qe^u} \right]^r$
+	2. $EX=\frac{r}{q}$
+	3. $DX=\frac{rq}{p^2}$
+4. $X\sim HGe(n,a,b)\leftrightarrow P(X=k)=\frac{C^k_{a}C^{n-k}_{k}}{C^n_{a+b}}$
+	4. $EX=n \frac{a}{a+b}$ 
+
+>[!Thm]+
+>若$\lim_{ a+b \to \infty } \frac{a}{a+b}=p\in (0,1)$
+>则$P(X=k)=\frac{C^k_{a}C^{n-k}_{k}}{C^n_{a+b}}\rightarrow_{a+b\rightarrow \infty}C^k_{n}p^kq^{n-k}$
+
+
+超几何分布的概率质量函数为：
+
+$$
+
+P(X=k) = \frac{\binom{a}{k} \binom{b}{n-k}}{\binom{a+b}{n}}
+
+$$
+
+  
+
+将组合数展开为阶乘形式：
+
+$$
+
+P(X=k) = \frac{\frac{a!}{k!(a-k)!} \cdot \frac{b!}{(n-k)!(b-n+k)!}}{\frac{(a+b)!}{n!(a+b-n)!}}
+
+$$
+
+  
+
+整理分子和分母：
+
+$$
+
+P(X=k) = \frac{a! \cdot b! \cdot n! \cdot (a+b-n)!}{k! \cdot (a-k)! \cdot (n-k)! \cdot (b-n+k)! \cdot (a+b)!}
+
+$$
+
+  
+
+**近似处理：**
+
+当$a$和$b$极大时，利用以下近似：
+
+$$
+
+\frac{a!}{(a-k)!} \approx a^k, \quad \frac{b!}{(b-(n-k))!} \approx b^{n-k}, \quad \frac{(a+b)!}{(a+b-n)!} \approx (a+b)^n
+
+$$
+
+  
+
+代入后得：
+
+$$
+
+P(X=k) \approx \frac{a^k \cdot b^{n-k} \cdot n!}{k! \cdot (n-k)! \cdot (a+b)^n} = \binom{n}{k} \cdot \left(\frac{a}{a+b}\right)^k \cdot \left(\frac{b}{a+b}\right)^{n-k}
+
+$$
+
+  
+
+**取极限：**
+
+由条件$\lim_{a+b \to \infty} \frac{a}{a+b} = p$，则$\frac{b}{a+b} \to 1-p = q$。因此：
+
+$$
+
+\lim_{a+b \to \infty} P(X=k) = \binom{n}{k} p^k q^{n-k}
+
+$$
+
+  
+
+**结论：**
+
+超几何分布在$a$和$b$极大且$\frac{a}{a+b} \to p$时，收敛于参数为$n$和$p$的二项分布，即：
+
+$$
+
+\frac{\binom{a}{k} \binom{b}{n-k}}{\binom{a+b}{n}} \xrightarrow{a+b \to \infty} \binom{n}{k} p^k q^{n-k}
+
+$$
+
+  
+
+得证。
+1. Riemann Zeta函数:$X\sim Zipf(\alpha)\leftrightarrow P(X=k)=\frac{1}{\zeta(\alpha)k^{\alpha}},where \ \xi(\alpha)=\sum^\infty_{n=1} \frac{1}{n^{\alpha}}$
+- 证明：$\pi_{p\in P}\left(  \frac{1}{1-p^{-\alpha}} \right)=\sum^{\infty}_{n=1} \frac{1}{n^\alpha}$
+
+## 随机向量（$X， Y$）
+### （联合joint）分布函数

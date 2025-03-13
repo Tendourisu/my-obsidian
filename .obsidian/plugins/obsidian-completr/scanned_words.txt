@@ -7351,6 +7351,7 @@ COT
 CTRL
 Claude
 CMRR
+Cox
 Organazation
 OSTEP
 Operating
@@ -28917,6 +28918,7 @@ Stride
 Semiconductor
 SelectLLM
 Sinc
+Skewness
 Interface
 Isomorphic
 Inference
@@ -67611,6 +67613,7 @@ Penalty
 Pzg
 Physics
 Prioritized
+Pearson
 games
 go
 google
@@ -74720,6 +74723,8 @@ MOSFET
 Moivre
 MAXAM
 Methodology
+Median
+MGF
 JYY
 Jim
 Jina
@@ -92328,6 +92333,7 @@ scitools
 scratch
 sparse
 spatialvla
+skewness
 torch
 training
 tune
@@ -116839,6 +116845,7 @@ ZeZx
 ZImiRnX
 ZUuB
 Zoom
+Zeta
 Fusion
 Fine
 Framework
@@ -134010,6 +134017,7 @@ kgNknUunaGe
 kVyx
 kaPQIOZaLxjiMHaX
 kbt
+kurtosis
 BladeDISC
 Bagua
 Blog
@@ -137525,6 +137533,7 @@ Banach
 Bertrand
 Buffon
 BLEU
+Box
 rust
 recording
 ref
@@ -151400,6 +151409,7 @@ Replay
 Recently
 Rainbow
 RLC
+Riemann
 WiscKey
 Web
 WIFI
