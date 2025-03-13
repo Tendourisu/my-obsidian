@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "简历经验",
+      "path": "简历经验.md"
+    },
+    {
       "basename": "week4-分布的刻画量",
       "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-W08-02",
       "path": "dairy/weekly/2025-W08-02.md"
-    },
-    {
-      "basename": "2025-W09-02",
-      "path": "dairy/weekly/2025-W09-02.md"
     }
   ],
   "omittedPaths": []
