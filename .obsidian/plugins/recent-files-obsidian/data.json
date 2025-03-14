@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "笔记的记录方法",
+      "path": "笔记的记录方法.md"
+    },
+    {
       "basename": "article",
       "path": "zob_config/template/article.md"
     },
@@ -55,146 +59,11 @@
     {
       "basename": "prompt",
       "path": "prompt.md"
-    },
-    {
-      "basename": "HybridFlow- A Flexible and Efficient RLHF Framework",
-      "path": "论文阅读/HybridFlow- A Flexible and Efficient RLHF Framework.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
-    },
-    {
-      "basename": "WSL代理解决办法",
-      "path": "WSL代理解决办法.md"
-    },
-    {
-      "basename": "重参数技巧",
-      "path": "重参数技巧.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
-      "basename": "2025-11-03-10-1",
-      "path": "dairy/daily/2025-11-03-10-1.md"
-    },
-    {
-      "basename": "week3-离散随机变量",
-      "path": "大二上/概率论与数理统计/week3-离散随机变量.md"
-    },
-    {
-      "basename": "week2-条件概率",
-      "path": "大二上/概率论与数理统计/week2-条件概率.md"
-    },
-    {
-      "basename": "week2-3-基本放大电路1",
-      "path": "大二上/模电/week2-3-基本放大电路1.md"
-    },
-    {
-      "basename": "week4-1-基本放大电路4",
-      "path": "大二上/模电/week4-1-基本放大电路4.md"
-    },
-    {
-      "basename": "week3-1-基本放大电路2",
-      "path": "大二上/模电/week3-1-基本放大电路2.md"
-    },
-    {
-      "basename": "week3-3-基本放大电路3",
-      "path": "大二上/模电/week3-3-基本放大电路3.md"
-    },
-    {
-      "basename": "week4-3-基本放大电路5",
-      "path": "大二上/模电/week4-3-基本放大电路5.md"
-    },
-    {
-      "basename": "week-1-intro",
-      "path": "大二上/信号与系统/week-1-intro.md"
-    },
-    {
-      "basename": "week-2-典型信号与运算",
-      "path": "大二上/信号与系统/week-2-典型信号与运算.md"
-    },
-    {
-      "basename": "没有见过的函数",
-      "path": "没有见过的函数.md"
-    },
-    {
-      "basename": "花瓣、与之相关的声音",
-      "path": "花瓣、与之相关的声音.md"
-    },
-    {
-      "basename": "大模型入门汇总",
-      "path": "大模型入门汇总.md"
-    },
-    {
-      "basename": "argparse和absl-Python包开发工具包",
-      "path": "argparse和absl-Python包开发工具包.md"
-    },
-    {
-      "basename": "使用Bernoulli采样而不是手写概率采样的优点",
-      "path": "使用Bernoulli采样而不是手写概率采样的优点.md"
-    },
-    {
-      "basename": "arch汇总",
-      "path": "arch汇总.md"
-    },
-    {
-      "basename": "仿真作业1 实验报告",
-      "path": "大二上/模电实验/仿真作业1 实验报告.md"
-    },
-    {
-      "basename": "week1-1-intro",
-      "path": "大二上/模电/week1-1-intro.md"
-    },
-    {
-      "basename": "资源汇总帖",
-      "path": "资源汇总帖.md"
-    },
-    {
-      "basename": "week1-概率与概率空间",
-      "path": "大二上/概率论与数理统计/week1-概率与概率空间.md"
-    },
-    {
-      "basename": "THUAUTO34",
-      "path": "THUAUTO34.md"
-    },
-    {
-      "basename": "week2-1-半导体器件基础2",
-      "path": "大二上/模电/week2-1-半导体器件基础2.md"
-    },
-    {
-      "basename": "week1-3-半导体器件基础1",
-      "path": "大二上/模电/week1-3-半导体器件基础1.md"
-    },
-    {
-      "basename": "POMDP的一些参数说明",
-      "path": "easy-rl/POMDP的一些参数说明.md"
-    },
-    {
-      "basename": "easy-rl-chapter5-近端策略优化PPO",
-      "path": "easy-rl/easy-rl-chapter5-近端策略优化PPO.md"
-    },
-    {
-      "basename": "hw-1",
-      "path": "大二上/信号与系统/hw-1.md"
-    },
-    {
-      "basename": "信号与系统 lec-1",
-      "path": "大二上/信号与系统/信号与系统 lec-1.md"
-    },
-    {
-      "basename": "lec1",
-      "path": "大二上/概率论与数理统计/lec1.md"
-    },
-    {
-      "basename": "服务器图像转发",
-      "path": "服务器图像转发.md"
     }
   ],
   "omittedPaths": [],
   "omittedTags": [],
   "updateOn": "file-open",
-  "omitBookmarks": false
+  "omitBookmarks": false,
+  "maxLength": 15
 }
