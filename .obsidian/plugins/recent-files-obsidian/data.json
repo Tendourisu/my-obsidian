@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "zob_config/README.md"
-    },
-    {
       "basename": "article",
       "path": "zob_config/template/article.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
+    },
+    {
+      "basename": "README",
+      "path": "zob_config/README.md"
     },
     {
       "basename": "weekly",
@@ -23,10 +27,6 @@
     {
       "basename": "insert_clock",
       "path": "zob_config/template/insert_clock.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
     },
     {
       "basename": "代码备份",
