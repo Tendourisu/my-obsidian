@@ -4494,6 +4494,7 @@ clang
 constructing
 competencies
 colmap
+chatchat
 Computer
 Concepts
 ChatGpt
@@ -65630,6 +65631,7 @@ otimes
 ontology
 offerings
 ontologies
+openmanus
 net
 nn
 need
@@ -97571,6 +97573,7 @@ lowers
 learners
 logs
 leftarrow
+langchai
 GPU
 GPT
 Google
@@ -109949,6 +109952,7 @@ tenacity
 taxonomy
 tilde
 truthful
+tinyrag
 for
 fancy
 follow
