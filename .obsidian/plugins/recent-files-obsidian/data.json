@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.md"
+    },
+    {
+      "basename": "article",
+      "path": "zob_config/template/article.md"
+    },
+    {
+      "basename": "weekly",
+      "path": "zob_config/template/weekly.md"
+    },
+    {
+      "basename": "update_template",
+      "path": "zob_config/template/update_template.md"
+    },
+    {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
+    },
+    {
+      "basename": "insert_clock",
+      "path": "zob_config/template/insert_clock.md"
+    },
+    {
+      "basename": "daily",
+      "path": "zob_config/template/daily.md"
+    },
+    {
+      "basename": "代码备份",
+      "path": "zob_config/template/代码备份.md"
+    },
+    {
+      "basename": "README",
+      "path": "zob_config/README.md"
+    },
+    {
+      "basename": "2025-11-03-14-5",
+      "path": "dairy/daily/2025-11-03-14-5.md"
+    },
+    {
       "basename": "week4-分布的刻画量",
       "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
     },
@@ -159,47 +199,10 @@
     {
       "basename": "怪獣の唄",
       "path": "怪獣の唄.md"
-    },
-    {
-      "basename": "easy-rl-chapter1-强化学习基础",
-      "path": "easy-rl/easy-rl-chapter1-强化学习基础.md"
-    },
-    {
-      "basename": "2025-10-03-06-4",
-      "path": "dairy/daily/2025-10-03-06-4.md"
-    },
-    {
-      "basename": "2025-10-03-05-3",
-      "path": "dairy/daily/2025-10-03-05-3.md"
-    },
-    {
-      "basename": "easy-rl-chapter4-策略梯度",
-      "path": "easy-rl/easy-rl-chapter4-策略梯度.md"
-    },
-    {
-      "basename": "2025-10-03-04-2",
-      "path": "dairy/daily/2025-10-03-04-2.md"
-    },
-    {
-      "basename": "2025-10-03-03-1",
-      "path": "dairy/daily/2025-10-03-03-1.md"
-    },
-    {
-      "basename": "easy-rl-chapter9-演员-评论员算法总结",
-      "path": "easy-rl/easy-rl-chapter9-演员-评论员算法总结.md"
-    },
-    {
-      "basename": "hw2",
-      "path": "大二上/信号与系统/hw2.md"
-    },
-    {
-      "basename": "easy-rl-chapter8-针对连续动作的深度Q网络",
-      "path": "easy-rl/easy-rl-chapter8-针对连续动作的深度Q网络.md"
-    },
-    {
-      "basename": "2025-W08-02",
-      "path": "dairy/weekly/2025-W08-02.md"
     }
   ],
-  "omittedPaths": []
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
 }
