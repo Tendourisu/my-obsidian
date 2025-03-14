@@ -306,5 +306,13 @@
   ],
   "table-editor-obsidian:table-control-bar": [],
   "obsidian-completr:completr-fake-tab": [],
-  "note-refactor-obsidian:app:extract-selection-first-line": []
+  "note-refactor-obsidian:app:extract-selection-first-line": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ]
 }
