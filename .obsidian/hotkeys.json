@@ -311,5 +311,7 @@
       ],
       "key": "S"
     }
-  ]
+  ],
+  "table-editor-obsidian:table-control-bar": [],
+  "obsidian-completr:completr-fake-tab": []
 }
