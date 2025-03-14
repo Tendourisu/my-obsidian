@@ -8752,6 +8752,7 @@ CALIP
 Cox
 Config
 Chellenge
+Capabilities
 Organazation
 OSTEP
 Operating
@@ -20735,6 +20736,7 @@ DiffCLIP
 DDQN
 Dueling
 Distributional
+Deduplication
 The
 Team
 TVM
@@ -24988,6 +24990,7 @@ Textbook
 Triplet
 Terminologies
 Tabular
+Tick
 Hardware
 HPC
 Hulu
@@ -28942,6 +28945,8 @@ Hardigree
 Hirvela
 Hendricks
 Health
+Hyperbolic
+Hallucination
 Software
 Structure
 System
@@ -33391,6 +33396,9 @@ SAMPro
 SpatialRGPT
 Skewness
 Sarsa
+Spelling
+Signal
+Swyx
 Interface
 Isomorphic
 Inference
@@ -53767,6 +53775,7 @@ Universal
 URLError
 USER
 ULIP
+Upwork
 Linux
 Learning
 Large
@@ -57717,6 +57726,7 @@ Locating
 Longitudinal
 LLaNA
 Lotus
+Leaderboard
 Kernel
 Kernal
 Keys
@@ -73258,6 +73268,8 @@ Notebooks
 Nguyen
 NeRF
 Noisy
+News
+Newsletter
 Programming
 Parallel
 PLAM
@@ -81555,6 +81567,8 @@ guides
 graduates
 generalizable
 grouping
+gameable
+gemini
 MLsystem
 MLsys
 Mlsys
@@ -85643,6 +85657,8 @@ MvNet
 MiniGPT
 Median
 MGF
+Mitigating
+MaRIana
 JYY
 Jim
 Jina
@@ -101332,6 +101348,7 @@ Glass
 GSO
 GLIP
 GreenPLM
+Generatively
 spring
 system
 size
@@ -109931,6 +109948,7 @@ textbooks
 tenacity
 taxonomy
 tilde
+truthful
 for
 fancy
 follow
@@ -145682,6 +145700,7 @@ hear
 hour
 hours
 hoNuPrxaxlLcLVo
+hyperbolic
 up
 ucb
 universal
@@ -169285,6 +169304,8 @@ Employability
 Era
 Employer
 Experience
+Exposition
+Experimental
 Raft
 Rocksdb
 Reader
@@ -173491,6 +173512,7 @@ RealEstate
 Recon
 RegionBLIP
 Rainbow
+Regurgitation
 WiscKey
 Web
 WIFI
@@ -177547,6 +177569,7 @@ Wette
 Weekly
 Welborn
 Workplace
+Worked
 Values
 VP
 Vz

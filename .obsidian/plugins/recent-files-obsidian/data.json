@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "easy-rl-chapter7-DQN进阶技巧",
       "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "2025-11-03-14-5",
       "path": "dairy/daily/2025-11-03-14-5.md"
-    },
-    {
-      "basename": "week4-分布的刻画量",
-      "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
     }
   ],
   "omittedPaths": [],
