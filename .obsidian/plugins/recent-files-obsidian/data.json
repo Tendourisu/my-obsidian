@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.md"
+      "basename": "README",
+      "path": "zob_config/README.md"
     },
     {
       "basename": "article",
@@ -31,10 +31,6 @@
     {
       "basename": "代码备份",
       "path": "zob_config/template/代码备份.md"
-    },
-    {
-      "basename": "README",
-      "path": "zob_config/README.md"
     },
     {
       "basename": "2025-11-03-14-5",
@@ -195,10 +191,6 @@
     {
       "basename": "服务器图像转发",
       "path": "服务器图像转发.md"
-    },
-    {
-      "basename": "怪獣の唄",
-      "path": "怪獣の唄.md"
     }
   ],
   "omittedPaths": [],
