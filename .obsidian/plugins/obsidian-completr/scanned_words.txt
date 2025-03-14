@@ -20732,6 +20732,9 @@ DFMs
 DINOv
 DepthContrast
 DiffCLIP
+DDQN
+Dueling
+Distributional
 The
 Team
 TVM
@@ -24983,6 +24986,8 @@ Tsinghua
 Taxonomy
 Textbook
 Triplet
+Terminologies
+Tabular
 Hardware
 HPC
 Hulu
@@ -33385,6 +33390,7 @@ SCTR
 SAMPro
 SpatialRGPT
 Skewness
+Sarsa
 Interface
 Isomorphic
 Inference
@@ -41576,6 +41582,7 @@ Annotation
 Analysing
 AriGraph
 ARKitScenes
+Apace
 java
 jyy
 js
@@ -69457,6 +69464,8 @@ notify
 nextjs
 necessitating
 nuScenes
+nabla
+noisy
 Network
 Nvidia
 NCNN
@@ -73248,6 +73257,7 @@ Neutral
 Notebooks
 Nguyen
 NeRF
+Noisy
 Programming
 Parallel
 PLAM
@@ -77508,6 +77518,7 @@ PointSeg
 Projection
 Pearson
 Previous
+Prioritized
 games
 go
 google
@@ -97543,6 +97554,7 @@ longitudinal
 lowers
 learners
 logs
+leftarrow
 GPU
 GPT
 Google
@@ -109918,6 +109930,7 @@ triad
 textbooks
 tenacity
 taxonomy
+tilde
 for
 fancy
 follow
@@ -122289,6 +122302,7 @@ bidding
 bridging
 browser
 bounding
+bootstrapping
 is
 inference
 in
@@ -137715,6 +137729,7 @@ Frontiers
 Fails
 Foundational
 FUTURE
+Fisher
 Quant
 Qa
 QR
@@ -161551,6 +161566,10 @@ referenced
 referred
 reform
 reveals
+rightarrow
+recorded
+reply
+rainbow
 xv
 xpy
 xlb
@@ -169265,6 +169284,7 @@ Enterprise
 Employability
 Era
 Employer
+Experience
 Raft
 Rocksdb
 Reader
@@ -173470,6 +173490,7 @@ Rhinehart
 RealEstate
 Recon
 RegionBLIP
+Rainbow
 WiscKey
 Web
 WIFI
@@ -200863,6 +200884,8 @@ directed
 detokenize
 disparity
 discuss
+dueling
+distributional
 Youtube
 YOLO
 Your
@@ -204680,6 +204703,7 @@ YeungNLP
 YYDS
 Yarn
 Yang
+Yates
 Xg
 Xx
 XC

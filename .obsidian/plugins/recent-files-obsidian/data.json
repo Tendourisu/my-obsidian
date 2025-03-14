@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "easy-rl-chapter7-DQN进阶技巧",
+      "path": "easy-rl/easy-rl-chapter7-DQN进阶技巧.md"
+    },
+    {
+      "basename": "202412011509",
+      "path": "202412011509.md"
+    },
+    {
+      "basename": "王树森Reinforcement_Learning学习笔记",
+      "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
+    },
+    {
+      "basename": "癫言癫语",
+      "path": "癫言癫语.md"
+    },
+    {
       "basename": "笔记的记录方法",
       "path": "笔记的记录方法.md"
     },
@@ -43,18 +59,6 @@
     {
       "basename": "week4-分布的刻画量",
       "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
-    },
-    {
-      "basename": "简历经验",
-      "path": "简历经验.md"
-    },
-    {
-      "basename": "week-3-微分方程与差分方程求解",
-      "path": "大二上/信号与系统/week-3-微分方程与差分方程求解.md"
-    },
-    {
-      "basename": "2025-10-03-09-7",
-      "path": "dairy/daily/2025-10-03-09-7.md"
     }
   ],
   "omittedPaths": [],
