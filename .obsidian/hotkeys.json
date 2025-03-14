@@ -304,14 +304,7 @@
       "key": "A"
     }
   ],
-  "obsidian-linter:lint-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ],
   "table-editor-obsidian:table-control-bar": [],
-  "obsidian-completr:completr-fake-tab": []
+  "obsidian-completr:completr-fake-tab": [],
+  "note-refactor-obsidian:app:extract-selection-first-line": []
 }
