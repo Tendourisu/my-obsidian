@@ -1,6 +1,7 @@
 ---
-title: Untitled
-tags: 
+title: 大型语言模型（LLMs）如 ChatGPT 的深入探讨-from Andrej Karpathy
+tags:
+  - LLM
 categories: 
 date: 2025-03-14T21:38:55+08:00
 modify: 2025-03-14T21:38:55+08:00
@@ -9,9 +10,9 @@ share: false
 cdate: 2025-03-14
 mdate: 2025-03-14
 ---
-好的，这是根据您提供的源文件整理的 Markdown 格式笔记，旨在提高可读性，并使用了 `callout` 语法和粗体强调关键信息：
-
-
+> [!meta]+
+> youtube: [Deep Dive into LLMs like ChatGPT - YouTube](https://www.youtube.com/watch?v=7xTGNNLPyMI)
+> bilibili:[【1080P】安德烈·卡帕西：深入探索像ChatGPT这样的大语言模型｜Andrej Karpathy\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV16cNEeXEer)
 # 大型语言模型（LLMs）如 ChatGPT 的深入探讨
 
 > **目标：** 提供对大型语言模型的全面但面向大众的介绍，旨在建立关于这些工具的心理模型。
