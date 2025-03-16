@@ -12,7 +12,7 @@ mdate: 2025-03-16
 # 重现 GPT-2 (124M) 笔记
 
 > [!NOTE]
-> 本笔记根据 Andrej Karpathy 在 YouTube 频道 "Andrej Karpathy" 上发布的视频 "Let's reproduce GPT-2 (124M)" 的转录整理而成，旨在提高可读性，并使用了 callout 语法和粗体强调关键信息。
+> 本笔记根据 Andrej Karpathy 在 YouTube 频道 "Andrej Karpathy" 上发布的视频 "Let's reproduce GPT-2 (124M)" 的转录整理而成.
 
 ## 介绍与目标
 
