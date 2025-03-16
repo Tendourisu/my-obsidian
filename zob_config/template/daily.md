@@ -15,6 +15,14 @@ mdate: "{{ date:YYYY-MM-DD }}"
 
 ## LINKS
 
+## NOTES
+
+
+```dataview
+LIST FROM "" 
+WHERE cdate = this.cdate
+  Or mdate = this.mdate
+```
 ## THOUGHTS
 
 ## Daily Plan
