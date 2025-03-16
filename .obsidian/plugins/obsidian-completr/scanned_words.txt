@@ -8754,6 +8754,8 @@ Cox
 Config
 Chellenge
 Capabilities
+CausalSelfAttention
+Cores
 Organazation
 OSTEP
 Operating
@@ -16754,6 +16756,8 @@ assess
 academia
 acquired
 assets
+attend
+accumulation
 Design
 Data
 Database
@@ -24992,6 +24996,9 @@ Triplet
 Terminologies
 Tabular
 Tick
+Tiny
+Tying
+Teraflops
 Hardware
 HPC
 Hulu
@@ -33400,6 +33407,7 @@ Sarsa
 Spelling
 Signal
 Swyx
+Slim
 Interface
 Isomorphic
 Inference
@@ -49813,6 +49821,7 @@ partnerships
 postings
 placed
 professors
+pipeline`
 Understanding
 USTC
 Unix
@@ -77533,6 +77542,8 @@ Projection
 Pearson
 Previous
 Prioritized
+Precision
+Pajama
 games
 go
 google
@@ -93507,6 +93518,7 @@ websites
 wheel
 workforce
 workplace
+weight`
 lab
 lightning
 latex
@@ -105809,6 +105821,7 @@ smolagent
 specifically
 scene
 skewness
+shards
 torch
 training
 tune
@@ -109953,6 +109966,8 @@ taxonomy
 tilde
 truthful
 tinyrag
+tokenized
+tying
 for
 fancy
 follow
@@ -114019,6 +114034,7 @@ finance
 freeze
 faced
 faculties
+fusion
 model
 mass
 mindspore
@@ -157442,6 +157458,8 @@ Burning
 Blockchain
 BlenderMVS
 Bridge
+Blocks
+BFloat
 rust
 recording
 ref
@@ -177575,6 +177593,8 @@ Weekly
 Welborn
 Workplace
 Worked
+WebText
+Wikipedia
 Values
 VP
 Vz
@@ -192835,6 +192855,7 @@ extensions
 enhancement
 emmm
 environ
+embeddings
 vue
 vision
 variance
