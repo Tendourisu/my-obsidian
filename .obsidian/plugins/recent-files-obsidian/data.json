@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
+    },
+    {
       "basename": "2025-11-03-16-7",
       "path": "dairy/daily/2025-11-03-16-7.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "daily",
       "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "README",
-      "path": "zob_config/README.md"
     }
   ],
   "omittedPaths": [],
