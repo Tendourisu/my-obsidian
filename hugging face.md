@@ -44,3 +44,8 @@ HF_ENDPOINT=https://hf-mirror.com huggingface-cli upload Tendourisu/block-sortin
 ```shell
 echo 'export HF_ENDPOINT=https://hf-mirror.com' >> ~/.zshrc
 ```
+
+```python
+import os
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+```
