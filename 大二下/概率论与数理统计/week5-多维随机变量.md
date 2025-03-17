@@ -165,6 +165,10 @@ $$
 $$
 P(X\ge c)\le \frac{EX}{c}
 $$
+- Chebyshev 不等式
+$$
+
+$$
 - **Cauchy-Schwarz不等式**：
   $$
    [E (XY)] ^2 \leq E(X^2)E(Y^2)
