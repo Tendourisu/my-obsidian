@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "week5-",
       "path": "大二下/概率论与数理统计/week5-.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "2025-W07-02",
       "path": "dairy/weekly/2025-W07-02.md"
-    },
-    {
-      "basename": "2025-W08-02",
-      "path": "dairy/weekly/2025-W08-02.md"
     }
   ],
   "omittedPaths": [],
