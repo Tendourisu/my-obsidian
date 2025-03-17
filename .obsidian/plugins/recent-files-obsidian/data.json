@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-W07-02",
+      "path": "dairy/weekly/2025-W07-02.md"
+    },
+    {
+      "basename": "2025-W08-02",
+      "path": "dairy/weekly/2025-W08-02.md"
+    },
+    {
+      "basename": "2025-W09-02",
+      "path": "dairy/weekly/2025-W09-02.md"
+    },
+    {
+      "basename": "2025-W11-03",
+      "path": "dairy/weekly/2025-W11-03.md"
+    },
+    {
+      "basename": "2025-W10-03",
+      "path": "dairy/weekly/2025-W10-03.md"
+    },
+    {
       "basename": "week3-1-基本放大电路2",
       "path": "大二上/模电/week3-1-基本放大电路2.md"
     },
@@ -39,26 +59,6 @@
     {
       "basename": "easy-rl-chapter6-DQN",
       "path": "easy-rl/easy-rl-chapter6-DQN.md"
-    },
-    {
-      "basename": "easy-rl-chapter9-演员-评论员算法总结",
-      "path": "easy-rl/easy-rl-chapter9-演员-评论员算法总结.md"
-    },
-    {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
-    },
-    {
-      "basename": "2025-11-03-14-5",
-      "path": "dairy/daily/2025-11-03-14-5.md"
-    },
-    {
-      "basename": "大型语言模型（LLMs）如 ChatGPT 的深入探讨-from Andrej Karpathy",
-      "path": "Andrej Karpathy/大型语言模型（LLMs）如 ChatGPT 的深入探讨-from Andrej Karpathy.md"
-    },
-    {
-      "basename": "hugging face",
-      "path": "hugging face.md"
     }
   ],
   "omittedPaths": [],
