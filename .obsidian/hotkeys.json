@@ -323,5 +323,14 @@
       ],
       "key": "/"
     }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "/"
+    }
   ]
 }
