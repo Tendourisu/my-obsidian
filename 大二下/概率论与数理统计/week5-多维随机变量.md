@@ -157,7 +157,7 @@ $$
   $$
   E\left(\sum_{i=1}^n a_i X_i + c\right) = \sum_{i=1}^n a_i E(X_i) + c
   $$
-- 如果 a<
+- 如果 $a\le X \le b \ a.s.$
 - **独立变量乘积**：
   $$
   E(XY) = E(X)E(Y), \quad \text{若 } X 与Y独立
