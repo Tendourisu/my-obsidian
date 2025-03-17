@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-11-03-10-1",
+      "path": "dairy/daily/2025-11-03-10-1.md"
+    },
+    {
       "basename": "2025-W11-03",
       "path": "dairy/weekly/2025-W11-03.md"
     },
@@ -17,6 +21,30 @@
       "path": "dairy/weekly/2025-W12-03.md"
     },
     {
+      "basename": "重现 GPT-2 (124M) 笔记",
+      "path": "Andrej Karpathy/重现 GPT-2 (124M) 笔记.md"
+    },
+    {
+      "basename": "癫言癫语",
+      "path": "癫言癫语.md"
+    },
+    {
+      "basename": "王树森Reinforcement_Learning学习笔记",
+      "path": "easy-rl/王树森Reinforcement_Learning学习笔记.md"
+    },
+    {
+      "basename": "202412011509",
+      "path": "202412011509.md"
+    },
+    {
+      "basename": "2025-11-03-14-5",
+      "path": "dairy/daily/2025-11-03-14-5.md"
+    },
+    {
+      "basename": "2025-11-03-16-7",
+      "path": "dairy/daily/2025-11-03-16-7.md"
+    },
+    {
       "basename": "weekly",
       "path": "zob_config/template/weekly.md"
     },
@@ -25,40 +53,12 @@
       "path": "dairy/weekly/2025-W08-02.md"
     },
     {
-      "basename": "2025-11-03-14-5",
-      "path": "dairy/daily/2025-11-03-14-5.md"
-    },
-    {
       "basename": "20250115",
       "path": "dairy/daily/20250115.md"
     },
     {
       "basename": "RL 入门汇总",
       "path": "easy-rl/RL 入门汇总.md"
-    },
-    {
-      "basename": "2025-W09-02",
-      "path": "dairy/weekly/2025-W09-02.md"
-    },
-    {
-      "basename": "2025-W07-02",
-      "path": "dairy/weekly/2025-W07-02.md"
-    },
-    {
-      "basename": "week3-1-基本放大电路2",
-      "path": "大二上/模电/week3-1-基本放大电路2.md"
-    },
-    {
-      "basename": "week-4-卷积与LTI系统分析",
-      "path": "大二上/信号与系统/week-4-卷积与LTI系统分析.md"
-    },
-    {
-      "basename": "week4-分布的刻画量",
-      "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     }
   ],
   "omittedPaths": [],
