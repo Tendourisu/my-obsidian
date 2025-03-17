@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: week5-多维随机变量
 tags:
   - 概率论
 categories: 
@@ -10,7 +10,7 @@ share: false
 cdate: 2025-03-17
 mdate: 2025-03-17
 ---
-# 第六周讲稿总结：多维随机变量
+# week5-多维随机变量
 
 ## 1. 二维随机变量的联合分布与边缘分布
 ### 1.1 联合分布函数
