@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "week3-1-基本放大电路2",
+      "path": "大二上/模电/week3-1-基本放大电路2.md"
+    },
+    {
       "basename": "week-4-卷积与LTI系统分析",
       "path": "大二上/信号与系统/week-4-卷积与LTI系统分析.md"
+    },
+    {
+      "basename": "week4-分布的刻画量",
+      "path": "大二上/概率论与数理统计/week4-分布的刻画量.md"
     },
     {
       "basename": "prompt",
@@ -51,10 +59,6 @@
     {
       "basename": "hugging face",
       "path": "hugging face.md"
-    },
-    {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
     }
   ],
   "omittedPaths": [],
