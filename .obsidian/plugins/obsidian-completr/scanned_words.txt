@@ -4496,6 +4496,7 @@ competencies
 colmap
 chatchat
 cookbook
+cday
 Computer
 Concepts
 ChatGpt
@@ -8760,6 +8761,7 @@ Cores
 Caller
 Callee
 COCO
+Cauchy
 Organazation
 OSTEP
 Operating
@@ -33426,6 +33428,7 @@ Site
 Sentiment
 Sobel
 Sora
+Schwarz
 Interface
 Isomorphic
 Inference
@@ -93548,6 +93551,7 @@ workforce
 workplace
 weight`
 wte`
+weekyear
 lab
 lightning
 latex
@@ -118261,6 +118265,8 @@ methodology
 modelling
 multisim
 mobaxterm
+mday
+mile
 blog
 batchsize
 batch
