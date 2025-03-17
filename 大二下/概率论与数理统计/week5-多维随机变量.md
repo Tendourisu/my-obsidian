@@ -172,7 +172,8 @@ P\left( |X - EX| \geq \epsilon \right) \leq \frac{DX}{\epsilon^2}
 $$
 - 均方误差：
 $$ \min_C \{E((X - C)^2)\} = E((X - EX)^2) $$
-- 绝对误差
+- 绝对误差：
+
 - **Cauchy-Schwarz不等式**：
   $$
    [E (XY)] ^2 \leq E(X^2)E(Y^2)
