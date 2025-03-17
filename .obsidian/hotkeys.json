@@ -315,15 +315,6 @@
       "key": "R"
     }
   ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "/"
-    }
-  ],
   "file-explorer:move-file": [
     {
       "modifiers": [
