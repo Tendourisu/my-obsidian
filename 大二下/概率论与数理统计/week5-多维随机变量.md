@@ -186,7 +186,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
   $$
 - **独立变量方差**：
   $$
-  D\left(\sum_{i=1}^n a_i X_i\right) = \sum_{i=1}^n a_i^2 D(X_i), \quad \text{若 } X_i \text{ 独立}
+  D\left(\sum_{i=1}^n a_i X_i\right) = \sum_{i=1}^n a_i^2 D(X_i), \quad \text{若 } X_i \text{ 之间两两独立}
   $$
 
 ---
