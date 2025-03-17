@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "重现 GPT-2 (124M) 笔记",
       "path": "Andrej Karpathy/重现 GPT-2 (124M) 笔记.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "2025-10-03-06-4",
       "path": "dairy/daily/2025-10-03-06-4.md"
-    },
-    {
-      "basename": "2025-11-03-10-1",
-      "path": "dairy/daily/2025-11-03-10-1.md"
     }
   ],
   "omittedPaths": [],
