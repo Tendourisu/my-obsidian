@@ -167,7 +167,7 @@ P(X\ge c)\le \frac{EX}{c}
 $$
 - Chebyshev 不等式 : $E(X^2)<\infty, then \forall \epsilon>0,DX=E(X-EX)^2$
 $$
-P\left( |X - \mu| \geq \epsilon \right) \leq \frac{DX}{\epsilon^2}
+P\left( |X - EX| \geq \epsilon \right) \leq \frac{DX}{\epsilon^2}
 $$
 - **Cauchy-Schwarz不等式**：
   $$
