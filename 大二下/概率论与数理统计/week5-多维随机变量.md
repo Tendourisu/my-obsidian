@@ -161,6 +161,10 @@ $$
   $$
   E(XY) = E(X)E(Y), \quad \text{若 } X \perp Y
   $$
+- Markov 不等式
+$$
+P(X\ge c)\le \frac{EX}{c}
+$$
 - **Cauchy-Schwarz不等式**：
   $$
    [E (XY)] ^2 \leq E(X^2)E(Y^2)
