@@ -165,9 +165,9 @@ $$
 $$
 P(X\ge c)\le \frac{EX}{c}
 $$
-- Chebyshev 不等式
+- Chebyshev 不等式 : $E(X^2)<\infty, then \forall e\psi l$
 $$
-
+P\left( |X - \mu| \geq \epsilon \right) \leq \frac{\sigma^2}{\epsilon^2}
 $$
 - **Cauchy-Schwarz不等式**：
   $$
