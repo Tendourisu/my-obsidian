@@ -12609,6 +12609,7 @@ Outlook
 OmniObject
 OcCo
 OpenShape
+Openai
 and
 all
 amp
@@ -33421,6 +33422,7 @@ Slim
 Site
 Sentiment
 Sobel
+Sora
 Interface
 Isomorphic
 Inference
