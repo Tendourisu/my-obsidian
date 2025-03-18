@@ -13,7 +13,8 @@ mdate: 2025-03-16
 # 重现 GPT-2 (124M) 笔记
 
 > [!Meta]
-> 本笔记根据 Andrej Karpathy 在 YouTube 频道 "Andrej Karpathy" 上发布的视频 [Let's reproduce GPT-2 (124M) - YouTube](https://www.youtube.com/watch?v=l8pRSuU81PU) 转录整理而成.
+> YouTube： [Let's reproduce GPT-2 (124M) - YouTube](https://www.youtube.com/watch?v=l8pRSuU81PU) 
+> bilibili： [【精校】“让我们重现GPT-2（1.24亿参数）!”AI大神Andrej Karpathy最新4小时经典教程 【中英】\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12s421u7sZ)
 
 ## 介绍与目标
 
@@ -434,12 +435,3 @@ mdate: 2025-03-16
 *   **nanoGPT** 是一个基于 PyTorch 的简洁的 GPT 模型实现，本视频的内容是构建 nanoGPT 的过程.
 *   **LLM.C** 是一个使用纯 CUDA 实现的 GPT-2/GPT-3 训练框架，速度更快，nanoGPT 可以作为其 PyTorch 参考实现.
 *   LLM.C 在训练速度上优于 PyTorch 实现，但 PyTorch 是一个更通用的框架.
-
-## 总结与未来工作
-
-*   本视频成功地从零开始构建并训练了一个性能接近 OpenAI GPT-2 124M 模型的语言模型.
-*   讨论了训练过程中涉及的各种考虑因素和优化技巧.
-*   未来工作包括解决 `torch.compile` 的兼容性问题、改进数据加载器等.
-*   所有代码将在 **build-n-gpt** GitHub 仓库中发布.
-*   鼓励观众参与讨论和贡献代码.
-```

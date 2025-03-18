@@ -15,12 +15,6 @@ mdate: 2025-03-14
 > [!meta]+
 > youtube: [Deep Dive into LLMs like ChatGPT - YouTube](https://www.youtube.com/watch?v=7xTGNNLPyMI)
 > bilibili: [【1080P】安德烈·卡帕西：深入探索像ChatGPT这样的大语言模型｜Andrej Karpathy\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV16cNEeXEer)
-> **目标：** 提供对大型语言模型的全面但面向大众的介绍，旨在建立关于这些工具的心理模型。
-
-
-> - 这些工具既神奇又强大，但在某些方面表现出色，而在其他方面则不然，并且存在需要注意的缺点。
-> - 理解其背后的机制、输入的要求以及生成回复的方式至关重要。
-> - 视频将涵盖构建这类模型的整个流程，并探讨其认知心理学影响。
 
 ## 构建 ChatGPT 的过程
 
