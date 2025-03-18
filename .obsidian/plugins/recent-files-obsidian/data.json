@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
+    },
+    {
+      "basename": "update_template",
+      "path": "zob_config/template/update_template.md"
+    },
+    {
+      "basename": "X11转发的问题",
+      "path": "X11转发的问题.md"
+    },
+    {
       "basename": "重参数技巧",
       "path": "重参数技巧.md"
     },
@@ -19,14 +31,6 @@
     {
       "basename": "202412011509",
       "path": "202412011509.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
-    },
-    {
-      "basename": "update_template",
-      "path": "zob_config/template/update_template.md"
     },
     {
       "basename": "weekly",
@@ -51,14 +55,6 @@
     {
       "basename": "后端练手项目",
       "path": "后端练手项目.md"
-    },
-    {
-      "basename": "WSL代理解决办法",
-      "path": "WSL代理解决办法.md"
-    },
-    {
-      "basename": "2025-W11-03",
-      "path": "dairy/weekly/2025-W11-03.md"
     }
   ],
   "omittedPaths": [],
