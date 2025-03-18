@@ -21,6 +21,7 @@ mdate: " 2025-02-02"
 - [玄策](https://xuance.readthedocs.io/zh/latest)
 - [cs.cornell.edu/courses/cs4756/2023sp/assets/slides\_notes/lec26\_slides.pdf](https://www.cs.cornell.edu/courses/cs4756/2023sp/assets/slides_notes/lec26_slides.pdf)
 - [GitHub - datawhalechina/joyrl: An easier PyTorch deep reinforcement learning library.](https://github.com/datawhalechina/joyrl/)
+- [GitHub - zhoubolei/introRL: Intro to Reinforcement Learning (强化学习纲要）](https://github.com/zhoubolei/introRL)
 ---
 
 ### 🛠️ **开源项目与代码库**
