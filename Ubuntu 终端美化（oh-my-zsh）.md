@@ -1,3 +1,15 @@
+---
+title: 2025-03-18
+tags:
+  - "#日记"
+categories: dairy
+date: "{{ date:YYYY-MM-DDTHH:mm:ss+08:00 }}"
+modify: "{{ date:YYYY-MM-DDTHH:mm:ss+08:00 }}"
+dir: dairy
+share: false
+cdate: "{{ date:YYYY-MM-DD }}"
+mdate: "{{ date:YYYY-MM-DD }}"
+---
 #zsh #tools 
 
 ![](https://gitee.com/liuzhongkun1/img-store/raw/master/20231/1674298103_zztnuti00p.png1674298103071.png)
@@ -5,6 +17,36 @@
 ## 一、 环境准备
 
 这个美化教程适合于大多数的 Linux 系统，其实可以通用的。
+# 2025-03-18
+
+## LINKS
+
+## NOTES
+
+
+```dataview
+LIST FROM "" 
+WHERE cdate = this.cdate
+  Or mdate = this.mdate
+```
+## THOUGHTS
+
+## Daily Plan
+
+### Morning
+
+#### Plan
+
+### Afternoon
+
+#### Plan
+
+### Night
+
+#### Plan
+
+
+
 
 首先，我们需要进行一定的环境准备：
 

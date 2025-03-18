@@ -323,5 +323,14 @@
       ],
       "key": "/"
     }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }
