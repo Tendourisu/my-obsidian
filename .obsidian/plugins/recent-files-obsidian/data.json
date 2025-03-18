@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
+      "basename": "RLfromDeepSeek",
+      "path": "easy-rl/RLfromDeepSeek.md"
+    },
+    {
       "basename": "2025-W11-03",
       "path": "dairy/weekly/2025-W11-03.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "服务器图像转发",
       "path": "服务器图像转发.md"
-    },
-    {
-      "basename": "笔记的记录方法",
-      "path": "笔记的记录方法.md"
-    },
-    {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
     }
   ],
   "omittedPaths": [],

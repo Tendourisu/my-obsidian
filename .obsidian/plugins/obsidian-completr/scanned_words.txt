@@ -8764,6 +8764,7 @@ Caller
 Callee
 COCO
 Cauchy
+CartPole
 Organazation
 OSTEP
 Operating
@@ -20759,6 +20760,9 @@ DoubleDQN
 DuelingDQN
 Datawhale
 DISPLAY
+Discount
+DRL
+Dopamine
 The
 Team
 TVM
@@ -33433,6 +33437,8 @@ Sentiment
 Sobel
 Sora
 Schwarz
+Sutton
+Silver
 Interface
 Isomorphic
 Inference
@@ -41629,6 +41635,7 @@ ARKitScenes
 Apace
 Anger
 Alan
+Atari
 java
 jyy
 js
@@ -57769,6 +57776,7 @@ Longitudinal
 LLaNA
 Lotus
 Leaderboard
+Lux
 Kernel
 Kernal
 Keys
@@ -85709,6 +85717,7 @@ MGF
 Mitigating
 MaRIana
 Methodology
+MARL
 JYY
 Jim
 Jina
@@ -101404,6 +101413,7 @@ GSO
 GLIP
 GreenPLM
 Generatively
+Gym
 spring
 system
 size
@@ -157514,6 +157524,7 @@ BFloat
 Brand
 Bernoulli
 Banach
+Barto
 rust
 recording
 ref
