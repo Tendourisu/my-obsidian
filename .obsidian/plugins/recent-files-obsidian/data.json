@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "matmul的riscv实现",
-      "path": "matmul的riscv实现.md"
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "pybullet的相机",
       "path": "pybullet的相机.md"
+    },
+    {
+      "basename": "python单元测试标准",
+      "path": "python单元测试标准.md"
+    },
+    {
+      "basename": "python命名规范",
+      "path": "python命名规范.md"
+    },
+    {
+      "basename": "synthesizer入坑",
+      "path": "synthesizer入坑.md"
+    },
+    {
+      "basename": "thu-website",
+      "path": "thu-website.md"
+    },
+    {
+      "basename": "Ubuntu 终端美化（oh-my-zsh）",
+      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
+    },
+    {
+      "basename": "WSL代理解决办法",
+      "path": "WSL代理解决办法.md"
+    },
+    {
+      "basename": "X11转发的问题",
+      "path": "X11转发的问题.md"
+    },
+    {
+      "basename": "matmul的riscv实现",
+      "path": "matmul的riscv实现.md"
     },
     {
       "basename": "template",
@@ -15,10 +47,6 @@
     {
       "basename": "update_template",
       "path": "zob_config/template/update_template.md"
-    },
-    {
-      "basename": "X11转发的问题",
-      "path": "X11转发的问题.md"
     },
     {
       "basename": "重参数技巧",
@@ -31,34 +59,6 @@
     {
       "basename": "怪獣の唄",
       "path": "怪獣の唄.md"
-    },
-    {
-      "basename": "服务器图像转发",
-      "path": "服务器图像转发.md"
-    },
-    {
-      "basename": "202412011509",
-      "path": "202412011509.md"
-    },
-    {
-      "basename": "weekly",
-      "path": "zob_config/template/weekly.md"
-    },
-    {
-      "basename": "daily",
-      "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "article",
-      "path": "zob_config/template/article.md"
-    },
-    {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
-      "basename": "2025-12-03-18-2",
-      "path": "dairy/daily/2025-12-03-18-2.md"
     }
   ],
   "omittedPaths": [],
