@@ -1,5 +1,5 @@
 ---
-title: 重现 GPT-2 (124M) 笔记
+title: 重现GPT-2-from Andrej Karpathy
 tags:
   - LLM
 categories: 

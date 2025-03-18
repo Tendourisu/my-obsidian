@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "重现GPT-2-from Andrej Karpathy",
+      "path": "Andrej Karpathy/重现GPT-2-from Andrej Karpathy.md"
+    },
+    {
       "basename": "大型语言模型的深入探讨-from Andrej Karpathy",
       "path": "Andrej Karpathy/大型语言模型的深入探讨-from Andrej Karpathy.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "X11转发的问题",
       "path": "X11转发的问题.md"
-    },
-    {
-      "basename": "THUAUTO34",
-      "path": "THUAUTO34.md"
     }
   ],
   "omittedPaths": [],
