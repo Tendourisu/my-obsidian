@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
+      "basename": "OneLLM-One Framework to Align All Modalities with Language",
+      "path": "论文阅读/OneLLM-One Framework to Align All Modalities with Language.md"
+    },
+    {
+      "basename": "HybridFlow- A Flexible and Efficient RLHF Framework",
+      "path": "论文阅读/HybridFlow- A Flexible and Efficient RLHF Framework.md"
     },
     {
       "basename": "template",
       "path": "zob_config/template/template.md"
+    },
+    {
+      "basename": "update_template",
+      "path": "zob_config/template/update_template.md"
+    },
+    {
+      "basename": "python单元测试标准",
+      "path": "python单元测试标准.md"
+    },
+    {
+      "basename": "X11转发的问题",
+      "path": "X11转发的问题.md"
+    },
+    {
+      "basename": "THUAUTO34",
+      "path": "THUAUTO34.md"
+    },
+    {
+      "basename": "thu-website",
+      "path": "thu-website.md"
     },
     {
       "basename": "2025-12-03-18-2",
@@ -21,16 +45,8 @@
       "path": "zob_config/template/weekly.md"
     },
     {
-      "basename": "update_template",
-      "path": "zob_config/template/update_template.md"
-    },
-    {
       "basename": "daily",
       "path": "zob_config/template/daily.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "论文阅读/未命名.md"
     },
     {
       "basename": "prompt",
@@ -41,24 +57,8 @@
       "path": "pybullet的相机.md"
     },
     {
-      "basename": "python单元测试标准",
-      "path": "python单元测试标准.md"
-    },
-    {
       "basename": "python命名规范",
       "path": "python命名规范.md"
-    },
-    {
-      "basename": "synthesizer入坑",
-      "path": "synthesizer入坑.md"
-    },
-    {
-      "basename": "thu-website",
-      "path": "thu-website.md"
-    },
-    {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
     }
   ],
   "omittedPaths": [],
