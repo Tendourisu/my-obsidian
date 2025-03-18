@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "后端练手项目",
       "path": "后端练手项目.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "2025-W11-03",
       "path": "dairy/weekly/2025-W11-03.md"
-    },
-    {
-      "basename": "2025-W10-03",
-      "path": "dairy/weekly/2025-W10-03.md"
     }
   ],
   "omittedPaths": [],
