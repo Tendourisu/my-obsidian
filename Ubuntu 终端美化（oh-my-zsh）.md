@@ -1,15 +1,3 @@
----
-title: 2025-03-18
-tags:
-  - "#日记"
-categories: dairy
-date: "{{ date:YYYY-MM-DDTHH:mm:ss+08:00 }}"
-modify: "{{ date:YYYY-MM-DDTHH:mm:ss+08:00 }}"
-dir: dairy
-share: false
-cdate: "{{ date:YYYY-MM-DD }}"
-mdate: "{{ date:YYYY-MM-DD }}"
----
 #zsh #tools 
 
 ![](https://gitee.com/liuzhongkun1/img-store/raw/master/20231/1674298103_zztnuti00p.png1674298103071.png)
