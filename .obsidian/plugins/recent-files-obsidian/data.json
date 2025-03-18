@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "template",
+      "path": "zob_config/template/template.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "论文阅读/未命名.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -41,10 +49,6 @@
       "path": "matmul的riscv实现.md"
     },
     {
-      "basename": "template",
-      "path": "zob_config/template/template.md"
-    },
-    {
       "basename": "update_template",
       "path": "zob_config/template/update_template.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "大模型入门汇总",
       "path": "大模型入门汇总.md"
-    },
-    {
-      "basename": "怪獣の唄",
-      "path": "怪獣の唄.md"
     }
   ],
   "omittedPaths": [],
