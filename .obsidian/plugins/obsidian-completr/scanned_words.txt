@@ -4499,6 +4499,9 @@ cookbook
 cday
 continues
 confonted
+connectors
+chatroom
+canal
 Computer
 Concepts
 ChatGpt
@@ -8765,6 +8768,10 @@ Callee
 COCO
 Cauchy
 CartPole
+CDC
+Canal
+Chuan
+Corporation
 Organazation
 OSTEP
 Operating
@@ -20763,6 +20770,7 @@ DISPLAY
 Discount
 DRL
 Dopamine
+Dahoas
 The
 Team
 TVM
@@ -28979,6 +28987,8 @@ Health
 Hyperbolic
 Hallucination
 HybridFlow
+Haibin
+HybridEngine
 Software
 Structure
 System
@@ -33439,6 +33449,9 @@ Sora
 Schwarz
 Sutton
 Silver
+Swagger
+STOMP
+Sheng
 Interface
 Isomorphic
 Inference
@@ -41636,6 +41649,8 @@ Apace
 Anger
 Alan
 Atari
+Alibaba
+Aligner
 java
 jyy
 js
@@ -45670,6 +45685,7 @@ judge
 jsonl
 jucier
 juicer
+jeecg
 proj
 python
 paper
@@ -61699,6 +61715,7 @@ Kernels
 KSAs
 Kitto
 Karpaphy
+Kafka
 os
 of
 on
@@ -73324,6 +73341,8 @@ Noisy
 News
 Newsletter
 NoisyDQN
+Netty
+NeMo
 Programming
 Parallel
 PLAM
@@ -85718,6 +85737,7 @@ Mitigating
 MaRIana
 Methodology
 MARL
+MyBatis
 JYY
 Jim
 Jina
@@ -89602,6 +89622,7 @@ Juicer
 JiuZhang
 Jiao
 Janicki
+JetCache
 workload
 wfn
 work
@@ -97635,6 +97656,7 @@ logs
 leftarrow
 langchai
 localhost
+lamp
 GPU
 GPT
 Google
@@ -101414,6 +101436,7 @@ GLIP
 GreenPLM
 Generatively
 Gym
+Guangming
 spring
 system
 size
@@ -114087,6 +114110,7 @@ freeze
 faced
 faculties
 fusion
+ful
 model
 mass
 mindspore
@@ -133955,6 +133979,7 @@ ZeRo
 ZeroPS
 Zeta
 ZOB
+Zilingfeng
 Fusion
 Fine
 Framework
@@ -137828,6 +137853,7 @@ FUTURE
 Fisher
 FID
 ForwardX
+Flink
 Quant
 Qa
 QR
@@ -157525,6 +157551,7 @@ Brand
 Bernoulli
 Banach
 Barto
+Bai
 rust
 recording
 ref
@@ -169397,6 +169424,7 @@ Employer
 Experience
 Exposition
 Experimental
+EuroSys
 Raft
 Rocksdb
 Reader
@@ -173604,6 +173632,8 @@ Recon
 RegionBLIP
 Rainbow
 Regurgitation
+Resilience
+RuoYi
 WiscKey
 Web
 WIFI
@@ -204832,6 +204862,7 @@ YYDS
 Yarn
 Yang
 Yates
+Yanghua
 Xg
 Xx
 XC
@@ -208530,6 +208561,7 @@ XinstructBLIP
 XMing
 XLaunch
 Xserver
+Xibin
 ßc
 ß`
 ßS
