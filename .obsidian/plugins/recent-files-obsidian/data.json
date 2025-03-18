@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
       "basename": "Links",
       "path": "Links.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "emacs Cheat Sheet",
       "path": "tools/Cheat Sheet/editors/emacs Cheat Sheet.md"
-    },
-    {
-      "basename": "cursor Cheat Sheet",
-      "path": "tools/Cheat Sheet/editors/cursor Cheat Sheet.md"
     }
   ],
   "omittedPaths": [],
