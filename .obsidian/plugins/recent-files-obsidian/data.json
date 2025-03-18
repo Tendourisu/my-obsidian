@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "大型语言模型的深入探讨-from Andrej Karpathy",
+      "path": "Andrej Karpathy/大型语言模型的深入探讨-from Andrej Karpathy.md"
+    },
+    {
       "basename": "Tools 待整理",
       "path": "tools/Cheat Sheet/Tools 待整理.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "THUAUTO34",
       "path": "THUAUTO34.md"
-    },
-    {
-      "basename": "thu-website",
-      "path": "thu-website.md"
     }
   ],
   "omittedPaths": [],

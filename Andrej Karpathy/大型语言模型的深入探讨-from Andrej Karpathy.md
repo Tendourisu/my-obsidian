@@ -1,5 +1,5 @@
 ---
-title: 大型语言模型（LLMs）如 ChatGPT 的深入探讨-from Andrej Karpathy
+title: 大型语言模型的深入探讨-from Andrej Karpathy
 tags:
   - LLM
 categories: 
