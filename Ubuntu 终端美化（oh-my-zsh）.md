@@ -5,36 +5,6 @@
 ## 一、 环境准备
 
 这个美化教程适合于大多数的 Linux 系统，其实可以通用的。
-# 2025-03-18
-
-## LINKS
-
-## NOTES
-
-
-```dataview
-LIST FROM "" 
-WHERE cdate = this.cdate
-  Or mdate = this.mdate
-```
-## THOUGHTS
-
-## Daily Plan
-
-### Morning
-
-#### Plan
-
-### Afternoon
-
-#### Plan
-
-### Night
-
-#### Plan
-
-
-
 
 首先，我们需要进行一定的环境准备：
 
