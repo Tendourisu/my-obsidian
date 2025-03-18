@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Links",
+      "path": "Links.md"
+    },
+    {
       "basename": "tensorboard使用",
       "path": "tools/AI/tensorboard使用.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "cursor Cheat Sheet",
       "path": "tools/Cheat Sheet/editors/cursor Cheat Sheet.md"
-    },
-    {
-      "basename": "OneLLM-One Framework to Align All Modalities with Language",
-      "path": "论文阅读/OneLLM-One Framework to Align All Modalities with Language.md"
     }
   ],
   "omittedPaths": [],
