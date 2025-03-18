@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "LLM",
+      "path": "tools/AI/LLM.md"
+    },
+    {
+      "basename": "easy-rl-chapter9-演员-评论员算法总结",
+      "path": "easy-rl/easy-rl-chapter9-演员-评论员算法总结.md"
+    },
+    {
       "basename": "重现GPT-2-from Andrej Karpathy",
       "path": "Andrej Karpathy/重现GPT-2-from Andrej Karpathy.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "update_template",
       "path": "zob_config/template/update_template.md"
-    },
-    {
-      "basename": "python单元测试标准",
-      "path": "python单元测试标准.md"
-    },
-    {
-      "basename": "X11转发的问题",
-      "path": "X11转发的问题.md"
     }
   ],
   "omittedPaths": [],
