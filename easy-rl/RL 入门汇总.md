@@ -14,7 +14,7 @@ mdate: " 2025-02-02"
 ---
 
 ### 📚 **学习资源与教程**
-- [Xmart • 前沿讲座 | 【卢策吾】具身智能 scaling law 与可规模化数据](https://www.bilibili.com/video/BV1hc6JYLE11/...) 
+- [Xmart • 前沿讲座 | 【卢策吾】具身智能 scaling law 与可规模化数据](https://www.bilibili.com/video/BV1hc6JYLE11/) 
 - [蘑菇书EasyRL](https://datawhalechina.github.io/easy-rl/#/chapter1/chapter1) 
 - [王树森Reinforcement Learning学习笔记](https://zhuanlan.zhihu.com/p/10389734563) 
 - [李宏毅-强化学习-学习笔记<总>](https://zhuanlan.zhihu.com/p/344975862)  
