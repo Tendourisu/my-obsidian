@@ -1,19 +1,15 @@
 ---
-title: <% tp.file.title %>
+title: LLM总结
 tags:
-  - attention
-  - position-embedding
-  - transformer
-math: "true"
-modified: 星期日, 二月 2日 2025, 2:59:04 下午
-categories: 
-date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss+08:00") %>
-modify: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss+08:00") %>
-dir: 
+  - RL
+date: " 2025-03-04T19:31:14+08:00"
+modify: " 2025-03-04T19:31:14+08:00 "
 share: false
-cdate: <% tp.file.creation_date("YYYY-MM-DDTHH") %>
-mdate: <% tp.file.creation_date("YYYY-MM-DDTHH") %>
+cdate: " 2025-03-04 "
+mdate: " 2025-03-04 "
+math: "true"
 ---
+
 
 > [!warning] 施工中……
 

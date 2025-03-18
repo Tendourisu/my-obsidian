@@ -1,7 +1,13 @@
 ---
+title: tensorboard使用
 tags:
-  - pytorch
-title: Tensorboard 浅尝
+  - tensorboard
+date: " 2025-03-04T19:31:14+08:00"
+modify: " 2025-03-04T19:31:14+08:00 "
+share: false
+cdate: " 2025-03-04 "
+mdate: " 2025-03-04 "
+math: "true"
 ---
 
 > `pytorch` 中集成的 tensorboard 的功能，对于查看训练进度有较大帮助
