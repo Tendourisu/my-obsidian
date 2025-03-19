@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "tmux Cheat Sheet",
       "path": "tools/Cheat Sheet/tools/tmux Cheat Sheet.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "小鹤双拼 Cheat Sheet",
       "path": "tools/Cheat Sheet/tools/小鹤双拼 Cheat Sheet.md"
-    },
-    {
-      "basename": "远程连接 Cheat Sheet",
-      "path": "tools/Cheat Sheet/tools/远程连接 Cheat Sheet.md"
     }
   ],
   "omittedPaths": [],
