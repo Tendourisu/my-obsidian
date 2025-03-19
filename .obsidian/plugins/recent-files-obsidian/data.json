@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "tmux Cheat Sheet",
+      "path": "tools/Cheat Sheet/tools/tmux Cheat Sheet.md"
+    },
+    {
       "basename": "常用命令",
       "path": "tools/Cheat Sheet/常用命令.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "远程连接 Cheat Sheet",
       "path": "tools/Cheat Sheet/tools/远程连接 Cheat Sheet.md"
-    },
-    {
-      "basename": "Mkdocs_Material",
-      "path": "tools/Blog/Mkdocs_Material.md"
     }
   ],
   "omittedPaths": [],
