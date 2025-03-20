@@ -223,7 +223,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
 2. **相关系数范围**： $|r_{X,Y}| \leq 1$ ，且  
    $r_{X,Y} = \pm 1 \Leftrightarrow X与 Y线性相关\Leftrightarrow P(Y=a^*X+b^*)=1$
 3. $r_{aX+b,cY+d}=\frac{ac}{|ac|}r_{X,Y}$
-4. $X^*=\frac{X-EX}{\sqrt{ DX }\ring}$
+4. $X^*=\frac{X-EX}{\sqrt{ DX }}\rightarrow EX^*=0,DX^*=1$ 则 $r_{X^*,Y^*}=r_{X,Y}$
 5. **协方差矩阵**：对随机向量 $(X_1, \dots, X_n)$ ，协方差矩阵 $\Sigma = (\text{Cov}(X_i, X_j))_{n \times n}$ 。
 6. 不相关与独立等价的情况：
 $$
