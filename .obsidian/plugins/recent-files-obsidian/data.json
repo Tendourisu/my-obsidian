@@ -5,6 +5,18 @@
       "path": "大二下/概率论与数理统计/week5-多维随机变量.md"
     },
     {
+      "basename": "信号与系统 lec-1",
+      "path": "大二下/信号与系统/信号与系统 lec-1.md"
+    },
+    {
+      "basename": "week4-分布的刻画量",
+      "path": "大二下/概率论与数理统计/week4-分布的刻画量.md"
+    },
+    {
+      "basename": "week3-离散随机变量",
+      "path": "大二下/概率论与数理统计/week3-离散随机变量.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -47,18 +59,6 @@
     {
       "basename": "prompt",
       "path": "tools/AI/prompt.md"
-    },
-    {
-      "basename": "重现GPT-2-from Andrej Karpathy",
-      "path": "Andrej Karpathy/重现GPT-2-from Andrej Karpathy.md"
-    },
-    {
-      "basename": "大型语言模型的深入探讨-from Andrej Karpathy",
-      "path": "Andrej Karpathy/大型语言模型的深入探讨-from Andrej Karpathy.md"
-    },
-    {
-      "basename": "Tools 待整理",
-      "path": "tools/Cheat Sheet/Tools 待整理.md"
     }
   ],
   "omittedPaths": [],
