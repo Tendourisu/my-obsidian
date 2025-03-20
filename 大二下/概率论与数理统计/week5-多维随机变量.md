@@ -271,10 +271,9 @@ $E\{(X - \phi(Y))^2\} = E\{(X - E(X|Y))^2\} + E\{(E(X|Y) - \phi(Y))^2\}$
 - 推论 1: $\boxed{E\{(X - \phi(Y))^2\} \geq E\{(X - E(X|Y))^2\}}$
 - 推论 2: $\boxed{DX = E\{(X - E(X|Y))^2\} + D(E(X|Y))}$
 - 推论 3: $\boxed{DX \geq D(E(X|Y))}$，且等号成立当且仅当 $X = E(X|Y)$（即 $X$ 是 $Y$ 的一个函数）。
-
-定理 3 （1）若 $a \leq X \leq b, a, b$ 为常数，则 $E(X|Y)$ 存在，且 $a \leq E(X|Y) \leq b$。
-
-（2）若 $E(X_1|Y)$ 与 $E(X_2|Y)$ 存在，$a, b$ 为常数，则 $E(aX_1 + bX_2|Y)$ 也存在，且
+- 定理 3 
+	- （1）若 $a \leq X \leq b, a, b$ 为常数，则 $E(X|Y)$ 存在，且 $a \leq E(X|Y) \leq b$。
+	- （2）若 $E(X_1|Y)$ 与 $E(X_2|Y)$ 存在，$a, b$ 为常数，则 $E(aX_1 + bX_2|Y)$ 也存在，且
 
 $E(aX_1 + bX_2|Y) = aE(X_1|Y) + bE(X_2|Y)$
 
