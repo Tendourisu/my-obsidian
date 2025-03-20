@@ -203,13 +203,14 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
 - **几何分布** $X \sim Ge(p)$ ：  
   $EX = \frac{1}{p}$ ， $DX = \frac{q}{p^2}$ 。
 一个方差计算的例子：
+![2cee7f93ce6acf8b632cd55b32cbc8f.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/20250320104225565.png)
 
 ---
 
 ## 7. 协方差与相关系数
 
 ### 定义
-- **协方差**： $\text{Cov}(X, Y) = E[(X - EX)(Y - EY)]$ 。
+- **协方差**： $\text{Cov}(X, Y) = E[(X - EX)(Y - EY)]=EXY-EXE$ 
 - **相关系数**： $r_{X,Y} = \frac{\text{Cov}(X, Y)}{\sqrt{DX \cdot DY}}$ 。
 
 ### 性质
