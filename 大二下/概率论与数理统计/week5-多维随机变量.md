@@ -221,7 +221,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
    - $Cov\left( \sum^m_{i=1}a_{i}X_{i},\ \sum^n_{j=1}b_{j}Y_{j} \right)=\sum^m_{i=1}\sum^n_{j=1}a_{i}b_{j}Cov(X_{i},\ Y_{j})$
    - $\text{Cov}(X_1 + X_2, Y) = \text{Cov}(X_1, Y) + \text{Cov}(X_2, Y)$ 。
 2. **相关系数范围**： $|r_{X,Y}| \leq 1$ ，且  
-   $r_{X,Y} = \pm 1 \Leftrightarrow X$ 与 $Y$ 线性相关。
+   $r_{X,Y} = \pm 1 \Leftrightarrow X与 Y线性相关\Leftrightarrow P(Y=a^*X+b^*)=1$
 3. **协方差矩阵**：对随机向量 $(X_1, \dots, X_n)$ ，协方差矩阵 $\Sigma = (\text{Cov}(X_i, X_j))_{n \times n}$ 。
 4. 不相关与独立等价的情况：
 $$
