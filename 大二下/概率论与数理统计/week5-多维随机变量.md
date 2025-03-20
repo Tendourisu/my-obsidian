@@ -234,7 +234,9 @@ $$
 - **目标**：寻找 $a, b$ 使 $E[(X - aY - b)^2]$ 最小。
 - **解**：
   $$a = \frac{\text{Cov}(X, Y)}{DY}, \quad b = EX - a \cdot EY$$
-- **预测误差**： $\min E[(X - aY - b)^2] = DX \cdot (1 - r_{X,Y}^2)$ 。
+- **预测误差**：
+	- $\min{E(Y-C)^2}=E(Y-ET)$
+	-  $\min E[(X - aY - b)^2] = DX \cdot (1 - r_{X,Y}^2)$ 。
 
 ---
 
