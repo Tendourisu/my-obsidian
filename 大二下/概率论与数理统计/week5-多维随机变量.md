@@ -217,6 +217,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
 1. **对称性与双线性**：
    - $\text{Cov}(X, Y) = \text{Cov}(Y, X)$ 。
    - $\text{Cov}(aX, bY) = ab \cdot \text{Cov}(X, Y)$ 。
+   - $Cov\left( \sum^m_{i=1}a_{i}X_{i},\ \sum^n_{j=1}b_{j}Y_{j} \right)=\sum^m_{i=1}\sum^n_{j=1}a_{i}b_{j}Cov(X_{i})$
    - $\text{Cov}(X_1 + X_2, Y) = \text{Cov}(X_1, Y) + \text{Cov}(X_2, Y)$ 。
 2. **相关系数范围**： $|r_{X,Y}| \leq 1$ ，且  
    $r_{X,Y} = \pm 1 \Leftrightarrow X$ 与 $Y$ 线性相关。
