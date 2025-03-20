@@ -180,7 +180,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
   $$
 - Holder 不等式： $E|X|^p<\infty ,\ E|Y|^q<\infty ,\ \frac{1}p{+\frac{1}q{=1 ,\ p>1}}$
   $$
-   [E (XY)]  \leq (E(X^p))^{\frac{1}{p}}(E(Y^q))^{\frac{}{}}
+   [E (XY)]  \leq (E(X^p))^{\frac{1}{p}}(E(Y^q))^{\frac{1}{q}}
   $$
 - 高阶矩存在，则低阶矩一定存在
 ### 5.2 方差性质
