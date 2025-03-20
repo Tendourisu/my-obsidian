@@ -101,7 +101,7 @@ $$k^* =
 \end{cases}$$
 2. $X\sim Ge(P)\leftrightarrow PX=k)=q^{k-1}p\leftrightarrow P(X>k)=\sum^{\infty}_{i=k+1}q^{i-1}p=q^k$, 则
 	1. $M_{X}=\sum_{k=1}^{\infty}e^{uk}q^{k-1}p=\frac{p}{q}\sum^{\infty}_{k=1}[qe^u]^k=\frac{p}{q} \frac{qe^u}{1-qe^u}=\frac{pe^u}{1-qe^u}$    
-	2. $EX=\frac{1}{q}$
+	2. $EX=\frac{1}{p}$
 	3. $DX=\frac{q}{p^2}$
 	4. X是正整数，则下列三条等价
 		1. $X\sim Ge(p)$
