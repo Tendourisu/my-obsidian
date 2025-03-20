@@ -236,7 +236,7 @@ $$
   $$a = \frac{\text{Cov}(X, Y)}{DY}, \quad b = EX - a \cdot EY$$
 - **预测误差**：
 	- $\min{E(Y-C)^2}=E(Y-EY^2)=DY$
-	-  $\min E[(X - aY - b)^2] = DX \cdot (1 - r_{X,Y}^2)$ 。
+	- $\min E[(X - aY - b)^2] = DX \cdot (1 - r_{X,Y}^2)$ 。
 
 ---
 
