@@ -8781,6 +8781,7 @@ CDC
 Canal
 Chuan
 Corporation
+Chebyshev
 Organazation
 OSTEP
 Operating
@@ -57839,6 +57840,7 @@ Lux
 Laboratory
 Lightweight
 Leaving
+LOTUS
 Kernel
 Kernal
 Keys
