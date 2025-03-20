@@ -202,6 +202,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
   $EX = np$ ， $DX = npq$ （ $q = 1-p$ ）。
 - **几何分布** $X \sim Ge(p)$ ：  
   $EX = \frac{1}{p}$ ， $DX = \frac{q}{p^2}$ 。
+一个方差计算的例子：
 
 ---
 
