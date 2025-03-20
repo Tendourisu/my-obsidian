@@ -212,6 +212,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
 ### 定义
 - **协方差**： $\text{Cov}(X, Y) = E[(X - EX)(Y - EY)]=EXY-EXEY$ 
 - **相关系数**： $r_{X,Y} = \frac{\text{Cov}(X, Y)}{\sqrt{DX \cdot DY}}$ 。
+- 称之为 X 与Y 的相关系系数，称 X 与Y的不相关，若 $r_{X,Y}=0$
 
 ### 性质
 1. **对称性与双线性**：
