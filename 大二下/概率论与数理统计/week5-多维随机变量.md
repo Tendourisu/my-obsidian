@@ -203,12 +203,70 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
 
 ---
 
-## 附录：关键公式速查
-| 概念       | 公式                                      |
-| -------- | --------------------------------------- |
-| 联合分布函数   | $F(x, y) = P(X \leq x, Y \leq y)$       |
-| 边缘分布律    | $p_{i\cdot} = \sum_j p_{ij}$            |
-| 独立性条件    | $p_{ij} = p_{i\cdot} \cdot p_{\cdot j}$ |
-| 数学期望的线性性 | $E(aX + bY) = aE(X) + bE(Y)$            |
-| 方差计算公式   | $D(X) = E(X^2) -  [E (X)] ^2$           |
-|          |                                         |
+## 1. 方差及其性质
+
+### 定义
+- **方差**： $D(X) = E[(X - EX)^2]$ ，若 $E(X^2) < \infty$ 。
+- **计算公式**： $D(X) = E(X^2) - (EX)^2$ 。
+
+### 性质
+1. **常数方差为零**： $D(C) = 0$ ，且 $D(X) = 0 \Leftrightarrow P(X = EX) = 1$ 。
+2. **线性组合方差**：若 $X_1, X_2, \dots, X_n$ 相互独立，则  
+   $$D\left(\sum_{i=1}^n a_i X_i\right) = \sum_{i=1}^n a_i^2 D(X_i)$$
+
+### 分布示例
+- **二项分布** $X \sim B(n, p)$ ：  
+  $EX = np$ ， $DX = npq$ （ $q = 1-p$ ）。
+- **几何分布** $X \sim Ge(p)$ ：  
+  $EX = \frac{1}{p}$ ， $DX = \frac{q}{p^2}$ 。
+
+---
+
+## 2. 协方差与相关系数
+
+### 定义
+- **协方差**： $\text{Cov}(X, Y) = E[(X - EX)(Y - EY)]$ 。
+- **相关系数**： $r_{X,Y} = \frac{\text{Cov}(X, Y)}{\sqrt{DX \cdot DY}}$ 。
+
+### 性质
+1. **对称性与双线性**：
+   - $\text{Cov}(X, Y) = \text{Cov}(Y, X)$ 。
+   - $\text{Cov}(aX, bY) = ab \cdot \text{Cov}(X, Y)$ 。
+   - $\text{Cov}(X_1 + X_2, Y) = \text{Cov}(X_1, Y) + \text{Cov}(X_2, Y)$ 。
+1. **相关系数范围**： $|r_{X,Y}| \leq 1$ ，且  
+   $r_{X,Y} = \pm 1 \Leftrightarrow X$ 与 $Y$ 线性相关。
+3. **协方差矩阵**：对随机向量 $(X_1, \dots, X_n)$ ，协方差矩阵 $\Sigma = (\text{Cov}(X_i, X_j))_{n \times n}$ 。
+
+### 最佳线性预测
+- **目标**：寻找 $a, b$ 使 $E[(X - aY - b)^2]$ 最小。
+- **解**：
+  $$a = \frac{\text{Cov}(X, Y)}{DY}, \quad b = EX - a \cdot EY$$
+- **预测误差**： $\min E[(X - aY - b)^2] = DX \cdot (1 - r_{X,Y}^2)$ 。
+
+---
+
+## 3. 条件数学期望
+
+### 定义
+- **离散情形**：若 $(X, Y)$ 离散，条件期望  
+  $$E(X | Y = y) = \sum_i x_i P(X = x_i | Y = y)$$
+- **随机变量形式**： $E(X | Y)$ 是 $Y$ 的函数，记为 $g(Y)$ 。
+
+### 性质
+1. **全期望公式**：  
+   $$E(X) = E[E(X | Y)] = \sum_j E(X | Y = y_j) P(Y = y_j)$$
+2. **最佳预测**：  
+   $$\min_{\phi} E[(X - \phi(Y))^2] = E[(X - E(X | Y))^2]$$
+3. **其他性质**：
+   - 若 $a \leq X \leq b$ ，则 $a \leq E(X | Y) \leq b$ 。
+   - $E(aX_1 + bX_2 | Y) = aE(X_1 | Y) + bE(X_2 | Y)$ 。
+   - 若 $X$ 与 $Y$ 独立，则 $E(X | Y) = EX$ 。
+
+---
+
+## 4. 关键示例
+- **独立与不相关**：  
+  若 $X \sim \begin{pmatrix} -1 & 0 & 1 \\ \frac{1}{8} & \frac{3}{4} & \frac{1}{8} \end{pmatrix}$ ，则 $X$ 与 $X^2$ 不独立但不相关。
+- **线性回归**：  
+  给定样本 $(x_i, y_i)$ ，最佳线性回归系数：  
+  $$\hat{a} = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}, \quad \hat{b} = \bar{y} - \hat{a} \bar{x}$$
