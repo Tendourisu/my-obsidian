@@ -210,7 +210,7 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
 ## 7. 协方差与相关系数
 
 ### 定义
-- **协方差**： $\text{Cov}(X, Y) = E[(X - EX)(Y - EY)]=EXY-EXE$ 
+- **协方差**： $\text{Cov}(X, Y) = E[(X - EX)(Y - EY)]=EXY-EXEY$ 
 - **相关系数**： $r_{X,Y} = \frac{\text{Cov}(X, Y)}{\sqrt{DX \cdot DY}}$ 。
 
 ### 性质
@@ -218,9 +218,13 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
    - $\text{Cov}(X, Y) = \text{Cov}(Y, X)$ 。
    - $\text{Cov}(aX, bY) = ab \cdot \text{Cov}(X, Y)$ 。
    - $\text{Cov}(X_1 + X_2, Y) = \text{Cov}(X_1, Y) + \text{Cov}(X_2, Y)$ 。
-1. **相关系数范围**： $|r_{X,Y}| \leq 1$ ，且  
+2. **相关系数范围**： $|r_{X,Y}| \leq 1$ ，且  
    $r_{X,Y} = \pm 1 \Leftrightarrow X$ 与 $Y$ 线性相关。
 3. **协方差矩阵**：对随机向量 $(X_1, \dots, X_n)$ ，协方差矩阵 $\Sigma = (\text{Cov}(X_i, X_j))_{n \times n}$ 。
+4. 不相关与独立等价的情况：
+$$
+X=1_{A}, Y=1_{B}, XY=1_{AB}
+$$
 
 ### 最佳线性预测
 - **目标**：寻找 $a, b$ 使 $E[(X - aY - b)^2]$ 最小。
