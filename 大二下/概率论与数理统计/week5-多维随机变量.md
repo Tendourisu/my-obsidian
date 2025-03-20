@@ -178,7 +178,8 @@ $$ \min_C \{E ((X - C))\} = E ((X - X_{median})) $$
   $$
    [E (XY)] ^2 \leq E(X^2)E(Y^2)
   $$
-- Holder 不等式： $E|X|^p<\infty\ E|Y|^q<\infty$
+- Holder 不等式： $E|X|^p<\infty ,\ E|Y|^q<\infty ,\ \frac{1}p{+\frac{1}q{=1 ,\ p>1}}$
+- 
   $$
    [E (XY)] ^2 \leq E(X^2)E(Y^2)
   $$
