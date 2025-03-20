@@ -250,15 +250,40 @@ $$
 
 
 
-### 性质
-1. **全期望公式**：  
-   $$E(X) = E[E(X | Y)] = \sum_j E(X | Y = y_j) P(Y = y_j)$$
-2. **最佳预测**：  
-   $$\min_{\phi} E[(X - \phi(Y))^2] = E[(X - E(X | Y))^2]$$
-3. **其他性质**：
-   - 若 $a \leq X \leq b$ ，则 $a \leq E(X | Y) \leq b$ 。
-   - $E(aX_1 + bX_2 | Y) = aE(X_1 | Y) + bE(X_2 | Y)$ 。
-   - 若 $X$ 与 $Y$ 独立，则 $E(X | Y) = EX$ 。
+
+定理 （最佳预测）设 $X$ 与 $Y$ 的平方的数学期望均存在，则
+$\boxed{E [X - E (X|Y)] ^2 = \min_{\phi} E [X - \phi (Y)] ^2}$
+提供一证明：先证明
+$E\{(X - \phi(Y))^2\} = E\{(X - E(X|Y))^2\} + E\{(E(X|Y) - \phi(Y))^2\}$
+我们先考虑
+$E\{(X - \phi(Y))^2 | Y\} = E\{(X - E(X|Y) + E(X|Y) - \phi(Y))^2 | Y\}$
+$= E\{(X - E(X|Y))^2 + 2(X - E(X|Y))(E(X|Y) - \phi(Y)) + (E(X|Y) - \phi(Y))^2 | Y\}$$= E\{(X - E(X|Y))^2 | Y\} + E\{(E(X|Y) - \phi(Y))^2 | Y\} + 2E\{(X - E(X|Y))(E(X|Y) - \phi(Y)) | Y\}$
+由于
+$E\{(X - E(X|Y))(E(X|Y) - \phi(Y)) | Y\}$
+$=  [E (X|Y) - \phi (Y)] E\{(X - E(X|Y)) | Y\}$
+$=  [E (X|Y) - \phi (Y)] \{E(X|Y) - E(X|Y)\}$
+$= 0$
+于是
+$E\{(X - \phi(Y))^2 | Y\} = E\{(X - E(X|Y))^2 | Y\} + E\{(E(X|Y) - \phi(Y))^2 | Y\}$
+两边取数学期望，由全期望公式得到，
+$E\{(X - \phi(Y))^2\} = E\{(X - E(X|Y))^2\} + E\{(E(X|Y) - \phi(Y))^2\}$
+从而可知道，当 $E\{(E(X|Y) - \phi(Y))^2\} = 0, i.e., \phi(Y) = E(X|Y)$ 时，取到最小。
+- 推论 1: $\boxed{E\{(X - \phi(Y))^2\} \geq E\{(X - E(X|Y))^2\}}$
+- 推论 2: $\boxed{DX = E\{(X - E(X|Y))^2\} + D(E(X|Y))}$
+- 推论 3: $\boxed{DX \geq D(E(X|Y))}$，且等号成立当且仅当 $X = E(X|Y)$（即 $X$ 是 $Y$ 的一个函数）。
+
+定理 3 （1）若 $a \leq X \leq b, a, b$ 为常数，则 $E(X|Y)$ 存在，且 $a \leq E(X|Y) \leq b$。
+
+（2）若 $E(X_1|Y)$ 与 $E(X_2|Y)$ 存在，$a, b$ 为常数，则 $E(aX_1 + bX_2|Y)$ 也存在，且
+
+$E(aX_1 + bX_2|Y) = aE(X_1|Y) + bE(X_2|Y)$
+
+定理 4 设离散型随机变量 $X$ 与 $Y$ 相互独立，则 $E(X|Y) = EX$。
+
+定理 5 设 $(X,Y)$ 为二维离散型随机变量，且 $g(\cdot), h(\cdot)$ 为任意两个实值函数，则
+
+$\boxed{E(g(X)h(Y)|Y) = h(Y)E(g(X)|Y)}$
+
 
 ---
 
