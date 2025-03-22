@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "git use",
+      "path": "git use.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "tensorboard使用",
       "path": "tools/AI/tensorboard使用.md"
-    },
-    {
-      "basename": "LLM",
-      "path": "tools/AI/LLM.md"
     }
   ],
   "omittedPaths": [],
