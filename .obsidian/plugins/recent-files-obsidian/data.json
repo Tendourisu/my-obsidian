@@ -5,6 +5,14 @@
       "path": "棒球.md"
     },
     {
+      "basename": "3",
+      "path": "3.md"
+    },
+    {
+      "basename": "2025-09-02-26-3",
+      "path": "dairy/daily/2025-09-02-26-3.md"
+    },
+    {
       "basename": "git use",
       "path": "git use.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "week-4-卷积与LTI系统分析",
       "path": "大二下/信号与系统/week-4-卷积与LTI系统分析.md"
-    },
-    {
-      "basename": "信号与系统 lec-1",
-      "path": "大二下/信号与系统/信号与系统 lec-1.md"
-    },
-    {
-      "basename": "tmux Cheat Sheet",
-      "path": "tools/Cheat Sheet/tools/tmux Cheat Sheet.md"
     }
   ],
   "omittedPaths": [],
