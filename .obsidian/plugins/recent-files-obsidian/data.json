@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "2025-12-03-23-7",
       "path": "dairy/daily/2025-12-03-23-7.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "git use",
       "path": "git use.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "2025-12-03-20-4",
