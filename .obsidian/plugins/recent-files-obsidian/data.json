@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "2025-W12-03",
       "path": "dairy/weekly/2025-W12-03.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "关于信息检索",
       "path": "关于信息检索.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "2025-12-03-22-6",
