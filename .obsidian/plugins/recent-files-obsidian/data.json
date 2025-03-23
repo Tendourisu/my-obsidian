@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "需要探索的东西",
+      "path": "需要探索的东西.md"
+    },
+    {
+      "basename": "关于信息检索",
+      "path": "关于信息检索.md"
+    },
+    {
       "basename": "prompt",
       "path": "prompt.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "2025-12-03-22-6",
       "path": "dairy/daily/2025-12-03-22-6.md"
-    },
-    {
-      "basename": "关于信息检索",
-      "path": "关于信息检索.md"
     },
     {
       "basename": "git use",
@@ -55,10 +59,6 @@
     {
       "basename": "2025-12-03-18-2",
       "path": "dairy/daily/2025-12-03-18-2.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
     }
   ],
   "omittedPaths": [],
