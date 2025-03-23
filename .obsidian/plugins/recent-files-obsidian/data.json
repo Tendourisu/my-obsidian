@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RL 入门汇总",
+      "path": "easy-rl/RL 入门汇总.md"
+    },
+    {
       "basename": "2025-12-03-23-7",
       "path": "dairy/daily/2025-12-03-23-7.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "week4-分布的刻画量",
       "path": "大二下/概率论与数理统计/week4-分布的刻画量.md"
-    },
-    {
-      "basename": "week5-多维随机变量",
-      "path": "大二下/概率论与数理统计/week5-多维随机变量.md"
     }
   ],
   "omittedPaths": [],
