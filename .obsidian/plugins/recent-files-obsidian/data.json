@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "棒球",
+      "path": "棒球.md"
+    },
+    {
       "basename": "git use",
       "path": "git use.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "tmux Cheat Sheet",
       "path": "tools/Cheat Sheet/tools/tmux Cheat Sheet.md"
-    },
-    {
-      "basename": "常用命令",
-      "path": "tools/Cheat Sheet/常用命令.md"
     }
   ],
   "omittedPaths": [],
