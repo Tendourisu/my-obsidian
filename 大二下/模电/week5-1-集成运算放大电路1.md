@@ -1,6 +1,7 @@
 ---
 title: week5-1-集成运算放大电路1
-tags: 
+tags:
+  - 运放
 categories: 
 date: 2025-03-24T09:42:03+08:00
 modify: 2025-03-24T09:42:03+08:00
