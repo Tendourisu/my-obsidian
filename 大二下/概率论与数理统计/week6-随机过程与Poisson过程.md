@@ -90,6 +90,46 @@ $$
   \end{cases}
   $$
   
+- **定理：简单随机徘徊是时齐的独立增量过程，其一维分布为**
+
+$$
+P(X_n = k) =
+\begin{cases}
+C_{\frac{n+k-x}{2}} \cdot p^{\frac{n+k-x}{2}} \cdot (1-p)^{\frac{n-k+x}{2}}, & \text{(} n \geq |k-x|, \, n \text{与 } k-x \text{同奇偶)} \\
+0, & \text{(其他情形)}
+\end{cases}
+$$
+
+- **简单证明：只证一维分布的求法**
+
+由于 $Z_n \sim \begin{pmatrix} -1 & 1 \\ q & p \end{pmatrix}$ ，将其化为标准 0-1 分布，令 $Y_n = \frac{Z_n + 1}{2}$ ，则 $Y_n \sim \begin{pmatrix} 0 & 1 \\ q & p \end{pmatrix}$ 。
+
+从而 $X_n = X_0 + \sum_{i=1}^n (2Y_i - 1) = x + 2\sum_{i=1}^n Y_i - n$ ，由于 $\sum_{i=1}^n Y_i \sim B(n, p)$ ，故
+
+$$
+P(X_n = k) = P\left(x + 2\sum_{i=1}^n Y_i - n = k\right) = P\left(\sum_{i=1}^n Y_i = \frac{k - x + n}{2}\right),
+$$
+
+因此，
+
+$$
+P(X_n = k) =
+\begin{cases}
+C_{\frac{n+k-x}{2}} \cdot p^{\frac{n+k-x}{2}} \cdot (1-p)^{\frac{n-k+x}{2}}, & \text{(} n \geq |k-x|, \, n \text{与 } k-x \text{同奇偶)} \\
+0, & \text{(其他情形)}
+\end{cases}
+$$
+
+- **有限维分布（当 $X_0 = 0$ 时）为**
+
+$$
+P(X_{n_1} = s_1, X_{n_2} = s_2, \ldots, X_{n_k} = s_k) = P\left(\sum_{i=1}^{n_1} Z_i = s_1, \sum_{i=n_1+1}^{n_2} Z_i = s_2 - s_1, \ldots, \sum_{i=n_{k-1}+1}^{n_k} Z_i = s_k - s_{k-1}\right)
+$$
+
+$$
+= \prod_{l=1}^k C_{m_l}^{r_l} p^{r_l} (1-p)^{m_l - r_l}, \quad \left(m_l = n_l - n_{l-1}, r_l = \frac{1}{2}(n_l - n_{l-1} + s_l - s_{l-1})\right)
+$$
+
 - **数字特征**：
   - 期望：$E [X_n]  = x_0 + n(p - q)$
   - 方差：$D [X_n]  = 4npq$
