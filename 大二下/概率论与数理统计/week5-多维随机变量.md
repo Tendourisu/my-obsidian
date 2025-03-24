@@ -284,3 +284,4 @@ $E\{(X - \phi(Y))^2\} = E\{(X - E(X|Y))^2\} + E\{(E(X|Y) - \phi(Y))^2\}$
 - 定理 4 设离散型随机变量 $X$ 与 $Y$ 相互独立，则 $E(X|Y) = EX$ 。
 - 定理 5 设 $(X,Y)$ 为二维离散型随机变量，且 $g(\cdot), h(\cdot)$ 为任意两个实值函数，$\boxed{E(g(X)h(Y)|Y) = h(Y)E(g(X)|Y)}$
 - 定理 6 $E(X|A)=E(X|AB)P(B|A)+E(X|AB^C)P(B^C|A)$
+![8149972714164504547b90028923d20.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/20250324135644048.png)
