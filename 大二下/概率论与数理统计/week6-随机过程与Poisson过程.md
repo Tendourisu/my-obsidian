@@ -40,7 +40,7 @@ mdate: 2025-03-24T09
 		$$
 	- 相容性：对任意 $i < j$ ，有  
 $$
-F_{t_1, \ldots, t_i, t_{i+1}, \ldots, t_j}(x_1, \ldots, x_i, \varnothing, \ldots, \varnothing) = F_{t_1, \ldots, t_i}(x_1, \ldots, x_i)
+F_{t_1, \ldots, t_i, t_{i+1}, \ldots, t_j}(x_1, \ldots, x_i, \infty, \ldots, \infty) = F_{t_1, \ldots, t_i}(x_1, \ldots, x_i)
 $$
 
 ## 二、独立增量过程
