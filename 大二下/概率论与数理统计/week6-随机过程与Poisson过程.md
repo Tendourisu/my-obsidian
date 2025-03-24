@@ -1,6 +1,7 @@
 ---
 title: week6-随机过程与Poisson过程
-tags: 
+tags:
+  - 概率论
 categories: 
 date: 2025-03-24T09:45:12+08:00
 modify: 2025-03-24T09:45:12+08:00

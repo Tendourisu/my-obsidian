@@ -73402,6 +73402,7 @@ Newsletter
 NoisyDQN
 Netty
 NeMo
+NPN
 Programming
 Parallel
 PLAM
@@ -85811,6 +85812,7 @@ Magnetic
 MacPorts
 Misc
 MouseDragEnd
+MOSFET
 JYY
 Jim
 Jina
@@ -89699,6 +89701,7 @@ JetCache
 Jiaming
 Jiaqi
 JUST
+JFET
 workload
 wfn
 work
