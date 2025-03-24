@@ -155,7 +155,7 @@ $$
 - **有限维分布**：
   
 $$
-P (N_{t_1}=k_1, \ldots, N_{t_n}=k_n) = e^{-\lambda t_n} \frac{(\lambda t_1)^{k_1} \cdots (\lambda (t_n-t_{n-1}))^{k_n-k_{n-1}}}}{k_1! \cdots (k_n-k_{n-1})!}
+P (N_{t_1}=k_1, \ldots, N_{t_n}=k_n) = e^{-\lambda t_n} \frac{(\lambda t_1)^{k_1} \cdots (\lambda (t_n-t_{n-1}))^{k_n-k_{n-1}}}{k_1! \cdots (k_n-k_{n-1})!}
 $$
 
 - **协方差与方差**：
