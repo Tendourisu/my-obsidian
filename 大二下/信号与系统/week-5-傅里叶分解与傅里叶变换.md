@@ -1,6 +1,8 @@
 ---
-title: 未命名
-tags: 
+title: week-5-傅里叶分解与傅里叶变换
+tags:
+  - FS
+  - FT
 categories: 
 date: 2025-03-24T00:00:45+08:00
 modify: 2025-03-24T00:00:45+08:00

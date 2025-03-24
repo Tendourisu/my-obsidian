@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "week5",
-      "path": "大二下/信号与系统/week5.md"
+      "basename": "未命名",
+      "path": "大二下/模电/未命名.md"
+    },
+    {
+      "basename": "week-5-傅里叶分解与傅里叶变换",
+      "path": "大二下/信号与系统/week-5-傅里叶分解与傅里叶变换.md"
     },
     {
       "basename": "prompt",
@@ -55,10 +59,6 @@
     {
       "basename": "关于信息检索",
       "path": "关于信息检索.md"
-    },
-    {
-      "basename": "2025-12-03-22-6",
-      "path": "dairy/daily/2025-12-03-22-6.md"
     }
   ],
   "omittedPaths": [],
