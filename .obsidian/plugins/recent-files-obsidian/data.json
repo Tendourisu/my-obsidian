@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "大二下/概率论与数理统计/未命名.md"
+      "basename": "week6-随机过程与Poisson过程",
+      "path": "大二下/概率论与数理统计/week6-随机过程与Poisson过程.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
     },
     {
       "basename": "week5-3-集成运算放大电路2",
@@ -15,10 +19,6 @@
     {
       "basename": "week-5-傅里叶分解与傅里叶变换",
       "path": "大二下/信号与系统/week-5-傅里叶分解与傅里叶变换.md"
-    },
-    {
-      "basename": "prompt",
-      "path": "prompt.md"
     },
     {
       "basename": "2025-W12-03",

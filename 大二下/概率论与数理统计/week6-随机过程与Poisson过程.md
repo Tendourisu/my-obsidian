@@ -1,5 +1,5 @@
 ---
-title: week6-
+title: week6-随机过程与Poisson过程
 tags: 
 categories: 
 date: 2025-03-24T09:45:12+08:00
@@ -155,7 +155,7 @@ $$
 - **有限维分布**：
   
 $$
-P(N_{t_1}=k_1, \ldots, N_{t_n}=k_n) = e^{-\lambda t_n} \frac{(\lambda t_1)^{k_1} \cdots (\lambda (t_n-t_{n-1}))^{k_n-k_{n-1}}}}{k_1! \cdots (k_n-k_{n-1})!}
+P (N_{t_1}=k_1, \ldots, N_{t_n}=k_n) = e^{-\lambda t_n} \frac{(\lambda t_1)^{k_1} \cdots (\lambda (t_n-t_{n-1}))^{k_n-k_{n-1}}}}{k_1! \cdots (k_n-k_{n-1})!}
 $$
 
 - **协方差与方差**：
@@ -173,7 +173,7 @@ $$
 - **性质**：
   $$
   E[X_t] = \lambda t E[Y], \quad D[X_t] = \lambda t E[Y^2]
-  
+  $$
 ## 八、矩母函数补充
 
 ### 1. 定义与性质
@@ -201,11 +201,11 @@ $$
 - **推导期望与方差**：
   $$
   E[X_t] = \lambda t E[Y], \quad D[X_t] = \lambda t E[Y^2]
-  ```
+  $$
 
 ---
 
-## 四、关键示例
+## 九、关键示例
 
 ### 示例 1：顾客购买行为建模
 - **场景**：顾客到达商场人数为 Poisson 过程 $N_t \sim P(\lambda t)$ ，每个顾客购买概率为 $p$ 。
@@ -219,4 +219,4 @@ $$
 - **结果**：
   $$
   E[X_t] = \frac{\lambda t}{\mu}, \quad D[X_t] = \frac{2\lambda t}{\mu^2}
-  ```
+  $$
