@@ -35,11 +35,10 @@ mdate: 2025-03-24T09
 
 - **性质**：
 	- 对称性：若 $\{i_1, \ldots, i_j\}$ 为 $\{1, \ldots, j\}$ 的一个排列，则  
-$$
-F_{t_1, \ldots, t_j}(x_{i_1}, \ldots, x_{i_j}) = F_{t_1, \ldots, t_j}(x_1, \ldots, x_j)
-$$
--  相容性：
-对任意 $i < j$ ，有  
+		$$
+		F_{t_1, \ldots, t_j}(x_{i_1}, \ldots, x_{i_j}) = F_{t_1, \ldots, t_j}(x_1, \ldots, x_j)
+		$$
+	- 相容性：对任意 $i < j$ ，有  
 $$
 F_{t_1, \ldots, t_i, t_{i+1}, \ldots, t_j}(x_1, \ldots, x_i, \varnothing, \ldots, \varnothing) = F_{t_1, \ldots, t_i}(x_1, \ldots, x_i)
 $$
