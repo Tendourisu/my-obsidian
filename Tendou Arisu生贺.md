@@ -8,8 +8,6 @@
 
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250325163100455.png)
 
-<td style="text-align: left; padding: 1em; vertical-align: middle;">隶属千年学园游戏开发部的成员。<br>
-<p>在废墟发现的来历不明的少女。包含年龄在内，所有情报都无法推断。现在跟着绿和桃井玩游戏，已经变成重度游戏狂热者了。<br>
-</p>
-大部分不会说的话都以复古游戏的对白代替。</td>
+<td style="text-align: left; padding: 1em; vertical-align: middle;">隶属千年学园游戏开发部的成员。<br><p>在废墟发现的来历不明的少女。包含年龄在内，所有情报都无法推断。现在跟着绿和桃井玩游戏，已经变成重度游戏狂热者了。<br></p>大部分不会说的话都以复古游戏的对白代替。</td>
+
 
