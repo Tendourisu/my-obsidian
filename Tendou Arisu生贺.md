@@ -25,3 +25,4 @@
 | 相关人物 | - 花冈柚子、才羽桃井（~~妈妈~~）、才羽绿（~~妈妈 x2~~）[游戏开发部]<br>- 早濑优香（ ~~妈妈 x3~~）、调月莉音（~~后妈~~）[研讨会]<br>- 明星日鞠（ ~~奶奶~~）[特务部]<br>- 美甘宁瑶（游戏搭子）<br>- Kei（AI 人格） |
 更多内容请参照[天童爱丽丝](https://zh.moegirl.org.cn/zh-hans/%E5%A4%A9%E7%AB%A5%E7%88%B1%E4%B8%BD%E4%B8%9D)
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250325165410319.png)
+
