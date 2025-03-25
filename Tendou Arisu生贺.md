@@ -43,7 +43,21 @@
 
 ### 为什么会有这篇文章?
 
-首先先证明一下我确实很喜欢爱丽丝
+首先先证明我确实很喜欢爱丽丝
 ![cfb0c0e3f83bc750eebc2d5ad87067f.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/20250325185853105.png)
 不是很多，但至少现在的桌子上一半的没用的玩意全是爱丽丝。
 其实在去年的 3 月 25 日我本来也是想写些什么东西的，可是奈何没有什么东西可以写。但是这次的情况不一样了。因为我的 2025-W12-03 还没有写😡
+#### Review
+- 看nanogpt
+- 借助伟大的huggingface 提供的极为简易的接口微调了一个很小的model（但貌似效果很差，但它才 350M，就原谅它罢）
+- 经历了及其难忘的棒球赛。想起的去年看的失忆投捕。在最后队长总结的时候，真切地感受到了无力的滋味。
+#### Next Week Plan
+看：
+- [GitHub - atfortes/Awesome-LLM-Reasoning: Reasoning in LLMs: Papers and Resources, including Chain-of-Thought, OpenAI o1, and DeepSeek-R1 🍓](https://github.com/atfortes/Awesome-LLM-Reasoning)
+- [GitHub - volcengine/verl: verl: Volcano Engine Reinforcement Learning for LLMs](https://github.com/volcengine/verl)
+- 跟着大佬刷lc？（follow kinnari）
+- 跟着大佬学外卖？（follow 黑马）
+- 与其说是next week plan，不如说是next period plan。
+
+现在来看，相比于去年我已经进化了很多（虽然没有任何成果与拿的出手的东西），而这一切的一切，很大程度是因为我见证了一批及其有思想与主见的人的成长，以及更多的愿意无私分享为后人铺路的人们。kinnari，wnc，东川一，星爷，wsz 学长，dp... （虽然存在我单方面获取信息的情况，但这也是follow的哲学吧见[使用 follow 重塑我的信息输入系统 - 少数派](https://sspai.com/post/91283)）在通过大学的这段时间意识到自己并不具备能够做出伟大的工作的能力之后，follow 这些能够做出伟大工作的人已然成为了我的学习的哲学了。
+al1s与kei ，与千禧年的各位相遇，我也与这些拥有自己思想的人们相遇。没有千年的大家，一周目的al1s
