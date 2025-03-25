@@ -25,7 +25,7 @@
 | 相关人物 | - 花冈柚子、才羽桃井（~~妈妈~~）、才羽绿（~~妈妈 x2~~）[游戏开发部]<br>- 早濑优香（ ~~妈妈 x3~~）、调月莉音（~~后妈~~）[研讨会]<br>- 明星日鞠（ ~~奶奶~~）[特务部]<br>- 美甘宁瑶（游戏搭子）<br>- Kei（AI 人格） |
 你说得对，但是今天是隶属于千年学院游戏开发部的天童爱丽丝的生日（生日？开机日期？）  
 天童爱丽丝 （天童 アリス） 千年科学学园所属，游戏开发部的部员。在废墟中被发现的谜之少女，包括年龄在内的情报完全未知。现今，成为了与桃井、绿以及柚子三人共同享受游戏的重度发烧友。说话总有些结结巴巴、不自然的地方，那是因为她说的话基本上都是由复古游戏的台词构成的。  
-望周知
+望周知[Tendou Arisu生贺 - Tendourisu's Site](https://tendourisu.github.io/blogs/posts/Tendou%20Arisu%E7%94%9F%E8%B4%BA/)
 更多内容请参照[天童爱丽丝](https://zh.moegirl.org.cn/zh-hans/%E5%A4%A9%E7%AB%A5%E7%88%B1%E4%B8%BD%E4%B8%9D)
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250325165410319.png)
 
@@ -60,4 +60,10 @@
 - 与其说是next week plan，不如说是next period plan。
 
 现在来看，相比于去年我已经进化了很多（虽然没有任何成果与拿的出手的东西），而这一切的一切，很大程度是因为我见证了一批及其有思想与主见的人的成长，以及更多的愿意无私分享为后人铺路的人们。kinnari，wnc，东川一，星爷，wsz 学长，dp... （虽然存在我单方面获取信息的情况，但这也是follow的哲学吧见[使用 follow 重塑我的信息输入系统 - 少数派](https://sspai.com/post/91283)）在通过大学的这段时间意识到自己并不具备能够做出伟大的工作的能力之后，follow 这些能够做出伟大工作的人已然成为了我的学习的哲学了。
-al1s与kei ，与千禧年的各位相遇，我也与这些拥有自己思想的人们相遇。没有千年的大家，一周目的al1s
+al1s与kei ，与千禧年的各位相遇，我也与这些拥有自己思想的人们相遇。没有与千年的各位相遇，一周目的 al1s 走向了bd，没有与这些人们相遇，我的一周目又会如何呢？
+无论如何，お誕生日（~~クランクインの日~~）おめでとう
+![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250325200239244.png)
+
+<div style="text-align: center; margin: 0 auto;">
+    <big><big><b><span >光よ</span></b></big></big>
+</div>
