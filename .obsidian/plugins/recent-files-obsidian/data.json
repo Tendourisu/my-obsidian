@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "苍穹外卖",
+      "path": "项目开发学习/苍穹外卖.md"
+    },
+    {
       "basename": "2025-13-03-24-1",
       "path": "dairy/daily/2025-13-03-24-1.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "GPRO",
       "path": "easy-rl/GPRO.md"
-    },
-    {
-      "basename": "RL 入门汇总",
-      "path": "easy-rl/RL 入门汇总.md"
     }
   ],
   "omittedPaths": [],
