@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-W12-03",
+      "path": "dairy/weekly/2025-W12-03.md"
+    },
+    {
       "basename": "Tendou Arisu生贺",
       "path": "Tendou Arisu生贺.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "花瓣、与之相关的声音",
       "path": "花瓣、与之相关的声音.md"
-    },
-    {
-      "basename": "week6-随机过程与Poisson过程",
-      "path": "大二下/概率论与数理统计/week6-随机过程与Poisson过程.md"
     }
   ],
   "omittedPaths": [],
