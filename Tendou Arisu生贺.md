@@ -1,4 +1,4 @@
 > [!important]+
-> **邦邦咔邦！**
+> 
 
-<div class="infoBoxIcon" style=""><img alt="Birthday Cake.svg" src="[https://img.moegirl.org.cn/common/thumb/4/4c/Birthday_Cake.svg/64px-Birthday_Cake.svg.png](https://img.moegirl.org.cn/common/thumb/4/4c/Birthday_Cake.svg/64px-Birthday_Cake.svg.png)" width="64" height="64" srcset="[https://img.moegirl.org.cn/common/thumb/4/4c/Birthday_Cake.svg/96px-Birthday_Cake.svg.png 1.5x](https://img.moegirl.org.cn/common/thumb/4/4c/Birthday_Cake.svg/96px-Birthday_Cake.svg.png), [https://img.moegirl.org.cn/common/thumb/4/4c/Birthday_Cake.svg/128px-Birthday_Cake.svg.png 2x](https://img.moegirl.org.cn/common/thumb/4/4c/Birthday_Cake.svg/128px-Birthday_Cake.svg.png)" /></div><div class="infoBoxText" style=""><big><big><b><span style="color:orange;">今天<span style="color:red;">（3月25日）</span>是爱丽丝的生日，让我们一起祝她生日快乐！</span></b></big></big></div>
+<div class="infoBoxText" style=""><big><big><b><span style="color:orange;">今天<span style="color:red;">邦邦卡邦！（3月25日）</span>是爱丽丝的生日，让我们一起祝她生日快乐！</span></b></big></big></div>
