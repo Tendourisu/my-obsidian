@@ -26,4 +26,4 @@
 更多内容请参照[天童爱丽丝](https://zh.moegirl.org.cn/zh-hans/%E5%A4%A9%E7%AB%A5%E7%88%B1%E4%B8%BD%E4%B8%9D)
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250325165410319.png)
 
-### 为什么是ti
+### 为什么是天童爱丽丝？
