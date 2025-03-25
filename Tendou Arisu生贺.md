@@ -27,4 +27,4 @@
 ![image.png](https://raw.githubusercontent.com/Tendourisu/images/master/20250325165410319.png)
 
 ### 为什么是天童爱丽丝？
-也许有很多人都对
+也许有很多人都对 Tendourisu 这个 alias 感到困惑，现在大概就十分了然了。没错！就是把 arisu 的 a 删掉后！jing'qi
