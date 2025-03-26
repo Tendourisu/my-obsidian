@@ -9,3 +9,7 @@ share: false
 cdate: 2025-03-26T20
 mdate: 2025-03-26T20
 ---
+/run/user/1000 不存在的问题
+```sh
+sudo systemctl start user@$(id -u).service
+```
