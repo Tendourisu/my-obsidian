@@ -8785,6 +8785,7 @@ Corporation
 Chebyshev
 Corner
 Cafe
+Console
 Organazation
 OSTEP
 Operating
@@ -57858,6 +57859,7 @@ Laboratory
 Lightweight
 Leaving
 LOTUS
+LISTENING
 Kernel
 Kernal
 Keys
@@ -69621,6 +69623,7 @@ nano
 nanorc
 naming
 nanogpt
+netstat
 Network
 Nvidia
 NCNN
@@ -114241,6 +114244,7 @@ functionality
 feasibility
 feat
 freshman
+findstr
 model
 mass
 mindspore
@@ -157706,6 +157710,7 @@ Banach
 Barto
 Bai
 BIOS
+BaiduNetdiskDownload
 rust
 recording
 ref
