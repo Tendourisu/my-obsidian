@@ -8786,6 +8786,7 @@ Chebyshev
 Corner
 Cafe
 Console
+Cov
 Organazation
 OSTEP
 Operating
@@ -57860,6 +57861,7 @@ Lightweight
 Leaving
 LOTUS
 LISTENING
+Leftrightarrow
 Kernel
 Kernal
 Keys
@@ -93694,6 +93696,7 @@ workplace
 weight`
 wte`
 weekyear
+walk
 lab
 lightning
 latex
@@ -126707,6 +126710,7 @@ institution
 ipconfig
 inode
 imperative
+implies
 you
 yX
 yYX

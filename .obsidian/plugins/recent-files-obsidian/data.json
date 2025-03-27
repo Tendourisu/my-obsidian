@@ -5,6 +5,10 @@
       "path": "大二下/概率论与数理统计/week6-随机过程与Poisson过程.md"
     },
     {
+      "basename": "week4-分布的刻画量",
+      "path": "大二下/概率论与数理统计/week4-分布的刻画量.md"
+    },
+    {
       "basename": "run-user-1000不存在的问题",
       "path": "run-user-1000不存在的问题.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "2025-12-03-17-1",
       "path": "dairy/daily/2025-12-03-17-1.md"
-    },
-    {
-      "basename": "2025-11-03-14-5",
-      "path": "dairy/daily/2025-11-03-14-5.md"
     }
   ],
   "omittedPaths": [],

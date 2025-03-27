@@ -153,6 +153,7 @@ $$
 3. **普通性**：
    - $P(N_{t+h} - N_t ≥ 2) = o(h)$
    - $P(N_{t+h} - N_t = 1) = λh + o(h)$
+   - 由前面两条， $P(N_{t_+h}-N_{y}=0)=1-\lambda h+o(h)$
 - $X\sim P(\lambda )(\lambda>0)\Leftrightarrow P(X=k)=\frac{\lambda^ke^{-\lambda}}{k!}$
 
 ### 4.2 分布推导
@@ -160,7 +161,9 @@ $$
   $$
   \begin{cases}
     p'_0(t) = -λp_0(t) \\
-    p'_k(t) = -λp_k(t) + λp_{k-1}(t) \quad (k ≥ 1)
+    p'_k(t) = -λp_k(t) + λp_{k-1}(t) \quad (k ≥ 1) \\
+    p_{0}(0)=1 \\
+     p_{k}(0)=0
   \end{cases}
   $$
   
