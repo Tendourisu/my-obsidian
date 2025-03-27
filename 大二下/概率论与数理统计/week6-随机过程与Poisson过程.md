@@ -131,7 +131,10 @@ $$
 - 记 $N_{n,k}$ 为轨道数，其中（n，k）可达，则
 	- $N_{n,k}=C^{\frac{n-k}{2}}_{n}=C^{\frac{n+k}{2}}_{n}$
 	- $(n_{0},k_{0})\rightarrow^{可达}(n_{1},k_{1})$ 则轨道数 $N_{n_{1}-n_{0},k_{1}-k_{0}}$
-	- 投票过程，if k>0, $(0,0)\rightarrow^{可达}(n,k)$ 且轨道数均大于 0
+	- 投票过程，if k>0, $(0,0)\rightarrow^{可达}(n,k)$ 且轨道数均大于 0 则轨道数为 $N_{n-1,k-1}-N_{n-1,k+1}=\frac{k}{n}N_{n,k}$
+	- 对于random walk， $P(X_{0},X_{n}\ne 0对于所有n，X_{n}=b)=\frac{|b|}{n}P(X_{n}=b)$
+	- ![18dbdeca638997073181de2889053aa.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/20250327104930439.png)
+
 ### $3.3 首达概率
 - **边界问题**：定义$T_y = \min\{n ≥ 0 | X_n = y\}$
 - **首达概率公式**：
@@ -150,6 +153,7 @@ $$
 3. **普通性**：
    - $P(N_{t+h} - N_t ≥ 2) = o(h)$
    - $P(N_{t+h} - N_t = 1) = λh + o(h)$
+- $X\sim P(\lambda )(\lambda>0)\Leftrightarrow P(X=k)=\frac{\lambda^ke^{-\lambda}}{k!}$
 
 ### 4.2 分布推导
 - **微分方程**：
