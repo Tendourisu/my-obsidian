@@ -87,7 +87,7 @@ $$
 $$
 P(X_n = k) =
 \begin{cases}
-C_{\frac{n+k-x}{2}} \cdot p^{\frac{n+k-x}{2}} \cdot (1-p)^{\frac{n-k+x}{2}}, & \text{(} n \geq |k-x|, \, n \text{与 } k-x \text{同奇偶)} \\
+C_{n}^{\frac{n+k-x}{2}} \cdot p^{\frac{n+k-x}{2}} \cdot (1-p)^{\frac{n-k+x}{2}}, & \text{(} n \geq |k-x|, \, n \text{与 } k-x \text{同奇偶)} \\
 0, & \text{(其他情形)}
 \end{cases}
 $$
@@ -107,11 +107,13 @@ $$
 $$
 P(X_n = k) =
 \begin{cases}
-C_{\frac{n+k-x}{2}} \cdot p^{\frac{n+k-x}{2}} \cdot (1-p)^{\frac{n-k+x}{2}}, & \text{(} n \geq |k-x|, \, n \text{与 } k-x \text{同奇偶)} \\
+C_{n}^{\frac{n+k-x}{2}} \cdot p^{\frac{n+k-x}{2}} \cdot (1-p)^{\frac{n-k+x}{2}}, & \text{(} n \geq |k-x|, \, n \text{与 } k-x \text{同奇偶)} \\
 0, & \text{(其他情形)}
 \end{cases}
 $$
-
+当p=1/2, x=0 时 
+$$
+P(X_{n}=k)=C^{\frac{n}{2}}_{n} \frac{1}{2^n}$$
 - **有限维分布（当 $X_0 = 0$ 时）为**
 
 $$
@@ -125,9 +127,12 @@ $$
 - **数字特征**：
   - 期望：$E [X_n]  = x_0 + n(p - q)$
   - 方差：$D [X_n]  = 4npq$
-  - 协方差：$Cov(X_n, X_m) = 4pq \cdot \min(n,m)$
-
-### 3.3 首达概率
+  - 协方差： $Cov(X_n, X_m) = 4pq \cdot \min(n,m)$ (对于所有**独立增量过程**均成立)
+- 记 $N_{n,k}$ 为轨道数，其中（n，k）可达，则
+	- $N_{n,k}=C^{\frac{n-k}{2}}_{n}=C^{\frac{n+k}{2}}_{n}$
+	- $(n_{0},k_{0})\rightarrow^{可达}(n_{1},k_{1})$ 则轨道数 $N_{n_{1}-n_{0},k_{1}-k_{0}}$
+	- 投票过程，if k>0, $(0,0)\rightarrow^{可达}(n,k)$ 且轨道数均大于 0
+### $3.3 首达概率
 - **边界问题**：定义$T_y = \min\{n ≥ 0 | X_n = y\}$
 - **首达概率公式**：
   $$
