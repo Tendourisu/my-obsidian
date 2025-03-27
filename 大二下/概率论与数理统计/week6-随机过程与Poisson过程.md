@@ -242,7 +242,7 @@ $$
 - **与二项分布的联系**：
   $$
   P(Y_t = k | X_t + Y_t = n) = C_n^k \left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k \left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}=B(n, \frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}} ) 
-  $$ 则 $E(X|X+Y=n)=n \frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}\Leftrightarrow E(X|X+Y)$
+  $$ 则 $E(X|X+Y=n)=n \frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}\Leftrightarrow E(X|X+Y) = \frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}[X+Y]$
 
 ### 3. 应用：复合 Poisson 过程
 - **定义**： $X_t = \sum_{i=1}^{N_t} Y_i$ ，其中 $Y_i$ 独立同分布且与 $N_t$ 独立。
