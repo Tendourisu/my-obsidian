@@ -206,7 +206,8 @@ $$
 
 ### 2. 基本性质
 - **Poisson 定理**（二项分布近似）：
-  $$
+  ![734bc7f0c6efa178843301bb140662f.jpg](https://raw.githubusercontent.com/Tendourisu/images/master/20250327114311458.png)
+$$
   \lim_{n\to\infty} C_n^k p_n^k (1-p_n)^{n-k} = \frac{e^{-\lambda}\lambda^k}{k!}, \quad \text{其中} \ \lambda = \lim_{n\to\infty} np_n
   $$
 - **期望与方差**：
@@ -240,8 +241,8 @@ $$
 - **可加性**：独立 Poisson 过程之和仍为 Poisson 过程，强度相加。
 - **与二项分布的联系**：
   $$
-  P(Y_t = k | X_t + Y_t = n) = C_n^k \left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k \left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}
-  $$
+  P(Y_t = k | X_t + Y_t = n) = C_n^k \left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k \left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}=B(n, \frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}} ) 
+  $$ 则 $E(X|X+Y=n)=n \frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}\Leftrightarrow E(X|X+Y)$
 
 ### 3. 应用：复合 Poisson 过程
 - **定义**： $X_t = \sum_{i=1}^{N_t} Y_i$ ，其中 $Y_i$ 独立同分布且与 $N_t$ 独立。
