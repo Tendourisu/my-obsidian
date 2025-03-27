@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "week5-多维随机变量",
+      "path": "大二下/概率论与数理统计/week5-多维随机变量.md"
+    },
+    {
       "basename": "week6-随机过程与Poisson过程",
       "path": "大二下/概率论与数理统计/week6-随机过程与Poisson过程.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "git use",
       "path": "git use.md"
-    },
-    {
-      "basename": "2025-12-03-17-1",
-      "path": "dairy/daily/2025-12-03-17-1.md"
     }
   ],
   "omittedPaths": [],
