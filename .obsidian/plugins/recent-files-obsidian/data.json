@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "hw6",
+      "path": "大二下/信号与系统/hw6.md"
+    },
+    {
       "basename": "week5-多维随机变量",
       "path": "大二下/概率论与数理统计/week5-多维随机变量.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "关于信息检索",
       "path": "关于信息检索.md"
-    },
-    {
-      "basename": "git use",
-      "path": "git use.md"
     }
   ],
   "omittedPaths": [],
