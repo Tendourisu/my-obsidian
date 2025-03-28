@@ -242,15 +242,6 @@
       "key": "N"
     }
   ],
-  "templater-obsidian:create-zob_config/template/article.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "A"
-    }
-  ],
   "editor:toggle-numbered-list": [
     {
       "modifiers": [
@@ -340,6 +331,14 @@
         "Mod"
       ],
       "key": "'"
+    }
+  ],
+  "templater-obsidian:create-zob_config/template/article.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
     }
   ]
 }
