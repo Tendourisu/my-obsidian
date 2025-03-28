@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-13-03-28-5",
+      "path": "dairy/daily/2025-13-03-28-5.md"
+    },
+    {
       "basename": "Aligning Cyber Space with Physical World A Comprehensive Survey on Embodied AI",
       "path": "论文阅读/Aligning Cyber Space with Physical World A Comprehensive Survey on Embodied AI.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "后端练手项目",
       "path": "后端练手项目.md"
-    },
-    {
-      "basename": "嵌入b站视频与网易云音乐的方法",
-      "path": "嵌入b站视频与网易云音乐的方法.md"
     }
   ],
   "omittedPaths": [],
