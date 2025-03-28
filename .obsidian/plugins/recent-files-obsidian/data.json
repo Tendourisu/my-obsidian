@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "论文阅读方法汇总",
+      "path": "论文阅读/论文阅读方法汇总.md"
+    },
+    {
+      "basename": "资源汇总帖",
+      "path": "资源汇总帖.md"
+    },
+    {
+      "basename": "关于信息检索",
+      "path": "关于信息检索.md"
+    },
+    {
       "basename": "hw6",
       "path": "大二下/信号与系统/hw6.md"
     },
@@ -47,18 +59,6 @@
     {
       "basename": "Tendou Arisu生贺",
       "path": "Tendou Arisu生贺.md"
-    },
-    {
-      "basename": "大模型入门汇总",
-      "path": "大模型入门汇总.md"
-    },
-    {
-      "basename": "2025-W12-03",
-      "path": "dairy/weekly/2025-W12-03.md"
-    },
-    {
-      "basename": "关于信息检索",
-      "path": "关于信息检索.md"
     }
   ],
   "omittedPaths": [],
