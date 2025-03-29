@@ -8787,6 +8787,8 @@ Corner
 Cafe
 Console
 Cov
+Cyber
+CLIPort
 Organazation
 OSTEP
 Operating
@@ -12641,6 +12643,7 @@ Oppenheim
 OneLLM
 Oracle
 Option
+OpenEQA
 and
 all
 amp
@@ -16800,6 +16803,7 @@ assertEqual
 audio
 alias
 arisu
+ascend
 Design
 Data
 Database
@@ -20799,6 +20803,7 @@ Down
 Dirichlet
 Diamond
 DeepforThink
+DynaSLAM
 The
 Team
 TVM
@@ -25066,6 +25071,7 @@ Track
 Tensorboard
 Tendou
 Tendourisu
+THOR
 Hardware
 HPC
 Hulu
@@ -29031,6 +29037,8 @@ HISTORY
 Homebrew
 Handle
 Holder
+Habitat
+HDPG
 Software
 Structure
 System
@@ -33502,6 +33510,8 @@ Standardized
 Soulter
 Shenzhi
 Sping
+Simulators
+SayPlan
 Interface
 Isomorphic
 Inference
@@ -41709,6 +41719,11 @@ Align
 Ablation
 Amazon
 Arisu
+Ascend
+Aligning
+ALFRED
+AutoRT
+ALOHA
 java
 jyy
 js
@@ -49939,6 +49954,7 @@ poetry
 progress`
 proofs
 pane
+projects
 Understanding
 USTC
 Unix
@@ -57862,6 +57878,7 @@ Leaving
 LOTUS
 LISTENING
 Leftrightarrow
+LVERG
 Kernel
 Kernal
 Keys
@@ -77694,6 +77711,8 @@ Poisson
 POMDP
 PTSD
 Powerful
+PyBullet
+Pandora
 games
 go
 google
@@ -85839,6 +85858,7 @@ Misc
 MouseDragEnd
 MOSFET
 MingLLuo
+MLMs
 JYY
 Jim
 Jina
@@ -89731,6 +89751,7 @@ JFET
 Japanese
 JockerXuxu
 Jocker
+JEPA
 workload
 wfn
 work
@@ -101553,6 +101574,11 @@ Guangming
 Genesis
 Gong
 GPQA
+Guanbin
+Gazebo
+Grounding
+GelSight
+Grasping
 spring
 system
 size
@@ -138004,6 +138030,7 @@ Fisher
 FID
 ForwardX
 Flink
+Fellow
 Quant
 Qa
 QR
@@ -161872,6 +161899,7 @@ routers
 requested
 radialGradient
 risu
+rComprehensive
 xv
 xpy
 xlb
@@ -169597,6 +169625,8 @@ EuroSys
 EXPANSION
 EXIT
 EXIF
+ElastoGen
+Embodiment
 Raft
 Rocksdb
 Reader
@@ -173811,6 +173841,9 @@ Reply
 Rewards
 RPG
 Risu
+Robots
+ReferIt
+REVERIE
 WiscKey
 Web
 WIFI
@@ -177872,6 +177905,8 @@ WebText
 Wikipedia
 Welcome
 Walk
+Weixing
+Wen
 Values
 VP
 Vz
@@ -181742,6 +181777,7 @@ VFMM
 Visitors
 Visits
 VcXsrv
+VLN
 qq
 questions
 query
@@ -196950,6 +196986,7 @@ voice
 verbs
 valued
 vEthernet
+vSLAM
 debug
 design
 dead
@@ -205058,6 +205095,7 @@ Yang
 Yates
 Yanghua
 Yiyuan
+Yongjie
 Xg
 Xx
 XC
@@ -208758,6 +208796,7 @@ XLaunch
 Xserver
 Xibin
 Xiangyu
+Xiaodan
 ßc
 ß`
 ßS
