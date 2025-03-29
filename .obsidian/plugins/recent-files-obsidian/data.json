@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "图",
+      "path": "具身智能开发/图.md"
+    },
+    {
       "basename": "run-user-1000不存在的问题",
       "path": "run-user-1000不存在的问题.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "2025-13-03-24-1",
       "path": "dairy/daily/2025-13-03-24-1.md"
-    },
-    {
-      "basename": "后端练手项目",
-      "path": "后端练手项目.md"
     }
   ],
   "omittedPaths": [],
