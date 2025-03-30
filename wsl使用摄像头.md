@@ -9,6 +9,7 @@ share: false
 cdate: 2025-03-30T21
 mdate: 2025-03-30T21
 ---
+[WSL2 中获取摄像头数据流 – IYATT-yx 的博客](https://blog.iyatt.com/?p=10249)
 ```bash
 1. **Windows 安装 `usbipd-win`**：
     
