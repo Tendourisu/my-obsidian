@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "wsl使用摄像头",
+      "path": "wsl使用摄像头.md"
+    },
+    {
       "basename": "2025-13-03-28-5",
       "path": "dairy/daily/2025-13-03-28-5.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "Aligning Cyber Space with Physical World A Comprehensive Survey on Embodied AI",
       "path": "论文阅读/Aligning Cyber Space with Physical World A Comprehensive Survey on Embodied AI.md"
-    },
-    {
-      "basename": "图",
-      "path": "具身智能开发/图.md"
     }
   ],
   "omittedPaths": [],
