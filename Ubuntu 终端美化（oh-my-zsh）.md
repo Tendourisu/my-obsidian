@@ -45,7 +45,7 @@ chsh -s /usr/bin/zsh
 大家可以在 [https://github.com/ohmyzsh/ohmyzsh/wiki/Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) 查看 oh-my-zsh 中的主题，修改 `~/.zshrc` 文件(我使用的是`powerlevel10k/powerlevel10k`)：
 
 ```shell
-ZSH_THEME = "powerlevel10k/powerlevel10k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 
 ### 2、 修改插件

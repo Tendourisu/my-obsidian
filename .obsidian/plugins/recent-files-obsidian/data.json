@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Ubuntu 终端美化（oh-my-zsh）",
+      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
+    },
+    {
+      "basename": "20250116",
+      "path": "dairy/daily/20250116.md"
+    },
+    {
       "basename": "2025-13-03-28-5",
       "path": "dairy/daily/2025-13-03-28-5.md"
     },
@@ -41,10 +49,6 @@
       "path": "X11转发的问题.md"
     },
     {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
       "basename": "WSL代理解决办法",
       "path": "WSL代理解决办法.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "日语速通",
       "path": "日语速通.md"
-    },
-    {
-      "basename": "THUAUTO34",
-      "path": "THUAUTO34.md"
     }
   ],
   "omittedPaths": [],
