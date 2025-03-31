@@ -5,6 +5,10 @@
       "path": "dairy/daily/2025-13-03-28-5.md"
     },
     {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
       "basename": "wsl使用摄像头",
       "path": "wsl使用摄像头.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "THUAUTO34",
       "path": "THUAUTO34.md"
-    },
-    {
-      "basename": "Aligning Cyber Space with Physical World A Comprehensive Survey on Embodied AI",
-      "path": "论文阅读/Aligning Cyber Space with Physical World A Comprehensive Survey on Embodied AI.md"
     }
   ],
   "omittedPaths": [],
