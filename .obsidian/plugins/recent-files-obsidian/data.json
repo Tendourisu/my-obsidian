@@ -5,6 +5,26 @@
       "path": "大二下/概率论与数理统计/week6-随机过程与Poisson过程.md"
     },
     {
+      "basename": "week6-1-集成运算放大电路3",
+      "path": "大二下/模电/week6-1-集成运算放大电路3.md"
+    },
+    {
+      "basename": "week6-3-集成运算放大电路4",
+      "path": "大二下/模电/week6-3-集成运算放大电路4.md"
+    },
+    {
+      "basename": "week-6-傅里叶变换的性质",
+      "path": "大二下/信号与系统/week-6-傅里叶变换的性质.md"
+    },
+    {
+      "basename": "week5-3-集成运算放大电路2",
+      "path": "大二下/模电/week5-3-集成运算放大电路2.md"
+    },
+    {
+      "basename": "prompt",
+      "path": "prompt.md"
+    },
+    {
       "basename": "Ubuntu 终端美化（oh-my-zsh）",
       "path": "Ubuntu 终端美化（oh-my-zsh）.md"
     },
@@ -39,26 +59,6 @@
     {
       "basename": "服务器图像转发",
       "path": "服务器图像转发.md"
-    },
-    {
-      "basename": "Tendou Arisu生贺",
-      "path": "Tendou Arisu生贺.md"
-    },
-    {
-      "basename": "thu-website",
-      "path": "thu-website.md"
-    },
-    {
-      "basename": "X11转发的问题",
-      "path": "X11转发的问题.md"
-    },
-    {
-      "basename": "WSL代理解决办法",
-      "path": "WSL代理解决办法.md"
-    },
-    {
-      "basename": "argparse和absl-Python包开发工具包",
-      "path": "argparse和absl-Python包开发工具包.md"
     }
   ],
   "omittedPaths": [],

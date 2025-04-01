@@ -251,7 +251,7 @@ $$
   $$
   E[X_t] = \lambda t E[Y], \quad D[X_t] = \lambda t E[Y^2]
   $$
-## 八、矩母函数补充
+## 八、矩母函数
 
 ### 1. 定义与性质
 - **矩母函数**：
@@ -278,22 +278,4 @@ $$
 - **推导期望与方差**：
   $$
   E[X_t] = \lambda t E[Y], \quad D[X_t] = \lambda t E[Y^2]
-  $$
-
----
-
-## 九、关键示例
-
-### 示例 1：顾客购买行为建模
-- **场景**：顾客到达商场人数为 Poisson 过程 $N_t \sim P(\lambda t)$ ，每个顾客购买概率为 $p$ 。
-- **结论**：
-  - 男性顾客数 $N_t^{(1)} \sim P(p\lambda t)$ ；
-  - 女性顾客数 $N_t^{(2)} \sim P((1-p)\lambda t)$ ；
-  - $N_t^{(1)}$ 与 $N_t^{(2)}$ 相互独立。
-
-### 示例 2：复合 Poisson 过程的期望计算
-- **场景**： $X_t = \sum_{i=1}^{N_t} Y_i$ ， $Y_i \sim \text{Exp}(\mu)$ 。
-- **结果**：
-  $$
-  E[X_t] = \frac{\lambda t}{\mu}, \quad D[X_t] = \frac{2\lambda t}{\mu^2}
   $$
