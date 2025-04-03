@@ -85870,6 +85870,7 @@ MOSFET
 MingLLuo
 MLMs
 Multisim
+MAXAM
 JYY
 Jim
 Jina

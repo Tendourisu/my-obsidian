@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "仿真作业2 实验报告",
+      "path": "大二下/模电实验/仿真作业2 实验报告.md"
+    },
+    {
+      "basename": "week2-条件概率",
+      "path": "大二下/概率论与数理统计/week2-条件概率.md"
+    },
+    {
       "basename": "week7-连续型随机变量",
       "path": "大二下/概率论与数理统计/week7-连续型随机变量.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "wsl使用摄像头",
       "path": "wsl使用摄像头.md"
-    },
-    {
-      "basename": "run-user-1000不存在的问题",
-      "path": "run-user-1000不存在的问题.md"
-    },
-    {
-      "basename": "仿真作业2 实验报告",
-      "path": "大二下/模电实验/仿真作业2 实验报告.md"
     }
   ],
   "omittedPaths": [],
