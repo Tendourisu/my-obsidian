@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "关于信息检索",
+      "path": "关于信息检索.md"
+    },
+    {
+      "basename": "2025-12-03-23-7",
+      "path": "dairy/daily/2025-12-03-23-7.md"
+    },
+    {
+      "basename": "2025-12-03-22-6",
+      "path": "dairy/daily/2025-12-03-22-6.md"
+    },
+    {
       "basename": "2025-13-03-24-1",
       "path": "dairy/daily/2025-13-03-24-1.md"
     },
@@ -25,10 +37,6 @@
       "path": "大二下/概率论与数理统计/week7-连续型随机变量.md"
     },
     {
-      "basename": "关于信息检索",
-      "path": "关于信息检索.md"
-    },
-    {
       "basename": "week6-随机过程与Poisson过程",
       "path": "大二下/概率论与数理统计/week6-随机过程与Poisson过程.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "prompt",
       "path": "prompt.md"
-    },
-    {
-      "basename": "Ubuntu 终端美化（oh-my-zsh）",
-      "path": "Ubuntu 终端美化（oh-my-zsh）.md"
-    },
-    {
-      "basename": "20250116",
-      "path": "dairy/daily/20250116.md"
     }
   ],
   "omittedPaths": [],
