@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "论文审稿",
-      "path": "论文阅读/论文审稿.md"
+      "basename": "2025-12-03-20-4",
+      "path": "dairy/daily/2025-12-03-20-4.md"
     },
     {
       "basename": "2025-14-04-04-5",
       "path": "dairy/daily/2025-14-04-04-5.md"
+    },
+    {
+      "basename": "2025-13-03-28-5",
+      "path": "dairy/daily/2025-13-03-28-5.md"
+    },
+    {
+      "basename": "2025-13-03-24-1",
+      "path": "dairy/daily/2025-13-03-24-1.md"
+    },
+    {
+      "basename": "论文审稿",
+      "path": "论文阅读/论文审稿.md"
     },
     {
       "basename": "article",
@@ -37,14 +49,6 @@
       "path": "dairy/daily/2025-12-03-22-6.md"
     },
     {
-      "basename": "2025-13-03-24-1",
-      "path": "dairy/daily/2025-13-03-24-1.md"
-    },
-    {
-      "basename": "2025-13-03-28-5",
-      "path": "dairy/daily/2025-13-03-28-5.md"
-    },
-    {
       "basename": "仿真作业2 实验报告",
       "path": "大二下/模电实验/仿真作业2 实验报告.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "week2-条件概率",
       "path": "大二下/概率论与数理统计/week2-条件概率.md"
-    },
-    {
-      "basename": "week7-连续型随机变量",
-      "path": "大二下/概率论与数理统计/week7-连续型随机变量.md"
     }
   ],
   "omittedPaths": [],
