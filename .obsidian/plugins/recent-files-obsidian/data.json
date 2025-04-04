@@ -5,6 +5,14 @@
       "path": "zob_config/template/article.md"
     },
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
       "basename": "代码备份",
       "path": "zob_config/template/代码备份.md"
     },
@@ -43,22 +51,6 @@
     {
       "basename": "week7-连续型随机变量",
       "path": "大二下/概率论与数理统计/week7-连续型随机变量.md"
-    },
-    {
-      "basename": "week6-随机过程与Poisson过程",
-      "path": "大二下/概率论与数理统计/week6-随机过程与Poisson过程.md"
-    },
-    {
-      "basename": "week6-1-集成运算放大电路3",
-      "path": "大二下/模电/week6-1-集成运算放大电路3.md"
-    },
-    {
-      "basename": "week6-3-集成运算放大电路4",
-      "path": "大二下/模电/week6-3-集成运算放大电路4.md"
-    },
-    {
-      "basename": "week-6-傅里叶变换的性质",
-      "path": "大二下/信号与系统/week-6-傅里叶变换的性质.md"
     }
   ],
   "omittedPaths": [],
